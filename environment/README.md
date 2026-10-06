@@ -2,6 +2,30 @@
 
 이 프로젝트는 Windows x64, Python 3.12.14 환경을 사용한다. 프로젝트 루트의 `.venv/`에 필요한 패키지를 설치했다. Python 기본 실행 환경, 보고서 생성용 Node 24.12.0, 보고서 생성기·HTML 자산과 재설치용 패키지 파일 111개를 이 폴더에 포함했다. 개인 Codex 캐시 경로에 의존하지 않는다.
 
+## 구성
+
+| 항목 | 종류 | 내용 |
+|---|---|---|
+| `setup.ps1` | 설치 | 포함된 Python으로 루트의 `.venv`를 만들고 `wheels/`에서 오프라인 설치한 뒤 `graduation-project (Python 3.12)` 커널을 등록한다 |
+| `python/` | 런타임 | Windows x64용 Python 3.12.14 실행 환경 |
+| `node/` | 런타임 | 보고서 생성용 Node 24.12.0 (`node.exe`) |
+| `wheels/` | 패키지 | 오프라인 설치용 패키지 파일 111개 |
+| `requirements-lock.txt` | 패키지 | 전이 의존성까지 고정한 설치 목록. 직접 의존성은 루트 `requirements.txt` |
+| `runtime-provenance.json` | 출처 | 포함한 Python 파일 목록과 Node 버전·해시 |
+| `report-builder/` | 보고서 | HTML 보고서 생성기 실행 파일과 자산 |
+| `report-builder-provenance.json` | 출처 | 보고서 생성기 파일별 출처와 해시 |
+| `project_paths.ipynb` | 경로 | 모든 노트북이 불러오는 공통 초기화. `PROJECT_ROOT`, `project_path(...)`, `project_json_loads(...)` |
+| `path_aliases.json` | 경로 | 이전 경로와 현재 경로의 대응표 |
+| `path_migration.json` | 경로 | 경로 이관 전후 해시와 승인된 노트북 소스 해시 |
+| `before_path_migration.zip` | 경로 | 경로 이관 전 노트북과 안내 파일 |
+| `source_hashes_before.json` | 검증 | 이관 전 소스·문서 해시 |
+| `protected_files_before.json` | 검증 | 원자료·기존 결과 32,557개 파일의 크기와 수정 시각 |
+| `verify_reproduction.ipynb` | 검증 | 별도 작업 폴더에서 구조·문법 검사, 실행 진입점 4개 실행, 결과표 수치 대조, 원본 보존 검사 |
+| `verify_reports.ipynb` | 검증 | 위 작업 폴더에서 보고서·진단 노트북 01~07 실행 |
+| `check_initialization.ipynb` | 검증 | 모든 노트북의 첫 코드 셀만 실행해 경로·입력·환경 로딩 점검. 네트워크 요청 차단 |
+
+`.venv/`, `validation-workspace/`, `initialization-workspace/`, `verification-output/`은 실행할 때 생기는 로컬 폴더이며 Git에 올리지 않는다.
+
 ## 실행
 
 프로젝트 루트의 `start-jupyter.cmd`를 실행하고 `graduation-project (Python 3.12)` 커널을 사용한다.
