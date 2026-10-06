@@ -1,0 +1,480 @@
+{
+  "status": "complete",
+  "created_at_utc": "2026-10-06T05:57:09.240893+00:00",
+  "exploratory": true,
+  "confirmatory": false,
+  "prior_results_seen": true,
+  "for_research_use": false,
+  "causal_interpretation_allowed": false,
+  "raw_data_mutated": false,
+  "network_requests": 0,
+  "all_inputs_unchanged": true,
+  "protected_file_count": 306,
+  "validation_all_passed": true,
+  "sample_key_sha256": "aee94fa1c4f1c835e7695643fa4490d73a7a76d397ad195fb84957e3104282fb",
+  "unique_rows": 5015,
+  "unique_areas": 114,
+  "outcomes": {
+    "log1p_total_sales_won": "total_sales",
+    "log1p_night_sales_21_24_won": "night_sales"
+  },
+  "replication_factors": [
+    1,
+    5,
+    20,
+    100,
+    1000
+  ],
+  "trim_target_preselected": {
+    "industry_id": "CS100010",
+    "industry": "커피-음료",
+    "outcome": "log1p_total_sales_won",
+    "fractions": [
+      0,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "direction": "remove smallest original TWFE residual x*y once; favor positive beta",
+    "post_selection_p_and_ci_valid": false,
+    "minimum_two_quarters_and_twenty_clusters_maintained": true
+  },
+  "attempt_counts": {
+    "A": 80,
+    "B": 200,
+    "C": 6
+  },
+  "estimated_counts": {
+    "A": 80,
+    "B": 200,
+    "C": 6
+  },
+  "all_attempts_recorded": true,
+  "unplanned_model_search": false,
+  "expected_attempts": 286,
+  "actual_attempts": 286,
+  "nominal_p_counts_not_evidence_of_valid_effect": [
+    {
+      "experiment": "A",
+      "model": "TWFE_cluster",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1942315915
+    },
+    {
+      "experiment": "A",
+      "model": "TWFE_cluster",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1308221603
+    },
+    {
+      "experiment": "A",
+      "model": "TWFE_iid",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.2559580182
+    },
+    {
+      "experiment": "A",
+      "model": "TWFE_iid",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 2,
+      "minimum_p": 0.0072189976
+    },
+    {
+      "experiment": "A",
+      "model": "pooled_cluster",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 4,
+      "minimum_p": 0.0075896542
+    },
+    {
+      "experiment": "A",
+      "model": "pooled_cluster",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 5,
+      "minimum_p": 0.0011692367
+    },
+    {
+      "experiment": "A",
+      "model": "quarterFE_cluster",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 4,
+      "minimum_p": 0.005714381
+    },
+    {
+      "experiment": "A",
+      "model": "quarterFE_cluster",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 5,
+      "minimum_p": 0.0012753102
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_iid",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.2559580182
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_iid",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 5,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 2,
+      "minimum_p": 0.0069856388
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_iid",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 20,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 3,
+      "minimum_p": 4.98e-08
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_iid",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 100,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 6,
+      "minimum_p": 2.288620075e-34
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_iid",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 1000,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 8,
+      "minimum_p": 1e-300
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_iid",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 2,
+      "minimum_p": 0.0072189976
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_iid",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 5,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 3,
+      "minimum_p": 2e-10
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_iid",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 20,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 5,
+      "minimum_p": 4.878835216e-38
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_iid",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 100,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 8,
+      "minimum_p": 8.629781682e-184
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_iid",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1000,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 10,
+      "minimum_p": 1e-300
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_original_cluster",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1942315915
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_original_cluster",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 5,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1682792211
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_original_cluster",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 20,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1638762902
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_original_cluster",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 100,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1627248204
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_original_cluster",
+      "outcome": "log1p_night_sales_21_24_won",
+      "replication_factor": 1000,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1624670318
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_original_cluster",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1308221603
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_original_cluster",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 5,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1088831484
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_original_cluster",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 20,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1052457403
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_original_cluster",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 100,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1042987407
+    },
+    {
+      "experiment": "B",
+      "model": "replicated_TWFE_original_cluster",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1000,
+      "trim_fraction": 0.0,
+      "attempts": 10,
+      "estimated": 10,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1040869732
+    },
+    {
+      "experiment": "C",
+      "model": "outcome_selected_TWFE_iid_normal",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.0,
+      "attempts": 1,
+      "estimated": 1,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.4054736846
+    },
+    {
+      "experiment": "C",
+      "model": "outcome_selected_TWFE_iid_normal",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.01,
+      "attempts": 1,
+      "estimated": 1,
+      "nominal_p_below_05": 0,
+      "minimum_p": 0.1766898539
+    },
+    {
+      "experiment": "C",
+      "model": "outcome_selected_TWFE_iid_normal",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.02,
+      "attempts": 1,
+      "estimated": 1,
+      "nominal_p_below_05": 1,
+      "minimum_p": 0.0101281524
+    },
+    {
+      "experiment": "C",
+      "model": "outcome_selected_TWFE_iid_normal",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.05,
+      "attempts": 1,
+      "estimated": 1,
+      "nominal_p_below_05": 1,
+      "minimum_p": 3.6855e-06
+    },
+    {
+      "experiment": "C",
+      "model": "outcome_selected_TWFE_iid_normal",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.1,
+      "attempts": 1,
+      "estimated": 1,
+      "nominal_p_below_05": 1,
+      "minimum_p": 0.0
+    },
+    {
+      "experiment": "C",
+      "model": "outcome_selected_TWFE_iid_normal",
+      "outcome": "log1p_total_sales_won",
+      "replication_factor": 1,
+      "trim_fraction": 0.2,
+      "attempts": 1,
+      "estimated": 1,
+      "nominal_p_below_05": 1,
+      "minimum_p": 1.466030379e-18
+    }
+  ],
+  "important_interpretation": [
+    "TWFE cluster reference estimates conditional quarterly within-area associations, not causal audience spending.",
+    "Quarter-only and pooled cluster models include between-area variation and change the descriptive estimand.",
+    "iid uses joint homoskedastic RSS/(N-K), ignoring serial dependence and heteroskedasticity.",
+    "Duplicate rows add no independent information. Original-cluster uncorrected covariance is invariant; CR1 covariance changes.",
+    "Outcome-dependent trimming uses y for selection, so naive normal p and CI are invalid after selection.",
+    "Doubling contrast concerns 1+exposure and geometric mean of 1+sales, not arithmetic sales growth.",
+    "All methods and attempts are disclosed; no result is recommended as a research improvement."
+  ],
+  "p_numeric_floor": 1e-300,
+  "p_floor_display": "<1e-300",
+  "p_floor_count": 3,
+  "maximum_check_error": 1.4779288903810084e-12,
+  "source_notebook": "notebooks/experiments/analysis/02_유의성부풀리기_시연.ipynb",
+  "lab_plan_sha256": "7f77a337076f67e61fefe1bb410a4437e97be7077280c5d70aeb090c554e45d1",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6"
+  },
+  "outputs": {
+    "results/experiments/02_counts.csv": {
+      "sha256": "8f4476a8564a553073e2da95a3bb83a1cb21c152378b22af2d30fb3aa1e60881",
+      "bytes": 3048
+    },
+    "results/experiments/02_implementation_checks.csv": {
+      "sha256": "34e1b9efbe1b87de67af5c7174056a17434f576a32d9ff171bb3586c3e86ac2d",
+      "bytes": 2479
+    },
+    "results/experiments/02_replication_demo.png": {
+      "sha256": "c92dc3cbaffd7d6d2972b0c0fa4021560ddfa0a68c6dc8695ea3ed49a3f6d0a3",
+      "bytes": 65304
+    },
+    "results/experiments/02_results.csv": {
+      "sha256": "79d3939ab6d706315f6fbe9462535f2dfaec18399147cfded4fda3337472760e",
+      "bytes": 222470
+    },
+    "results/experiments/02_trim_demo.png": {
+      "sha256": "5399b5bf74addcff2eb13ce436080ea466bbbd8ff35fe9699309e02698150d36",
+      "bytes": 55639
+    },
+    "results/experiments/02_trim_selection.csv": {
+      "sha256": "c5ae519bcb00fa17d85fd9b6bbc049297d02b14b698233c3c06b2a5f6f6d4bad",
+      "bytes": 585228
+    }
+  }
+}

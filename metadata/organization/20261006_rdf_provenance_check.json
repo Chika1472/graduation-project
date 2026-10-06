@@ -1,0 +1,49 @@
+{
+  "checked_at_utc": "2026-10-06T05:55:05.620714+00:00",
+  "comparison": "Git HEAD before organization versus regenerated RDF after baseline runner 00",
+  "path": "data/analysis/final/knowledge_graph/knowledge_graph.ttl",
+  "git_head": "82c4c0b9e30367e566c1230c7ba75e16615bbaba",
+  "old_sha256": "e53f3c3c119f316f73545f3d3d64fb2c3c764ada25b4a8d7afef5643e953789f",
+  "new_sha256": "05116807f85274100dbaf3eb9937acb26ed5db70cf04ed824b6062384033d732",
+  "old_triples": 432888,
+  "new_triples": 432888,
+  "removed_triples": 2,
+  "added_triples": 2,
+  "allowed_subject_class": "https://example.org/grad-study/SourceFile",
+  "allowed_predicates": [
+    "https://example.org/grad-study/sha256",
+    "https://example.org/grad-study/sourcePath"
+  ],
+  "only_source_provenance_changed": true,
+  "nonprovenance_triples_unchanged": true,
+  "removed": [
+    {
+      "subject": "https://example.org/grad-study/source/scope_metadata",
+      "predicate": "https://example.org/grad-study/sha256",
+      "object": "99331a685ff59385a5b0934a0f45ebe9f01892918a355fc9aa7faf7cc035c495"
+    },
+    {
+      "subject": "https://example.org/grad-study/source/scope_metadata",
+      "predicate": "https://example.org/grad-study/sourcePath",
+      "object": "reports/final/08_food_scope_metadata.json"
+    }
+  ],
+  "added": [
+    {
+      "subject": "https://example.org/grad-study/source/scope_metadata",
+      "predicate": "https://example.org/grad-study/sha256",
+      "object": "322fbddb9c3b96ceeee6410e8cfe04b7d65da4af80a0be26e76377352e08f1ec"
+    },
+    {
+      "subject": "https://example.org/grad-study/source/scope_metadata",
+      "predicate": "https://example.org/grad-study/sourcePath",
+      "object": "results/main/baseline/08_food_scope_metadata.json"
+    }
+  ],
+  "unexpected_removed": [],
+  "unexpected_added": [],
+  "notes": [
+    "Source path and SHA reflect repository organization; numerical/statistical triples are outside the permitted change set.",
+    "No notebook, input data, or RDF files were modified by this comparison."
+  ]
+}

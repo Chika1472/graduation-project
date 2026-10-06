@@ -1,0 +1,29 @@
+{
+  "notebooks": [
+    {
+      "notebook": "notebooks/main/reporting/04_비유의성_정밀도진단.ipynb",
+      "code_cells": 10,
+      "executed": true
+    },
+    {
+      "notebook": "notebooks/main/reporting/05_비유의성_노출진단.ipynb",
+      "code_cells": 14,
+      "executed": true
+    },
+    {
+      "notebook": "notebooks/main/reporting/06_비유의성_표본진단.ipynb",
+      "code_cells": 6,
+      "executed": true
+    },
+    {
+      "notebook": "notebooks/main/reporting/07_비유의성_진단보고서.ipynb",
+      "code_cells": 10,
+      "executed": true
+    }
+  ],
+  "report_input_hashes_verified": 13,
+  "inference_protected_files_verified": 29,
+  "exposure_inputs_verified": 25,
+  "render_verification": "structural_only",
+  "existing_results_unchanged": true
+}

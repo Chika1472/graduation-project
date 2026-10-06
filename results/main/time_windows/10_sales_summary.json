@@ -1,0 +1,98 @@
+{
+  "created_utc": "2026-10-06T05:54:19.350951+00:00",
+  "status": "completed",
+  "scope": "종로구·마포구/외식업10종/2023~2025분기/원자료6시간대",
+  "base_rows": 18120,
+  "expected_long_rows": 108720,
+  "long_rows": 108720,
+  "areas": 151,
+  "industries": 10,
+  "quarters": [
+    "20231",
+    "20232",
+    "20233",
+    "20234",
+    "20241",
+    "20242",
+    "20243",
+    "20244",
+    "20251",
+    "20252",
+    "20253",
+    "20254"
+  ],
+  "bin_hours": {
+    "00_06": 6,
+    "06_11": 5,
+    "11_14": 3,
+    "14_17": 3,
+    "17_21": 4,
+    "21_24": 3
+  },
+  "observed_base_rows": 7661,
+  "complete_six_bin_base_rows": 7661,
+  "partial_bin_base_rows": 0,
+  "observed_bin_rows": 45966,
+  "missing_bin_rows": 62754,
+  "six_bin_sum_difference_rows": 0,
+  "six_bin_sum_max_absolute_difference_won": 0.0,
+  "total_sales_mismatch_rows": 0,
+  "night_sales_mismatch_rows": 0,
+  "negative_bin_rows": 0,
+  "checks_passed": 12,
+  "checks_total": 12,
+  "network_requests": 0,
+  "model_fits": 0,
+  "daily_sales_reconstructed": false,
+  "missing_sales_zero_imputed": false,
+  "sales_divided_by_bin_hours": false,
+  "source_manifest": "metadata/main/seoul_analysis_sources.json",
+  "source_manifest_sha256": "2aface72119b35a4871f087f2fb33664adabc7233addbbea6c35dd44714cc238",
+  "scope_metadata_sha256": "322fbddb9c3b96ceeee6410e8cfe04b7d65da4af80a0be26e76377352e08f1ec",
+  "base_panel_sha256": "55b99e19fda1762669cf4e9e88fa710f13d11e846e7b6b73dbc155e706d67838",
+  "raw_sources": [
+    {
+      "year": 2023,
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2023.csv",
+      "sha256": "1e8ea69cd4892176b9496678316b9e4772f59f902033f5b26200a5ce02397b8c",
+      "hash_match": true
+    },
+    {
+      "year": 2024,
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2024.csv",
+      "sha256": "8b3e066e91f399d07c33949e2eb1d5765594f00af656f52f2cab3116674da0d2",
+      "hash_match": true
+    },
+    {
+      "year": 2025,
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2025.csv",
+      "sha256": "2e299cd3e78a98d9b46634af0cc768276d8d270eb4c38b5f1b1ce54f8dcd828f",
+      "hash_match": true
+    }
+  ],
+  "output_sha256": {
+    "data/analysis/final/time_windows/sales_time_panel.csv": "f58dca2b7f0d8ba6cf4153eea12cdc5a3512fe49a91f3acde72f0aa1475e8ece",
+    "results/main/time_windows/10_sales_source_quality.csv": "ea0add99674ecc0b0fe812c5fe79ae6fed0ee45fc81203b6e0a1310b28eb20aa",
+    "results/main/time_windows/10_sales_source_fingerprints.csv": "9393b7f27d94785b2a3b1cb34672d5b8d21df9d50088441087dd35d1e6b2ff95",
+    "results/main/time_windows/10_sales_bin_coverage.csv": "158203ebbdbd2153d24743af39a6e0801edb25a2faec3d04fa821d9aa6ce77b4",
+    "results/main/time_windows/10_sales_quarter_bin_coverage.csv": "a319a4bfd723510d081a7fafe3e4661eff081e22e0769b90a197baad2dc53a3e",
+    "results/main/time_windows/10_sales_industry_bin_coverage.csv": "52bbfb88945d08a487ef343fa1f0ca622ed76a291fd3d24fcdad46f79b6ecfa7",
+    "results/main/time_windows/10_sales_reconciliation.csv": "eb818b9977992fc3bdef3068861bb07623940d32d99a45684c466dfa072db72a",
+    "results/main/time_windows/10_sales_flagged_rows.csv": "1680a7ec634d6d94df82a8ef8c0ff188fdece53f0bdecf0d5c6aee976f4e0c31",
+    "results/main/time_windows/10_sales_validation.csv": "a52888218ee4d37b1df1e4fee6e923c96b97200098d2d1c2f3f5c3eacf805744"
+  },
+  "limitations": [
+    "quarterly_not_daily_or_event_postwindow_sales",
+    "unequal_original_time_bin_widths",
+    "selective_sales_missingness",
+    "current_area_boundaries_applied_to_all_quarters",
+    "six_bins_are_not_six_independent_clusters",
+    "no_sales_per_store_interpretation"
+  ],
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "nbformat": "5.11.1"
+  }
+}

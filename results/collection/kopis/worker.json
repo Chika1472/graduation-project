@@ -1,0 +1,7 @@
+{
+  "pid": 29716,
+  "notebook": "notebooks/07_KOPIS_상세정보_재수집.ipynb",
+  "started_at": "2026-10-04T08:52:48.6023106+09:00",
+  "mode": "resume_all_pending",
+  "stop_file": "results/collection/kopis/STOP"
+}

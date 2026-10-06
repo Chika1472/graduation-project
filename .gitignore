@@ -21,6 +21,6 @@ __pycache__/
 venv/
 
 # Machine-specific runtime state.
-/reports/kopis_collection/collector.lock
+/results/collection/kopis/collector.lock
 .DS_Store
 Thumbs.db

@@ -1,0 +1,84 @@
+{
+  "started_at": "2026-10-06T05:51:54.880745+00:00",
+  "status": "completed",
+  "input_manifest_sha256": {
+    "metadata/main/kopis_analysis_sources.json": "e6af76f7caf60b2dcc27b2825ead4fc6691653e7e3dac8441fd2fab47f45d7a8",
+    "metadata/main/seoul_analysis_sources.json": "2aface72119b35a4871f087f2fb33664adabc7233addbbea6c35dd44714cc238",
+    "metadata/main/validation_sources.json": "fd0e499de21235de6c376f88d22b1dd2ee9a2389c024cf3edea79d45d9ca8b34"
+  },
+  "steps": [
+    {
+      "notebook": "notebooks/main/analysis/01_입력검증과_준비.ipynb",
+      "status": "passed",
+      "seconds": 8.47,
+      "code_cells": 7,
+      "source_sha256": "93d7bba27340cf38e7400240c9970d9f87c854af978220526846f8cb11318693",
+      "executed_sha256": "90d8f31080651daa352dee02fb04f7856b60eedc2d2f2146bea20f33b3bbc4be",
+      "html": "reports/main/baseline/notebooks/01_입력검증과_준비.html"
+    },
+    {
+      "notebook": "notebooks/main/analysis/02_공연과_상권_연결.ipynb",
+      "status": "passed",
+      "seconds": 11.12,
+      "code_cells": 9,
+      "source_sha256": "67f025e788d1b1ca4de93779c66757675b07652089d069a59b89ba5ddfe70043",
+      "executed_sha256": "5e4a8c0e0546767bf06b2097ef73f0965950bf751e17ffcf9f37d45ba5363832",
+      "html": "reports/main/baseline/notebooks/02_공연과_상권_연결.html"
+    },
+    {
+      "notebook": "notebooks/main/analysis/03_연결검증.ipynb",
+      "status": "passed",
+      "seconds": 9.01,
+      "code_cells": 20,
+      "source_sha256": "2ebf80d7377e2b35b1603df163aef82281ff63094ed85baf9657c76da5f1d01d",
+      "executed_sha256": "f5ca84c6caf971f1726f3168687abafd63f793be0b4f3ca4f66af0e35f4ac26a",
+      "html": "reports/main/baseline/notebooks/03_연결검증.html"
+    },
+    {
+      "notebook": "notebooks/main/analysis/04_외식업_데이터셋.ipynb",
+      "status": "passed",
+      "seconds": 9.15,
+      "code_cells": 16,
+      "source_sha256": "724de48624130ac1b1781eac3f82ad239e1080bb2279caca62f55d1b5f36b59e",
+      "executed_sha256": "977f12ef95dd52adb4dfb5aa353da60263669bca87b115269dbc29a3059d8f7f",
+      "html": "reports/main/baseline/notebooks/04_외식업_데이터셋.html"
+    },
+    {
+      "notebook": "notebooks/main/analysis/05_외식업_고정효과분석.ipynb",
+      "status": "passed",
+      "seconds": 5.7,
+      "code_cells": 17,
+      "source_sha256": "d8d8b6d977bc9a59c8989b2fc1aaa01111c36c5dc061f2f1d9dac06541cfdf0a",
+      "executed_sha256": "7f729f0965e977f7ad07cfea82bbe0d389944a5679bd51a545938ba81eb87025",
+      "html": "reports/main/baseline/notebooks/05_외식업_고정효과분석.html"
+    },
+    {
+      "notebook": "notebooks/main/analysis/06_GEE_보조분석.ipynb",
+      "status": "passed",
+      "seconds": 7.69,
+      "code_cells": 18,
+      "source_sha256": "abdc72e591e07f29507b3af8ba7354da2bfaae823aea0a5ff0987765d5776d3a",
+      "executed_sha256": "060c401d0ab91e6a66b8a07844dafbe70bdcc310daf100dd2e211a3b2b8ee596",
+      "html": "reports/main/baseline/notebooks/06_GEE_보조분석.html"
+    },
+    {
+      "notebook": "notebooks/main/analysis/07_RDF_지식그래프.ipynb",
+      "status": "passed",
+      "seconds": 45.79,
+      "code_cells": 23,
+      "source_sha256": "3c24384f05d0ae6ab1a7aa2d0193847850207c1d8aba28ac094c0e48e7b5dbbe",
+      "executed_sha256": "d0b88ac86037cc35cce8a28245b80f67f4aecc76a39ce7924053e1d2d800711a",
+      "html": "reports/main/baseline/notebooks/07_RDF_지식그래프.html"
+    },
+    {
+      "notebook": "notebooks/main/analysis/08_분석도구.ipynb",
+      "status": "passed",
+      "seconds": 3.42,
+      "code_cells": 19,
+      "source_sha256": "b64ca88664807fcdd88562182b3fc7b65e031420d18ce72b38548aca0d61d043",
+      "executed_sha256": "3cc0cb9e35294e66de702e8abda3695b0f15592f560983562b662916dc7d69a4",
+      "html": "reports/main/baseline/notebooks/08_분석도구.html"
+    }
+  ],
+  "finished_at": "2026-10-06T05:53:35.352517+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "audience": "technical",
+  "delivery": "portable_html",
+  "question": "비유의성의 확인된 구조와 미확정 원인",
+  "source_sha256": {
+    "results/main/null_diagnostics/sample_industry_coverage.csv": "3ef11c5cb812d73c039b6fcbf9069c75acea41056b23bbd924772dea84466beb",
+    "results/main/null_diagnostics/sample_store_coverage.csv": "e73eeee444346cffc09cac90bf4d2f6f0a94411d5b29a59c0965379570604705",
+    "results/main/null_diagnostics/sample_exposure_coverage.csv": "015fcdfb1c8d5ff4b93538c95fd3634f20af7a85b1dde3b2967dbf19f984f2f4",
+    "results/main/null_diagnostics/sample_night_amount_vs_share.csv": "d855cce8c26d29d2f58f90fc779d58dfa6004c68b2d6738c5ff7380164c11109",
+    "results/main/baseline/09_information_concentration.csv": "18c79915358edf62ce5e46cee85235944a9abb161436e6a0916cfb37b5b2e1b2",
+    "results/main/baseline/09_industry_effects.csv": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+    "results/main/time_windows/11_common_effects.csv": "fb40a48b63b222dfc556c388eb5b09e69013b5987c54ac277e8271a32a49b84f",
+    "results/main/time_windows/11_industry_effects.csv": "eadc974edb2e0e1966444985d3284abf99a354e104550b46d22ea30a3567062f",
+    "results/main/null_diagnostics/inference_identifying_variation.csv": "3b3996a39c5c11c0a12f96d083e3cea1206548f80d44b422cf68e99688fcc6b1",
+    "results/main/null_diagnostics/inference_contrasts.csv": "efd2805167b65d5fe439de21e7db821e21c9527fd54addaaeb40f04e304b36bc",
+    "results/main/null_diagnostics/sample_summary.json": "355dbdd8ab25b7ca85fe2518cd14387a777701e2a18619ecae6d66bbbcb41250",
+    "results/main/null_diagnostics/exposure_summary.json": "f8fd62ad05c563a1d1cbf19cb717c96ec1a8f980cef623273c5ac264327dcd71",
+    "results/main/null_diagnostics/inference_summary.json": "dca91188f93777ff1cd0e69d8cd96e059a6a44efc9c1668dfa1249a9600e38a8"
+  },
+  "existing_models_modified": false,
+  "specification_search": false,
+  "required_structure_mapping": {
+    "title": "title",
+    "technical_summary": "summary",
+    "findings": "multiplicity/precision_heading/within_heading/coverage_heading/exposure_heading/spatial_heading/ratio_heading",
+    "definitions": "target",
+    "methodology": "model_details",
+    "limitations": "causes",
+    "next_steps": "next_steps",
+    "further_questions": "model_details"
+  },
+  "chart_map": [
+    {
+      "id": "variation",
+      "type": "horizontalBar",
+      "rows": 10,
+      "claim": "FE 후 노출 변동 보존율의 업종 차이"
+    },
+    {
+      "id": "coverage",
+      "type": "horizontalBar",
+      "rows": 10,
+      "claim": "점포가 있는 집단의 매출 제공률 차이"
+    }
+  ],
+  "table_rationale": "개별95%CI와 단위, 보정 전후 p값, 정보집중도 등의 정확한 조회",
+  "omitted_charts": "원인별 기여율은 식별되지 않아 원인 기여도 차트는 작성하지 않음",
+  "sharing_assessment": "Share with caveats",
+  "delivery_verification": "structural_only",
+  "browser_visual_qa_performed": false,
+  "qa_limitation": "브라우저 실행 환경이 없어 HTML 화면 자동검사는 수행하지 않았음. 데이터·원문 페이로드·문서 구조 검증은 통과."
+}

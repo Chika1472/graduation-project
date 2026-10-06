@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-10-06T05:53:37.931289+00:00",
+  "status": "completed",
+  "steps": [
+    {
+      "notebook": "notebooks/main/analysis/09_공연시간대_노출구축.ipynb",
+      "status": "passed",
+      "seconds": 37.76,
+      "code_cells": 17,
+      "source_sha256": "508a634bece021875f1d8bd6c630f919e654f7d92542c53cc687ee29a04b88a3",
+      "executed_sha256": "843899d4372da20db3f083e1c8bc67722bc01648950f748fc9f8496c8475475b",
+      "html": "reports/main/time_windows/notebooks/09_공연시간대_노출구축.html"
+    },
+    {
+      "notebook": "notebooks/main/analysis/10_시간대매출_패널.ipynb",
+      "status": "passed",
+      "seconds": 3.99,
+      "code_cells": 7,
+      "source_sha256": "c6e4f6aaba37e794ad713350773ae748a584b3115ac31f55e05b1f35e159c134",
+      "executed_sha256": "f81c92fec9fec299da99409f5c217139b676187a3f3b9df4d9afdc187d677fcd",
+      "html": "reports/main/time_windows/notebooks/10_시간대매출_패널.html"
+    },
+    {
+      "notebook": "notebooks/main/analysis/11_공연시간창_매출분석.ipynb",
+      "status": "passed",
+      "seconds": 6.7,
+      "code_cells": 14,
+      "source_sha256": "60a71ce5971f73e6bea936e6bc6d07219f8a841e36f79c3e70c5a1e7c6386f62",
+      "executed_sha256": "5e68d27f8b030c30ec528036f48cab8c2163faddc75c6a64a408212da55b02c0",
+      "html": "reports/main/time_windows/notebooks/11_공연시간창_매출분석.html"
+    }
+  ],
+  "network_requests": 0,
+  "finished_utc": "2026-10-06T05:54:26.442485+00:00"
+}

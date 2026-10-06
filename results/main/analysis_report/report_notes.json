@@ -1,0 +1,55 @@
+{
+  "audience": "technical",
+  "delivery": "portable_html",
+  "scope": "종로구·마포구/외식업10종/2023~2025분기",
+  "question": "공연 활동과 주변 외식업 매출의 관련성과 업종별 차이",
+  "source_sha256": {
+    "results/main/analysis_report/evidence/01_industry_summary.csv": "f064313d50bd0c71700683a2b615e4b207960447b39212136496dd538803be19",
+    "results/main/analysis_report/evidence/02_district_summary.csv": "1c1ead8cbcc8a145d93c2ff38bc021ee7ef5fd259a927a820e4f38636a49179c",
+    "results/main/analysis_report/evidence/03_store_size_coverage.csv": "1e26a89b9d227a421aadf362ca6f69a67a12f771744a16360ab6ea3c234332d0",
+    "results/main/analysis_report/evidence/04_sales_contrasts.csv": "2ca084a18971af2f486ced7361713d708609a64e7ba342ab3518c38dde8b070c",
+    "results/main/analysis_report/evidence/05_night_contrasts.csv": "2e9329983512e1ab9497e007afcc1e8c62d203de5cc33cb3d08456b0b69372d8",
+    "results/main/baseline/09_industry_effects.csv": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+    "results/main/baseline/09_omnibus_tests.csv": "bcf1872bc2a67c9059c23b4e414a83597cbf03cb4f974e92dce1f9ad8444c429",
+    "results/main/baseline/09_model_samples.csv": "8afe4822d95c684e711e79068696e7367bb1f88287515c9442bc90cce0736667",
+    "results/main/baseline/10_gee_industry_effects.csv": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b",
+    "results/main/baseline/10_fe_gee_comparison.csv": "2a176723fb3279c89fcbc78084c6f72c7be4a9dc6bfe7689368bd81018cb89df",
+    "results/main/baseline/09_information_concentration.csv": "18c79915358edf62ce5e46cee85235944a9abb161436e6a0916cfb37b5b2e1b2",
+    "results/main/baseline/09_activity_support.csv": "8885a32fa031b2c199505112fc2ecfd8e319b6e7b99b78fff5a89edb4ae905be"
+  },
+  "models_refit": false,
+  "required_structure_mapping": {
+    "title": "title",
+    "technical_summary": "summary",
+    "key_findings": "figure_read/night_heading/omnibus_heading",
+    "definitions": "definitions/sample",
+    "methodology": "model/gee_heading",
+    "limitations": "selection/information_read/limits",
+    "next_steps_and_questions": "conclusion"
+  },
+  "structure_note": "지표 정의와 표본을 결과보다 먼저 제시해 분모·단위 오독 방지",
+  "chart_map": [
+    {
+      "id": "industry_chart",
+      "question": "업종별 관측 범위",
+      "type": "horizontalBar",
+      "rows": 10
+    },
+    {
+      "id": "store_size_chart",
+      "question": "점포 규모별 선택적 미제공",
+      "type": "bar",
+      "rows": 7
+    },
+    {
+      "id": "fe_figure",
+      "question": "추정치와 불확실성",
+      "type": "existing_matplotlib_dot_interval",
+      "rationale": "연구용 신뢰구간 그림을 이미 검증한 최종 실행 산출물에서 재사용; 좌우축 단위 분리"
+    }
+  ],
+  "table_rationale": "정확한 개별 CI·보정 전 p·다중보정 p·표본수의 동시 조회",
+  "assessment": "Share with caveats",
+  "missingness_zero_filled": false,
+  "causal_claim": false
+}

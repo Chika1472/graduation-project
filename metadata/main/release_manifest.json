@@ -1,0 +1,134 @@
+{
+  "created_at": "2026-10-04T18:53:08.620655+00:00",
+  "files": [
+    {
+      "path": "notebooks/main/00_전체실행.ipynb",
+      "sha256": "81fcbd6443accaa91353b6bc33e1667d6bda8622fd269cd26aef7403b95ce150",
+      "bytes": 17821
+    },
+    {
+      "path": "collection/01_KOPIS_상세수집.ipynb",
+      "sha256": "74c4ce2501bc1172236fb9e3c170418b9524957d0deaa96eb3ff168515e5d63e",
+      "bytes": 40377
+    },
+    {
+      "path": "collection/02_서울시_원자료수집.ipynb",
+      "sha256": "dca1ae95c4511ed99b0d0c63af9f1376cd6b180e9e0c072014882773e4a4c96f",
+      "bytes": 20089
+    },
+    {
+      "path": "collection/03_KOPIS_스냅샷검증.ipynb",
+      "sha256": "c01485bc2168cfa0356da675df5953b0fc002259aae101e14332d2ee04ef0bcb",
+      "bytes": 23547
+    },
+    {
+      "path": "collection/04_KOPIS_CLI_오프라인검증.ipynb",
+      "sha256": "2b99648251820fa45649be5088189c68c17533f1da243905f64c656b5385d70e",
+      "bytes": 17465
+    },
+    {
+      "path": "collection/kopis.cmd",
+      "sha256": "ad6f4992329641fd88b65a9c1d9c16e9f330af7dd9a5151243f18d37438e4ac1",
+      "bytes": 727
+    },
+    {
+      "path": "collection/KOPIS_수집기.cmd",
+      "sha256": "0eebb9d42842186e39852afd393b2cb7fc2af569cecdc4b53bfd1482f066b3fc",
+      "bytes": 153
+    },
+    {
+      "path": "metadata/main/kopis_analysis_sources.json",
+      "sha256": "e6af76f7caf60b2dcc27b2825ead4fc6691653e7e3dac8441fd2fab47f45d7a8",
+      "bytes": 2428
+    },
+    {
+      "path": "metadata/main/pipeline.json",
+      "sha256": "922a5cc21cf7c21c995682b89d2bed63bbea12d2b40db1ee2fcb6b694a2c1c2a",
+      "bytes": 564
+    },
+    {
+      "path": "metadata/main/seoul_analysis_sources.json",
+      "sha256": "2aface72119b35a4871f087f2fb33664adabc7233addbbea6c35dd44714cc238",
+      "bytes": 14704
+    },
+    {
+      "path": "metadata/main/statistics_reference/09_industry_effects.csv",
+      "sha256": "c678c7f75da5a3c4e1bd888493a9840456db32ead53f2b53a918cac1f699af6d",
+      "bytes": 17612
+    },
+    {
+      "path": "metadata/main/statistics_reference/10_gee_industry_effects.csv",
+      "sha256": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b",
+      "bytes": 4357
+    },
+    {
+      "path": "metadata/main/statistics_reference/manifest.json",
+      "sha256": "4680da451ff00522048692f8afb15c4450c4fda68f083b58969d89787ef7997d",
+      "bytes": 489
+    },
+    {
+      "path": "metadata/main/validation_sources.json",
+      "sha256": "fd0e499de21235de6c376f88d22b1dd2ee9a2389c024cf3edea79d45d9ca8b34",
+      "bytes": 75629
+    },
+    {
+      "path": "notebooks/main/analysis/01_입력검증과_준비.ipynb",
+      "sha256": "90d8f31080651daa352dee02fb04f7856b60eedc2d2f2146bea20f33b3bbc4be",
+      "bytes": 49582
+    },
+    {
+      "path": "notebooks/main/analysis/02_공연과_상권_연결.ipynb",
+      "sha256": "5e4a8c0e0546767bf06b2097ef73f0965950bf751e17ffcf9f37d45ba5363832",
+      "bytes": 303353
+    },
+    {
+      "path": "notebooks/main/analysis/03_연결검증.ipynb",
+      "sha256": "f5ca84c6caf971f1726f3168687abafd63f793be0b4f3ca4f66af0e35f4ac26a",
+      "bytes": 141397
+    },
+    {
+      "path": "notebooks/main/analysis/04_외식업_데이터셋.ipynb",
+      "sha256": "977f12ef95dd52adb4dfb5aa353da60263669bca87b115269dbc29a3059d8f7f",
+      "bytes": 232582
+    },
+    {
+      "path": "notebooks/main/analysis/05_외식업_고정효과분석.ipynb",
+      "sha256": "7f729f0965e977f7ad07cfea82bbe0d389944a5679bd51a545938ba81eb87025",
+      "bytes": 301166
+    },
+    {
+      "path": "notebooks/main/analysis/06_GEE_보조분석.ipynb",
+      "sha256": "060c401d0ab91e6a66b8a07844dafbe70bdcc310daf100dd2e211a3b2b8ee596",
+      "bytes": 257803
+    },
+    {
+      "path": "notebooks/main/analysis/07_RDF_지식그래프.ipynb",
+      "sha256": "d0b88ac86037cc35cce8a28245b80f67f4aecc76a39ce7924053e1d2d800711a",
+      "bytes": 119794
+    },
+    {
+      "path": "notebooks/main/analysis/08_분석도구.ipynb",
+      "sha256": "3cc0cb9e35294e66de702e8abda3695b0f15592f560983562b662916dc7d69a4",
+      "bytes": 117757
+    },
+    {
+      "path": "notebooks/main/README.md",
+      "sha256": "4749b4aab684fadf97dfe70a17cb3b661b9c78c4ddefcd84211eebb768b1d54c",
+      "bytes": 1540
+    },
+    {
+      "path": "notebooks/main/requirements.txt",
+      "sha256": "832f91cbc882cd20bc852fc5b3ef41978ddf832a763134e5edcd7bc1e2ddbf7a",
+      "bytes": 274
+    }
+  ],
+  "entrypoint": "notebooks/main/00_전체실행.ipynb",
+  "validation_report": "results/main/baseline/execution_manifest.json",
+  "shared_inputs": "프로젝트 data/ 및 고정 입력 명세의 참조 파일 필요",
+  "organization_update": {
+    "date": "2026-10-06",
+    "reason": "Code paths relocated and baseline rerun passed; original release record in archive ZIP",
+    "original_snapshot": "archive/20261006_before_organization.zip",
+    "analytical_specification_changed": false
+  }
+}

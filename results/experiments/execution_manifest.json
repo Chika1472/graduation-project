@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-06T05:56:56.588004+00:00",
+  "purpose": "PRELIMINARY_ONLY",
+  "steps": [
+    {
+      "notebook": "notebooks/experiments/analysis/01_측정표본_탐색.ipynb",
+      "status": "passed",
+      "seconds": 8.21,
+      "source_sha256": "3bb5e717ca96405295b25d5a9e6aec164a9e1f256c6d097623182ac48778b562",
+      "executed_sha256": "3a105be621302c9fcb2b49c5d7fc2b5a1c2478d204cfe06ca4be88132abb99d3",
+      "html": "reports/experiments/notebooks/01_측정표본_탐색.html"
+    },
+    {
+      "notebook": "notebooks/experiments/analysis/02_유의성부풀리기_시연.ipynb",
+      "status": "passed",
+      "seconds": 4.91,
+      "source_sha256": "0f498aed5e50689eb9b926b5994dd3ad9e57da8a6bc83b6f654e916476223dfe",
+      "executed_sha256": "e86f80eb4943266cf4d1039495770d366fc6ed1357e3b0f5aa4c60645bacec50",
+      "html": "reports/experiments/notebooks/02_유의성부풀리기_시연.html"
+    },
+    {
+      "notebook": "notebooks/experiments/analysis/03_효과주입_모의실험.ipynb",
+      "status": "passed",
+      "seconds": 3.43,
+      "source_sha256": "9e7fdc61b056b2538dc847eb9c1d93c6ce075ad9e4ac4c1e59a9ab7c493394d9",
+      "executed_sha256": "f67411e1bcf69da7b7ed4065f32af1fa1409a7701b72be7b3c409eeca4bf60b8",
+      "html": "reports/experiments/notebooks/03_효과주입_모의실험.html"
+    },
+    {
+      "notebook": "notebooks/experiments/analysis/05_PPML_매출모형.ipynb",
+      "status": "passed",
+      "seconds": 5.16,
+      "source_sha256": "ba2349a756fb8ba5030bd7ee95c6c754f199426e9b127f9b62d1c7c6b2ed5f62",
+      "executed_sha256": "10957d9e560e01e713dae37d297ba228d39c4a160cb147888240ae492fc57f12",
+      "html": "reports/experiments/notebooks/05_PPML_매출모형.html"
+    },
+    {
+      "notebook": "notebooks/experiments/analysis/06_좌석연결과_핵심상권감사.ipynb",
+      "status": "passed",
+      "seconds": 3.08,
+      "source_sha256": "8ad47eec3e26995b375cee4202bc83918f6dba74c692121bcccc31be26db1207",
+      "executed_sha256": "8a8f1b19865d4eed2644f954ca8a54b58d8e34956469ae2a59eae4fc3b35cd2a",
+      "html": "reports/experiments/notebooks/06_좌석연결과_핵심상권감사.html"
+    },
+    {
+      "notebook": "notebooks/experiments/analysis/07_좌석공급_탐색.ipynb",
+      "status": "passed",
+      "seconds": 3.25,
+      "source_sha256": "c6386e2be34be6e113420cfe03c754ad32edfa7c0a22da11fa243d09112441ff",
+      "executed_sha256": "23e0fcb854e74ff2273065ce009bfbbe4de029d54c4b33b1a97a7c565a3790d9",
+      "html": "reports/experiments/notebooks/07_좌석공급_탐색.html"
+    },
+    {
+      "notebook": "notebooks/experiments/analysis/04_실험결과_보고서.ipynb",
+      "status": "passed",
+      "seconds": 2.82,
+      "source_sha256": "1df2780f8a7231d1d2c536826289d4f8d9e1c1114bee80dedb047108821008ca",
+      "executed_sha256": "c3b9109bb218f87d5bb1f4c08b20076bed2f2829e5f16606d5999c6b329f4bf5",
+      "html": "reports/experiments/notebooks/04_실험결과_보고서.html"
+    }
+  ],
+  "network_requests": 0,
+  "finished_utc": "2026-10-06T05:57:27.657099+00:00",
+  "protected_files_unchanged": 305
+}
