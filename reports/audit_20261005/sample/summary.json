@@ -1,0 +1,38 @@
+{
+  "scope": "종로구·마포구/외식업10종/2023~2025분기",
+  "network_requests_in_notebook": 0,
+  "panel_rows": 18120,
+  "observed_sales_rows": 7661,
+  "raw_store_rows": 919405,
+  "store_identity_all_rows": true,
+  "positive_sales_zero_regular_store_rows": 95,
+  "positive_sales_zero_regular_store_but_positive_franchise_rows": 95,
+  "positive_sales_zero_all_store_rows": 0,
+  "missing_sales_positive_all_store_rows": 5564,
+  "common_support": {
+    "main_rows": 7646,
+    "main_areas": 134,
+    "main_unique_area_quarters": 1592,
+    "all10_area_quarters": 170,
+    "all10_areas": 16,
+    "all10_all12_areas": 12,
+    "all10_rows": 1700,
+    "main_rows_retained_pct": 22.233847763536488
+  },
+  "extreme_consecutive_sales_pairs": 20,
+  "consecutive_sales_pairs": 6954,
+  "extreme_pairs_unchanged_all_store_count": 16,
+  "historical_boundary_equivalence_verified": false,
+  "sales_store_population_equivalence_verified": false,
+  "source_sha256": {
+    "data/analysis/food_industry_panel.csv": "d45395f1034d3fcfd9f74c5c6ed80ee78aad439128a0cddbc8b27e202a18a46d",
+    "data/analysis/study_areas.csv": "fd8c579f7f6afafc84e467607e66b32ddbac22aa59a7eb0c2d3b535dff6476ee",
+    "metadata/seoul_analysis_sources.json": "2aface72119b35a4871f087f2fb33664adabc7233addbbea6c35dd44714cc238",
+    "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2023.csv": "1e8ea69cd4892176b9496678316b9e4772f59f902033f5b26200a5ce02397b8c",
+    "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2024.csv": "8b3e066e91f399d07c33949e2eb1d5765594f00af656f52f2cab3116674da0d2",
+    "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2025.csv": "2e299cd3e78a98d9b46634af0cc768276d8d270eb4c38b5f1b1ce54f8dcd828f",
+    "data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2023.csv": "594ed70b19a47713a006b9efbf46847c0387fa8f7b2f8536a0982c7217e82c08",
+    "data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2024.csv": "8446399758a9c3b1cbd64c11124f7b23aedae1ad1f6dd9521d97181a503ef83a",
+    "data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2025.csv": "afe3c49336e4c64e3e4066db1bb61034ab7c238916ff473a37d7667fbb4e1d68"
+  }
+}

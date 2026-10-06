@@ -1,0 +1,20 @@
+{
+  "check": "final_vs_frozen_prior_primary_results",
+  "scenario": "main_500",
+  "compared_industry_outcomes": 20,
+  "absolute_tolerance": 1e-10,
+  "passed": true,
+  "reference_file": "final/metadata/statistics_reference/09_industry_effects.csv",
+  "reference_sha256": "c678c7f75da5a3c4e1bd888493a9840456db32ead53f2b53a918cac1f699af6d",
+  "final_file": "reports/final/09_industry_effects.csv",
+  "final_sha256": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+  "max_absolute_difference_by_column": {
+    "coefficient": 0.0,
+    "standard_error": 0.0,
+    "ci_low": 0.0,
+    "ci_high": 0.0,
+    "p_value": 0.0,
+    "nobs_industry": 0.0,
+    "area_clusters_industry": 0.0
+  }
+}

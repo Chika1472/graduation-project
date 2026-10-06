@@ -1,0 +1,139 @@
+{
+  "scope": {
+    "districts": [
+      "종로구",
+      "마포구"
+    ],
+    "industry_ids": [
+      "CS100001",
+      "CS100002",
+      "CS100003",
+      "CS100004",
+      "CS100005",
+      "CS100006",
+      "CS100007",
+      "CS100008",
+      "CS100009",
+      "CS100010"
+    ],
+    "quarters": [
+      "20231",
+      "20232",
+      "20233",
+      "20234",
+      "20241",
+      "20242",
+      "20243",
+      "20244",
+      "20251",
+      "20252",
+      "20253",
+      "20254"
+    ],
+    "industries": [
+      {
+        "industry_id": "CS100001",
+        "industry": "한식음식점"
+      },
+      {
+        "industry_id": "CS100002",
+        "industry": "중식음식점"
+      },
+      {
+        "industry_id": "CS100003",
+        "industry": "일식음식점"
+      },
+      {
+        "industry_id": "CS100004",
+        "industry": "양식음식점"
+      },
+      {
+        "industry_id": "CS100005",
+        "industry": "제과점"
+      },
+      {
+        "industry_id": "CS100006",
+        "industry": "패스트푸드점"
+      },
+      {
+        "industry_id": "CS100007",
+        "industry": "치킨전문점"
+      },
+      {
+        "industry_id": "CS100008",
+        "industry": "분식전문점"
+      },
+      {
+        "industry_id": "CS100009",
+        "industry": "호프-간이주점"
+      },
+      {
+        "industry_id": "CS100010",
+        "industry": "커피-음료"
+      }
+    ],
+    "panel_source": "data/analysis/food_industry_panel.csv",
+    "facility_rule": "study_district_facilities_union_any_study_area_500m_facilities",
+    "performance_rule": "performances_linked_to_included_facilities"
+  },
+  "seoul_refresh_run_id": "20261004_091155_b8dd0e",
+  "kopis_collection_run_id": "20261004_154020_1c7d3b",
+  "kopis_collection_status": "completed_pending_queue",
+  "collected_performance_detail_rows": 13727,
+  "collected_facility_detail_rows": 1755,
+  "input_official_links": 13727,
+  "input_provisional_links": 16320,
+  "coverage_by_scope": [
+    {
+      "범위": "서울 목록 전체 연결 입력",
+      "등록 공연 ID": 30047,
+      "공식 ID 연결": 13727,
+      "시설명 잠정 연결": 16320,
+      "시설 미연결": 0
+    },
+    {
+      "범위": "연구 범위 부분 그래프",
+      "등록 공연 ID": 12839,
+      "공식 ID 연결": 12839,
+      "시설명 잠정 연결": 0,
+      "시설 미연결": 0
+    }
+  ],
+  "triples": 432888,
+  "vocabulary_triples": 161,
+  "areas": 151,
+  "facilities": 801,
+  "performance_ids": 12839,
+  "seoul_performance_ids_in_input": 30047,
+  "excluded_performance_ids": 17208,
+  "input_performance_ids_without_facility": 0,
+  "official_links": 12839,
+  "provisional_links": 0,
+  "facilities_without_coordinates": 0,
+  "performances_without_coordinates": 0,
+  "sales_observations": 18120,
+  "sales_values": 7661,
+  "sales_values_omitted": 10459,
+  "relations_500m": 5670,
+  "performance_quarter_relations": 14202,
+  "sparql_queries": 5,
+  "pandas_comparisons": 6,
+  "all_validations_passed": true,
+  "versions": {
+    "pandas": "3.0.6",
+    "rdflib": "7.6.0"
+  },
+  "limitations": [
+    "분기 단위 유지; 일별 인과 추론 불가",
+    "등록 공연 ID 수는 상연 회차·관객수가 아님",
+    "서울 전체 입력 잠정 연결 16320건; 현재 부분 그래프 잠정 연결 0건",
+    "수집 완료는 지정 상세 대상의 완료이며 서울 전체 목록의 상세 확보 완료와 다름",
+    "현재 좌표 미확인 시설 0개; 좌표 미확인 시 거리집계 제외",
+    "현재 상권 경계를 과거 분기에 공통 적용; 과거 시설 위치는 별도 검증하지 않음",
+    "직접 입력 파일 수준 출처만 기록"
+  ],
+  "outputs": [
+    "data/analysis/knowledge_graph/ontology.ttl",
+    "data/analysis/knowledge_graph/knowledge_graph.ttl"
+  ]
+}

@@ -1,0 +1,9 @@
+﻿check,count
+raw_processed_month_pair_difference,0
+expected_overlap_pairs,36559
+observed_pairs,36559
+missing_expected_overlap_pairs,0
+extra_outside_period_pairs,0
+pre2023_start_ids,170
+pre2023_start_post2025_end_ids,22
+cross_window_ids_observed_36_months,22

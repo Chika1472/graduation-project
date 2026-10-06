@@ -1,0 +1,308 @@
+{
+  "created_utc": "2026-10-04T19:02:31.839052+00:00",
+  "records": [
+    {
+      "source_id": "S01",
+      "path": "reports/final/08_food_scope_metadata.json",
+      "bytes": 12523,
+      "sha256_before": "99331a685ff59385a5b0934a0f45ebe9f01892918a355fc9aa7faf7cc035c495",
+      "expected_sha256": null,
+      "verification": "실행 전후 일치",
+      "sha256_after": "99331a685ff59385a5b0934a0f45ebe9f01892918a355fc9aa7faf7cc035c495",
+      "unchanged": true
+    },
+    {
+      "source_id": "S02",
+      "path": "reports/final/09_analysis_summary.json",
+      "bytes": 4029,
+      "sha256_before": "1e354311ab6a73de6e7f0176ad90d154f5d4e57d91b2434a6dbf71cb553ab687",
+      "expected_sha256": null,
+      "verification": "실행 전후 일치",
+      "sha256_after": "1e354311ab6a73de6e7f0176ad90d154f5d4e57d91b2434a6dbf71cb553ab687",
+      "unchanged": true
+    },
+    {
+      "source_id": "S03",
+      "path": "reports/final/10_gee_analysis_summary.json",
+      "bytes": 3347,
+      "sha256_before": "4cc2a74ed32ff63e6f6afa2e0c68b2258ae370cb656a559b1aa6306f53bdfc30",
+      "expected_sha256": null,
+      "verification": "실행 전후 일치",
+      "sha256_after": "4cc2a74ed32ff63e6f6afa2e0c68b2258ae370cb656a559b1aa6306f53bdfc30",
+      "unchanged": true
+    },
+    {
+      "source_id": "S04",
+      "path": "data/analysis/final/food_industry_panel.csv",
+      "bytes": 4839222,
+      "sha256_before": "55b99e19fda1762669cf4e9e88fa710f13d11e846e7b6b73dbc155e706d67838",
+      "expected_sha256": "55b99e19fda1762669cf4e9e88fa710f13d11e846e7b6b73dbc155e706d67838",
+      "verification": "10 입력 해시",
+      "sha256_after": "55b99e19fda1762669cf4e9e88fa710f13d11e846e7b6b73dbc155e706d67838",
+      "unchanged": true
+    },
+    {
+      "source_id": "S05",
+      "path": "data/analysis/final/food_industry_catalog.csv",
+      "bytes": 2892,
+      "sha256_before": "2927cbedfbfde2272c7eb40b543dab46c3c55b0779090dfe77d423137b89b09b",
+      "expected_sha256": "2927cbedfbfde2272c7eb40b543dab46c3c55b0779090dfe77d423137b89b09b",
+      "verification": "10 입력 해시",
+      "sha256_after": "2927cbedfbfde2272c7eb40b543dab46c3c55b0779090dfe77d423137b89b09b",
+      "unchanged": true
+    },
+    {
+      "source_id": "S06",
+      "path": "reports/final/09_industry_effects.csv",
+      "bytes": 21143,
+      "sha256_before": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+      "expected_sha256": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+      "verification": "10의 FE 비교 입력 해시",
+      "sha256_after": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+      "unchanged": true
+    },
+    {
+      "source_id": "S07",
+      "path": "reports/final/09_omnibus_tests.csv",
+      "bytes": 1146,
+      "sha256_before": "bcf1872bc2a67c9059c23b4e414a83597cbf03cb4f974e92dce1f9ad8444c429",
+      "expected_sha256": "bcf1872bc2a67c9059c23b4e414a83597cbf03cb4f974e92dce1f9ad8444c429",
+      "verification": "09 결과 해시",
+      "sha256_after": "bcf1872bc2a67c9059c23b4e414a83597cbf03cb4f974e92dce1f9ad8444c429",
+      "unchanged": true
+    },
+    {
+      "source_id": "S08",
+      "path": "reports/final/09_model_samples.csv",
+      "bytes": 1195,
+      "sha256_before": "8afe4822d95c684e711e79068696e7367bb1f88287515c9442bc90cce0736667",
+      "expected_sha256": "8afe4822d95c684e711e79068696e7367bb1f88287515c9442bc90cce0736667",
+      "verification": "09 결과 해시",
+      "sha256_after": "8afe4822d95c684e711e79068696e7367bb1f88287515c9442bc90cce0736667",
+      "unchanged": true
+    },
+    {
+      "source_id": "S09",
+      "path": "reports/final/09_eligibility.csv",
+      "bytes": 9367,
+      "sha256_before": "891d4d418efe1c4c273ff8b71f8c9c487f07e5e6e205608b9ccaec71511a0585",
+      "expected_sha256": "891d4d418efe1c4c273ff8b71f8c9c487f07e5e6e205608b9ccaec71511a0585",
+      "verification": "09 결과 해시",
+      "sha256_after": "891d4d418efe1c4c273ff8b71f8c9c487f07e5e6e205608b9ccaec71511a0585",
+      "unchanged": true
+    },
+    {
+      "source_id": "S10",
+      "path": "reports/final/09_slope_covariances.csv",
+      "bytes": 79066,
+      "sha256_before": "28aadd6f492970295a06e490ed6e860e19c602c1bf07b53c6d57cf0768641aa4",
+      "expected_sha256": "28aadd6f492970295a06e490ed6e860e19c602c1bf07b53c6d57cf0768641aa4",
+      "verification": "09 결과 해시",
+      "sha256_after": "28aadd6f492970295a06e490ed6e860e19c602c1bf07b53c6d57cf0768641aa4",
+      "unchanged": true
+    },
+    {
+      "source_id": "S11",
+      "path": "reports/final/09_fwl_validation.csv",
+      "bytes": 883,
+      "sha256_before": "c89badbae4691757c7d8c3933d84d615d92a975a19ca3dd8ac62af06d2189be6",
+      "expected_sha256": "c89badbae4691757c7d8c3933d84d615d92a975a19ca3dd8ac62af06d2189be6",
+      "verification": "09 결과 해시",
+      "sha256_after": "c89badbae4691757c7d8c3933d84d615d92a975a19ca3dd8ac62af06d2189be6",
+      "unchanged": true
+    },
+    {
+      "source_id": "S12",
+      "path": "reports/final/09_activity_change_contrasts.csv",
+      "bytes": 2831,
+      "sha256_before": "2b46587c6d547527844593f5744dc3e9e3e5300354321403caae7ecc47cbef9c",
+      "expected_sha256": "2b46587c6d547527844593f5744dc3e9e3e5300354321403caae7ecc47cbef9c",
+      "verification": "09 결과 해시",
+      "sha256_after": "2b46587c6d547527844593f5744dc3e9e3e5300354321403caae7ecc47cbef9c",
+      "unchanged": true
+    },
+    {
+      "source_id": "S13",
+      "path": "reports/final/09_model_sample_membership.csv",
+      "bytes": 4433297,
+      "sha256_before": "c35378e10273503376673307b39bbf67c7c8e42991bdb8c47a19cf7aacc7b77a",
+      "expected_sha256": "c35378e10273503376673307b39bbf67c7c8e42991bdb8c47a19cf7aacc7b77a",
+      "verification": "10의 FE 표본 해시",
+      "sha256_after": "c35378e10273503376673307b39bbf67c7c8e42991bdb8c47a19cf7aacc7b77a",
+      "unchanged": true
+    },
+    {
+      "source_id": "S14",
+      "path": "reports/final/09_activity_support.csv",
+      "bytes": 1214,
+      "sha256_before": "8885a32fa031b2c199505112fc2ecfd8e319b6e7b99b78fff5a89edb4ae905be",
+      "expected_sha256": "8885a32fa031b2c199505112fc2ecfd8e319b6e7b99b78fff5a89edb4ae905be",
+      "verification": "09 결과 해시",
+      "sha256_after": "8885a32fa031b2c199505112fc2ecfd8e319b6e7b99b78fff5a89edb4ae905be",
+      "unchanged": true
+    },
+    {
+      "source_id": "S15",
+      "path": "reports/final/09_information_concentration.csv",
+      "bytes": 2120,
+      "sha256_before": "18c79915358edf62ce5e46cee85235944a9abb161436e6a0916cfb37b5b2e1b2",
+      "expected_sha256": "18c79915358edf62ce5e46cee85235944a9abb161436e6a0916cfb37b5b2e1b2",
+      "verification": "09 결과 해시",
+      "sha256_after": "18c79915358edf62ce5e46cee85235944a9abb161436e6a0916cfb37b5b2e1b2",
+      "unchanged": true
+    },
+    {
+      "source_id": "S16",
+      "path": "reports/final/10_gee_industry_effects.csv",
+      "bytes": 4357,
+      "sha256_before": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b",
+      "expected_sha256": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b",
+      "verification": "10 결과 해시",
+      "sha256_after": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b",
+      "unchanged": true
+    },
+    {
+      "source_id": "S17",
+      "path": "reports/final/10_gee_between_effects.csv",
+      "bytes": 3956,
+      "sha256_before": "6de4d50c67de8491aa8b81c9ff552b8ac3e4b86f37c0a74690640533ec0f540e",
+      "expected_sha256": "6de4d50c67de8491aa8b81c9ff552b8ac3e4b86f37c0a74690640533ec0f540e",
+      "verification": "10 결과 해시",
+      "sha256_after": "6de4d50c67de8491aa8b81c9ff552b8ac3e4b86f37c0a74690640533ec0f540e",
+      "unchanged": true
+    },
+    {
+      "source_id": "S18",
+      "path": "reports/final/10_gee_eligibility.csv",
+      "bytes": 1796,
+      "sha256_before": "1a2d9f513a7762f5c5aa8fead213205023bb087b2912b6525b7599a3cfd3efc7",
+      "expected_sha256": "1a2d9f513a7762f5c5aa8fead213205023bb087b2912b6525b7599a3cfd3efc7",
+      "verification": "10 결과 해시",
+      "sha256_after": "1a2d9f513a7762f5c5aa8fead213205023bb087b2912b6525b7599a3cfd3efc7",
+      "unchanged": true
+    },
+    {
+      "source_id": "S19",
+      "path": "reports/final/10_gee_sample_flow.csv",
+      "bytes": 436,
+      "sha256_before": "350d46308b0bbdc300bdb5832c717f2d48067d4d1b38315d60f40996f7c7deae",
+      "expected_sha256": "350d46308b0bbdc300bdb5832c717f2d48067d4d1b38315d60f40996f7c7deae",
+      "verification": "10 결과 해시",
+      "sha256_after": "350d46308b0bbdc300bdb5832c717f2d48067d4d1b38315d60f40996f7c7deae",
+      "unchanged": true
+    },
+    {
+      "source_id": "S20",
+      "path": "reports/final/10_gee_sample_membership.csv",
+      "bytes": 1658583,
+      "sha256_before": "c95d3afba73d35c0b4f5b2ad30fc8ad638858c55fc03ec068288ac6b110c3cca",
+      "expected_sha256": "c95d3afba73d35c0b4f5b2ad30fc8ad638858c55fc03ec068288ac6b110c3cca",
+      "verification": "10 결과 해시",
+      "sha256_after": "c95d3afba73d35c0b4f5b2ad30fc8ad638858c55fc03ec068288ac6b110c3cca",
+      "unchanged": true
+    },
+    {
+      "source_id": "S21",
+      "path": "reports/final/10_gee_diagnostics.csv",
+      "bytes": 517,
+      "sha256_before": "5837cf70dd459b6fd845ee9c50749eb62e9e4177a785ce599d33b932aeac631f",
+      "expected_sha256": "5837cf70dd459b6fd845ee9c50749eb62e9e4177a785ce599d33b932aeac631f",
+      "verification": "10 결과 해시",
+      "sha256_after": "5837cf70dd459b6fd845ee9c50749eb62e9e4177a785ce599d33b932aeac631f",
+      "unchanged": true
+    },
+    {
+      "source_id": "S22",
+      "path": "reports/final/10_gee_decomposition_checks.csv",
+      "bytes": 193,
+      "sha256_before": "3982ac4a600d490cc2698aa200dec1a95a6a8d7718f399fcf7aa86579dad17f6",
+      "expected_sha256": "3982ac4a600d490cc2698aa200dec1a95a6a8d7718f399fcf7aa86579dad17f6",
+      "verification": "10 결과 해시",
+      "sha256_after": "3982ac4a600d490cc2698aa200dec1a95a6a8d7718f399fcf7aa86579dad17f6",
+      "unchanged": true
+    },
+    {
+      "source_id": "S23",
+      "path": "reports/final/10_gee_implementation_checks.csv",
+      "bytes": 236,
+      "sha256_before": "305894d4712454faae8d983d73a52db62da84638dc55e078d482cd00a474c661",
+      "expected_sha256": "305894d4712454faae8d983d73a52db62da84638dc55e078d482cd00a474c661",
+      "verification": "10 결과 해시",
+      "sha256_after": "305894d4712454faae8d983d73a52db62da84638dc55e078d482cd00a474c661",
+      "unchanged": true
+    },
+    {
+      "source_id": "S24",
+      "path": "reports/final/10_fe_gee_sample_key_checks.csv",
+      "bytes": 139,
+      "sha256_before": "e38fd7433b919d6d1fd566c41a093ea310a19cb627ac6eafa7daa7b4c281262f",
+      "expected_sha256": "e38fd7433b919d6d1fd566c41a093ea310a19cb627ac6eafa7daa7b4c281262f",
+      "verification": "10 결과 해시",
+      "sha256_after": "e38fd7433b919d6d1fd566c41a093ea310a19cb627ac6eafa7daa7b4c281262f",
+      "unchanged": true
+    },
+    {
+      "source_id": "S25",
+      "path": "reports/final/10_fe_gee_comparison.csv",
+      "bytes": 5124,
+      "sha256_before": "2a176723fb3279c89fcbc78084c6f72c7be4a9dc6bfe7689368bd81018cb89df",
+      "expected_sha256": "2a176723fb3279c89fcbc78084c6f72c7be4a9dc6bfe7689368bd81018cb89df",
+      "verification": "10 결과 해시",
+      "sha256_after": "2a176723fb3279c89fcbc78084c6f72c7be4a9dc6bfe7689368bd81018cb89df",
+      "unchanged": true
+    },
+    {
+      "source_id": "S26",
+      "path": "reports/final/08_industry_coverage.csv",
+      "bytes": 2120,
+      "sha256_before": "fed92c289ed0198959c8ef38f91979a24db0e324f29777ce22abe5a46055853e",
+      "expected_sha256": null,
+      "verification": "실행 전후 일치",
+      "sha256_after": "fed92c289ed0198959c8ef38f91979a24db0e324f29777ce22abe5a46055853e",
+      "unchanged": true
+    },
+    {
+      "source_id": "S27",
+      "path": "reports/final/08_district_industry_coverage.csv",
+      "bytes": 3888,
+      "sha256_before": "123ff079ddb0f123f1a77579c6394cab210db41a782ede367f5ac28168c7968e",
+      "expected_sha256": null,
+      "verification": "실행 전후 일치",
+      "sha256_after": "123ff079ddb0f123f1a77579c6394cab210db41a782ede367f5ac28168c7968e",
+      "unchanged": true
+    },
+    {
+      "source_id": "S28",
+      "path": "reports/final/08_common_sample_scope.csv",
+      "bytes": 144,
+      "sha256_before": "1a2c1a606bfe7e190a83897dde76eb4d0fb0750db0c5fc7fbfec5060391cfa07",
+      "expected_sha256": null,
+      "verification": "실행 전후 일치",
+      "sha256_after": "1a2c1a606bfe7e190a83897dde76eb4d0fb0750db0c5fc7fbfec5060391cfa07",
+      "unchanged": true
+    },
+    {
+      "source_id": "S29",
+      "path": "reports/final/08_store_size_sales_coverage.csv",
+      "bytes": 276,
+      "sha256_before": "a906999cf85cfd4c70432c24c626aa3f3cece6b260928a8a91c28de99ca85900",
+      "expected_sha256": null,
+      "verification": "실행 전후 일치",
+      "sha256_after": "a906999cf85cfd4c70432c24c626aa3f3cece6b260928a8a91c28de99ca85900",
+      "unchanged": true
+    }
+  ],
+  "input_count": 29,
+  "metadata_hash_verified_count": 22,
+  "all_inputs_unchanged": true,
+  "outputs_count": 5,
+  "validation": {
+    "source_coverage_equal": true,
+    "store_coverage_equal": true,
+    "contrast_transforms_equal": true,
+    "main_sales_night_keys_equal": true,
+    "raw_common_171_verified": true,
+    "fe_common_170_verified": true,
+    "no_new_model_fit": true
+  }
+}

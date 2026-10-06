@@ -1,0 +1,9 @@
+{
+  "run_id": "20261004_091155_b8dd0e",
+  "status": "validated",
+  "all_required_files_available": true,
+  "checks_passed": 36,
+  "checks_total": 36,
+  "csv_contents_unchanged": true,
+  "validated_input_manifest": "metadata/seoul_analysis_sources.json"
+}

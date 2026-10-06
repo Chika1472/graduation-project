@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-04T00:10:23.958287+00:00",
+  "purpose": "Frozen two-industry 05 reference input before exposure/source refresh; never overwritten",
+  "files": [
+    {
+      "original_path": "data/analysis/performance_sales_panel.csv",
+      "snapshot_path": "data/analysis/baseline_two_industry/performance_sales_panel.csv",
+      "sha256": "305fc1c7268f08dd59434bfd828372afd89ac19831b2d756656456f94c0f34db"
+    },
+    {
+      "original_path": "data/analysis/sales_stores_panel.csv",
+      "snapshot_path": "data/analysis/baseline_two_industry/sales_stores_panel.csv",
+      "sha256": "799b710aea8dbd56a495d649ebd48a0567b6b67ac2927b3d543333c90aae8e9a"
+    },
+    {
+      "original_path": "reports/05_interaction_results.csv",
+      "snapshot_path": "data/analysis/baseline_two_industry/05_interaction_results.csv",
+      "sha256": "8ca2b6740d3b2da7c7b9afe73605255fe5888402b1cc59e7572de96811b9ae2b"
+    },
+    {
+      "original_path": "reports/05_analysis_summary.json",
+      "snapshot_path": "data/analysis/baseline_two_industry/05_analysis_summary.json",
+      "sha256": "25f1122aec7df5d535c934b9e49dd998c2d08a5bc669e3fcc2034801a01283cb"
+    }
+  ],
+  "legacy_raw_sources": [
+    {
+      "kind": "sales",
+      "year": 2023,
+      "path": "data/raw/seoul_sales/sales_2023.csv",
+      "sha256": "1e8ea69cd4892176b9496678316b9e4772f59f902033f5b26200a5ce02397b8c"
+    },
+    {
+      "kind": "sales",
+      "year": 2024,
+      "path": "data/raw/seoul_sales/sales_2024.csv",
+      "sha256": "8b3e066e91f399d07c33949e2eb1d5765594f00af656f52f2cab3116674da0d2"
+    },
+    {
+      "kind": "sales",
+      "year": 2025,
+      "path": "data/raw/seoul_sales/sales_2025.csv",
+      "sha256": "2e299cd3e78a98d9b46634af0cc768276d8d270eb4c38b5f1b1ce54f8dcd828f"
+    },
+    {
+      "kind": "stores",
+      "year": 2023,
+      "path": "data/raw/seoul_stores/stores_2023.csv",
+      "sha256": "594ed70b19a47713a006b9efbf46847c0387fa8f7b2f8536a0982c7217e82c08"
+    },
+    {
+      "kind": "stores",
+      "year": 2024,
+      "path": "data/raw/seoul_stores/stores_2024.csv",
+      "sha256": "8446399758a9c3b1cbd64c11124f7b23aedae1ad1f6dd9521d97181a503ef83a"
+    },
+    {
+      "kind": "stores",
+      "year": 2025,
+      "path": "data/raw/seoul_stores/stores_2025.csv",
+      "sha256": "afe3c49336e4c64e3e4066db1bb61034ab7c238916ff473a37d7667fbb4e1d68"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿metric,numerator,denominator,pct
+nominal_post03_windows,135073,135073,100.0
+post03_spans_multiple_fixed_timebins,114358,135073,84.66384843751156
+post03_exactly_equals_a_fixed_3h_timebin,9659,135073,7.15094800589311
+post03_crosses_midnight,31965,135073,23.6649811583366
+post03_crosses_quarter,271,135073,0.20063225070887594
+original_sales_timebin_rows,108720,108720,100.0
+observed_sales_timebin_rows,45966,108720,42.27924944812362

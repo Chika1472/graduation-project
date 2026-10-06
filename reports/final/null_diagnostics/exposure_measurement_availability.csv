@@ -1,0 +1,11 @@
+﻿metric,numerator,denominator,unit,pct
+candidate_performance_IDs,12839,12839,performance_ID,100.0
+schedule_text_nonempty,12832,12839,performance_ID,99.94547861983021
+runtime_text_nonempty,12388,12839,performance_ID,96.48726536334605
+exposure_eligible,12047,12839,performance_ID,93.83129527221746
+own_runtime_overlap_ambiguous,108,12839,performance_ID,0.8411870083339824
+HOL_mentioned_normal_weekday_repeated,1107,12839,performance_ID,8.62216683542332
+period_extends_beyond_2025,146,12839,performance_ID,1.1371602149700133
+performance_hall_ID_mt13id_nonempty,12839,12839,performance_ID,100.0
+current_facility_positive_seat_capacity,310,466,facility_ID,66.52360515021459
+current_facility_multiple_halls,84,466,facility_ID,18.025751072961373

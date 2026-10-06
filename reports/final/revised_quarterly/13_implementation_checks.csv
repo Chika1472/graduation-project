@@ -1,0 +1,7 @@
+﻿check,passed,beta_max_error,cov_max_error,nobs,design_rank,identity_covariance_max_error,kernel_min_eigenvalue,covariance_min_eigenvalue,clusters
+synthetic_dummy_OLS_and_joint_cluster_covariance,True,3.608224830031759e-16,1.8041124150158794e-16,188.0,56.0,,,,
+original_keys_and_sales_preserved,True,0.0,0.0,18120.0,,,,,
+actual_reduced_dummy_OLS_log1p_total_sales_won,True,2.5696458849644443e-14,1.8447699964840858e-16,438.0,72.0,,,,
+actual_reduced_dummy_OLS_log1p_night_sales_21_24_won,True,1.799949078673535e-14,1.5265566588595902e-15,438.0,72.0,,,,
+spatial_kernel_log1p_total_sales_won,True,,,,,1.0842021724855044e-19,7.046206945959669e-07,8.370764919344037e-05,114.0
+spatial_kernel_log1p_night_sales_21_24_won,True,,,,,1.734723475976807e-18,7.046206945959669e-07,0.0006515991327002107,114.0

@@ -1,0 +1,14 @@
+﻿class,개념,개체수
+StudyArea,상권,151
+Industry,업종,10
+Quarter,분기,12
+Performance,등록 공연,12839
+Facility,공연시설,801
+FacilityLink,공연-시설 연결,12839
+SalesObservation,상권·업종·분기 매출관측,18120
+ProximityRelation,시설-상권 거리관계,5670
+SourceFile,직접 입력 파일,9
+Unit,단위,2
+Rule,집계·거리 규칙,3
+LinkStatus,연결 확인 상태,2
+Dataset,부분 지식그래프,1

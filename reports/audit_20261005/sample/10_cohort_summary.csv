@@ -1,0 +1,4 @@
+﻿coverage_group,entity_rows,sales_rows,median_all_stores,median_activity,median_observed_sales,rows_with_openings,rows_with_closures,area_industry_entities
+12분기 제공,7020,7020,12.0,32.0,411194110.5,2922,3009,585.0
+일부 분기 제공,1296,641,3.0,17.0,41564748.0,182,224,108.0
+항상 미제공,9804,0,1.0,9.0,,363,386,817.0

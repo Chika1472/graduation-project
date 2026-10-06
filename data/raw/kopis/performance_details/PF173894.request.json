@@ -1,0 +1,8 @@
+{
+  "endpoint": "https://www.kopis.or.kr/openApi/restful/pblprfr/PF173894",
+  "params_without_key": {},
+  "collected_at_utc": "2026-10-03T16:45:35.078934+00:00",
+  "bytes": 3037,
+  "sha256": "5e938932c70340f05f124804f8d9269d6b205b4b822c2b56e1273ab8e0f2a1a2",
+  "path": "data/raw/kopis/performance_details/PF173894.xml"
+}

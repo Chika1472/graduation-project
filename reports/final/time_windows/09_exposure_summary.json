@@ -1,0 +1,235 @@
+{
+  "created_utc": "2026-10-04T20:10:23.018914+00:00",
+  "clock_timezone": "Asia/Seoul",
+  "kopis_collection_run_id": "20261004_154020_1c7d3b",
+  "study_period": [
+    "2023-01-01",
+    "2025-12-31"
+  ],
+  "nominal_start_padding_days": 1,
+  "radius_m": 500,
+  "area_count": 151,
+  "quarters": [
+    "20231",
+    "20232",
+    "20233",
+    "20234",
+    "20241",
+    "20242",
+    "20243",
+    "20244",
+    "20251",
+    "20252",
+    "20253",
+    "20254"
+  ],
+  "time_bins": [
+    "00_06",
+    "06_11",
+    "11_14",
+    "14_17",
+    "17_21",
+    "21_24"
+  ],
+  "candidate_performance_ids": 12839,
+  "eligible_performance_ids": 12047,
+  "nominal_sessions_including_padding": 135362,
+  "nominal_sessions_study_start": 135073,
+  "nominal_sessions_padding_start": 289,
+  "area_quarters_total": 1812,
+  "area_quarters_availability_ge90": 1381,
+  "area_quarters_availability_100": 861,
+  "area_quarters_zero_candidates": 316,
+  "availability_denominator": "distinct candidate performance IDs that may affect current/adjacent quarter windows, unioned per area-quarter",
+  "source_quarter_denominator": "original list-derived performance-facility-quarter membership",
+  "primary_analysis_threshold_pct": 90,
+  "sensitivity_complete_threshold_pct": 100,
+  "exposure_unit": "nominal-session-equivalent = summed per-session window overlap minutes / 180",
+  "window_definition": {
+    "post03": "[estimated_end,estimated_end+3h)",
+    "post36": "[estimated_end+3h,estimated_end+6h)",
+    "post06": "[estimated_end,estimated_end+6h)",
+    "pre03": "[nominal_start-3h,nominal_start)"
+  },
+  "post06_normalization_minutes": 180,
+  "post06_equals_post03_plus_post36": true,
+  "overlap_rule": "sum each nominal session separately; no union/deduplication across different sessions or performance IDs",
+  "known_exposure_fields": "partial sums of eligible schedules, not total actual exposure",
+  "exposure_fields": "known sums only where all window-dependent candidate IDs are eligible, otherwise missing",
+  "zero_candidate_rule": "availability=100 and known/complete exposure=0 for no registered candidate in fixed observed list",
+  "normal_weekday_recurrence_assumption": true,
+  "holiday_calendar_used": false,
+  "HOL_blocks_generated": false,
+  "actual_session_data": false,
+  "actual_end_time_data": false,
+  "historical_schedule_verified": false,
+  "runtime_max_minutes": 360,
+  "exclude_within_ID_runtime_overlap": true,
+  "study_boundary_limitation": "IDs entirely outside 2023–2025 list may contribute boundary windows but cannot be recovered; study endpoint quarters flagged",
+  "limitations": [
+    "current schedule is repeated over historical registered period; actual date-specific changes unknown",
+    "normal weekday pattern used even on public holidays; HOL special schedules omitted",
+    "runtime predicts ending; delays/intermissions/cancellations not observed",
+    "strict exclusions cause selective schedule coverage; ID coverage is not audience or session-weighted coverage",
+    "current facility coordinates and area boundaries applied to historical quarters",
+    "multiple areas share performance exposure; distinct-area spatial dependence remains",
+    "quarterly fixed-time-bin sales cannot identify actual event-date post-performance spending"
+  ],
+  "network_requests": 0,
+  "new_model_fits": 0,
+  "all_inputs_unchanged": true,
+  "input_records": [
+    {
+      "path": "final/metadata/kopis_analysis_sources.json",
+      "sha256_before": "91e594d954913adea4a204fc6a6aea4332b609f70037949e2a613f307205dee8",
+      "expected_sha256": null,
+      "sha256_after": "91e594d954913adea4a204fc6a6aea4332b609f70037949e2a613f307205dee8",
+      "unchanged": true
+    },
+    {
+      "path": "reports/final/08_food_scope_metadata.json",
+      "sha256_before": "99331a685ff59385a5b0934a0f45ebe9f01892918a355fc9aa7faf7cc035c495",
+      "expected_sha256": null,
+      "sha256_after": "99331a685ff59385a5b0934a0f45ebe9f01892918a355fc9aa7faf7cc035c495",
+      "unchanged": true
+    },
+    {
+      "path": "data/analysis/kopis_snapshots/20261004_154020_1c7d3b/performance_details.csv",
+      "sha256_before": "6acd0ecf88670fac3f4d0b5d9b1dca3c413c0500f7ca56d9d3ab5f4a28e95896",
+      "expected_sha256": "6acd0ecf88670fac3f4d0b5d9b1dca3c413c0500f7ca56d9d3ab5f4a28e95896",
+      "sha256_after": "6acd0ecf88670fac3f4d0b5d9b1dca3c413c0500f7ca56d9d3ab5f4a28e95896",
+      "unchanged": true
+    },
+    {
+      "path": "data/analysis/final/venue_area_distances_800m.csv",
+      "sha256_before": "4bb7ebbe986c1bd32eb042c8b7938c372aefff8ab70e87ed5591a912231fd063",
+      "expected_sha256": "4bb7ebbe986c1bd32eb042c8b7938c372aefff8ab70e87ed5591a912231fd063",
+      "sha256_after": "4bb7ebbe986c1bd32eb042c8b7938c372aefff8ab70e87ed5591a912231fd063",
+      "unchanged": true
+    },
+    {
+      "path": "data/analysis/final/performance_facility_quarter.csv",
+      "sha256_before": "2aaf8e9ecc445b718f0c1600b98395022fc1aa469cbb3b782ff3c689ea67826d",
+      "expected_sha256": "2aaf8e9ecc445b718f0c1600b98395022fc1aa469cbb3b782ff3c689ea67826d",
+      "sha256_after": "2aaf8e9ecc445b718f0c1600b98395022fc1aa469cbb3b782ff3c689ea67826d",
+      "unchanged": true
+    },
+    {
+      "path": "data/analysis/final/study_areas.csv",
+      "sha256_before": "fd8c579f7f6afafc84e467607e66b32ddbac22aa59a7eb0c2d3b535dff6476ee",
+      "expected_sha256": "fd8c579f7f6afafc84e467607e66b32ddbac22aa59a7eb0c2d3b535dff6476ee",
+      "sha256_after": "fd8c579f7f6afafc84e467607e66b32ddbac22aa59a7eb0c2d3b535dff6476ee",
+      "unchanged": true
+    }
+  ],
+  "outputs": {
+    "data/analysis/final/time_windows/area_quarter_timebin_exposure.csv": {
+      "rows": 10872,
+      "columns": [
+        "area_id",
+        "quarter",
+        "time_bin",
+        "bin_index",
+        "known_exposure_post03",
+        "known_exposure_post36",
+        "known_exposure_post06",
+        "known_exposure_pre03",
+        "exposure_post03",
+        "exposure_post36",
+        "exposure_post06",
+        "exposure_pre03",
+        "minutes_post03",
+        "minutes_post36",
+        "minutes_post06",
+        "minutes_pre03",
+        "availability_pct",
+        "candidate_performance_ids_source_quarter",
+        "candidate_performance_ids_window_dependency",
+        "eligible_performance_ids_window_dependency",
+        "complete_schedule_coverage",
+        "study_endpoint_quarter"
+      ],
+      "sha256": "72f0356c2e667b6e324aebb063fc32ee9b6efd9166516c3cb8ee24318f9c6928"
+    },
+    "data/analysis/final/time_windows/availability.csv": {
+      "rows": 1812,
+      "columns": [
+        "area_id",
+        "quarter",
+        "candidate_performance_ids_source_quarter",
+        "candidate_performance_ids_window_dependency",
+        "eligible_performance_ids_window_dependency",
+        "availability_pct",
+        "complete_schedule_coverage",
+        "excluded_schedule_ids",
+        "excluded_runtime_ids",
+        "overlap_ambiguous_ids",
+        "no_matching_normal_occurrence_ids",
+        "has_hol_candidate_ids",
+        "period_extends_beyond_2025_ids",
+        "study_endpoint_quarter"
+      ],
+      "sha256": "8cff8a466898ff66b487b75d2068722fd98dd68a3b7a3f8e4610dce53cd69a9b"
+    },
+    "data/analysis/final/time_windows/nominal_sessions.csv": {
+      "rows": 135362,
+      "columns": [
+        "mt20id",
+        "mt10id",
+        "nominal_start",
+        "estimated_end",
+        "start_quarter",
+        "padding_start"
+      ],
+      "sha256": "871ae1f86705bc0827e628936cc7953cda1e5e38b7c19356ca0c2f96ebcf156f"
+    },
+    "reports/final/time_windows/09_performance_schedule_audit.csv": {
+      "rows": 13727,
+      "columns": [
+        "mt20id",
+        "mt10id",
+        "dtguidance",
+        "prfruntime",
+        "prfpdfrom",
+        "prfpdto",
+        "schedule_status",
+        "runtime_status",
+        "runtime_minutes",
+        "has_hol",
+        "own_runtime_overlap_ambiguous",
+        "valid_period",
+        "period_extends_beyond_2025",
+        "schedule_runtime_eligible",
+        "in_500m_candidate",
+        "nominal_sessions_generated",
+        "exposure_eligible",
+        "no_matching_normal_occurrence"
+      ],
+      "sha256": "0f27acdc2345bb58fb0adf7c742e82fe966688e0834cd8a835716a6c79776bf3"
+    },
+    "reports/final/time_windows/09_parser_edge_checks.csv": {
+      "rows": 17,
+      "columns": [
+        "test",
+        "input",
+        "expected",
+        "actual",
+        "passed"
+      ],
+      "sha256": "762b38e5649e149204b69191f61e722c22dc237c758b116e772a6e01617233d1"
+    },
+    "reports/final/time_windows/09_window_conservation.csv": {
+      "rows": 8,
+      "columns": [
+        "level",
+        "window",
+        "expected_minutes",
+        "study_minutes",
+        "outside_minutes",
+        "actual_minutes",
+        "passed"
+      ],
+      "sha256": "49befa1fbd6b27b89e382e8d2ee083556d0fe36429b95c9c24f4a7f7bd71f2d5"
+    }
+  }
+}

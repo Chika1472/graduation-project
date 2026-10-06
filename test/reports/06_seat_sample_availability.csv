@@ -1,0 +1,5 @@
+﻿spatial_definition,joint_threshold_pct,joint_area_quarters,common_outcome_rows,common_outcome_areas,repeated_entity_rows,repeated_entity_areas
+centroid500,100,977,3640,104,3607,99
+centroid500,90,1222,4771,119,4714,113
+min_distance500,100,738,2470,86,2431,80
+min_distance500,90,1088,4213,114,4138,105

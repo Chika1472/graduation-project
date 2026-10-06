@@ -1,0 +1,16 @@
+{
+  "status": "partial_api_request_blocked",
+  "collected_date_kst": "2026-10-04",
+  "complete": [
+    "Seoul performance lists for all 36 months, 2023-2025",
+    "Seoul facility list",
+    "Seoul monthly facility statistics, 2023-2025"
+  ],
+  "facility_details_collected": 1511,
+  "performance_details_collected": 195,
+  "reason": "HTTP 400 response body: Request Blocked. Concurrent downloads stopped.",
+  "credential_in_project": false,
+  "facility_details_missing": 244,
+  "candidate_performance_details_missing": 13532,
+  "candidate_selection": "Target districts, within 800 m of target polygons, ambiguous names or unavailable coordinates."
+}

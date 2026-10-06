@@ -1,0 +1,5 @@
+﻿파일,예시행수,열,예시날짜,예시시간코드
+B079_05_domestic_time_PUBLIC_SAMPLE.csv,200,"기준일자, 요일, 시간대, 격자_50, 업종대분류, 카드이용금액계, 카드이용건수계",20230101~20230101,"1, 2, 3, 4, 5, 6"
+B079_09_foreign_time_PUBLIC_SAMPLE.csv,200,"기준일자, 시간대, 격자_50, 업종대분류, 카드이용금액계, 카드이용건수계",20230101~20230101,"1, 2, 3, 4, 5, 6"
+B042_domestic_hour_PUBLIC_SAMPLE.csv,500,"가맹점블록코드(BLCK_CD), 내국인업종코드(SB_UPJONG_CD), 기준년월(TS_YM), 일별(TS_YMD), 요일(DAW), 시간대(TM), 카드이용금액계(AMT_CORR), 카드이용건수(USECT_CORR)",20170101~20210729,"00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23"
+B042_domestic_industry_PUBLIC_SAMPLE.csv,63,"대분류(SB_L_UPJONG_NM), 중분류(SB_M_UPJONG_NM), 내국인업종분류(SB_UPJONG_NM), 내국인업종코드(SB_UPJONG_CD)",해당 없음,해당 없음

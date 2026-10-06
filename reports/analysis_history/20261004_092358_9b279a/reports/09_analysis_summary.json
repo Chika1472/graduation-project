@@ -1,0 +1,78 @@
+{
+  "scope": "종로구·마포구/공개 외식업10종/2023~2025분기",
+  "seoul_refresh_run_id": "20261004_091155_b8dd0e",
+  "kopis_collection_run_id": "20261004_092358_9b279a",
+  "input_file": "data/analysis/food_industry_panel.csv",
+  "input_sha256": "d45395f1034d3fcfd9f74c5c6ed80ee78aad439128a0cddbc8b27e202a18a46d",
+  "reference_file": "data/analysis/baseline_two_industry/05_interaction_results.csv",
+  "reference_sha256": "8ca2b6740d3b2da7c7b9afe73605255fe5888402b1cc59e7572de96811b9ae2b",
+  "reference_input_file": "data/analysis/baseline_two_industry/performance_sales_panel.csv",
+  "reference_input_sha256": "305fc1c7268f08dd59434bfd828372afd89ac19831b2d756656456f94c0f34db",
+  "reference_scope": "frozen_two_industry_input_and_05_results_before_refresh",
+  "industry_ids": [
+    "CS100001",
+    "CS100002",
+    "CS100003",
+    "CS100004",
+    "CS100005",
+    "CS100006",
+    "CS100007",
+    "CS100008",
+    "CS100009",
+    "CS100010"
+  ],
+  "primary_radius_m": 500,
+  "exploratory_expansion_after_two_industry_results": true,
+  "scenarios": [
+    "main_500",
+    "radius_300",
+    "radius_800",
+    "balanced_500",
+    "stores_500"
+  ],
+  "outcomes": [
+    "log_sales",
+    "night_share_pct"
+  ],
+  "fe_systems": 10,
+  "reference_contrasts_verified": 12,
+  "primary_effect_tests": 20,
+  "primary_omnibus": [
+    {
+      "scenario": "main_500",
+      "outcome": "log_sales",
+      "estimated_industries": 10,
+      "status": "estimated",
+      "f_statistic": 0.6098231322028912,
+      "df_num": 9,
+      "df_denom": 133,
+      "p_value": 0.7869923790004546,
+      "p_holm_primary": 0.7869923790004546
+    },
+    {
+      "scenario": "main_500",
+      "outcome": "night_share_pct",
+      "estimated_industries": 10,
+      "status": "estimated",
+      "f_statistic": 1.4117062817509474,
+      "df_num": 9,
+      "df_denom": 133,
+      "p_value": 0.18914688707044386,
+      "p_holm_primary": 0.3782937741408877
+    }
+  ],
+  "fdr_significant_primary": [],
+  "causal_identification": false,
+  "python": "3.12.14",
+  "output_sha256": {
+    "reports/09_industry_effects.csv": "c678c7f75da5a3c4e1bd888493a9840456db32ead53f2b53a918cac1f699af6d",
+    "reports/09_omnibus_tests.csv": "9a31984184d8905ffee95aa8167d9967a982a698fb3e2bbba03edde30e31ed57",
+    "reports/09_model_samples.csv": "fb42fb5139c7d90bb7019218a1da61aa400475287acc7458ea6581936144c6ca",
+    "reports/09_eligibility.csv": "fdf987912c244cd2eed7602b791ab7ad47994863a05f4f64aee1a7b387a68cf4",
+    "reports/09_slope_covariances.csv": "2b0cd95163c6d77e784a9e8b425245af594edb58b21aa6a345d3963cb7f487ed",
+    "reports/09_fwl_validation.csv": "c89badbae4691757c7d8c3933d84d615d92a975a19ca3dd8ac62af06d2189be6",
+    "reports/09_activity_change_contrasts.csv": "2b46587c6d547527844593f5744dc3e9e3e5300354321403caae7ecc47cbef9c",
+    "reports/09_model_sample_membership.csv": "6abd01abe2c28eb0e657f5a037884074ff07138b9391dffd93199379ca1d8185",
+    "reports/09_activity_support.csv": "8885a32fa031b2c199505112fc2ecfd8e319b6e7b99b78fff5a89edb4ae905be"
+  }
+}

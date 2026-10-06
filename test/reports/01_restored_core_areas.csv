@@ -1,0 +1,17 @@
+﻿area_id,area_name,district,spatial_definition,availability_threshold_pct,original_provided_rows,rows_after_availability,rows_after_repeat,quarters_after_repeat,industries_after_repeat,retained_pct_of_provided,mean_ID_availability_pct,sample_stage
+3120012,대학로(혜화역),종로구,centroid500,100,120,0,0,0,0,0.0,88.82584118104627,before_minimum_industry_clusters
+3120012,대학로(혜화역),종로구,centroid500,95,120,0,0,0,0,0.0,88.82584118104627,before_minimum_industry_clusters
+3120012,대학로(혜화역),종로구,centroid500,90,120,40,40,4,10,33.333333333333336,88.82584118104627,before_minimum_industry_clusters
+3120012,대학로(혜화역),종로구,centroid500,80,120,120,120,12,10,100.0,88.82584118104627,before_minimum_industry_clusters
+3120012,대학로(혜화역),종로구,min_distance500,100,120,0,0,0,0,0.0,88.92064037043795,before_minimum_industry_clusters
+3120012,대학로(혜화역),종로구,min_distance500,95,120,0,0,0,0,0.0,88.92064037043795,before_minimum_industry_clusters
+3120012,대학로(혜화역),종로구,min_distance500,90,120,30,30,3,10,25.0,88.92064037043795,before_minimum_industry_clusters
+3120012,대학로(혜화역),종로구,min_distance500,80,120,120,120,12,10,100.0,88.92064037043795,before_minimum_industry_clusters
+3120103,홍대입구역(홍대),마포구,centroid500,100,120,0,0,0,0,0.0,98.12000036776205,before_minimum_industry_clusters
+3120103,홍대입구역(홍대),마포구,centroid500,95,120,120,120,12,10,100.0,98.12000036776205,before_minimum_industry_clusters
+3120103,홍대입구역(홍대),마포구,centroid500,90,120,120,120,12,10,100.0,98.12000036776205,before_minimum_industry_clusters
+3120103,홍대입구역(홍대),마포구,centroid500,80,120,120,120,12,10,100.0,98.12000036776205,before_minimum_industry_clusters
+3120103,홍대입구역(홍대),마포구,min_distance500,100,120,0,0,0,0,0.0,97.73564346146209,before_minimum_industry_clusters
+3120103,홍대입구역(홍대),마포구,min_distance500,95,120,120,120,12,10,100.0,97.73564346146209,before_minimum_industry_clusters
+3120103,홍대입구역(홍대),마포구,min_distance500,90,120,120,120,12,10,100.0,97.73564346146209,before_minimum_industry_clusters
+3120103,홍대입구역(홍대),마포구,min_distance500,80,120,120,120,12,10,100.0,97.73564346146209,before_minimum_industry_clusters

@@ -1,0 +1,20 @@
+{
+  "check": "final_vs_frozen_prior_primary_results",
+  "scenario": "gee_within_between_500",
+  "compared_industry_outcomes": 20,
+  "absolute_tolerance": 1e-10,
+  "passed": true,
+  "reference_file": "final/metadata/statistics_reference/10_gee_industry_effects.csv",
+  "reference_sha256": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b",
+  "final_file": "reports/final/10_gee_industry_effects.csv",
+  "final_sha256": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b",
+  "max_absolute_difference_by_column": {
+    "coefficient": 0.0,
+    "standard_error": 0.0,
+    "ci_low": 0.0,
+    "ci_high": 0.0,
+    "p_value": 0.0,
+    "nobs_industry": 0.0,
+    "area_clusters_industry": 0.0
+  }
+}

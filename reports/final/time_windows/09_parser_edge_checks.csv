@@ -1,0 +1,18 @@
+﻿test,input,expected,actual,passed
+schedule,"월요일 ~ 금요일(19:30), 토요일(15:00,19:00), HOL(14:00)",ok,ok,True
+schedule,월요일(00:30),ok,ok,True
+schedule,HOL(14:00),hol_only_no_normal_schedule,hol_only_no_normal_schedule,True
+schedule,"월요일(19:00,19:00)",duplicate_start_time,duplicate_start_time,True
+schedule,"월요일(19:00), 월요일(20:00)",overlapping_weekday_blocks,overlapping_weekday_blocks,True
+schedule,금요일 ~ 월요일(19:00),reverse_weekday_range,reverse_weekday_range,True
+schedule,월요일(24:00),invalid_clock,invalid_clock,True
+schedule,매일(19:00),unsupported_schedule,unsupported_schedule,True
+schedule,"월요일(19:00),,화요일(20:00)",unsupported_schedule,unsupported_schedule,True
+schedule,HOL ~ 월요일(19:00),unsupported_schedule,unsupported_schedule,True
+runtime,1시간 30분,ok,ok,True
+runtime,85분,ok,ok,True
+runtime,1시간 60분,noncanonical_runtime,noncanonical_runtime,True
+runtime,7시간,runtime_over_6h,runtime_over_6h,True
+window,quarter_midnight_split,30+150,30+150,True
+window,year_boundary_split,60+300,60+300,True
+window,pre_start_boundary,60+120,60+120,True

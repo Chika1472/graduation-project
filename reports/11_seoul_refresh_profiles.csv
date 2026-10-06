@@ -1,0 +1,7 @@
+﻿dataset,year,all_rows,food_rows,food_codes,same_as_previous,csv_path
+sales,2023,88246,27430,10,True,data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2023.csv
+sales,2024,87179,27095,10,True,data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2024.csv
+sales,2025,85732,26460,10,True,data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2025.csv
+stores,2023,307741,49604,10,True,data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2023.csv
+stores,2024,306889,49474,10,True,data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2024.csv
+stores,2025,304775,49070,10,True,data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2025.csv

@@ -1,0 +1,39 @@
+{
+  "run_id": "20261004_091713_d06862",
+  "started_at_kst": "2026-10-04T09:17:13.167216+09:00",
+  "network_enabled": true,
+  "pid": 10632,
+  "status": "api_access_rejected",
+  "requests_attempted": 134,
+  "http_requests_sent": 134,
+  "new_facility_details": 40,
+  "new_performance_details": 93,
+  "request_interval_seconds": 0.5,
+  "max_requests": 150,
+  "final_counts": {
+    "facility": 1755,
+    "performance": 289
+  },
+  "pending_counts": {
+    "facility": 0,
+    "performance": 13438
+  },
+  "target_counts": {
+    "facility": 1755,
+    "performance": 13727
+  },
+  "updated_at_kst": "2026-10-04T09:18:33.460081+09:00",
+  "initial_counts": {
+    "facility": 1715,
+    "performance": 196
+  },
+  "last_kind": "performance",
+  "last_id": "PF205266",
+  "elapsed_seconds": 80.28,
+  "seconds_per_record": 0.6036165413534036,
+  "estimated_remaining_seconds": null,
+  "http_status": 400,
+  "blocked_marker": true,
+  "stopped_without_retry": true,
+  "finished_at_kst": "2026-10-04T09:18:33.459081+09:00"
+}

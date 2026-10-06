@@ -1,0 +1,193 @@
+{
+  "operation": "original code archived; root documentation copied before revision",
+  "created_at": "2026-10-05T03:37:59.5841254+09:00",
+  "verified": true,
+  "files": [
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/01_데이터_점검과_전처리.ipynb",
+      "sha256": "f1677ec85a4c585dea8c4c9fbfbeb1723face1b4fee402b900f1eec2885dab8c",
+      "original_path": "notebooks/01_데이터_점검과_전처리.ipynb",
+      "bytes": 47357
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/02_EDA와_시각화.ipynb",
+      "sha256": "a82fc41c77c480e1c841c7d439efcdabba127dd18e10fcdf685fb47ff03cca77",
+      "original_path": "notebooks/02_EDA와_시각화.ipynb",
+      "bytes": 326860
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/03_공연과_상권_연결_분석.ipynb",
+      "sha256": "51b70432e51790ebc4468d0194f0ce69e961fe1be153dfe3546b3a34b875653a",
+      "original_path": "notebooks/03_공연과_상권_연결_분석.ipynb",
+      "bytes": 631858
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/04_데이터_연결검증.ipynb",
+      "sha256": "e4953d30267322668e5e4cf9b5d0c85fbfcc3ca585d633a84ba56d720f58962b",
+      "original_path": "notebooks/04_데이터_연결검증.ipynb",
+      "bytes": 141753
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/05_업종차이와_GEE_분석.ipynb",
+      "sha256": "3a4d76cd547892ec4eb1ae280321877e861b6fc740e7808ad9ad4c250c1c0a10",
+      "original_path": "notebooks/05_업종차이와_GEE_분석.ipynb",
+      "bytes": 167690
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/06_온톨로지와_RDF_지식그래프.ipynb",
+      "sha256": "7f2933337539f5c40a223c43c857d86555a21bfdafdd3b242bb5237d076e50df",
+      "original_path": "notebooks/06_온톨로지와_RDF_지식그래프.ipynb",
+      "bytes": 119606
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/07_AI서비스_분석도구.ipynb",
+      "sha256": "6980e30cfd3fb958f6e5873cead8bca63ef4ca81e5005f5c92f00d15407066e1",
+      "original_path": "notebooks/07_AI서비스_분석도구.ipynb",
+      "bytes": 111926
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/07_KOPIS_상세정보_재수집.ipynb",
+      "sha256": "e26073f0d3881385237bf3f6d400513091d28b85a9c35b40210a06c07c77868b",
+      "original_path": "notebooks/07_KOPIS_상세정보_재수집.ipynb",
+      "bytes": 42151
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/08_외식업_범위확장과_데이터셋.ipynb",
+      "sha256": "6145ce981bde8cf2586b46dc89d144dbdecf787a2b018d46003b68cb58504dba",
+      "original_path": "notebooks/08_외식업_범위확장과_데이터셋.ipynb",
+      "bytes": 226798
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/08_KOPIS_CLI_오프라인_검증.ipynb",
+      "sha256": "f1ddaa4af60cc4b7bba5ab30a248e043cabccf7f597a2d43f776918103660975",
+      "original_path": "notebooks/08_KOPIS_CLI_오프라인_검증.ipynb",
+      "bytes": 21630
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/09_외식업_10종_비교분석.ipynb",
+      "sha256": "e3d71ce505bfc45baaa52a303693e450cd37567ca8a835f3c8299650a0ce82e9",
+      "original_path": "notebooks/09_외식업_10종_비교분석.ipynb",
+      "bytes": 285047
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/10_외식업_10종_GEE_보조분석.ipynb",
+      "sha256": "2ec7eb08a7f742d26276abcb6355376c723a78829c74014154f79f4ecfb4b3d0",
+      "original_path": "notebooks/10_외식업_10종_GEE_보조분석.ipynb",
+      "bytes": 248606
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/11_서울시_원자료_재수집.ipynb",
+      "sha256": "6b5b4fe1e3c6f0df879773d1fee3d3c8c664ef8dde4d3efd2bc76994deb74c88",
+      "original_path": "notebooks/11_서울시_원자료_재수집.ipynb",
+      "bytes": 27654
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/12_수집본_분석스냅샷.ipynb",
+      "sha256": "cb6872d0806aa9752155feababfd854c19f866396a6d33efcf8f5a2c50c843c7",
+      "original_path": "notebooks/12_수집본_분석스냅샷.ipynb",
+      "bytes": 33209
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/13_회귀모형_독립감사.ipynb",
+      "sha256": "db2cb7763f7ce9bf8a3bd0802e92f9ffe92ded6cd97da2c9e32b47eb16a064ee",
+      "original_path": "notebooks/13_회귀모형_독립감사.ipynb",
+      "bytes": 128187
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/14_공간과_공연노출_독립감사.ipynb",
+      "sha256": "10c9050b3782f22f18b30a48f0f8d9c9d268384620fc6138117dad8ccf42fb76",
+      "original_path": "notebooks/14_공간과_공연노출_독립감사.ipynb",
+      "bytes": 124934
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/15_자료와_표본_독립감사.ipynb",
+      "sha256": "2bfc50a70b4e3b2c6b4702d59e45e05d6cef811edb245aa81f02f11df4d915c3",
+      "original_path": "notebooks/15_자료와_표본_독립감사.ipynb",
+      "bytes": 128608
+    },
+    {
+      "archive_path": "archive/20261005_before_final/notebooks/16_분석_독립검토_종합.ipynb",
+      "sha256": "1c8744541cbe30799af21bbe2634824d380bc48206a1f3d52230e4ed8267f561",
+      "original_path": "notebooks/16_분석_독립검토_종합.ipynb",
+      "bytes": 33423
+    },
+    {
+      "archive_path": "archive/20261005_before_final/scripts/download_kopis.py",
+      "sha256": "026631559eedf21e2d05bc07d1bb475cefe610557d568bbb36c861ca75812e27",
+      "original_path": "scripts/download_kopis.py",
+      "bytes": 9857
+    },
+    {
+      "archive_path": "archive/20261005_before_final/scripts/download_research_data.py",
+      "sha256": "2d93983741e6b9e32b7fe9aadf027c897c54cf39f19bf9da450b3d3ed9223da7",
+      "original_path": "scripts/download_research_data.py",
+      "bytes": 4220
+    },
+    {
+      "archive_path": "archive/20261005_before_final/scripts/download_research_supplements.py",
+      "sha256": "ab929812f496fff048c87b3858bed9753c0f52ecd837542bf0dc24b763bf4219",
+      "original_path": "scripts/download_research_supplements.py",
+      "bytes": 3311
+    },
+    {
+      "archive_path": "archive/20261005_before_final/scripts/prepare_kopis_candidates.py",
+      "sha256": "c6fb6d0ebbbf5c871baaa0fdeab5076c31ebd48c2228c3c027a465ce0f81802a",
+      "original_path": "scripts/prepare_kopis_candidates.py",
+      "bytes": 5859
+    },
+    {
+      "archive_path": "archive/20261005_before_final/scripts/verify_downloaded_research_data.py",
+      "sha256": "3b99973c208d4c980366f0ff7c4434e5e11c0212548b0194755887af913d56c4",
+      "original_path": "scripts/verify_downloaded_research_data.py",
+      "bytes": 7384
+    },
+    {
+      "archive_path": "archive/20261005_before_final/scripts/__pycache__/download_kopis.cpython-312.pyc",
+      "sha256": "9a35d962580d82ac3743e352407344de0582f620122b0af2b14baea35885b840",
+      "original_path": "scripts/__pycache__/download_kopis.cpython-312.pyc",
+      "bytes": 18143
+    },
+    {
+      "archive_path": "archive/20261005_before_final/scripts/__pycache__/prepare_kopis_candidates.cpython-312.pyc",
+      "sha256": "2244908711d60b97bb3233d2f3f428081e44360c6af7de000a053badce3187a8",
+      "original_path": "scripts/__pycache__/prepare_kopis_candidates.cpython-312.pyc",
+      "bytes": 9424
+    },
+    {
+      "archive_path": "archive/20261005_before_final/scripts/__pycache__/verify_downloaded_research_data.cpython-312.pyc",
+      "sha256": "ff5ac19d7f2dc4be51fc9b3926e7a731913de0d9ba54164ae677101cf8018be8",
+      "original_path": "scripts/__pycache__/verify_downloaded_research_data.cpython-312.pyc",
+      "bytes": 11625
+    },
+    {
+      "archive_path": "archive/20261005_before_final/KOPIS_수집기.cmd",
+      "sha256": "0eebb9d42842186e39852afd393b2cb7fc2af569cecdc4b53bfd1482f066b3fc",
+      "original_path": "KOPIS_수집기.cmd",
+      "bytes": 153
+    },
+    {
+      "archive_path": "archive/20261005_before_final/kopis.cmd",
+      "sha256": "9a59410b72f5fc7f08077993655e3cd33416e93436f5c21ef7658be20d9632f8",
+      "original_path": "kopis.cmd",
+      "bytes": 705
+    },
+    {
+      "archive_path": "archive/20261005_before_final/README.md",
+      "sha256": "eaff3a81064afb623d31a904156d4a3964429a738ac6913d2d6eb0f08f7691fb",
+      "original_path": "README.md",
+      "bytes": 23458
+    },
+    {
+      "archive_path": "archive/20261005_before_final/requirements.txt",
+      "sha256": "d79ed92967a82b22f1c28960a2944ed6e3c0e97a7a0f726d894b5c061421cf3b",
+      "original_path": "requirements.txt",
+      "bytes": 252
+    },
+    {
+      "archive_path": "archive/20261005_before_final/AGENTS.md",
+      "sha256": "7a73ccd85c44ac0e52e356b8eed41f4583ba2e70bc6e394f105d34efbb48148a",
+      "original_path": "AGENTS.md",
+      "bytes": 2164
+    }
+  ]
+}

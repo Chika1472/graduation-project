@@ -1,0 +1,66 @@
+{
+  "audience": "technical",
+  "delivery": "portable_html",
+  "question": "유의성 탐색에서 측정·표본·추정법의 개선 후보와 무효한 p값 생성 경로를 구분할 수 있는가?",
+  "exploratory_after_prior_results": true,
+  "real_attempts": 580,
+  "source_sha256": {
+    "test/reports/01_specification_results.csv": "ace970c73282147b68c1b259e93a698893ee9f155a0bc1848dd64a1fa0b18da9",
+    "test/reports/05_results.csv": "d7980abc0874ef7d38a733116e28772db2046d459388c7739f20cb0062086d7f",
+    "test/reports/07_results.csv": "20d51bc6546c903ddd1996a9557e95d7af7a0126970012055c651bd5434ba1bb",
+    "test/reports/02_results.csv": "79d3939ab6d706315f6fbe9462535f2dfaec18399147cfded4fda3337472760e",
+    "test/reports/03_power.csv": "038e4a1ca0ff9bba9178950a91bac231eccfc805099a0d7df575d82a7b2a4689",
+    "test/reports/01_restored_core_areas.csv": "2258c72c4e6c51cfc36c9299d629d864845adf850e24469d748941457736015f",
+    "test/reports/03_null_calibration.csv": "0f9d9592f43f85a92c61ec693edbdc3c2f7a1b152c3ca4931feda0dcd04007c5",
+    "test/reports/01_summary.json": "d53e54922d625a458fa424eb1725f3e3bebc69a4c5e951089501ff9023aa66b9",
+    "test/reports/02_summary.json": "dc7694c5a637d840fadf6ef8127a86c37ba9690abdc3715fea833e00fdf73a75",
+    "test/reports/03_summary.json": "31493fc9f6574415bf2a85422cbdb0ef80a2c2ecf305e132af2dcb0c578c7c6c",
+    "test/reports/05_summary.json": "690a36e2e8ac53131abdd72e40b2ba232d86be077d4e19c54f925dd447bdd978",
+    "test/reports/06_summary.json": "8cbbe3d998eca37e0bd8819c4c43c2fe403282dbef7d36c78f6ebc20df6edd55",
+    "test/reports/07_summary.json": "3ec957b562de774c7690fd5cffb88d237131f34175e6d5177189682ce41e90a9"
+  },
+  "baselines_modified": false,
+  "required_structure_mapping": {
+    "title": "title",
+    "technical_summary": "summary",
+    "definitions": "scope/ppml_heading/seat_risk/method_heading",
+    "findings": "real_heading/ppml_heading/core_heading/seat_heading/cause_heading/misuse_heading/simulation_heading",
+    "methodology": "scope/method_heading/simulation_heading",
+    "uncertainty": "minimums/currency/seat_risk/null_calibration",
+    "next_steps": "method_heading",
+    "further_questions": "remaining"
+  },
+  "chart_map": [
+    {
+      "id": "core_chart",
+      "family": "horizontalBar",
+      "fields": [
+        "label",
+        "rows_after_repeat"
+      ],
+      "claim": "가용률 기준별 핵심상권 복원"
+    },
+    {
+      "id": "bad_methods_chart",
+      "family": "horizontalBar",
+      "fields": [
+        "label",
+        "nominal_significant"
+      ],
+      "claim": "다른 추정대상과 잘못된 불확실성 계산에서 명목 유의 개수가 바뀜"
+    }
+  ],
+  "table_rationale": "계수·CI·보정 p값, 잘못된 추론의 조건과 전체40·20검정은 정확한 조회가 중요하여 표로 제공. 합성효과는 업종과주입효과의 교차표로 표시. 두 막대차트는각각 표본지원과 방법별개수 비교라는 별개 질문.",
+  "sharing_assessment": "PRELIMINARY_ONLY; no confirmatory discovery; invalid and synthetic outputs explicitly labelled",
+  "multiple_testing": "BH entire580 is diagnostic under dependence; Bonferroni additionally shown. Ten duplicated checks retained as attempts. No correction makes data-guided selection confirmatory.",
+  "hypothesis_search_scope": "520 specification +20 PPML +40 seat comparisons; misuse286 and simulations excluded",
+  "validation": {
+    "real_attempts": 580,
+    "raw_below05": 16,
+    "bh_entire_below05": 0,
+    "bonferroni_entire_below05": 0
+  },
+  "delivery_verification": "structural_only",
+  "browser_visual_qa_performed": false,
+  "qa_limitation": "자동 브라우저 화면검사 불가. 수치·문서구조·의미적 대체표 검증 완료."
+}

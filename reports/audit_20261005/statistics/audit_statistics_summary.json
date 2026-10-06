@@ -1,0 +1,44 @@
+{
+  "input_sha256": {
+    "data/analysis/food_industry_panel.csv": "d45395f1034d3fcfd9f74c5c6ed80ee78aad439128a0cddbc8b27e202a18a46d",
+    "reports/08_food_scope_metadata.json": "4ccd95cde672604e8b70411e10369be1af290483e2104d6be47811e20aaaea8b",
+    "reports/09_analysis_summary.json": "2ae176dfabba9fa270394413665537fb32a1cb6e35483950a9a329c600aeb3b3",
+    "reports/09_industry_effects.csv": "c678c7f75da5a3c4e1bd888493a9840456db32ead53f2b53a918cac1f699af6d",
+    "reports/09_slope_covariances.csv": "2b0cd95163c6d77e784a9e8b425245af594edb58b21aa6a345d3963cb7f487ed",
+    "reports/09_omnibus_tests.csv": "9a31984184d8905ffee95aa8167d9967a982a698fb3e2bbba03edde30e31ed57",
+    "reports/09_model_sample_membership.csv": "6abd01abe2c28eb0e657f5a037884074ff07138b9391dffd93199379ca1d8185",
+    "reports/09_activity_change_contrasts.csv": "2b46587c6d547527844593f5744dc3e9e3e5300354321403caae7ecc47cbef9c",
+    "reports/10_gee_analysis_summary.json": "6427b75274608dd3dc8dc124d7b57f6e587548af14cc857617f2efe530418047",
+    "reports/10_gee_diagnostics.csv": "5837cf70dd459b6fd845ee9c50749eb62e9e4177a785ce599d33b932aeac631f",
+    "reports/10_gee_industry_effects.csv": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b",
+    "reports/10_gee_sample_membership.csv": "c95d3afba73d35c0b4f5b2ad30fc8ad638858c55fc03ec068288ac6b110c3cca"
+  },
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "nbformat": "5.11.1"
+  },
+  "direct_fe_max_coefficient_difference": 1.2065487497991967e-12,
+  "direct_fe_max_se_difference": 3.3306690738754696e-13,
+  "fixed_alpha_gee_max_coefficient_difference": 5.062616992290714e-14,
+  "fixed_alpha_gee_max_se_difference": 1.2878587085651816e-14,
+  "fe_primary_bh_significant": 0,
+  "local_cr1_bh_significant": 0,
+  "concentration_effective_clusters_min": 13.280009625939298,
+  "concentration_effective_clusters_max": 53.912939650110715,
+  "top1_partial_leverage_max": 0.16108353191054653,
+  "top5_partial_leverage_max": 0.5361373555147916,
+  "max_drop_change_original_se": 0.7087783982760862,
+  "scope": "main_500 only; direct FE and fixed-alpha GEE; deterministic highest-leverage-area omission",
+  "unverified": [
+    "GEE alpha estimation",
+    "CR2/Satterthwaite",
+    "wild cluster bootstrap",
+    "cross-area spatial dependence",
+    "selection from missing public sales",
+    "causal identification"
+  ]
+}

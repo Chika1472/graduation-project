@@ -1,0 +1,13 @@
+﻿scenario,label,outcome,nobs,area_clusters,entities,excluded_rows,stores_controlled,radius_m
+main_500,기본 500m,log_sales,2795,132,241,829,False,500
+main_500,기본 500m,night_share_pct,2795,132,241,829,False,500
+radius_300,거리 300m,log_sales,2795,132,241,829,False,300
+radius_300,거리 300m,night_share_pct,2795,132,241,829,False,300
+radius_800,거리 800m,log_sales,2795,132,241,829,False,800
+radius_800,거리 800m,night_share_pct,2795,132,241,829,False,800
+paired_500,두 업종 동시 관측,log_sales,2454,109,218,1170,False,500
+paired_500,두 업종 동시 관측,night_share_pct,2454,109,218,1170,False,500
+balanced_500,두 업종 12분기 균형,log_sales,2232,93,186,1392,False,500
+balanced_500,두 업종 12분기 균형,night_share_pct,2232,93,186,1392,False,500
+stores_500,점포 수 통제,log_sales,2795,132,241,829,True,500
+stores_500,점포 수 통제,night_share_pct,2795,132,241,829,True,500

@@ -1,0 +1,65 @@
+{
+  "run_id": "20261004_085253_11064a",
+  "status": "api_access_rejected",
+  "validated": true,
+  "validated_at_kst": "2026-10-04T09:13:52.595968+09:00",
+  "files": {
+    "facility_details": {
+      "path": "reports/kopis_collection/20261004_085253_11064a/facility_details.csv",
+      "sha256": "12e80c7522986a36c01838425dffa9e2962803c7122e2290b4dc7042b9674bbd",
+      "rows": 1715,
+      "id_key": "mt10id"
+    },
+    "performance_details": {
+      "path": "reports/kopis_collection/20261004_085253_11064a/performance_details.csv",
+      "sha256": "ca23a95ff17ecfcce05a9b4202d131b5d8c2b7c445267152e8fc47bb4a6129d6",
+      "rows": 196,
+      "id_key": "mt20id"
+    }
+  },
+  "collection_finished_at_kst": "2026-10-04T09:00:05.193766+09:00",
+  "collection_report": {
+    "path": "reports/kopis_collection/20261004_085253_11064a/collection_run.json",
+    "sha256": "17b111238589b251906b31666c0f6328db732bbaf817df304ceeaea30c211fa9"
+  },
+  "raw_sources": {
+    "path": "reports/kopis_collection/20261004_085253_11064a/raw_source_manifest.csv",
+    "sha256": "d07b5292e54a054954c2125cfc4bd32360bc0ab7a2668168e3d61f422d2123e1",
+    "rows": 1911
+  },
+  "input_sources": [
+    {
+      "path": "data/processed/kopis/facilities_list_seoul.csv",
+      "sha256": "d5303b3560c0eca14c4b983782d2f6291ad4c5a22531dd9627da75e50ed4c658",
+      "bytes": 133752
+    },
+    {
+      "path": "data/processed/kopis/performance_detail_candidates.csv",
+      "sha256": "1d879bb14751426adb7df5ecadc0adb3c792e7dc6f52c12dedbf92134b033a03",
+      "bytes": 3639173
+    },
+    {
+      "path": "data/processed/kopis/performances_list_seoul_2023_2025.csv",
+      "sha256": "5bdb922e96dd2fa8d410a1f6ae251f2da5948619313ff601133e9bce9c20c3be",
+      "bytes": 6611570
+    }
+  ],
+  "quality": {
+    "target_facilities": 672,
+    "target_facility_pending": 13,
+    "target_candidate_performances": 11635,
+    "target_candidate_performance_pending": 11440,
+    "official_performance_facility_links": 196,
+    "coordinates_missing_or_invalid": 0
+  },
+  "pending_counts": {
+    "facility": 40,
+    "performance": 13531
+  },
+  "limitations": [
+    "시설명 기반 후보는 공식 연결이 아님",
+    "미수집 상세는 0으로 보완하지 않음",
+    "현재 시설 좌표와 경계의 과거 유효성 미검증",
+    "기존 서울 목록과 후보 목록은 재수집하지 않음"
+  ]
+}

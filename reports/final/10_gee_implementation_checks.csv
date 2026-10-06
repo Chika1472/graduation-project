@@ -1,0 +1,9 @@
+﻿check,passed
+gaussian_identity,True
+exchangeable,True
+robust_covariance,True
+area_is_group,True
+source_cluster_score_outer_products,True
+input_hashes_unchanged,True
+all_20_eligibility_records,True
+all_20_within_records,True

@@ -1,0 +1,13 @@
+﻿check,passed
+fixed_panel_sha256,True
+fixed_manifest_sha256,True
+three_raw_sha256,True
+base_keys_unique,True
+full_151x10x12x6_grid,True
+long_keys_unique,True
+six_bins_per_base_key,True
+raw_presence_exact,True
+total_sales_exact,True
+night_sales_exact,True
+missing_sales_not_zero_imputed,True
+bin_widths_sum_24,True

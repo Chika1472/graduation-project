@@ -1,0 +1,9 @@
+﻿scenario,outcome,planned_tests,estimated,raw_significant,bh10_significant,bh20_significant
+centroid90,log1p_night_sales_21_24_won,10,10,0,0,0
+centroid90,log1p_total_sales_won,10,10,0,0,0
+id_same_sample,log1p_night_sales_21_24_won,10,10,0,0,0
+id_same_sample,log1p_total_sales_won,10,10,0,0,0
+min_distance100,log1p_night_sales_21_24_won,10,10,0,0,0
+min_distance100,log1p_total_sales_won,10,10,0,0,0
+primary_centroid100,log1p_night_sales_21_24_won,10,10,0,0,0
+primary_centroid100,log1p_total_sales_won,10,10,0,0,0

@@ -1,0 +1,38 @@
+{
+  "frozen_before_model_fitting_utc": "2026-10-04T20:03:41.553663+00:00",
+  "plan": {
+    "version": 1,
+    "primary_window": "post03",
+    "windows": [
+      "post03",
+      "post36",
+      "post06",
+      "pre03"
+    ],
+    "radius_m": 500,
+    "outcome": "log1p_timebin_sales_amount",
+    "primary_coverage_pct": 90.0,
+    "sensitivity_coverage_pct": 100.0,
+    "primary_fixed_effects": [
+      "area_industry_timebin",
+      "industry_quarter_timebin",
+      "area_industry_quarter"
+    ],
+    "comparison_fixed_effects": [
+      "area_industry_timebin",
+      "industry_quarter_timebin"
+    ],
+    "common_slope_family": "4 windows Holm",
+    "industry_slope_family": "4 windows x 10 industries BH (40)",
+    "industry_equality_family": "4 windows Holm",
+    "minimum_industry_clusters": 20,
+    "minimum_quarters_per_area_industry": 2,
+    "cluster": "area_id",
+    "confidence_intervals": "individual 95%, t(G-1)",
+    "exposure_units": "sum overlapping scheduled-window minutes / 180; post06=post03+post36",
+    "missing_sales_zero_filled": false,
+    "incomplete_exposure": "known partial sum, gated by ID availability",
+    "exact_event_window_sales": false,
+    "confirmatory_analysis": false
+  }
+}

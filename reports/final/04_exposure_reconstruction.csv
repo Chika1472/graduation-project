@@ -1,0 +1,4 @@
+﻿radius_m,area_quarters,mismatches,known_zero_area_quarters,median_count,max_count
+300,1812,0,631,3.0,586
+500,1812,0,325,15.0,627
+800,1812,0,88,46.0,675

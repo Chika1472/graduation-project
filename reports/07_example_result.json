@@ -1,0 +1,110 @@
+{
+  "status": "ok",
+  "data": {
+    "selection": {
+      "district": "종로구",
+      "industry": "중식음식점",
+      "quarter": "20254"
+    },
+    "unit": "KRW",
+    "time_unit": "quarter",
+    "panel_rows": 74,
+    "areas": 74,
+    "provided_sales_rows": 13,
+    "missing_sales_rows": 61,
+    "zero_sales_rows": 0,
+    "total_sales_krw": 20006867692.0,
+    "night_share_pct": 11.821386063075286,
+    "night_share_unit": "percent",
+    "night_share_method": "ratio_of_sums_on_same_rows",
+    "night_share_validation": {
+      "status": "ok",
+      "reason": null
+    },
+    "night_share_paired_rows": 13,
+    "night_share_numerator_krw": 2365089069.0,
+    "night_share_denominator_krw": 20006867692.0,
+    "negative_total_sales_rows": 0,
+    "night_exceeds_total_rows": 0
+  },
+  "scope": {
+    "districts": [
+      "종로구",
+      "마포구"
+    ],
+    "industries": {
+      "CS100001": "한식음식점",
+      "CS100002": "중식음식점",
+      "CS100003": "일식음식점",
+      "CS100004": "양식음식점",
+      "CS100005": "제과점",
+      "CS100006": "패스트푸드점",
+      "CS100007": "치킨전문점",
+      "CS100008": "분식전문점",
+      "CS100009": "호프-간이주점",
+      "CS100010": "커피-음료"
+    },
+    "quarters": [
+      "20231",
+      "20232",
+      "20233",
+      "20234",
+      "20241",
+      "20242",
+      "20243",
+      "20244",
+      "20251",
+      "20252",
+      "20253",
+      "20254"
+    ],
+    "time_unit": "quarter",
+    "causal_identification": false
+  },
+  "sources": [
+    {
+      "path": "data/analysis/food_industry_panel.csv",
+      "sha256": "d45395f1034d3fcfd9f74c5c6ed80ee78aad439128a0cddbc8b27e202a18a46d"
+    },
+    {
+      "path": "reports/08_food_scope_metadata.json",
+      "sha256": "4ccd95cde672604e8b70411e10369be1af290483e2104d6be47811e20aaaea8b"
+    },
+    {
+      "path": "data/analysis/food_industry_catalog.csv",
+      "sha256": "2ca90bf3a32fda0a929f5c57347e0b446a42ca6fbcc5876e3fa54a1767cc8ff5"
+    }
+  ],
+  "caveats": [
+    "원본 열에 당월이라는 명칭이 있어도 관측 단위는 분기다. 미제공 금액은 0원으로 채우지 않는다.",
+    "행별 야간비중의 단순 평균이 아니다. 같은 행으로 분자와 분모를 구성하고 분모가 0이면 null이다.",
+    "금액은 선택 상권의 제공 행 합계이며 상권 간 중첩을 제거하지 않았다. 점포 기준 중복 없는 자치구 총매출이나 미제공 행을 포함한 전체 매출로 해석하지 않는다."
+  ],
+  "applied_context": {
+    "time_unit": "quarter",
+    "claim_type": "association",
+    "performance_measure": "registered_performance_ids",
+    "missing_sales": "preserve_missing"
+  },
+  "run_id": "3a62ee85-5281-4d46-b548-fa0c76040a8d",
+  "sources_version": {
+    "panel": "d45395f1034d3fcfd9f74c5c6ed80ee78aad439128a0cddbc8b27e202a18a46d",
+    "catalog": "2ca90bf3a32fda0a929f5c57347e0b446a42ca6fbcc5876e3fa54a1767cc8ff5",
+    "scope_summary": "4ccd95cde672604e8b70411e10369be1af290483e2104d6be47811e20aaaea8b",
+    "scope_checks": "9957ebf5f2bc60a5f5173ad63e07489da4bc780af08cde2280aa411800ef215a",
+    "model_results": "c678c7f75da5a3c4e1bd888493a9840456db32ead53f2b53a918cac1f699af6d",
+    "model_samples": "fb42fb5139c7d90bb7019218a1da61aa400475287acc7458ea6581936144c6ca",
+    "model_omnibus": "9a31984184d8905ffee95aa8167d9967a982a698fb3e2bbba03edde30e31ed57",
+    "model_summary": "2ae176dfabba9fa270394413665537fb32a1cb6e35483950a9a329c600aeb3b3",
+    "model_checks": "c89badbae4691757c7d8c3933d84d615d92a975a19ca3dd8ac62af06d2189be6",
+    "graph_summary": "b07d84584646bca8811d05f007c4175cad0afb018a8b7c1a7bef601084527967",
+    "graph_manifest": "d420b5ab0328bb959694404dac5e77874602430ee3cb1c72333aab8b27b9799e",
+    "graph_checks": "a0fe3620e1f938bed6635cbe319eb2dc9ad856e99d63b3010f5c94fa6f3f33dc",
+    "ontology": "a376aeaea249db62d259dc18e1d63d94eb1f4de5a6a3c93a87429a7b18f561c7",
+    "gee_results": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b",
+    "gee_summary": "6427b75274608dd3dc8dc124d7b57f6e587548af14cc857617f2efe530418047",
+    "gee_diagnostics": "5837cf70dd459b6fd845ee9c50749eb62e9e4177a785ce599d33b932aeac631f",
+    "gee_checks": "305894d4712454faae8d983d73a52db62da84638dc55e078d482cd00a474c661",
+    "gee_sample_flow": "350d46308b0bbdc300bdb5832c717f2d48067d4d1b38315d60f40996f7c7deae"
+  }
+}

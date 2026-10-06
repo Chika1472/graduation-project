@@ -1,0 +1,14 @@
+{
+  "endpoint": "https://www.kopis.or.kr/openApi/restful/prfstsPrfByFct",
+  "params_without_key": {
+    "stdate": "20241001",
+    "eddate": "20241031",
+    "sharea": "11",
+    "cpage": 1,
+    "rows": 100
+  },
+  "collected_at_utc": "2026-10-03T16:44:07.673825+00:00",
+  "bytes": 48286,
+  "sha256": "134789d999fcca632e8f86c5d34a1553f50b25794c21989c73552c152c13b908",
+  "path": "data/raw/kopis/facility_statistics/202410.xml"
+}

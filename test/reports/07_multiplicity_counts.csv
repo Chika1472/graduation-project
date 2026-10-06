@@ -1,0 +1,5 @@
+﻿scenario,outcome,attempts,estimated,raw_p_below05,BH40_below05,minimum_p
+current_hall_seat_weighted_starts,log1p_night_sales_21_24_won,10,10,0,0,0.09230902559108584
+current_hall_seat_weighted_starts,log1p_total_sales_won,10,10,2,0,0.02364911296621898
+joint_start_count,log1p_night_sales_21_24_won,10,10,0,0,0.09092063656678363
+joint_start_count,log1p_total_sales_won,10,10,0,0,0.05223292889870727

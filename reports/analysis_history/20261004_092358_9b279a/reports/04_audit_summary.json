@@ -1,0 +1,66 @@
+{
+  "collection_run_id": "20261004_092358_9b279a",
+  "facility_detail_source": {
+    "role": "facility_details",
+    "path": "data/analysis/kopis_snapshots/20261004_092358_9b279a/facility_details.csv",
+    "sha256": "618eb4da0e626cbbcae53e911564f549005f3556dca420eff62ac3a7fb6a6e8b",
+    "bytes": 383470
+  },
+  "performance_detail_source": {
+    "role": "performance_details",
+    "path": "data/analysis/kopis_snapshots/20261004_092358_9b279a/performance_details.csv",
+    "sha256": "6323cfea2c83c7b13e8d44d758dccf44df1d80d6e33217514ede278e8c7acd57",
+    "bytes": 577004
+  },
+  "panel_rows": 3624,
+  "areas": 151,
+  "quarters": 12,
+  "observed_sales_rows": 2797,
+  "missing_sales_rows": 827,
+  "performance_ids": 30047,
+  "official_link_ids": 948,
+  "performance_ids_with_coordinates": 30047,
+  "performance_ids_without_coordinates": 0,
+  "target_missing_facilities": 0,
+  "target_missing_facilities_with_performances": 0,
+  "target_missing_performance_ids": 0,
+  "top_four_missing_facility_performance_ids": 0,
+  "ambiguous_normalized_facility_names": 0,
+  "raw_record_variant_ids": 0,
+  "distance_source_max_absolute_error_m": 5.684341886080802e-14,
+  "raw_months": 36,
+  "checks_passed": 46,
+  "checks_total": 46,
+  "watched_inputs_unchanged": true,
+  "model_sample_flow": [
+    {
+      "industry": "커피-음료",
+      "panel_rows": 1812,
+      "observed_sales": 1308,
+      "missing_sales": 504,
+      "before_singleton_filter": 1308,
+      "base_model_rows": 1307,
+      "area_clusters": 115,
+      "known_zero_500m_model_rows": 184
+    },
+    {
+      "industry": "한식음식점",
+      "panel_rows": 1812,
+      "observed_sales": 1489,
+      "missing_sales": 323,
+      "before_singleton_filter": 1489,
+      "base_model_rows": 1488,
+      "area_clusters": 126,
+      "known_zero_500m_model_rows": 272
+    }
+  ],
+  "limitations": [
+    "시설명 임시 연결이 대부분",
+    "현재 목록 좌표 누락 0건이나 과거 시설 위치 이력 미검증",
+    "현재 경계를 과거 모든 분기에 적용",
+    "기간 중복 공연 ID 수이며 회차·관객·일별 효과 아님",
+    "미제공 매출 제외에 따른 선택 편향 가능",
+    "공식 상세 ID 표본이 선택적으로 수집됨"
+  ],
+  "network_requests": 0
+}

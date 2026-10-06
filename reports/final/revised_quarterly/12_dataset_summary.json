@@ -1,0 +1,580 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-04T21:41:07.380305+00:00",
+  "plan_path": "final/metadata/revised_quarterly_plan.json",
+  "plan_sha256": "e54c6cdedb3bfc7ed0e34ca2f6d187ef8aa146c9d9c4d3e94603d924c302d8aa",
+  "panel_path": "data/analysis/final/revised_quarterly/revised_quarterly_panel.csv",
+  "panel_sha256": "ec68c9e71d8d6ae5ab859d4c53324dcb1baaa1521fea3c9c98bbec6f00ecc230",
+  "all_inputs_unchanged": true,
+  "validation_all_passed": true,
+  "validation_checks": 14155,
+  "new_regression_fits": 0,
+  "network_requests": 0,
+  "scope": {
+    "areas": 151,
+    "industries": 10,
+    "quarters": [
+      "20231",
+      "20232",
+      "20233",
+      "20234",
+      "20241",
+      "20242",
+      "20243",
+      "20244",
+      "20251",
+      "20252",
+      "20253",
+      "20254"
+    ],
+    "panel_rows": 18120
+  },
+  "spatial_definitions": [
+    "centroid500",
+    "min_distance500"
+  ],
+  "radius_m": 500,
+  "coordinate_crs_epsg": 5181,
+  "centroids_outside_polygon": [
+    "3130020",
+    "3110531",
+    "3110022",
+    "3110021",
+    "3110020",
+    "3130186",
+    "3120107",
+    "3120103",
+    "3110585",
+    "3110555"
+  ],
+  "coordinate_quality": {
+    "official_facility_ids": 537,
+    "facility_rows_available": 537,
+    "valid_current_coordinates": 537,
+    "missing_or_invalid_current_coordinates": 0
+  },
+  "kopis_snapshot_run_id": "20261004_154020_1c7d3b",
+  "candidate_performance_IDs": 12839,
+  "candidate_ID_quarters": 14202,
+  "eligible_ID_quarters": 13408,
+  "known_nominal_start_count_unique_ID_quarters": 135976,
+  "source_quarters_not_overlapping_current_registered_period": 0,
+  "quarter_candidates_without_regular_start": 22,
+  "parser_source_notebook": "final/notebooks/09_공연시간대_노출구축.ipynb",
+  "parser_source_cell_sha256": {
+    "6": "d90fa147560e60590cc6ef9d8e2e4d733689e650adb07fad26edf4ee741e2b13",
+    "7": "69b4ad10899808d44c21556a6a90bac7a1684d5f40162e79473e9d1150e9be25"
+  },
+  "eligibility_rule": "valid registered period + parse_schedule ok + at least one generated regular-weekday scheduled start in same source quarter; exclude own-runtime overlap only when runtime_status ok",
+  "availability_denominator": "all official candidate performance IDs per area and source quarter before parsing",
+  "zero_rule": "no observed official registered candidate -> 100pct coverage and zero nominal starts; not proof of no actual performance",
+  "partial_sum_rule": "known_scheduled_start_count excludes unavailable candidates; scheduled_start_count masked unless complete",
+  "runtime_role": "runtime_status ok AND own runtime overlap excluded; missing, unsupported, and over6h runtime not excluded by themselves",
+  "holiday_assumption": "normal weekday schedules repeated; HOL clauses not combined with a verified historical holiday calendar",
+  "normal_weekday_recurrence_assumption": true,
+  "actual_sessions_observed": false,
+  "actual_attendance_observed": false,
+  "actual_post_event_sales_observed": false,
+  "historical_schedule_versions_verified": false,
+  "timezone": "Asia/Seoul local naive scheduled datetime",
+  "sales_missing_zero_filled": false,
+  "sales_spatially_prorated": false,
+  "sample_availability": [
+    {
+      "spatial_definition": "centroid500",
+      "availability_threshold_pct": 100,
+      "area_quarters": 1271,
+      "zero_candidate_area_quarters": 535,
+      "observed_total_sales_rows": 5042,
+      "observed_total_sales_areas": 118,
+      "common_outcome_rows": 5042,
+      "common_outcome_areas": 118,
+      "repeated_entity_rows": 5015,
+      "repeated_entity_areas": 114
+    },
+    {
+      "spatial_definition": "centroid500",
+      "availability_threshold_pct": 90,
+      "area_quarters": 1612,
+      "zero_candidate_area_quarters": 535,
+      "observed_total_sales_rows": 6806,
+      "observed_total_sales_areas": 128,
+      "common_outcome_rows": 6806,
+      "common_outcome_areas": 128,
+      "repeated_entity_rows": 6791,
+      "repeated_entity_areas": 127
+    },
+    {
+      "spatial_definition": "min_distance500",
+      "availability_threshold_pct": 100,
+      "area_quarters": 1024,
+      "zero_candidate_area_quarters": 325,
+      "observed_total_sales_rows": 3590,
+      "observed_total_sales_areas": 103,
+      "common_outcome_rows": 3590,
+      "common_outcome_areas": 103,
+      "repeated_entity_rows": 3537,
+      "repeated_entity_areas": 95
+    },
+    {
+      "spatial_definition": "min_distance500",
+      "availability_threshold_pct": 90,
+      "area_quarters": 1594,
+      "zero_candidate_area_quarters": 325,
+      "observed_total_sales_rows": 6833,
+      "observed_total_sales_areas": 129,
+      "common_outcome_rows": 6833,
+      "common_outcome_areas": 129,
+      "repeated_entity_rows": 6818,
+      "repeated_entity_areas": 128
+    }
+  ],
+  "limitations": [
+    "current schedule repeated into historical registered periods without date-specific revisions or cancellations",
+    "HOL clauses not combined with a verified historical holiday calendar",
+    "coverage measures candidate IDs, not true session or audience coverage",
+    "current coordinates and boundaries applied to historical quarters; centroid can be outside polygon",
+    "whole-area sales remain spatial aggregates; shared performances may induce spatial dependence",
+    "quarterly total and fixed21-24h sales do not measure exact performance-following transactions"
+  ],
+  "inputs": [
+    {
+      "path": "final/metadata/revised_quarterly_plan.json",
+      "sha256_before": "e54c6cdedb3bfc7ed0e34ca2f6d187ef8aa146c9d9c4d3e94603d924c302d8aa",
+      "expected_sha256": null,
+      "sha256_after": "e54c6cdedb3bfc7ed0e34ca2f6d187ef8aa146c9d9c4d3e94603d924c302d8aa",
+      "unchanged": true
+    },
+    {
+      "path": "data/analysis/final/food_industry_panel.csv",
+      "sha256_before": "55b99e19fda1762669cf4e9e88fa710f13d11e846e7b6b73dbc155e706d67838",
+      "expected_sha256": "55b99e19fda1762669cf4e9e88fa710f13d11e846e7b6b73dbc155e706d67838",
+      "sha256_after": "55b99e19fda1762669cf4e9e88fa710f13d11e846e7b6b73dbc155e706d67838",
+      "unchanged": true
+    },
+    {
+      "path": "data/analysis/final/performance_facility_quarter.csv",
+      "sha256_before": "2aaf8e9ecc445b718f0c1600b98395022fc1aa469cbb3b782ff3c689ea67826d",
+      "expected_sha256": "2aaf8e9ecc445b718f0c1600b98395022fc1aa469cbb3b782ff3c689ea67826d",
+      "sha256_after": "2aaf8e9ecc445b718f0c1600b98395022fc1aa469cbb3b782ff3c689ea67826d",
+      "unchanged": true
+    },
+    {
+      "path": "final/metadata/kopis_analysis_sources.json",
+      "sha256_before": "91e594d954913adea4a204fc6a6aea4332b609f70037949e2a613f307205dee8",
+      "expected_sha256": "91e594d954913adea4a204fc6a6aea4332b609f70037949e2a613f307205dee8",
+      "sha256_after": "91e594d954913adea4a204fc6a6aea4332b609f70037949e2a613f307205dee8",
+      "unchanged": true
+    },
+    {
+      "path": "final/metadata/seoul_analysis_sources.json",
+      "sha256_before": "2aface72119b35a4871f087f2fb33664adabc7233addbbea6c35dd44714cc238",
+      "expected_sha256": "2aface72119b35a4871f087f2fb33664adabc7233addbbea6c35dd44714cc238",
+      "sha256_after": "2aface72119b35a4871f087f2fb33664adabc7233addbbea6c35dd44714cc238",
+      "unchanged": true
+    },
+    {
+      "path": "final/notebooks/09_공연시간대_노출구축.ipynb",
+      "sha256_before": "4e6a63a3280a412d44ded3bd7112b493a2ee298edd6bef6305e671ea9c5a0103",
+      "expected_sha256": "4e6a63a3280a412d44ded3bd7112b493a2ee298edd6bef6305e671ea9c5a0103",
+      "sha256_after": "4e6a63a3280a412d44ded3bd7112b493a2ee298edd6bef6305e671ea9c5a0103",
+      "unchanged": true
+    },
+    {
+      "path": "reports/final/09_industry_effects.csv",
+      "sha256_before": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+      "expected_sha256": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+      "sha256_after": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+      "unchanged": true
+    },
+    {
+      "path": "reports/final/time_windows/11_industry_effects.csv",
+      "sha256_before": "eadc974edb2e0e1966444985d3284abf99a354e104550b46d22ea30a3567062f",
+      "expected_sha256": "eadc974edb2e0e1966444985d3284abf99a354e104550b46d22ea30a3567062f",
+      "sha256_after": "eadc974edb2e0e1966444985d3284abf99a354e104550b46d22ea30a3567062f",
+      "unchanged": true
+    },
+    {
+      "path": "final/notebooks/01_입력검증과_준비.ipynb",
+      "sha256_before": "0aeb5ca8d11738bd52dd000295aa1192bd6cf119b44ee7785fb472a884f5a932",
+      "expected_sha256": null,
+      "sha256_after": "0aeb5ca8d11738bd52dd000295aa1192bd6cf119b44ee7785fb472a884f5a932",
+      "unchanged": true
+    },
+    {
+      "path": "final/notebooks/02_공연과_상권_연결.ipynb",
+      "sha256_before": "0469f7d31a487e1edd9c7b6b9e779444876b53e71c39e5f79ba89705b4c9b60e",
+      "expected_sha256": null,
+      "sha256_after": "0469f7d31a487e1edd9c7b6b9e779444876b53e71c39e5f79ba89705b4c9b60e",
+      "unchanged": true
+    },
+    {
+      "path": "final/notebooks/03_연결검증.ipynb",
+      "sha256_before": "eba63b1b177b3d4a89b791a1957f00ea468aa0b54b65b6909df4fe43ac94cbdd",
+      "expected_sha256": null,
+      "sha256_after": "eba63b1b177b3d4a89b791a1957f00ea468aa0b54b65b6909df4fe43ac94cbdd",
+      "unchanged": true
+    },
+    {
+      "path": "final/notebooks/04_외식업_데이터셋.ipynb",
+      "sha256_before": "56cb4082c141e975d5b1e4d287d6c8e989761ba9ec5778b1aa5e27eb1a387861",
+      "expected_sha256": null,
+      "sha256_after": "56cb4082c141e975d5b1e4d287d6c8e989761ba9ec5778b1aa5e27eb1a387861",
+      "unchanged": true
+    },
+    {
+      "path": "final/notebooks/05_외식업_고정효과분석.ipynb",
+      "sha256_before": "7ab7adeb1df8fe9624c10f2ade55c8b263d395da03bd134144eee62dce65eaa0",
+      "expected_sha256": null,
+      "sha256_after": "7ab7adeb1df8fe9624c10f2ade55c8b263d395da03bd134144eee62dce65eaa0",
+      "unchanged": true
+    },
+    {
+      "path": "final/notebooks/06_GEE_보조분석.ipynb",
+      "sha256_before": "a98f34d6073e0a515bc69b9c1ee4e0aadf2a36448cb58aff831dcabab769d0df",
+      "expected_sha256": null,
+      "sha256_after": "a98f34d6073e0a515bc69b9c1ee4e0aadf2a36448cb58aff831dcabab769d0df",
+      "unchanged": true
+    },
+    {
+      "path": "final/notebooks/07_RDF_지식그래프.ipynb",
+      "sha256_before": "c0ac45c06c6966c6ccf9d976ca6abdd883582829abeea1151b1dfe4f62dd2a20",
+      "expected_sha256": null,
+      "sha256_after": "c0ac45c06c6966c6ccf9d976ca6abdd883582829abeea1151b1dfe4f62dd2a20",
+      "unchanged": true
+    },
+    {
+      "path": "final/notebooks/08_분석도구.ipynb",
+      "sha256_before": "d4427bca968ac3291e4012440fad403e48a56e4758df657780aaf31f6cbab757",
+      "expected_sha256": null,
+      "sha256_after": "d4427bca968ac3291e4012440fad403e48a56e4758df657780aaf31f6cbab757",
+      "unchanged": true
+    },
+    {
+      "path": "final/notebooks/10_시간대매출_패널.ipynb",
+      "sha256_before": "c9cbec964dfaa7c583c10d94476a6b74fe0037f419a37d0b9d827ca27a73f989",
+      "expected_sha256": null,
+      "sha256_after": "c9cbec964dfaa7c583c10d94476a6b74fe0037f419a37d0b9d827ca27a73f989",
+      "unchanged": true
+    },
+    {
+      "path": "final/notebooks/11_공연시간창_매출분석.ipynb",
+      "sha256_before": "dbce3ac2dcbfbb651bb1a17b5b68e016f300408adf29f9c711049d2465153da5",
+      "expected_sha256": null,
+      "sha256_after": "dbce3ac2dcbfbb651bb1a17b5b68e016f300408adf29f9c711049d2465153da5",
+      "unchanged": true
+    },
+    {
+      "path": "reports/final/08_food_scope_metadata.json",
+      "sha256_before": "99331a685ff59385a5b0934a0f45ebe9f01892918a355fc9aa7faf7cc035c495",
+      "expected_sha256": null,
+      "sha256_after": "99331a685ff59385a5b0934a0f45ebe9f01892918a355fc9aa7faf7cc035c495",
+      "unchanged": true
+    },
+    {
+      "path": "data/analysis/final/study_areas.csv",
+      "sha256_before": "fd8c579f7f6afafc84e467607e66b32ddbac22aa59a7eb0c2d3b535dff6476ee",
+      "expected_sha256": "fd8c579f7f6afafc84e467607e66b32ddbac22aa59a7eb0c2d3b535dff6476ee",
+      "sha256_after": "fd8c579f7f6afafc84e467607e66b32ddbac22aa59a7eb0c2d3b535dff6476ee",
+      "unchanged": true
+    },
+    {
+      "path": "data/analysis/final/venue_area_distances_800m.csv",
+      "sha256_before": "4bb7ebbe986c1bd32eb042c8b7938c372aefff8ab70e87ed5591a912231fd063",
+      "expected_sha256": "4bb7ebbe986c1bd32eb042c8b7938c372aefff8ab70e87ed5591a912231fd063",
+      "sha256_after": "4bb7ebbe986c1bd32eb042c8b7938c372aefff8ab70e87ed5591a912231fd063",
+      "unchanged": true
+    },
+    {
+      "path": "data/analysis/kopis_snapshots/20261004_154020_1c7d3b/performance_details.csv",
+      "sha256_before": "6acd0ecf88670fac3f4d0b5d9b1dca3c413c0500f7ca56d9d3ab5f4a28e95896",
+      "expected_sha256": "6acd0ecf88670fac3f4d0b5d9b1dca3c413c0500f7ca56d9d3ab5f4a28e95896",
+      "sha256_after": "6acd0ecf88670fac3f4d0b5d9b1dca3c413c0500f7ca56d9d3ab5f4a28e95896",
+      "unchanged": true
+    },
+    {
+      "path": "data/analysis/kopis_snapshots/20261004_154020_1c7d3b/facility_details.csv",
+      "sha256_before": "618eb4da0e626cbbcae53e911564f549005f3556dca420eff62ac3a7fb6a6e8b",
+      "expected_sha256": "618eb4da0e626cbbcae53e911564f549005f3556dca420eff62ac3a7fb6a6e8b",
+      "sha256_after": "618eb4da0e626cbbcae53e911564f549005f3556dca420eff62ac3a7fb6a6e8b",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.cpg",
+      "sha256_before": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "expected_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "sha256_after": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.dbf",
+      "sha256_before": "7e2d03d69442418c142dbaa6b206888777fdd4207825df90c70af408f2c5f3ff",
+      "expected_sha256": "7e2d03d69442418c142dbaa6b206888777fdd4207825df90c70af408f2c5f3ff",
+      "sha256_after": "7e2d03d69442418c142dbaa6b206888777fdd4207825df90c70af408f2c5f3ff",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.prj",
+      "sha256_before": "680810e56b8fe15e448efdf2d278a9753369bc93a6fc0092b7952dfac4b872c9",
+      "expected_sha256": "680810e56b8fe15e448efdf2d278a9753369bc93a6fc0092b7952dfac4b872c9",
+      "sha256_after": "680810e56b8fe15e448efdf2d278a9753369bc93a6fc0092b7952dfac4b872c9",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.shp",
+      "sha256_before": "4de3d04e79a8b77440655c4eb880184bbeec426ebeb3ac2d0e00b2e5a3c8016c",
+      "expected_sha256": "4de3d04e79a8b77440655c4eb880184bbeec426ebeb3ac2d0e00b2e5a3c8016c",
+      "sha256_after": "4de3d04e79a8b77440655c4eb880184bbeec426ebeb3ac2d0e00b2e5a3c8016c",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.shx",
+      "sha256_before": "b0859525d6ab1ca0eaa708279de17435eda2a36eef69e9effbbae38f39c6f764",
+      "expected_sha256": "b0859525d6ab1ca0eaa708279de17435eda2a36eef69e9effbbae38f39c6f764",
+      "sha256_after": "b0859525d6ab1ca0eaa708279de17435eda2a36eef69e9effbbae38f39c6f764",
+      "unchanged": true
+    }
+  ],
+  "input_sha256": {
+    "final/metadata/revised_quarterly_plan.json": "e54c6cdedb3bfc7ed0e34ca2f6d187ef8aa146c9d9c4d3e94603d924c302d8aa",
+    "data/analysis/final/food_industry_panel.csv": "55b99e19fda1762669cf4e9e88fa710f13d11e846e7b6b73dbc155e706d67838",
+    "data/analysis/final/performance_facility_quarter.csv": "2aaf8e9ecc445b718f0c1600b98395022fc1aa469cbb3b782ff3c689ea67826d",
+    "final/metadata/kopis_analysis_sources.json": "91e594d954913adea4a204fc6a6aea4332b609f70037949e2a613f307205dee8",
+    "final/metadata/seoul_analysis_sources.json": "2aface72119b35a4871f087f2fb33664adabc7233addbbea6c35dd44714cc238",
+    "final/notebooks/09_공연시간대_노출구축.ipynb": "4e6a63a3280a412d44ded3bd7112b493a2ee298edd6bef6305e671ea9c5a0103",
+    "reports/final/09_industry_effects.csv": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+    "reports/final/time_windows/11_industry_effects.csv": "eadc974edb2e0e1966444985d3284abf99a354e104550b46d22ea30a3567062f",
+    "final/notebooks/01_입력검증과_준비.ipynb": "0aeb5ca8d11738bd52dd000295aa1192bd6cf119b44ee7785fb472a884f5a932",
+    "final/notebooks/02_공연과_상권_연결.ipynb": "0469f7d31a487e1edd9c7b6b9e779444876b53e71c39e5f79ba89705b4c9b60e",
+    "final/notebooks/03_연결검증.ipynb": "eba63b1b177b3d4a89b791a1957f00ea468aa0b54b65b6909df4fe43ac94cbdd",
+    "final/notebooks/04_외식업_데이터셋.ipynb": "56cb4082c141e975d5b1e4d287d6c8e989761ba9ec5778b1aa5e27eb1a387861",
+    "final/notebooks/05_외식업_고정효과분석.ipynb": "7ab7adeb1df8fe9624c10f2ade55c8b263d395da03bd134144eee62dce65eaa0",
+    "final/notebooks/06_GEE_보조분석.ipynb": "a98f34d6073e0a515bc69b9c1ee4e0aadf2a36448cb58aff831dcabab769d0df",
+    "final/notebooks/07_RDF_지식그래프.ipynb": "c0ac45c06c6966c6ccf9d976ca6abdd883582829abeea1151b1dfe4f62dd2a20",
+    "final/notebooks/08_분석도구.ipynb": "d4427bca968ac3291e4012440fad403e48a56e4758df657780aaf31f6cbab757",
+    "final/notebooks/10_시간대매출_패널.ipynb": "c9cbec964dfaa7c583c10d94476a6b74fe0037f419a37d0b9d827ca27a73f989",
+    "final/notebooks/11_공연시간창_매출분석.ipynb": "dbce3ac2dcbfbb651bb1a17b5b68e016f300408adf29f9c711049d2465153da5",
+    "reports/final/08_food_scope_metadata.json": "99331a685ff59385a5b0934a0f45ebe9f01892918a355fc9aa7faf7cc035c495",
+    "data/analysis/final/study_areas.csv": "fd8c579f7f6afafc84e467607e66b32ddbac22aa59a7eb0c2d3b535dff6476ee",
+    "data/analysis/final/venue_area_distances_800m.csv": "4bb7ebbe986c1bd32eb042c8b7938c372aefff8ab70e87ed5591a912231fd063",
+    "data/analysis/kopis_snapshots/20261004_154020_1c7d3b/performance_details.csv": "6acd0ecf88670fac3f4d0b5d9b1dca3c413c0500f7ca56d9d3ab5f4a28e95896",
+    "data/analysis/kopis_snapshots/20261004_154020_1c7d3b/facility_details.csv": "618eb4da0e626cbbcae53e911564f549005f3556dca420eff62ac3a7fb6a6e8b",
+    "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.dbf": "7e2d03d69442418c142dbaa6b206888777fdd4207825df90c70af408f2c5f3ff",
+    "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.prj": "680810e56b8fe15e448efdf2d278a9753369bc93a6fc0092b7952dfac4b872c9",
+    "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.shp": "4de3d04e79a8b77440655c4eb880184bbeec426ebeb3ac2d0e00b2e5a3c8016c",
+    "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.shx": "b0859525d6ab1ca0eaa708279de17435eda2a36eef69e9effbbae38f39c6f764"
+  },
+  "outputs": {
+    "data/analysis/final/revised_quarterly/area_quarter_exposure.csv": {
+      "rows": 3624,
+      "columns": [
+        "area_id",
+        "quarter",
+        "spatial_definition",
+        "candidate_id_count",
+        "eligible_id_count",
+        "known_scheduled_start_count",
+        "schedule_unavailable_candidate_ids",
+        "no_matching_regular_start_candidate_ids",
+        "excluded_known_valid_runtime_overlap_candidate_ids",
+        "has_hol_candidate_ids",
+        "runtime_missing_candidate_ids",
+        "runtime_not_ok_candidate_ids",
+        "period_extends_beyond_2025_candidate_ids",
+        "zero_registered_candidate",
+        "availability_pct",
+        "complete_schedule_coverage",
+        "scheduled_start_count"
+      ],
+      "sha256": "65dd52f5add5483ea363d0565321e495581c75cf63051859eaa50635ff4ee436"
+    },
+    "data/analysis/final/revised_quarterly/revised_quarterly_panel.csv": {
+      "rows": 18120,
+      "columns": [
+        "area_id",
+        "area_name",
+        "district_code",
+        "district",
+        "industry_id",
+        "industry",
+        "quarter",
+        "total_sales",
+        "sales_transactions",
+        "night_sales",
+        "weekend_sales",
+        "weekday_sales",
+        "sales_record_present",
+        "store_count",
+        "similar_industry_store_count",
+        "opened_stores",
+        "closed_stores",
+        "franchise_stores",
+        "store_record_present",
+        "availability",
+        "sales_record_missing",
+        "store_record_missing",
+        "total_sales_missing",
+        "store_count_missing",
+        "regular_store_count",
+        "franchise_store_count",
+        "total_store_count",
+        "negative_sales_flag",
+        "negative_store_flag",
+        "night_exceeds_total",
+        "weekend_exceeds_total",
+        "weekday_weekend_difference",
+        "night_share",
+        "night_share_valid",
+        "weekend_share",
+        "weekend_share_valid",
+        "positive_sales_zero_regular_stores",
+        "positive_sales_zero_stores",
+        "valid_sales_and_stores",
+        "year",
+        "quarter_number",
+        "known_performance_count_300m",
+        "known_performance_count_500m",
+        "known_performance_count_800m",
+        "total_store_size_group",
+        "candidate_id_count_centroid500",
+        "eligible_id_count_centroid500",
+        "known_scheduled_start_count_centroid500",
+        "schedule_unavailable_candidate_ids_centroid500",
+        "no_matching_regular_start_candidate_ids_centroid500",
+        "excluded_known_valid_runtime_overlap_candidate_ids_centroid500",
+        "has_hol_candidate_ids_centroid500",
+        "runtime_missing_candidate_ids_centroid500",
+        "runtime_not_ok_candidate_ids_centroid500",
+        "period_extends_beyond_2025_candidate_ids_centroid500",
+        "zero_registered_candidate_centroid500",
+        "availability_pct_centroid500",
+        "complete_schedule_coverage_centroid500",
+        "scheduled_start_count_centroid500",
+        "candidate_id_count_min_distance500",
+        "eligible_id_count_min_distance500",
+        "known_scheduled_start_count_min_distance500",
+        "schedule_unavailable_candidate_ids_min_distance500",
+        "no_matching_regular_start_candidate_ids_min_distance500",
+        "excluded_known_valid_runtime_overlap_candidate_ids_min_distance500",
+        "has_hol_candidate_ids_min_distance500",
+        "runtime_missing_candidate_ids_min_distance500",
+        "runtime_not_ok_candidate_ids_min_distance500",
+        "period_extends_beyond_2025_candidate_ids_min_distance500",
+        "zero_registered_candidate_min_distance500",
+        "availability_pct_min_distance500",
+        "complete_schedule_coverage_min_distance500",
+        "scheduled_start_count_min_distance500",
+        "centroid_x_m",
+        "centroid_y_m",
+        "centroid_inside_polygon",
+        "crs_epsg"
+      ],
+      "sha256": "ec68c9e71d8d6ae5ab859d4c53324dcb1baaa1521fea3c9c98bbec6f00ecc230"
+    },
+    "data/analysis/final/revised_quarterly/area_centroids.csv": {
+      "rows": 151,
+      "columns": [
+        "area_id",
+        "area_name",
+        "district_code",
+        "district",
+        "centroid_x_m",
+        "centroid_y_m",
+        "centroid_inside_polygon",
+        "polygon_area_km2",
+        "crs_epsg"
+      ],
+      "sha256": "63de3a60e0a8b6c1a97e48b24a4fc0de083a56b829e2823f86e22ac886f1e954"
+    },
+    "data/analysis/final/revised_quarterly/performance_quarter_schedule.csv": {
+      "rows": 14202,
+      "columns": [
+        "mt20id",
+        "mt10id",
+        "quarter",
+        "source_period_overlaps_quarter",
+        "generated_start_count",
+        "first_generated_start",
+        "last_generated_start",
+        "eligible_id_quarter",
+        "known_scheduled_start_count",
+        "no_matching_regular_start",
+        "has_hol",
+        "excluded_known_valid_runtime_overlap",
+        "schedule_status",
+        "runtime_status",
+        "valid_period",
+        "period_extends_beyond_2025"
+      ],
+      "sha256": "2657da0b2b0c025350a1f7e6b62bc1cc775916bb4d968f98f50b81005ef2263e"
+    },
+    "data/analysis/final/revised_quarterly/performance_schedule_audit.csv": {
+      "rows": 12839,
+      "columns": [
+        "mt20id",
+        "mt10id",
+        "dtguidance",
+        "prfruntime",
+        "prfpdfrom",
+        "prfpdto",
+        "schedule_status",
+        "valid_period",
+        "has_hol",
+        "runtime_status",
+        "runtime_minutes",
+        "own_runtime_overlap_ambiguous",
+        "excluded_known_valid_runtime_overlap",
+        "start_schedule_valid",
+        "period_extends_beyond_2025"
+      ],
+      "sha256": "eb7822bb2f0f2b1a31806c26e9348aad82fac5ff1b206b8e9e31c2d54d68a3a6"
+    },
+    "data/analysis/final/revised_quarterly/facility_area_links.csv": {
+      "rows": 4999,
+      "columns": [
+        "area_id",
+        "mt10id",
+        "spatial_definition",
+        "centroid_distance_m",
+        "min_distance_m"
+      ],
+      "sha256": "c6b8c02c2b1b7e0b7abd743425c6ed5e631795cdd9da236e111743a58d67a7b2"
+    },
+    "reports/final/revised_quarterly/12_sample_availability.csv": {
+      "rows": 4,
+      "columns": [
+        "spatial_definition",
+        "availability_threshold_pct",
+        "area_quarters",
+        "zero_candidate_area_quarters",
+        "observed_total_sales_rows",
+        "observed_total_sales_areas",
+        "common_outcome_rows",
+        "common_outcome_areas",
+        "repeated_entity_rows",
+        "repeated_entity_areas"
+      ],
+      "sha256": "92335a3ed6c44a73f572e3eaf1c03a3b3ad54a7e28bdb29e6c6416ab7f1ec199"
+    },
+    "reports/final/revised_quarterly/12_parser_edge_checks.csv": {
+      "rows": 14,
+      "columns": [
+        "test",
+        "input",
+        "expected",
+        "actual",
+        "passed"
+      ],
+      "sha256": "0e9328ee8efae4bd7df8d34de7bea587130bc7bbede66fe746a5f272153ab742"
+    },
+    "reports/final/revised_quarterly/12_validation_checks.csv": {
+      "rows": 14155,
+      "columns": [
+        "check",
+        "passed"
+      ],
+      "sha256": "99e140bbb1f990eccd3b4eb3b8a47b92a60682edf753ddf30598fd67607a97cb"
+    }
+  }
+}

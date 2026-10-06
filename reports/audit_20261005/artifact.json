@@ -1,0 +1,756 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "공연·외식업 분석: 추가 검토 결과",
+    "generatedAt": "2026-10-05T03:33:40.660788+09:00",
+    "description": "확정된 수정 대상과 설계 한계를 구분한 독립 검토",
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# 공연·외식업 분석: 추가 검토 결과"
+      },
+      {
+        "id": "summary",
+        "type": "markdown",
+        "body": "## 검토 판단: 변수 정의를 수정하고 관련성 분석으로 제시\n\n**점포 수의 정의·해석에서 수정할 문제를 확인했다.** 일부 프랜차이즈만 있는 행을 점포가 없는데 매출이 있는 사례로 설명했고, 일반점포 수를 통제하면서 전체 점포 규모를 통제한 것처럼 읽힐 여지가 있다.\n\n기본 고정효과 모형과 보조 GEE의 독립 재계산에서는 계수·표준오차 구현 오류를 발견하지 못했다. 다만 매출 제공 표본의 선택성, 업종별 표본 차이, 공연 강도와 공간 의존 문제 때문에 결과를 전체 외식업의 인과효과나 무효과의 증명으로 제시해서는 안 된다."
+      },
+      {
+        "id": "scope",
+        "type": "markdown",
+        "body": "## 검토 범위와 지표\n\n종로구·마포구의 공개 외식업 10종, 2023~2025년 12분기가 대상이다. 패널은 151상권×10업종×12분기의 18,120행이고 매출 제공은 7,661행이다. 기본 회귀는 7,646행을 사용한다. 총매출은 분기 추정매출, 야간 비중은 21~24시 매출/총매출이다. 공연 활동은 시설 점에서 현재 상권 폴리곤까지 정해진 거리 안에 있고 해당 분기와 기간이 겹치는 등록 공연 ID 수다.",
+        "sourceId": "sample"
+      },
+      {
+        "id": "store",
+        "type": "markdown",
+        "body": "## 일반점포 수를 전체점포 수로 해석한 부분은 수정해야 한다\n\n원자료 919,405행 모두에서 `유사_업종_점포_수 = 점포_수 + 프랜차이즈_점포_수`가 성립한다. 기존 `store_count`는 이 중 `점포_수`만 사용한다. 기존에 이상으로 표시한 매출양수·점포0의 95행은 모두 프랜차이즈 점포가 있었고, 전체점포까지 0인 행은 없었다.\n\n**영향 범위는 점포당 매출, 점포 수 통제 민감도 모형, 데이터 품질 설명이다.** 점포 수가 없는 기본 FE와 GEE의 수치에는 직접 영향을 주지 않는다. 매출의 모집단이 일반점포인지 전체점포인지는 추가 확인이 필요하므로 전체점포로 분모를 기계적으로 교체하는 것까지 정답으로 확정하지 않았다.",
+        "sourceId": "sample"
+      },
+      {
+        "id": "store_definition",
+        "type": "markdown",
+        "body": "서울시는 [점포 자료 안내](https://data.seoul.go.kr/dataList/OA-15577/S/1/datasetView.do)에서 전체 점포를 일반점포와 프랜차이즈의 합으로 설명한다. 일반·프랜차이즈·전체점포를 별도 변수로 명명하는 수정이 우선이다.",
+        "sourceId": "store_official"
+      },
+      {
+        "id": "zero_stores_block",
+        "type": "table",
+        "tableId": "zero_stores"
+      },
+      {
+        "id": "selection",
+        "type": "markdown",
+        "body": "## 작은 상권·업종은 매출 분석에서 빠지는 경향이 뚜렷하다\n\n전체점포가 1~2개인 4,430행의 매출 제공은 0%였다. 점포가 3~5개인 경우 제공률은 66.63%, 51개 이상은 100%였다. 미제공 10,459행 중 5,564행은 실제 전체점포 수가 양수였다. 단순히 미제공을 0으로 채우지 않은 것만으로 이 선택 문제가 해결되지는 않는다.\n\n아래 그림과 표는 점포 규모별 자료 관측 가능성을 보여 준다. 제공 억제나 추정 방식이 원인일 수 있지만 원인은 확정하지 않았다. 결과의 모집단을 자료가 제공된 상권·업종으로 제한해야 한다.",
+        "sourceId": "sample"
+      },
+      {
+        "id": "availability_chart_block",
+        "type": "chart",
+        "chartId": "availability_chart"
+      },
+      {
+        "id": "availability_block",
+        "type": "table",
+        "tableId": "availability"
+      },
+      {
+        "id": "comparison",
+        "type": "markdown",
+        "body": "## 업종 간 차이에는 서로 다른 지역 구성이 섞일 수 있다\n\n모든 10종이 같은 상권·분기에 관측되는 공통표본은 16개 상권, 170개 상권·분기, 1,700행이다. 기본모형의 22.23%만 남는다. 12분기 모두 10종이 관측되는 상권은 12개다. 현재 균형표본도 업종별로 따로 정했으므로 업종 사이의 동일 지역 비교를 보장하지 않는다.\n\n전체 표본을 공통표본으로 무조건 교체하면 대표성과 정밀도가 더 줄 수 있다. 기본 결과와 함께 작은 보조 비교를 제시하고, 업종 그 자체의 차이로 해석하는 범위를 좁히는 편이 적절하다.",
+        "sourceId": "sample"
+      },
+      {
+        "id": "spatial",
+        "type": "markdown",
+        "body": "## 같은 공연이 여러 상권에 공유되므로 공간 의존을 점검해야 한다\n\n500m 기준 고유 공연×분기 14,202조합은 평균 7.28개, 최대 22개 상권에 연결됐다. 99.30%가 2개 이상 상권에 공유됐고, 양의 공연 노출 시계열이 12분기 내내 완전히 같은 상권쌍도 21개였다. 현재 상권 군집 표준오차는 서로 다른 상권의 잔차 상관을 처리하지 않는다.\n\n**노출 공유만으로 잔차의 공간 상관이나 표준오차 편향이 입증된 것은 아니다.** 우선 잔차를 점검하고 공간 의존을 반영한 추론이 필요한지 판단해야 한다. 또 상권 면적은 약 1,869~653,127㎡로 달라 폴리곤까지 500m를 개별 음식점이나 상권 중심에서 500m로 설명하면 안 된다. 중심점이 더 올바른 거리라는 뜻도 아니다.",
+        "sourceId": "exposure"
+      },
+      {
+        "id": "measurement",
+        "type": "markdown",
+        "body": "## 공연 ID 개수는 공연 강도나 관객 수와 다르다\n\n800m 범위 공연 중 1일 공연은 ID의 57.98%이고 91일 이상 공연은 1.96%다. 그러나 시작~종료 달력기간을 합하면 후자가 56.16%를 차지한다. 지금의 지표는 이런 공연을 분기마다 각 1개 ID로 센다.\n\n아래 달력기간은 휴연을 포함할 수 있어 실제 공연일·상연 횟수로 해석할 수 없다. 공연 ID 수는 명확한 운영 지표로 유지하되 기간 가중 지표를 보조 비교하는 것이 합리적이다. 분기 자료로 관람 직전·직후의 식사·카페 이용을 직접 검증할 수 없다는 점도 명시해야 한다.",
+        "sourceId": "exposure"
+      },
+      {
+        "id": "duration_block",
+        "type": "table",
+        "tableId": "duration"
+      },
+      {
+        "id": "implementation",
+        "type": "markdown",
+        "body": "## 회귀 계산은 재현됐지만 정보집중도는 추가로 보고해야 한다\n\n직접 더미 회귀로 재계산한 FE 계수의 최대 차이는 1.21×10⁻¹², 표준오차는 3.33×10⁻¹³이다. GEE는 저장된 상관계수 α를 고정해 독립 계산했으며 계수 차이는 5.06×10⁻¹⁴였다. α 추정 알고리즘 자체를 독립 검증한 것은 아니다. BH·Holm 보정과 10→20개 시나리오의 단위 변환도 재현됐다.\n\n반면 중식은 상위 5개 상권이 잔차화한 설명변수 정보의 53.61%, 패스트푸드는 52.28%를 차지한다. 아래 집중도 지표는 실제 자유도나 Satterthwaite 추정값이 아니다. 각 업종에서 가장 큰 부분 레버리지 상권 하나를 제외하는 동일 규칙의 진단에서는 최대 계수 변화가 원래 표준오차의 0.709배였고, 업종별 자유도 대조 후에도 BH 유의 결과는 0개였다. 큰 결론 반전의 근거는 발견하지 못했다.",
+        "sourceId": "statistics"
+      },
+      {
+        "id": "support_block",
+        "type": "table",
+        "tableId": "support"
+      },
+      {
+        "id": "method",
+        "type": "markdown",
+        "body": "## 검증한 모형과 해석 범위\n\n주분석은 상권×업종 및 업종×연도분기 고정효과, 상권 단위 군집 공분산을 사용한다. GEE는 Gaussian identity, within-between 분해와 상권 내 exchangeable 작업상관을 둔 보조 분석이다.\n\n업종별 기울기 20개는 BH 보정, 두 결과변수의 동일기울기 검정은 Holm 보정을 한다. 동일기울기 검정은 모든 계수가 0이라는 검정이 아니다. 기본 결과가 유의하지 않다는 사실은 관계가 없다는 증명이 아니다. 개별 95% 신뢰구간도 다중비교 동시 구간은 아니다.",
+        "sourceId": "statistics"
+      },
+      {
+        "id": "unverified",
+        "type": "markdown",
+        "body": "## 아직 확인하지 못한 점과 발견되지 않은 오류\n\n현재 경계·시설 위치의 과거 유효성과 2024년 공간단위 개편 후 자료의 소급 재집계 여부는 확인하지 못했다. [서울시 공식 안내](https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do)에 개편이 명시돼 있으나 이것만으로 2023/2024년 자료가 잘못 연결됐다고 단정할 수 없다.\n\n반대로 장기 공연이 시작일 검색 때문에 전부 빠졌다는 의심은 저장된 자료에서 지지되지 않았다. 예상 월별 기간 중복 36,559쌍과 실제 원문이 일치했고, 관측기간 전체를 가로지르는 장기 공연 22개가 36개월에 모두 포함됐다. 다만 수집 목록 밖 미관측 ID까지 완전하다는 증명은 아니다."
+      },
+      {
+        "id": "service",
+        "type": "markdown",
+        "body": "## 서비스 구현과 통계 검증은 구분해야 한다\n\n현재 07번은 저장된 결과와 지표를 조회하는 오프라인 도구다. LLM·자연어 계획·웹 서비스는 연결되지 않았고, RDF도 총매출과 공연 관계 일부를 담는다. 따라서 현 단계에서 Agentic AI 서비스의 효과나 온톨로지의 오류 감소를 검증했다고 쓰면 안 된다. 기존 구현 현황 표시는 이 범위를 명시하고 있다.",
+        "sourceId": "service"
+      },
+      {
+        "id": "next",
+        "type": "markdown",
+        "body": "## 우선순위\n\n1. **점포 정의부터 수정한다.** 일반·프랜차이즈·전체 점포를 구분하고 95행의 설명을 바로잡는다. 매출 모집단을 확인한 뒤 점포당 매출과 점포 통제 민감도 모형을 재검토한다.\n2. **논문의 해석 범위를 좁힌다.** 관측된 상권·업종의 분기 관련성으로 기술하고, 인과효과·전체 외식업·실제 관객 유입으로 확대하지 않는다.\n3. **필요한 보조 검증만 추가한다.** 공통표본, 공간 잔차·소표본 추론, 기간 가중 노출을 사전에 정한 제한된 비교로 점검한다. 유의한 결과가 나오는 설정을 고르지 않는다.\n4. **남은 확인 질문을 분리한다.** 매출이 포괄하는 점포 모집단, 소규모 행 미제공 기준, 과거 경계·시설 위치 이력이 핵심이다. 이번 검토는 본 분석을 덮어쓰지 않고 별도 감사 자료로 남겼다."
+      }
+    ],
+    "tables": [
+      {
+        "id": "zero_stores",
+        "title": "프랜차이즈만 존재하는 양매출 관측",
+        "dataset": "zero_stores",
+        "sourceId": "store_rows",
+        "defaultSort": {
+          "field": "rows",
+          "direction": "desc"
+        },
+        "columns": [
+          {
+            "field": "industry",
+            "label": "업종",
+            "type": "text"
+          },
+          {
+            "field": "rows",
+            "label": "매출양수·일반점포0 행",
+            "format": "number"
+          },
+          {
+            "field": "franchise_positive",
+            "label": "프랜차이즈 존재 행",
+            "format": "number"
+          },
+          {
+            "field": "all_store_positive",
+            "label": "전체점포 양수 행",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "availability",
+        "title": "점포 규모별 매출 제공",
+        "dataset": "availability",
+        "sourceId": "availability",
+        "defaultSort": {
+          "field": "order",
+          "direction": "asc"
+        },
+        "columns": [
+          {
+            "field": "order",
+            "label": "순서",
+            "format": "number"
+          },
+          {
+            "field": "all_store_band",
+            "label": "전체점포 수",
+            "type": "text"
+          },
+          {
+            "field": "expected_rows",
+            "label": "행 수",
+            "format": "number"
+          },
+          {
+            "field": "sales_rows",
+            "label": "매출 제공 행",
+            "format": "number"
+          },
+          {
+            "field": "availability_pct",
+            "label": "제공률(%)",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "duration",
+        "title": "공연 기간과 ID 비중",
+        "dataset": "duration",
+        "sourceId": "duration",
+        "defaultSort": {
+          "field": "performance_ids",
+          "direction": "desc"
+        },
+        "columns": [
+          {
+            "field": "duration_group",
+            "label": "달력기간",
+            "type": "text"
+          },
+          {
+            "field": "performance_ids",
+            "label": "공연 ID 수",
+            "format": "number"
+          },
+          {
+            "field": "id_share_pct",
+            "label": "ID 비중(%)",
+            "format": "number"
+          },
+          {
+            "field": "envelope_share_pct",
+            "label": "달력기간 비중(%)",
+            "format": "number"
+          }
+        ]
+      },
+      {
+        "id": "support",
+        "title": "업종별 회귀 정보집중도",
+        "dataset": "support",
+        "sourceId": "support",
+        "defaultSort": {
+          "field": "concentration_effective_clusters",
+          "direction": "asc"
+        },
+        "columns": [
+          {
+            "field": "industry",
+            "label": "업종",
+            "type": "text"
+          },
+          {
+            "field": "area_clusters",
+            "label": "명목 상권 수",
+            "format": "number"
+          },
+          {
+            "field": "top5_partial_leverage",
+            "label": "상위5개 부분 레버리지",
+            "format": "percent"
+          },
+          {
+            "field": "concentration_effective_clusters",
+            "label": "집중도 기반 유효 군집 수",
+            "format": "number"
+          }
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "id": "availability_chart",
+        "title": "점포 규모별 매출 제공률",
+        "subtitle": "2023~2025년 · 상권×업종×분기 · 전체점포 수 확인 행",
+        "type": "bar",
+        "dataset": "availability_chart",
+        "sourceId": "availability_chart",
+        "valueFormat": "number",
+        "encodings": {
+          "x": {
+            "field": "all_store_band",
+            "type": "nominal",
+            "label": "전체점포 수"
+          },
+          "y": {
+            "field": "availability_pct",
+            "type": "quantitative",
+            "label": "매출 제공률(%)"
+          },
+          "tooltip": [
+            {
+              "field": "expected_rows",
+              "type": "quantitative",
+              "label": "행 수"
+            },
+            {
+              "field": "sales_rows",
+              "type": "quantitative",
+              "label": "매출 제공 행"
+            }
+          ]
+        }
+      }
+    ],
+    "sources": [
+      {
+        "id": "sample",
+        "label": "자료·표본 독립 감사",
+        "path": "reports/audit_20261005/sample/summary.json"
+      },
+      {
+        "id": "statistics",
+        "label": "통계모형 독립 감사",
+        "path": "reports/audit_20261005/statistics/audit_statistics_summary.json"
+      },
+      {
+        "id": "exposure",
+        "label": "공간·공연노출 독립 감사",
+        "path": "reports/audit_20261005/exposure/audit_summary.json"
+      },
+      {
+        "id": "store_rows",
+        "label": "일반점포 0·매출양수 행",
+        "path": "reports/audit_20261005/sample/03_zero_regular_store_sales.csv",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT industry, rows, franchise_positive, all_store_positive FROM store_rows",
+          "tables_used": [
+            "store_rows"
+          ],
+          "description": "감사 CSV를 같은 이름의 임시 SQLite 테이블에 적재한 뒤 표·차트 입력을 추출한 실제 SQL"
+        }
+      },
+      {
+        "id": "availability",
+        "label": "점포 규모별 매출 제공률",
+        "path": "reports/audit_20261005/sample/05_sales_availability_by_store_size.csv",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT *, CASE all_store_band WHEN '0' THEN 0 WHEN '1' THEN 1 WHEN '2' THEN 2 WHEN '3–5' THEN 3 WHEN '6–10' THEN 4 WHEN '11–20' THEN 5 WHEN '21–50' THEN 6 WHEN '51+' THEN 7 ELSE 8 END AS [order] FROM availability ORDER BY [order]",
+          "tables_used": [
+            "availability"
+          ],
+          "description": "감사 CSV를 같은 이름의 임시 SQLite 테이블에 적재한 뒤 표·차트 입력을 추출한 실제 SQL"
+        }
+      },
+      {
+        "id": "support",
+        "label": "업종별 회귀 정보집중도",
+        "path": "reports/audit_20261005/statistics/identification_support.csv",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT industry, area_clusters, top5_partial_leverage, concentration_effective_clusters FROM support",
+          "tables_used": [
+            "support"
+          ],
+          "description": "감사 CSV를 같은 이름의 임시 SQLite 테이블에 적재한 뒤 표·차트 입력을 추출한 실제 SQL"
+        }
+      },
+      {
+        "id": "duration",
+        "label": "공연 달력기간 분포",
+        "path": "reports/audit_20261005/exposure/duration_mix.csv",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT * FROM duration",
+          "tables_used": [
+            "duration"
+          ],
+          "description": "감사 CSV를 같은 이름의 임시 SQLite 테이블에 적재한 뒤 표·차트 입력을 추출한 실제 SQL"
+        }
+      },
+      {
+        "id": "service",
+        "label": "분석 도구 구현 현황",
+        "path": "reports/07_tool_readiness_summary.json"
+      },
+      {
+        "id": "availability_chart",
+        "label": "양의 점포 규모별 매출 제공률",
+        "path": "reports/audit_20261005/sample/05_sales_availability_by_store_size.csv",
+        "query": {
+          "engine": "sqlite",
+          "language": "sql",
+          "sql": "SELECT * FROM (SELECT *, CASE all_store_band WHEN '0' THEN 0 WHEN '1' THEN 1 WHEN '2' THEN 2 WHEN '3–5' THEN 3 WHEN '6–10' THEN 4 WHEN '11–20' THEN 5 WHEN '21–50' THEN 6 WHEN '51+' THEN 7 ELSE 8 END AS [order] FROM availability ORDER BY [order]) WHERE all_store_band NOT IN ('0','자료없음') ORDER BY [order]",
+          "tables_used": [
+            "availability"
+          ],
+          "description": "감사 CSV를 같은 이름의 임시 SQLite 테이블에 적재한 뒤 표·차트 입력을 추출한 실제 SQL"
+        }
+      },
+      {
+        "id": "store_official",
+        "label": "서울시 점포 자료 공식 정의",
+        "href": "https://data.seoul.go.kr/dataList/OA-15577/S/1/datasetView.do"
+      },
+      {
+        "id": "sales_official",
+        "label": "서울시 추정매출 자료 공식 안내",
+        "href": "https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do"
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-10-05T03:33:40.660788+09:00",
+    "status": "ready",
+    "datasets": {
+      "zero_stores": [
+        {
+          "industry": "제과점",
+          "rows": 17,
+          "franchise_positive": 17,
+          "all_store_positive": 17
+        },
+        {
+          "industry": "패스트푸드점",
+          "rows": 24,
+          "franchise_positive": 24,
+          "all_store_positive": 24
+        },
+        {
+          "industry": "치킨전문점",
+          "rows": 47,
+          "franchise_positive": 47,
+          "all_store_positive": 47
+        },
+        {
+          "industry": "커피-음료",
+          "rows": 7,
+          "franchise_positive": 7,
+          "all_store_positive": 7
+        }
+      ],
+      "availability": [
+        {
+          "all_store_band": "0",
+          "expected_rows": 87,
+          "sales_rows": 0,
+          "median_activity": 13.0,
+          "availability_pct": 0.0,
+          "order": 0
+        },
+        {
+          "all_store_band": "1",
+          "expected_rows": 2596,
+          "sales_rows": 0,
+          "median_activity": 10.0,
+          "availability_pct": 0.0,
+          "order": 1
+        },
+        {
+          "all_store_band": "2",
+          "expected_rows": 1834,
+          "sales_rows": 0,
+          "median_activity": 12.0,
+          "availability_pct": 0.0,
+          "order": 2
+        },
+        {
+          "all_store_band": "3–5",
+          "expected_rows": 2718,
+          "sales_rows": 1811,
+          "median_activity": 12.0,
+          "availability_pct": 66.629874908,
+          "order": 3
+        },
+        {
+          "all_store_band": "6–10",
+          "expected_rows": 2114,
+          "sales_rows": 1956,
+          "median_activity": 20.0,
+          "availability_pct": 92.5260170293,
+          "order": 4
+        },
+        {
+          "all_store_band": "11–20",
+          "expected_rows": 1764,
+          "sales_rows": 1698,
+          "median_activity": 39.0,
+          "availability_pct": 96.2585034014,
+          "order": 5
+        },
+        {
+          "all_store_band": "21–50",
+          "expected_rows": 1345,
+          "sales_rows": 1342,
+          "median_activity": 57.0,
+          "availability_pct": 99.7769516729,
+          "order": 6
+        },
+        {
+          "all_store_band": "51+",
+          "expected_rows": 854,
+          "sales_rows": 854,
+          "median_activity": 125.5,
+          "availability_pct": 100.0,
+          "order": 7
+        },
+        {
+          "all_store_band": "자료없음",
+          "expected_rows": 4808,
+          "sales_rows": 0,
+          "median_activity": 8.0,
+          "availability_pct": 0.0,
+          "order": 8
+        }
+      ],
+      "duration": [
+        {
+          "duration_group": "1일",
+          "performance_ids": 7702,
+          "envelope_days": 7702,
+          "id_share_pct": 57.9751599548,
+          "envelope_share_pct": 4.6293012772
+        },
+        {
+          "duration_group": "2~7일",
+          "performance_ids": 3415,
+          "envelope_days": 11459,
+          "id_share_pct": 25.7056831012,
+          "envelope_share_pct": 6.8874530428
+        },
+        {
+          "duration_group": "8~30일",
+          "performance_ids": 1363,
+          "envelope_days": 19478,
+          "id_share_pct": 10.2596913813,
+          "envelope_share_pct": 11.7072877536
+        },
+        {
+          "duration_group": "31~90일",
+          "performance_ids": 544,
+          "envelope_days": 34298,
+          "id_share_pct": 4.0948438088,
+          "envelope_share_pct": 20.6148760331
+        },
+        {
+          "duration_group": "91일 이상",
+          "performance_ids": 261,
+          "envelope_days": 93438,
+          "id_share_pct": 1.9646217539,
+          "envelope_share_pct": 56.1610818933
+        }
+      ],
+      "support": [
+        {
+          "industry": "한식음식점",
+          "area_clusters": 126,
+          "top5_partial_leverage": 0.1855574137,
+          "concentration_effective_clusters": 53.9129396501
+        },
+        {
+          "industry": "중식음식점",
+          "area_clusters": 43,
+          "top5_partial_leverage": 0.5361373555,
+          "concentration_effective_clusters": 13.4046681698
+        },
+        {
+          "industry": "일식음식점",
+          "area_clusters": 43,
+          "top5_partial_leverage": 0.4305409268,
+          "concentration_effective_clusters": 15.687495679
+        },
+        {
+          "industry": "양식음식점",
+          "area_clusters": 59,
+          "top5_partial_leverage": 0.3280528541,
+          "concentration_effective_clusters": 24.8133953
+        },
+        {
+          "industry": "제과점",
+          "area_clusters": 48,
+          "top5_partial_leverage": 0.4792997882,
+          "concentration_effective_clusters": 15.5025470088
+        },
+        {
+          "industry": "패스트푸드점",
+          "area_clusters": 40,
+          "top5_partial_leverage": 0.5227740046,
+          "concentration_effective_clusters": 13.2800096259
+        },
+        {
+          "industry": "치킨전문점",
+          "area_clusters": 45,
+          "top5_partial_leverage": 0.4973136307,
+          "concentration_effective_clusters": 15.7161407429
+        },
+        {
+          "industry": "분식전문점",
+          "area_clusters": 76,
+          "top5_partial_leverage": 0.3022790627,
+          "concentration_effective_clusters": 29.0275941535
+        },
+        {
+          "industry": "호프-간이주점",
+          "area_clusters": 83,
+          "top5_partial_leverage": 0.2905978236,
+          "concentration_effective_clusters": 33.1557462214
+        },
+        {
+          "industry": "커피-음료",
+          "area_clusters": 115,
+          "top5_partial_leverage": 0.206767809,
+          "concentration_effective_clusters": 47.265554149
+        }
+      ],
+      "availability_chart": [
+        {
+          "all_store_band": "1",
+          "expected_rows": 2596,
+          "sales_rows": 0,
+          "median_activity": 10.0,
+          "availability_pct": 0.0,
+          "order": 1
+        },
+        {
+          "all_store_band": "2",
+          "expected_rows": 1834,
+          "sales_rows": 0,
+          "median_activity": 12.0,
+          "availability_pct": 0.0,
+          "order": 2
+        },
+        {
+          "all_store_band": "3–5",
+          "expected_rows": 2718,
+          "sales_rows": 1811,
+          "median_activity": 12.0,
+          "availability_pct": 66.629874908,
+          "order": 3
+        },
+        {
+          "all_store_band": "6–10",
+          "expected_rows": 2114,
+          "sales_rows": 1956,
+          "median_activity": 20.0,
+          "availability_pct": 92.5260170293,
+          "order": 4
+        },
+        {
+          "all_store_band": "11–20",
+          "expected_rows": 1764,
+          "sales_rows": 1698,
+          "median_activity": 39.0,
+          "availability_pct": 96.2585034014,
+          "order": 5
+        },
+        {
+          "all_store_band": "21–50",
+          "expected_rows": 1345,
+          "sales_rows": 1342,
+          "median_activity": 57.0,
+          "availability_pct": 99.7769516729,
+          "order": 6
+        },
+        {
+          "all_store_band": "51+",
+          "expected_rows": 854,
+          "sales_rows": 854,
+          "median_activity": 125.5,
+          "availability_pct": 100.0,
+          "order": 7
+        }
+      ]
+    },
+    "accessIssues": []
+  },
+  "sources": [
+    {
+      "id": "sample",
+      "label": "자료·표본 독립 감사",
+      "path": "reports/audit_20261005/sample/summary.json"
+    },
+    {
+      "id": "statistics",
+      "label": "통계모형 독립 감사",
+      "path": "reports/audit_20261005/statistics/audit_statistics_summary.json"
+    },
+    {
+      "id": "exposure",
+      "label": "공간·공연노출 독립 감사",
+      "path": "reports/audit_20261005/exposure/audit_summary.json"
+    },
+    {
+      "id": "store_rows",
+      "label": "일반점포 0·매출양수 행",
+      "path": "reports/audit_20261005/sample/03_zero_regular_store_sales.csv",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT industry, rows, franchise_positive, all_store_positive FROM store_rows",
+        "tables_used": [
+          "store_rows"
+        ],
+        "description": "감사 CSV를 같은 이름의 임시 SQLite 테이블에 적재한 뒤 표·차트 입력을 추출한 실제 SQL"
+      }
+    },
+    {
+      "id": "availability",
+      "label": "점포 규모별 매출 제공률",
+      "path": "reports/audit_20261005/sample/05_sales_availability_by_store_size.csv",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT *, CASE all_store_band WHEN '0' THEN 0 WHEN '1' THEN 1 WHEN '2' THEN 2 WHEN '3–5' THEN 3 WHEN '6–10' THEN 4 WHEN '11–20' THEN 5 WHEN '21–50' THEN 6 WHEN '51+' THEN 7 ELSE 8 END AS [order] FROM availability ORDER BY [order]",
+        "tables_used": [
+          "availability"
+        ],
+        "description": "감사 CSV를 같은 이름의 임시 SQLite 테이블에 적재한 뒤 표·차트 입력을 추출한 실제 SQL"
+      }
+    },
+    {
+      "id": "support",
+      "label": "업종별 회귀 정보집중도",
+      "path": "reports/audit_20261005/statistics/identification_support.csv",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT industry, area_clusters, top5_partial_leverage, concentration_effective_clusters FROM support",
+        "tables_used": [
+          "support"
+        ],
+        "description": "감사 CSV를 같은 이름의 임시 SQLite 테이블에 적재한 뒤 표·차트 입력을 추출한 실제 SQL"
+      }
+    },
+    {
+      "id": "duration",
+      "label": "공연 달력기간 분포",
+      "path": "reports/audit_20261005/exposure/duration_mix.csv",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT * FROM duration",
+        "tables_used": [
+          "duration"
+        ],
+        "description": "감사 CSV를 같은 이름의 임시 SQLite 테이블에 적재한 뒤 표·차트 입력을 추출한 실제 SQL"
+      }
+    },
+    {
+      "id": "service",
+      "label": "분석 도구 구현 현황",
+      "path": "reports/07_tool_readiness_summary.json"
+    },
+    {
+      "id": "availability_chart",
+      "label": "양의 점포 규모별 매출 제공률",
+      "path": "reports/audit_20261005/sample/05_sales_availability_by_store_size.csv",
+      "query": {
+        "engine": "sqlite",
+        "language": "sql",
+        "sql": "SELECT * FROM (SELECT *, CASE all_store_band WHEN '0' THEN 0 WHEN '1' THEN 1 WHEN '2' THEN 2 WHEN '3–5' THEN 3 WHEN '6–10' THEN 4 WHEN '11–20' THEN 5 WHEN '21–50' THEN 6 WHEN '51+' THEN 7 ELSE 8 END AS [order] FROM availability ORDER BY [order]) WHERE all_store_band NOT IN ('0','자료없음') ORDER BY [order]",
+        "tables_used": [
+          "availability"
+        ],
+        "description": "감사 CSV를 같은 이름의 임시 SQLite 테이블에 적재한 뒤 표·차트 입력을 추출한 실제 SQL"
+      }
+    },
+    {
+      "id": "store_official",
+      "label": "서울시 점포 자료 공식 정의",
+      "href": "https://data.seoul.go.kr/dataList/OA-15577/S/1/datasetView.do"
+    },
+    {
+      "id": "sales_official",
+      "label": "서울시 추정매출 자료 공식 안내",
+      "href": "https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do"
+    }
+  ]
+}

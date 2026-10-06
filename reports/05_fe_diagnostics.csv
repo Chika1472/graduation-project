@@ -1,0 +1,13 @@
+﻿scenario,outcome,estimator,design_columns,rank,residual_df,inference_df
+main_500,log_sales,FE,265,265,2530.0,131.0
+main_500,night_share_pct,FE,265,265,2530.0,131.0
+radius_300,log_sales,FE,265,265,2530.0,131.0
+radius_300,night_share_pct,FE,265,265,2530.0,131.0
+radius_800,log_sales,FE,265,265,2530.0,131.0
+radius_800,night_share_pct,FE,265,265,2530.0,131.0
+paired_500,log_sales,FE,242,242,2212.0,108.0
+paired_500,night_share_pct,FE,242,242,2212.0,108.0
+balanced_500,log_sales,FE,210,210,2022.0,92.0
+balanced_500,night_share_pct,FE,210,210,2022.0,92.0
+stores_500,log_sales,FE,267,267,2528.0,131.0
+stores_500,night_share_pct,FE,267,267,2528.0,131.0

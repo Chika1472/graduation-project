@@ -1,0 +1,8 @@
+{
+  "endpoint": "https://kopis.or.kr/openApi/restful/prfplc/FC004589",
+  "collected_at_kst": "2026-10-04T08:53:46.742681+09:00",
+  "http_status": 200,
+  "sha256": "d4903c5ec9885398aeaf63f28d8931071a2a58ae5b212d37223ed693cc70fe9e",
+  "bytes": 1207,
+  "path": "data/raw/kopis_recollection/20261004_085253_11064a/facility_details/FC004589.xml"
+}

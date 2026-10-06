@@ -1,0 +1,4 @@
+﻿year,path,sha256,hash_match
+2023,data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2023.csv,1e8ea69cd4892176b9496678316b9e4772f59f902033f5b26200a5ce02397b8c,True
+2024,data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2024.csv,8b3e066e91f399d07c33949e2eb1d5765594f00af656f52f2cab3116674da0d2,True
+2025,data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2025.csv,2e299cd3e78a98d9b46634af0cc768276d8d270eb4c38b5f1b1ce54f8dcd828f,True

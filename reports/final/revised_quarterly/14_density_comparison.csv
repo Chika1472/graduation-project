@@ -1,0 +1,7 @@
+﻿population,complete_schedule_coverage,area_quarters,areas,zero_candidate_area_quarters,median_availability_pct,candidate_id_count_mean,candidate_id_count_median,candidate_id_count_p90,candidate_id_count_max,known_scheduled_start_count_mean,known_scheduled_start_count_median,known_scheduled_start_count_p90,known_scheduled_start_count_max
+all_area_quarters,False,541,102,0,92.85714285714286,72.92975970425138,33.0,217.0,545,771.373382624769,184.0,2046.0,8110
+all_area_quarters,True,1271,133,535,100.0,7.57513768686074,1.0,24.0,113,41.782848151062154,2.0,118.0,720
+positive_candidate_area_quarters,False,541,102,0,92.85714285714286,72.92975970425138,33.0,217.0,545,771.373382624769,184.0,2046.0,8110
+positive_candidate_area_quarters,True,736,117,0,100.0,13.081521739130435,7.0,33.0,113,72.15489130434783,23.5,238.0,720
+area_quarters_with_observed_sales,False,474,90,0,93.33333333333333,79.62447257383967,35.5,236.5999999999999,545,836.6814345991561,182.0,2436.5999999999985,8110
+area_quarters_with_observed_sales,True,1119,118,478,100.0,7.386952636282395,1.0,24.0,113,39.1277926720286,2.0,98.20000000000005,720

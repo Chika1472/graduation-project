@@ -1,0 +1,13 @@
+﻿scenario,label,outcome,nobs_total,area_clusters_total,estimated_industries,design_rank,residual_df,inference_df,cluster_correction
+main_500,기본 500m,log_sales,7646,134,10,798,6848,133,1.1247782130560045
+main_500,기본 500m,night_share_pct,7646,134,10,798,6848,133,1.1247782130560045
+radius_300,거리 300m,log_sales,7646,134,10,798,6848,133,1.1247782130560045
+radius_300,거리 300m,night_share_pct,7646,134,10,798,6848,133,1.1247782130560045
+radius_800,거리 800m,log_sales,7646,134,10,798,6848,133,1.1247782130560045
+radius_800,거리 800m,night_share_pct,7646,134,10,798,6848,133,1.1247782130560045
+balanced_500,업종별 12분기 균형,log_sales,7020,131,10,705,6315,130,1.1200304525245144
+balanced_500,업종별 12분기 균형,night_share_pct,7020,131,10,705,6315,130,1.1200304525245144
+stores_500,일반점포 수 통제,log_sales,7646,134,10,808,6838,133,1.1264231066112196
+stores_500,일반점포 수 통제,night_share_pct,7646,134,10,808,6838,133,1.1264231066112196
+total_stores_500,전체점포 수 통제,log_sales,7646,134,10,808,6838,133,1.1264231066112196
+total_stores_500,전체점포 수 통제,night_share_pct,7646,134,10,808,6838,133,1.1264231066112196

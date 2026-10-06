@@ -1,0 +1,4 @@
+﻿unit,n_units,mean_areas_per_unit,median_areas_per_unit,p90_areas_per_unit,max_areas_per_unit,units_shared_by_at_least_2_areas,shared_unit_pct,total_area_unit_relations
+active_facility_ID,466,7.090128755364807,7.0,11.5,22,450,96.56652360515021,3304
+performance_ID,12839,7.321286704572008,7.0,11.0,22,12742,99.24448944621855,93998
+performance_ID_quarter,14202,7.277496127306013,7.0,11.0,22,14102,99.29587382058865,103355

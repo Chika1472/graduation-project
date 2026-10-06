@@ -1,0 +1,9 @@
+﻿level,window,expected_minutes,study_minutes,outside_minutes,actual_minutes,passed
+performance_session,post03,24365160,24311695,53465,24365160,True
+performance_session,post36,24365160,24306665,58495,24365160,True
+performance_session,post06,48730320,48618360,111960,48730320,True
+performance_session,pre03,24365160,24313140,52020,24365160,True
+shared_area_session,post03,165522600,165146770,375830,165522600,True
+shared_area_session,post36,165522600,165113410,409190,165522600,True
+shared_area_session,post06,331045200,330260180,785020,331045200,True
+shared_area_session,pre03,165522600,165157740,364860,165522600,True

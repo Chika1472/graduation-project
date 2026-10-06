@@ -1,0 +1,8 @@
+{
+  "endpoint": "https://www.kopis.or.kr/openApi/restful/prfplc/FC002174",
+  "params_without_key": {},
+  "collected_at_utc": "2026-10-03T16:43:32.272166+00:00",
+  "bytes": 982,
+  "sha256": "bd743c9989a192633fd19522cd866816616ce7a9d2f3a7c95711e469229e6e98",
+  "path": "data/raw/kopis/facility_details/FC002174.xml"
+}

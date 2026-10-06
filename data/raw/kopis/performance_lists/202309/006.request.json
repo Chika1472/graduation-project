@@ -1,0 +1,14 @@
+{
+  "endpoint": "https://www.kopis.or.kr/openApi/restful/pblprfr",
+  "params_without_key": {
+    "stdate": "20230901",
+    "eddate": "20230930",
+    "signgucode": "11",
+    "cpage": 6,
+    "rows": 100
+  },
+  "collected_at_utc": "2026-10-03T16:40:33.033887+00:00",
+  "bytes": 39326,
+  "sha256": "33dbcf041af5149b2f50cb9683147eb3b0d640bc6ceb72914059498a526d5e1d",
+  "path": "data/raw/kopis/performance_lists/202309/006.xml"
+}

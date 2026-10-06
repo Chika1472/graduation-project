@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-05T05:31:20+09:00",
+  "run_id": "20261005_052911_f98e59",
+  "downloaded_document_count": 6,
+  "downloaded_public_sample_count": 4,
+  "sales_data_downloaded": false,
+  "sample_data_downloaded": true,
+  "application_submitted": false,
+  "inquiry_sent": false,
+  "current_analysis_input_changed": false,
+  "next_dependency": "개인회원 로그인·방문 일정·자료 제공 단위 확인"
+}

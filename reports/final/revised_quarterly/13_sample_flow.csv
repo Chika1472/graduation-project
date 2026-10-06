@@ -1,0 +1,14 @@
+﻿scenario,stage,nobs,areas,area_quarters,entities
+primary_centroid100,full_keys,18120,151,1812,1510
+primary_centroid100,common_outcomes_observed,7661,135,1593,693
+primary_centroid100,availability_passed,5042,118,1119,597
+primary_centroid100,at_least_two_quarters,5015,114,1115,570
+centroid90,full_keys,18120,151,1812,1510
+centroid90,common_outcomes_observed,7661,135,1593,693
+centroid90,availability_passed,6806,128,1422,665
+centroid90,at_least_two_quarters,6791,127,1421,650
+min_distance100,full_keys,18120,151,1812,1510
+min_distance100,common_outcomes_observed,7661,135,1593,693
+min_distance100,availability_passed,3590,103,884,490
+min_distance100,at_least_two_quarters,3537,95,876,437
+id_same_sample,exact_primary_common_sample,5015,114,1115,570

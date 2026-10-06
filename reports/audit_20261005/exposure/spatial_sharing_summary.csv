@@ -1,0 +1,10 @@
+﻿metric,value
+unique_performance_quarter_pairs_500m,14202.0
+mean_areas_per_performance_quarter,7.277496127306013
+median_areas_per_performance_quarter,7.0
+maximum_areas_per_performance_quarter,22.0
+pairs_shared_by_multiple_areas_pct,99.29587382058865
+areas_with_observed_performance,147.0
+area_pairs_with_shared_performances,1201.0
+area_pairs_jaccard_ge_0_8,78.0
+identical_positive_exposure_profile_pairs,21.0

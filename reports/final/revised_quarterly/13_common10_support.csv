@@ -1,0 +1,9 @@
+﻿scenario,sample_stage,all10_areas,all10_area_quarters,all10_rows,scenario_rows,all10_row_share_pct
+primary_centroid100,before_industry_estimability,13,90,900,5015,17.94616151545364
+centroid90,before_industry_estimability,16,148,1480,6791,21.79355028714475
+min_distance100,before_industry_estimability,7,40,400,3537,11.309018942606729
+id_same_sample,before_industry_estimability,13,90,900,5015,17.94616151545364
+primary_centroid100,estimated_industries_only,13,90,900,5015,17.94616151545364
+centroid90,estimated_industries_only,16,148,1480,6791,21.79355028714475
+min_distance100,estimated_industries_only,7,40,400,3537,11.309018942606729
+id_same_sample,estimated_industries_only,13,90,900,5015,17.94616151545364

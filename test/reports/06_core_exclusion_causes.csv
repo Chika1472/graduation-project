@@ -1,0 +1,13 @@
+﻿area_id,area_name,primary_exclusion_reason,excluded_ID_quarters,unique_excluded_IDs,affected_quarters,all_excluded_ID_quarters,share_of_excluded_ID_quarters_pct
+3120012,대학로(혜화역),no_regular_start_in_source_quarter,10,10,6,522,1.9157088122605364
+3120012,대학로(혜화역),overlap_with_valid_runtime,384,71,12,522,73.5632183908046
+3120012,대학로(혜화역),schedule:hol_only_no_normal_schedule,5,5,5,522,0.9578544061302682
+3120012,대학로(혜화역),schedule:missing_schedule,1,1,1,522,0.19157088122605365
+3120012,대학로(혜화역),schedule:overlapping_weekday_blocks,110,42,12,522,21.0727969348659
+3120012,대학로(혜화역),schedule:reverse_weekday_range,8,6,5,522,1.5325670498084292
+3120012,대학로(혜화역),schedule:unsupported_schedule,4,3,3,522,0.7662835249042146
+3120103,홍대입구역(홍대),no_regular_start_in_source_quarter,4,4,4,54,7.407407407407407
+3120103,홍대입구역(홍대),overlap_with_valid_runtime,6,2,5,54,11.11111111111111
+3120103,홍대입구역(홍대),schedule:hol_only_no_normal_schedule,36,36,10,54,66.66666666666667
+3120103,홍대입구역(홍대),schedule:overlapping_weekday_blocks,1,1,1,54,1.8518518518518519
+3120103,홍대입구역(홍대),schedule:reverse_weekday_range,7,7,5,54,12.962962962962964

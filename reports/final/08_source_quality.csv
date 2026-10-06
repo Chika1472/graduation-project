@@ -1,0 +1,7 @@
+﻿dataset,year,rows,industries,duplicate_keys,missing_key_rows,quarter_count
+sales,2023,88246,63,0,0,4
+sales,2024,87179,62,0,0,4
+sales,2025,85732,62,0,0,4
+stores,2023,307741,100,0,0,4
+stores,2024,306889,100,0,0,4
+stores,2025,304775,100,0,0,4

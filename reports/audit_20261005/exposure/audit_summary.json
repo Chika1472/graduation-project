@@ -1,0 +1,77 @@
+{
+  "run_id": "20261004_154020_1c7d3b",
+  "network_requests": 0,
+  "local800_performance_ids": 13285,
+  "local800_official_only": true,
+  "monthly_overlap_audit": {
+    "raw_processed_month_pair_difference": 0,
+    "expected_overlap_pairs": 36559,
+    "observed_pairs": 36559,
+    "missing_expected_overlap_pairs": 0,
+    "extra_outside_period_pairs": 0,
+    "pre2023_start_ids": 170,
+    "pre2023_start_post2025_end_ids": 22,
+    "cross_window_ids_observed_36_months": 22
+  },
+  "one_day_id_share_pct": 57.975159954836286,
+  "one_day_envelope_share_pct": 4.629301277235162,
+  "count_envelope_correlations": {
+    "log1p_levels": 0.9142476171150585,
+    "area_and_district_quarter_residuals": 0.7376408599091488
+  },
+  "geometry": {
+    "areas": 151,
+    "overlap_pairs_gt1m2": 16,
+    "min_area_m2": 1869.0341578869036,
+    "max_area_m2": 653126.9528732524,
+    "median_area_m2": 71198.01197323675,
+    "max_extent_m": 3383.9738999999827
+  },
+  "zero_distance": {
+    "area_venue_links_500m": 5670.0,
+    "zero_distance_area_venue_links": 622.0,
+    "zero_distance_unique_facilities": 348.0,
+    "area_performance_quarter_records_500m": 103355.0,
+    "zero_distance_performance_quarter_records": 11427.0,
+    "zero_distance_record_share_pct": 11.056068888781384
+  },
+  "centroid_comparison": {
+    "polygon500_links_centroid_gt500": 2731.0,
+    "polygon500_performance_quarter_records_centroid_gt500": 54272.0,
+    "polygon500_records_centroid_gt500_pct": 52.510280102559136
+  },
+  "spatial_sharing": {
+    "unique_performance_quarter_pairs_500m": 14202.0,
+    "mean_areas_per_performance_quarter": 7.277496127306013,
+    "median_areas_per_performance_quarter": 7.0,
+    "maximum_areas_per_performance_quarter": 22.0,
+    "pairs_shared_by_multiple_areas_pct": 99.29587382058865,
+    "areas_with_observed_performance": 147.0,
+    "area_pairs_with_shared_performances": 1201.0,
+    "area_pairs_jaccard_ge_0_8": 78.0,
+    "identical_positive_exposure_profile_pairs": 21.0
+  },
+  "facility_resolution": {
+    "facilities_with_used_performances_800m": 495,
+    "facilities_with_multiple_used_hall_ids": 64,
+    "performance_ids_in_multiple_hall_facilities": 4688,
+    "distinct_coincident_coordinate_groups": 18,
+    "performances_starting_before_recorded_opening_year": 0
+  },
+  "classification": {
+    "confirmed_measurement_limits": [
+      "공연ID와실제상연강도불일치",
+      "폴리곤크기에따른500m범위차이",
+      "상권간공연노출공유"
+    ],
+    "unverified": [
+      "누락된미관측공연전체규모",
+      "역사적시설위치및경계",
+      "상권간잔차공간상관과기존표준오차편향"
+    ],
+    "not_established": [
+      "시작일검색때문에장기공연전부누락",
+      "좌표누락때문에현재800m노출손실"
+    ]
+  }
+}

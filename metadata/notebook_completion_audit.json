@@ -1,0 +1,38 @@
+{
+  "requirements": {
+    "all_downloaded_files_moved_and_hash_verified": 4352,
+    "source_folder_empty": true,
+    "new_analysis_code_only_ipynb": true,
+    "notebooks_run_from_fresh_kernels": [
+      {
+        "path": "C:\\Coding\\졸업프로젝트\\notebooks\\01_데이터_점검과_전처리.ipynb",
+        "code_cells_executed": 7,
+        "errors": 0,
+        "html": "C:\\Coding\\졸업프로젝트\\reports\\notebooks\\01_데이터_점검과_전처리.html"
+      },
+      {
+        "path": "C:\\Coding\\졸업프로젝트\\notebooks\\02_EDA와_시각화.ipynb",
+        "code_cells_executed": 7,
+        "errors": 0,
+        "html": "C:\\Coding\\졸업프로젝트\\reports\\notebooks\\02_EDA와_시각화.html"
+      },
+      {
+        "path": "C:\\Coding\\졸업프로젝트\\notebooks\\03_공연과_상권_연결_분석.ipynb",
+        "code_cells_executed": 10,
+        "errors": 0,
+        "html": "C:\\Coding\\졸업프로젝트\\reports\\notebooks\\03_공연과_상권_연결_분석.html"
+      }
+    ],
+    "visualizations_inspected": 7,
+    "panel_rows": 3624,
+    "missing_sales_preserved": 827,
+    "models_executed": 12,
+    "credential_absent_from_new_outputs": true
+  },
+  "limitations": [
+    "KOPIS facility-detail coverage is incomplete",
+    "Most performance-facility links use unverified unique name matching",
+    "Current facility coordinates and boundary snapshot applied to historical periods",
+    "Regression is exploratory association, not causal evidence"
+  ]
+}

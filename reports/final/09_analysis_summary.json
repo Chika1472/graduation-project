@@ -1,0 +1,96 @@
+{
+  "scope": "종로구·마포구/공개 외식업10종/2023~2025분기",
+  "seoul_refresh_run_id": "20261004_091155_b8dd0e",
+  "kopis_collection_run_id": "20261004_154020_1c7d3b",
+  "input_file": "data/analysis/final/food_industry_panel.csv",
+  "input_sha256": "55b99e19fda1762669cf4e9e88fa710f13d11e846e7b6b73dbc155e706d67838",
+  "reference_file": "data/analysis/baseline_two_industry/05_interaction_results.csv",
+  "reference_sha256": "8ca2b6740d3b2da7c7b9afe73605255fe5888402b1cc59e7572de96811b9ae2b",
+  "reference_input_file": "data/analysis/baseline_two_industry/performance_sales_panel.csv",
+  "reference_input_sha256": "305fc1c7268f08dd59434bfd828372afd89ac19831b2d756656456f94c0f34db",
+  "reference_scope": "frozen_two_industry_input_and_05_results_before_refresh",
+  "industry_ids": [
+    "CS100001",
+    "CS100002",
+    "CS100003",
+    "CS100004",
+    "CS100005",
+    "CS100006",
+    "CS100007",
+    "CS100008",
+    "CS100009",
+    "CS100010"
+  ],
+  "primary_radius_m": 500,
+  "exploratory_expansion_after_two_industry_results": true,
+  "scenarios": [
+    "main_500",
+    "radius_300",
+    "radius_800",
+    "balanced_500",
+    "stores_500",
+    "total_stores_500"
+  ],
+  "outcomes": [
+    "log_sales",
+    "night_share_pct"
+  ],
+  "fe_systems": 12,
+  "reference_contrasts_verified": 12,
+  "primary_effect_tests": 20,
+  "primary_omnibus": [
+    {
+      "scenario": "main_500",
+      "outcome": "log_sales",
+      "estimated_industries": 10,
+      "status": "estimated",
+      "f_statistic": 0.6098231322028912,
+      "df_num": 9,
+      "df_denom": 133,
+      "p_value": 0.7869923790004546,
+      "p_holm_primary": 0.7869923790004546
+    },
+    {
+      "scenario": "main_500",
+      "outcome": "night_share_pct",
+      "estimated_industries": 10,
+      "status": "estimated",
+      "f_statistic": 1.4117062817509474,
+      "df_num": 9,
+      "df_denom": 133,
+      "p_value": 0.18914688707044386,
+      "p_holm_primary": 0.3782937741408877
+    }
+  ],
+  "fdr_significant_primary": [],
+  "causal_identification": false,
+  "store_control_columns": {
+    "stores_500": "regular_store_count",
+    "total_stores_500": "total_store_count"
+  },
+  "store_count_alias": "regular_store_count",
+  "sales_per_store_interpreted": false,
+  "confidence_intervals": "individual_95pct_not_multiplicity_adjusted",
+  "limitations": [
+    "작은 점포 집단의 선택적 매출 미제공",
+    "업종별 서로 다른 관측 상권",
+    "일부 상권에 집중된 잔차화 공연 활동 정보",
+    "공연 ID 수는 상연 횟수·관객 수가 아님",
+    "공연 노출 공유 및 잔차 공간 상관 미검증",
+    "현재 시설 좌표와 상권 경계의 과거 적용",
+    "비유의 결과는 효과 부재의 증거가 아님"
+  ],
+  "python": "3.12.14",
+  "output_sha256": {
+    "reports/final/09_industry_effects.csv": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+    "reports/final/09_omnibus_tests.csv": "bcf1872bc2a67c9059c23b4e414a83597cbf03cb4f974e92dce1f9ad8444c429",
+    "reports/final/09_model_samples.csv": "8afe4822d95c684e711e79068696e7367bb1f88287515c9442bc90cce0736667",
+    "reports/final/09_eligibility.csv": "891d4d418efe1c4c273ff8b71f8c9c487f07e5e6e205608b9ccaec71511a0585",
+    "reports/final/09_slope_covariances.csv": "28aadd6f492970295a06e490ed6e860e19c602c1bf07b53c6d57cf0768641aa4",
+    "reports/final/09_fwl_validation.csv": "c89badbae4691757c7d8c3933d84d615d92a975a19ca3dd8ac62af06d2189be6",
+    "reports/final/09_activity_change_contrasts.csv": "2b46587c6d547527844593f5744dc3e9e3e5300354321403caae7ecc47cbef9c",
+    "reports/final/09_model_sample_membership.csv": "c35378e10273503376673307b39bbf67c7c8e42991bdb8c47a19cf7aacc7b77a",
+    "reports/final/09_activity_support.csv": "8885a32fa031b2c199505112fc2ecfd8e319b6e7b99b78fff5a89edb4ae905be",
+    "reports/final/09_information_concentration.csv": "18c79915358edf62ce5e46cee85235944a9abb161436e6a0916cfb37b5b2e1b2"
+  }
+}

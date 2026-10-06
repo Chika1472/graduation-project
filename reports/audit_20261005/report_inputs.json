@@ -1,0 +1,17 @@
+{
+  "input_sha256": {
+    "sample": "72e78adb77d109bdf2bd0fda42d53058ba0b218ce016cc2c64a39909ffb18370",
+    "statistics": "1e2ece8024fe61b27ee2b701affe98fb3e10d40624835fde65dfd18935c2f119",
+    "exposure": "3b3e9f0a72d7fe604ec05dd1a6a7c4102453ca925ec4593bc3d404822bd8db3c",
+    "store_rows": "15ab2c53383ef2de58426a9e29c1eed1e936aaa57a4237a86c42de41f36ee1b5",
+    "availability": "8d6cc22822c27b7b4360398f2e3010beb06ac22e09d061a42ef247ce61924997",
+    "support": "e399b1ef35385d9818230d9bf7a999a11ee8f47a83aebafd575ed3eb94df7e61",
+    "duration": "fa3ac94e054130d1146abaf88d17973da73f0b74d13fe3db71c6b39bb9a38116",
+    "service": "f115e998090d02878a1ed744d8f8523ddc9e5438df92b2e31ee84f372070a456"
+  },
+  "delivery": "portable_html",
+  "audience": "technical",
+  "table_rationale": "정확한 감사 수치와 분모 비교",
+  "chart_contract": "7개 전체점포 규모별 매출 제공률; 단일계열 막대; 0~100%; 공개 상권분기 행 기준; 미관측 점포 규모 별도 표",
+  "analysis_assessment": "수정 필요; 기본 회귀 계산 오류 미발견"
+}

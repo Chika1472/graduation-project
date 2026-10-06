@@ -1,0 +1,65 @@
+﻿family,outcome,window,industry_id,industry,standard_error,df,coefficient_magnitude_80_approx,doubling_positive_80_approx,doubling_negative_80_approx,unit,multiplicity_adjusted
+primary20,log_sales,none,CS100001,한식음식점,0.03488452991659271,133,0.09835980999473456,7.055566309088797,-6.5905646500604185,conditional geometric-mean relative difference (%),False
+primary20,log_sales,none,CS100002,중식음식점,0.04439699147626166,133,0.12518098011880777,9.06445409254605,-8.311098394032632,conditional geometric-mean relative difference (%),False
+primary20,log_sales,none,CS100003,일식음식점,0.07221374261250904,133,0.20361260476657794,15.157837679928818,-13.162662642258628,conditional geometric-mean relative difference (%),False
+primary20,log_sales,none,CS100004,양식음식점,0.04743468022603676,133,0.1337459941512573,9.713875455252639,-8.853825840118548,conditional geometric-mean relative difference (%),False
+primary20,log_sales,none,CS100005,제과점,0.04221613946925816,133,0.11903188796969814,8.600586010567197,-7.919465563224798,conditional geometric-mean relative difference (%),False
+primary20,log_sales,none,CS100006,패스트푸드점,0.06843538391786184,133,0.19295921072096456,14.310601595076019,-12.519050197783626,conditional geometric-mean relative difference (%),False
+primary20,log_sales,none,CS100007,치킨전문점,0.06102024151346499,133,0.17205160497927272,12.665952821420762,-11.242041188340822,conditional geometric-mean relative difference (%),False
+primary20,log_sales,none,CS100008,분식전문점,0.03487814987261916,133,0.09834182093441193,7.054231434441675,-6.589399914343017,conditional geometric-mean relative difference (%),False
+primary20,log_sales,none,CS100009,호프-간이주점,0.039302009200492205,133,0.11081525726774943,7.983827347242291,-7.393539887754481,conditional geometric-mean relative difference (%),False
+primary20,log_sales,none,CS100010,커피-음료,0.051209003099290766,133,0.14438800886550646,10.526170192679903,-9.523690338975523,conditional geometric-mean relative difference (%),False
+primary20,night_share_pct,none,CS100001,한식음식점,0.24980416312745995,133,0.7043434462169339,0.4882136738911432,-0.4882136738911432,percentage points,False
+primary20,night_share_pct,none,CS100002,중식음식점,0.38863267524220263,133,1.0957818891630369,0.7595381269820095,-0.7595381269820095,percentage points,False
+primary20,night_share_pct,none,CS100003,일식음식점,1.2310653137572236,133,3.4710902122454574,2.405976394087161,-2.405976394087161,percentage points,False
+primary20,night_share_pct,none,CS100004,양식음식점,0.9607081782917014,133,2.708795964947576,1.8775942858155685,-1.8775942858155685,percentage points,False
+primary20,night_share_pct,none,CS100005,제과점,0.44291992148980364,133,1.2488492585333089,0.8656363424967413,-0.8656363424967413,percentage points,False
+primary20,night_share_pct,none,CS100006,패스트푸드점,0.6619677949802274,133,1.8664728087942137,1.293740365007511,-1.293740365007511,percentage points,False
+primary20,night_share_pct,none,CS100007,치킨전문점,0.6295789238980817,133,1.7751497147694175,1.230440019864213,-1.230440019864213,percentage points,False
+primary20,night_share_pct,none,CS100008,분식전문점,0.35565222549974745,133,1.0027907903015953,0.6950816089890302,-0.6950816089890302,percentage points,False
+primary20,night_share_pct,none,CS100009,호프-간이주점,0.9731501264927194,133,2.7438770643329615,1.901910650945492,-1.901910650945492,percentage points,False
+primary20,night_share_pct,none,CS100010,커피-음료,0.23281954489732817,133,0.6564539139244477,0.45501917960427196,-0.45501917960427196,percentage points,False
+time40,log_timebin_sales,post03,CS100001,한식음식점,0.0755443718832245,124,0.21310322064371953,15.917888482308449,-13.732037988888884,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post03,CS100002,중식음식점,0.08000179628859913,124,0.22567717516715616,16.93259804037206,-14.4806481033851,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post03,CS100003,일식음식점,0.11554403851340449,124,0.32593833424745494,25.347944126917955,-20.222066108441727,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post03,CS100004,양식음식점,0.1365867863351461,124,0.38529784998925615,30.61294147409471,-23.437908317964318,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post03,CS100005,제과점,0.14616897226083297,124,0.4123282512046807,33.08318060017598,-24.859024597231656,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post03,CS100006,패스트푸드점,0.16305663029545528,124,0.4599666685558872,37.55100385437067,-27.299694514863027,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post03,CS100007,치킨전문점,0.1763481108241233,124,0.49746062392506835,41.17265077471583,-29.16475007642903,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post03,CS100008,분식전문점,0.1240108365444476,124,0.34982233624490694,27.440367849890773,-21.53192768731818,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post03,CS100009,호프-간이주점,0.14336911574157604,124,0.40443013216920476,32.35659955396727,-24.446532823453314,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post03,CS100010,커피-음료,0.09281667402086552,124,0.26182668106446944,19.899586313320018,-16.596876540773618,conditional geometric-mean relative difference (%),False
+time_common4,log_timebin_sales,post03,COMMON,공통 기울기,0.032534330183984335,124,0.09177613594313078,6.568136067238573,-6.1633207726317405,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post36,CS100001,한식음식점,0.06482505958270901,124,0.1828650981022182,13.51359541731472,-11.904825468380354,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post36,CS100002,중식음식점,0.1014974955071788,124,0.2863144221158628,21.952084846902046,-18.0005818469283,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post36,CS100003,일식음식점,0.15602986387917284,124,0.44014485368481227,35.67405440393047,-26.29393995827768,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post36,CS100004,양식음식점,0.13020444364086953,124,0.36729389086567416,28.993099525240968,-22.476473262484625,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post36,CS100005,제과점,0.13122809268669317,124,0.37018150384114623,29.251543032221612,-22.631484581139105,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post36,CS100006,패스트푸드점,0.0773896312421655,124,0.21830851526078435,16.3368797275064,-14.042735000089355,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post36,CS100007,치킨전문점,0.1336876869677813,124,0.37711977666955726,29.87464238975774,-23.00267537992754,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post36,CS100008,분식전문점,0.10146934348781561,124,0.2862350080464309,21.94537210130214,-17.996068012381595,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post36,CS100009,호프-간이주점,0.12728949517829702,124,0.35907110881190474,28.2599819103237,-22.033358721415066,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post36,CS100010,커피-음료,0.07290488085587658,124,0.20565747684089167,15.321177821210208,-13.285658463325452,conditional geometric-mean relative difference (%),False
+time_common4,log_timebin_sales,post36,COMMON,공통 기울기,0.030757330820452566,124,0.08676339603927898,6.1985005218827025,-5.836711904049411,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post06,CS100001,한식음식점,0.06307713993245395,124,0.17793438920081145,13.126301416400299,-11.603226881858735,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post06,CS100002,중식음식점,0.07308849602713328,124,0.20617543712540282,15.362588176274262,-13.316785293339809,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post06,CS100003,일식음식점,0.1566754489469843,124,0.4419659854742562,35.84542557967379,-26.38692133114951,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post06,CS100004,양식음식점,0.13748991522513668,124,0.3878454874944151,30.843793036914285,-23.572989074240986,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post06,CS100005,제과점,0.15407995295397003,124,0.4346443473231813,35.15776015182175,-26.012387385178094,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post06,CS100006,패스트푸드점,0.1311854467836486,124,0.37006120395566827,29.24076577360252,-22.62503289776619,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post06,CS100007,치킨전문점,0.17494834269451903,124,0.49351201611833184,40.78679425643807,-28.970610824582305,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post06,CS100008,분식전문점,0.12273294027911152,124,0.34621751694463326,27.12233387982728,-21.33561668673175,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post06,CS100009,호프-간이주점,0.16954938739082795,124,0.4782820958126003,39.30838491814772,-28.216811889136345,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,post06,CS100010,커피-음료,0.08348866858459007,124,0.23551329793481446,17.732554456242454,-15.061725737746649,conditional geometric-mean relative difference (%),False
+time_common4,log_timebin_sales,post06,COMMON,공통 기울기,0.03676300885869336,124,0.1037048213260854,7.452929923388668,-6.935995071239495,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,pre03,CS100001,한식음식점,0.078243776539494,124,0.22071797488326633,16.53133746818328,-14.186173288105316,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,pre03,CS100002,중식음식점,0.21981942949325362,124,0.6200889254528261,53.696991477612,-34.93691773754314,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,pre03,CS100003,일식음식점,0.20321405436076226,124,0.5732468003213729,48.78682687227106,-32.78974886274916,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,pre03,CS100004,양식음식점,0.13306945848758867,124,0.3753758151150635,29.71774191179729,-22.909543038456633,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,pre03,CS100005,제과점,0.14703076945716467,124,0.41475929607939216,33.30762437710641,-24.985535923199972,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,pre03,CS100006,패스트푸드점,0.15812221161932685,124,0.44604716025005414,36.23025662135409,-26.594867777467723,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,pre03,CS100007,치킨전문점,0.15697022275098538,124,0.4427975132959599,35.92374553441191,-26.429337562153236,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,pre03,CS100008,분식전문점,0.11650778914190933,124,0.32865697969663893,25.584375176695445,-20.372259798003213,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,pre03,CS100009,호프-간이주점,0.15029916880757416,124,0.42397912821988243,34.16228151954164,-25.463402330829975,conditional geometric-mean relative difference (%),False
+time40,log_timebin_sales,pre03,CS100010,커피-음료,0.058839391088217854,124,0.16598011776439156,12.192801877988607,-10.867722058718583,conditional geometric-mean relative difference (%),False
+time_common4,log_timebin_sales,pre03,COMMON,공통 기울기,0.03718604279608282,124,0.10489815833123835,7.541847262684643,-7.012941896248742,conditional geometric-mean relative difference (%),False

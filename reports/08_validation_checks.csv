@@ -1,0 +1,15 @@
+﻿check,passed,evidence
+grid_rows_18120,True,18120
+unique_panel_key,True,0
+all_official_food_codes_10,True,10
+151_areas_12_quarters,True,151 × 12
+food_labels_stable_6_sources,True,6
+missing_sales_not_imputed,True,10459
+missing_stores_not_imputed,True,4808
+night_share_in_0_1,True,7661
+weekend_share_in_0_1,True,7661
+legacy_values_exact_if_same_sources,True,same_source_hashes=True
+exposure_duplicates_agree,True,1812
+exposure_complete,True,1812
+exposure_nested_radii,True,300 ≤ 500 ≤ 800
+source_files_unchanged,True,15

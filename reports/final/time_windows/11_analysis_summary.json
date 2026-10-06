@@ -1,0 +1,92 @@
+{
+  "created_utc": "2026-10-04T20:13:19.184842+00:00",
+  "plan": {
+    "version": 1,
+    "primary_window": "post03",
+    "windows": [
+      "post03",
+      "post36",
+      "post06",
+      "pre03"
+    ],
+    "radius_m": 500,
+    "outcome": "log1p_timebin_sales_amount",
+    "primary_coverage_pct": 90.0,
+    "sensitivity_coverage_pct": 100.0,
+    "primary_fixed_effects": [
+      "area_industry_timebin",
+      "industry_quarter_timebin",
+      "area_industry_quarter"
+    ],
+    "comparison_fixed_effects": [
+      "area_industry_timebin",
+      "industry_quarter_timebin"
+    ],
+    "common_slope_family": "4 windows Holm",
+    "industry_slope_family": "4 windows x 10 industries BH (40)",
+    "industry_equality_family": "4 windows Holm",
+    "minimum_industry_clusters": 20,
+    "minimum_quarters_per_area_industry": 2,
+    "cluster": "area_id",
+    "confidence_intervals": "individual 95%, t(G-1)",
+    "exposure_units": "sum overlapping scheduled-window minutes / 180; post06=post03+post36",
+    "missing_sales_zero_filled": false,
+    "incomplete_exposure": "known partial sum, gated by ID availability",
+    "exact_event_window_sales": false,
+    "confirmatory_analysis": false
+  },
+  "input_sha256": {
+    "data/analysis/final/time_windows/sales_time_panel.csv": "f58dca2b7f0d8ba6cf4153eea12cdc5a3512fe49a91f3acde72f0aa1475e8ece",
+    "data/analysis/final/time_windows/area_quarter_timebin_exposure.csv": "72f0356c2e667b6e324aebb063fc32ee9b6efd9166516c3cb8ee24318f9c6928",
+    "data/analysis/final/time_windows/availability.csv": "8cff8a466898ff66b487b75d2068722fd98dd68a3b7a3f8e4610dce53cd69a9b",
+    "reports/final/time_windows/09_exposure_summary.json": "c0231408e897e286b5595d9d6592106be0e363a8162105e3f803241bd0d7f741",
+    "reports/final/time_windows/10_sales_summary.json": "58b163c005b412628ee4805cdeea8d50ad5328f22bcf705c33ca70612379d383",
+    "data/analysis/final/food_industry_panel.csv": "55b99e19fda1762669cf4e9e88fa710f13d11e846e7b6b73dbc155e706d67838",
+    "final/metadata/time_window_plan.json": "865290173b565dac29ca5157d7e4c695c6e644295f576ad42ffb5f49d865e85c"
+  },
+  "protected_baseline_sha256": {
+    "reports/final/09_industry_effects.csv": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+    "reports/final/10_gee_industry_effects.csv": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b"
+  },
+  "baseline_unchanged": true,
+  "input_unchanged": true,
+  "primary": {
+    "label": "종료 후 0~3시간",
+    "estimated_industries": 10,
+    "coefficient": -0.04028885820059376,
+    "standard_error": 0.032534330183984335,
+    "ci_low": -0.10468341104081114,
+    "ci_high": 0.024105694639623615,
+    "p_value": 0.2179259455701189,
+    "nobs": 34140,
+    "clusters": 125,
+    "df": 124,
+    "rank": 9391,
+    "cluster_correction": 1.3905335373602583,
+    "p_holm_4": 0.8717037822804756,
+    "doubling_pct": -2.7539779279639336,
+    "doubling_ci_low": -6.999099604934926,
+    "doubling_ci_high": 1.684916690728441
+  },
+  "common_holm_significant_windows": [],
+  "industry_bh_significant_count": 0,
+  "conclusions": [
+    "주표본: 34,140개 시간대 행, 5,690개 상권·업종·분기, 125개 상권 군집.",
+    "종료 후 0~3시간 공통 기울기 -0.0403, 개별 95% CI [-0.1047,+0.0241], Holm p=0.8717.",
+    "40개 업종별 검정 중 BH 보정 후 유의한 항목은 0개이고, 종료 후 0~3시간에서는 0개다.",
+    "같은 분기의 전반적 매출 수준을 조정한 시간대 상대 패턴이므로 공연으로 인한 총매출 증가나 개별 관람객의 소비로 해석하지 않는다."
+  ],
+  "network_requests": 0,
+  "implementation_checks_passed": 3,
+  "python": "3.12.14",
+  "output_sha256": {
+    "11_common_effects.csv": "fb40a48b63b222dfc556c388eb5b09e69013b5987c54ac277e8271a32a49b84f",
+    "11_industry_effects.csv": "eadc974edb2e0e1966444985d3284abf99a354e104550b46d22ea30a3567062f",
+    "11_omnibus_tests.csv": "86bf825bbc5212edfb3b9885f0b21d6bc5a22ec3d6c7c24c61654c92d3507f37",
+    "11_sensitivity.csv": "8b772e79f0645e0b2b3dd6416b9770f8f683e363ad37e848c36163e242aa86be",
+    "11_sample_flow.csv": "bfce387e6de55ba3278156a227dca879b654cfc4994039a666490dd3b3579557",
+    "11_eligibility.csv": "baa6b65a8ac2b34a66eb8c83c6bd17461cc6e325f96a13cf800d4541718a1933",
+    "11_information_concentration.csv": "6b943e6343f53f83359183496e9210284fc5aaefbd907a4ea138c7a509b70654",
+    "11_implementation_checks.csv": "31c8d2973df630ed9e6ad18eeae488cd9cf5dba5ce577aea4f4d6be409c2e8c9"
+  }
+}

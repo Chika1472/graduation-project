@@ -1,0 +1,27 @@
+[
+  {
+    "source": "C:\\Users\\mamap\\Documents\\Codex\\2026-09-07\\https-khu-elsevierpure-com-en-persons\\work\\seoul_sales_2022.zip",
+    "destination": "C:\\Coding\\졸업프로젝트\\data\\raw\\legacy_downloads\\seoul_sales_2022.zip",
+    "sha256": "748BF317428F5085BA64AEEE9AED6C52B465B304D28C941D527E816D1909ABE6"
+  },
+  {
+    "source": "C:\\Users\\mamap\\Documents\\Codex\\2026-09-07\\https-khu-elsevierpure-com-en-persons\\work\\seoul_sales_2025_download.bin",
+    "destination": "C:\\Coding\\졸업프로젝트\\data\\raw\\legacy_downloads\\seoul_sales_2025_download.bin",
+    "sha256": "C907F3D386D62B89F45781E6E6172328EE91B1B8DD2C621E4171E437BEE1C6B2"
+  },
+  {
+    "source": "C:\\Users\\mamap\\Documents\\Codex\\2026-09-07\\https-khu-elsevierpure-com-en-persons\\work\\seoul_stores_2025.zip",
+    "destination": "C:\\Coding\\졸업프로젝트\\data\\raw\\legacy_downloads\\seoul_stores_2025.zip",
+    "sha256": "133BFC6CE79E13EE5B289490E4667DFBA46A0AF5D0D71DF360A0D324E030A4E6"
+  },
+  {
+    "source": "C:\\Users\\mamap\\Documents\\Codex\\2026-09-07\\https-khu-elsevierpure-com-en-persons\\work\\seoul_sales_sample.json",
+    "destination": "C:\\Coding\\졸업프로젝트\\data\\raw\\legacy_downloads\\seoul_sales_sample.json",
+    "sha256": "DE61A3A3813C4BB6C351177F6EE95D893C2096FFDDA4DDECD5C18AE5D1F24839"
+  },
+  {
+    "source": "C:\\Users\\mamap\\Documents\\Codex\\2026-09-07\\https-khu-elsevierpure-com-en-persons\\work\\verified_dataset_profile.json",
+    "destination": "C:\\Coding\\졸업프로젝트\\data\\raw\\legacy_downloads\\verified_dataset_profile.json",
+    "sha256": "43280ED73ADB26BF2FA8BC0DE5A19A64FFD3AA4279BFB9122AA97464B80FCBCE"
+  }
+]

@@ -1,0 +1,13 @@
+﻿dataset,rows,columns,column_names
+panel,3624,33,area_id | area_name | district_code | district | industry_id | industry | quarter | total_sales | sales_transactions | night_sales | weekend_sales | weekday_sales | sales_record_present | store_count | similar_industry_store_count | opened_stores | closed_stores | franchise_stores | store_record_present | availability | negative_sales_flag | negative_store_flag | night_exceeds_total | weekend_exceeds_total | weekday_weekend_difference | night_share | weekend_share | sales_per_store | year | quarter_number | known_performance_count_300m | known_performance_count_500m | known_performance_count_800m
+sales_panel,3624,30,area_id | area_name | district_code | district | industry_id | industry | quarter | total_sales | sales_transactions | night_sales | weekend_sales | weekday_sales | sales_record_present | store_count | similar_industry_store_count | opened_stores | closed_stores | franchise_stores | store_record_present | availability | negative_sales_flag | negative_store_flag | night_exceeds_total | weekend_exceeds_total | weekday_weekend_difference | night_share | weekend_share | sales_per_store | year | quarter_number
+areas,151,4,area_id | area_name | district_code | district
+linkage,30047,20,mt20id | prfnm | prfpdfrom | prfpdto | fcltynm | poster | area | genrenm | openrun | prfstate | name_candidate_id | link_method | mt10id | official_id | name_official_conflict | start_date | end_date | valid_period | gugunnm | valid_coordinates
+active,31988,4,mt20id | mt10id | link_method | quarter
+distances,10493,3,area_id | mt10id | distance_m
+facilities,1755,7,fcltynm | mt10id | mt13cnt | fcltychartr | sidonm | gugunnm | opende
+performance_list,30047,10,mt20id | prfnm | prfpdfrom | prfpdto | fcltynm | poster | area | genrenm | openrun | prfstate
+performance_candidates,13727,12,mt20id | prfnm | prfpdfrom | prfpdto | fcltynm | poster | area | genrenm | openrun | prfstate | candidate_reason | candidate_mt10ids
+facility_details,1755,22,fcltynm | mt10id | mt13cnt | fcltychartr | opende | seatscale | telno | relateurl | adres | la | lo | restaurant | cafe | store | nolibang | suyu | parkbarrier | restbarrier | runwbarrier | elevbarrier | parkinglot | gugunnm
+performance_details,13727,34,mt20id | mt13id | prfnm | frstregdt | prfpdfrom | prfpdto | fcltynm | prfcast | prfcrew | prfruntime | prfage | entrpsnm | entrpsnmP | entrpsnmA | entrpsnmH | entrpsnmS | pcseguidance | poster | sty | area | genrenm | openrun | visit | child | daehakro | festival | musicallicense | musicalcreate | updatedate | prfstate | mt10id | dtguidance | styurls | relates
+month_observations,36559,11,mt20id | prfnm | prfpdfrom | prfpdto | fcltynm | poster | area | genrenm | openrun | prfstate | query_month

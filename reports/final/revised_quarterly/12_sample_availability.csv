@@ -1,0 +1,5 @@
+﻿spatial_definition,availability_threshold_pct,area_quarters,zero_candidate_area_quarters,observed_total_sales_rows,observed_total_sales_areas,common_outcome_rows,common_outcome_areas,repeated_entity_rows,repeated_entity_areas
+centroid500,100,1271,535,5042,118,5042,118,5015,114
+centroid500,90,1612,535,6806,128,6806,128,6791,127
+min_distance500,100,1024,325,3590,103,3590,103,3537,95
+min_distance500,90,1594,325,6833,129,6833,129,6818,128

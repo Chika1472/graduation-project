@@ -1,0 +1,11 @@
+﻿industry_id,industry,negative_sales_flag,negative_store_flag,night_exceeds_total,weekend_exceeds_total,positive_sales_zero_stores
+CS100001,한식음식점,0,0,0,0,0
+CS100002,중식음식점,0,0,0,0,0
+CS100003,일식음식점,0,0,0,0,0
+CS100004,양식음식점,0,0,0,0,0
+CS100005,제과점,0,0,0,0,0
+CS100006,패스트푸드점,0,0,0,0,0
+CS100007,치킨전문점,0,0,0,0,0
+CS100008,분식전문점,0,0,0,0,0
+CS100009,호프-간이주점,0,0,0,0,0
+CS100010,커피-음료,0,0,0,0,0

@@ -1,0 +1,9 @@
+﻿check,scenario,outcome,industry,absolute_difference,passed
+pooled_equals_separate_slope,main_500,log_sales,한식음식점,3.608224830031759e-15,True
+pooled_equals_separate_slope,main_500,log_sales,커피음료,6.262351748276274e-14,True
+pooled_equals_separate_slope,main_500,night_share_pct,한식음식점,3.4083846855992306e-14,True
+pooled_equals_separate_slope,main_500,night_share_pct,커피음료,4.253541963095131e-15,True
+pooled_equals_separate_slope,stores_500,log_sales,한식음식점,1.985217545907858e-14,True
+pooled_equals_separate_slope,stores_500,log_sales,커피음료,9.434814041142658e-14,True
+pooled_equals_separate_slope,stores_500,night_share_pct,한식음식점,4.884981308350689e-14,True
+pooled_equals_separate_slope,stores_500,night_share_pct,커피음료,6.778605454726971e-14,True

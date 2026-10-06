@@ -1,0 +1,124 @@
+{
+  "run_id": "20261005_052911_f98e59",
+  "created_at": "2026-10-05T05:29:11+09:00",
+  "purpose": "public_documentation_and_processed_samples",
+  "sales_microdata_downloaded": false,
+  "public_sample_downloaded": true,
+  "files": [
+    {
+      "path": "data/raw/time_sales_access/20261005_052911_f98e59/b079_catalog.html",
+      "kind": "html",
+      "source_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?sample_data_seq=333",
+      "resolved_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?sample_data_seq=333",
+      "retrieved_at": "2026-10-05T05:29:11+09:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 494079,
+      "sha256": "41199508a734631131d0d5740f5a87b151e60bae63a9c3cbb0128fd3e65cf952"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052911_f98e59/b042_catalog.html",
+      "kind": "html",
+      "source_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?r_id=P213&sample_data_seq=51",
+      "resolved_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?r_id=P213&sample_data_seq=51",
+      "retrieved_at": "2026-10-05T05:29:13+09:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 816887,
+      "sha256": "4eaa5ccf96ade58fe5c4d56089f122a1bc6468bce24d47261ed5512c64acbb18"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052911_f98e59/campus_data_dictionary.pdf",
+      "kind": "pdf",
+      "source_url": "https://bigdata.seoul.go.kr/common/file/directFileDown.do?ad=data&file_nm=빅데이터_캠퍼스_데이터_설명서.pdf",
+      "resolved_url": "https://bigdata.seoul.go.kr/common/file/directFileDown.do?ad=data&file_nm=%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "retrieved_at": "2026-10-05T05:29:15+09:00",
+      "http_status": 200,
+      "content_type": "application/pdf;charset=UTF-8",
+      "bytes": 2592426,
+      "sha256": "2e7caace05ac67c58bd6b3a110c0403b866dac865547a8c0bdff33c7cbe0aea3"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052911_f98e59/campus_export_policy.pdf",
+      "kind": "pdf",
+      "source_url": "https://bigdata.seoul.go.kr/common/file/directFileDown.do?ad=tkout&file_nm=빅데이터_캠퍼스_반출_정책.pdf",
+      "resolved_url": "https://bigdata.seoul.go.kr/common/file/directFileDown.do?ad=tkout&file_nm=%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EB%B0%98%EC%B6%9C_%EC%A0%95%EC%B1%85.pdf",
+      "retrieved_at": "2026-10-05T05:29:17+09:00",
+      "http_status": 200,
+      "content_type": "application/pdf;charset=UTF-8",
+      "bytes": 327512,
+      "sha256": "110a925c4c4cecc30e8ada85f079421f0fd809886d4e206520e973d76337af57"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052911_f98e59/campus_use_guide.html",
+      "kind": "html",
+      "source_url": "https://bigdata.seoul.go.kr/use/useInfo.do?r_id=P340",
+      "resolved_url": "https://bigdata.seoul.go.kr/use/useInfo.do?r_id=P340",
+      "retrieved_at": "2026-10-05T05:29:18+09:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 25800,
+      "sha256": "98c0e9653ea7af218267eb5a55e56a9cfa15ac8fc12ceb4da97c7ffb06b4db6f"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052911_f98e59/campus_data_use.html",
+      "kind": "html",
+      "source_url": "https://bigdata.seoul.go.kr/cnts.do?r_id=P212",
+      "resolved_url": "https://bigdata.seoul.go.kr/cnts.do?r_id=P212",
+      "retrieved_at": "2026-10-05T05:29:19+09:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 20186,
+      "sha256": "60b76521d06f7cc6d52031ff753749e7f41f2b6cefb024db41ccb3dde95fdf60"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052911_f98e59/B079_05_domestic_time_PUBLIC_SAMPLE.csv",
+      "kind": "public_processed_sample_csv",
+      "source_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?sample_data_seq=333",
+      "resolved_url": "https://bigdata.seoul.go.kr/common/file/FileDown.do?r_id=&sch_order=&sch_text=&currentPage=&tab_type=&file_id=17744178246507TRJRLXRJLOUZLXXZH5N3MJSQ",
+      "source_label": "5.서울시 내국인 일자별 시간대별(격자별).csv 샘플데이터 다운로드",
+      "retrieved_at": "2026-10-05T05:29:20+09:00",
+      "http_status": 200,
+      "content_type": "application/octet-stream;charset=UTF-8",
+      "bytes": 10022,
+      "sha256": "5b8bc04e765bf21f8eb4e85cf6cb1b18936197d69620cbf95191336339042d2d"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052911_f98e59/B079_09_foreign_time_PUBLIC_SAMPLE.csv",
+      "kind": "public_processed_sample_csv",
+      "source_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?sample_data_seq=333",
+      "resolved_url": "https://bigdata.seoul.go.kr/common/file/FileDown.do?r_id=&sch_order=&sch_text=&currentPage=&tab_type=&file_id=177441789095394Y3OVDWTQULH1IX2PG4X6DJ9",
+      "source_label": "9.서울시 외국인 일자별 시간대별(격자별).csv 샘플데이터 다운로드",
+      "retrieved_at": "2026-10-05T05:29:21+09:00",
+      "http_status": 200,
+      "content_type": "application/octet-stream;charset=UTF-8",
+      "bytes": 8364,
+      "sha256": "ed2f94da160f95c542a1dc7b6042a2137b79f406ef9f4db26e0ed91de71aab6b"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052911_f98e59/B042_domestic_hour_PUBLIC_SAMPLE.csv",
+      "kind": "public_processed_sample_csv",
+      "source_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?r_id=P213&sample_data_seq=51",
+      "resolved_url": "https://bigdata.seoul.go.kr/common/file/FileDown.do?r_id=P213&sch_order=&sch_text=&currentPage=&tab_type=&file_id=1637724173047PTH86ZM0F23S2SZ70FPOVFTWE",
+      "source_label": "내국인(블록) 일자별시간대별.csv 샘플데이터 다운로드",
+      "retrieved_at": "2026-10-05T05:29:22+09:00",
+      "http_status": 200,
+      "content_type": "application/octet-stream;charset=UTF-8",
+      "bytes": 32192,
+      "sha256": "0baa032fff439e5decb45094426976d6dac592cec5e71706706b7e0ec091237c"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052911_f98e59/B042_domestic_industry_PUBLIC_SAMPLE.csv",
+      "kind": "public_processed_sample_csv",
+      "source_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?r_id=P213&sample_data_seq=51",
+      "resolved_url": "https://bigdata.seoul.go.kr/common/file/FileDown.do?r_id=P213&sch_order=&sch_text=&currentPage=&tab_type=&file_id=16381662978678EPRLDM07YHH8XL5PN7RKFGB9",
+      "source_label": "신한카드 내국인 63업종 코드.csv 샘플데이터 다운로드",
+      "retrieved_at": "2026-10-05T05:29:23+09:00",
+      "http_status": 200,
+      "content_type": "application/octet-stream;charset=UTF-8",
+      "bytes": 2948,
+      "sha256": "03b5f1001302ac59af3a70ef0877fb33e153537a0f266d22992f80ef6e4ee6f8"
+    }
+  ],
+  "status": "complete_documentation_and_public_samples"
+}

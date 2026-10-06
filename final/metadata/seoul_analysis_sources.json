@@ -1,0 +1,317 @@
+{
+  "run_id": "20261004_091155_b8dd0e",
+  "started_at": "2026-10-04T00:11:55.261529+00:00",
+  "status": "validated",
+  "items": [
+    {
+      "dataset": "sales",
+      "year": 2023,
+      "source": "https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do",
+      "file_sequence": "49",
+      "file_title": "서울시_상권분석서비스(추정매출-상권)_2023년.zip",
+      "request_parameters": {
+        "infId": "OA-15572",
+        "seq": "49",
+        "seqNo": "",
+        "infSeq": "3"
+      },
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2023.zip",
+      "bytes": 14481934,
+      "sha256": "34de330d0858a6af30014109f4f714762255daebafcb4d0e0f45c6223e0670fb",
+      "recorded_at": "2026-10-04T00:11:58.287626+00:00",
+      "http_status": 200,
+      "extracted": [
+        {
+          "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2023.csv",
+          "archive_member": "서울시_상권분석서비스(추정매출-상권)_2023년.csv",
+          "bytes": 40887998,
+          "sha256": "1e8ea69cd4892176b9496678316b9e4772f59f902033f5b26200a5ce02397b8c",
+          "previous_path": "data/raw/seoul_sales/sales_2023.csv",
+          "previous_sha256": "1e8ea69cd4892176b9496678316b9e4772f59f902033f5b26200a5ce02397b8c",
+          "same_as_previous": true
+        }
+      ],
+      "same_as_previous": true
+    },
+    {
+      "dataset": "sales",
+      "year": 2024,
+      "source": "https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do",
+      "file_sequence": "50",
+      "file_title": "서울시 상권분석서비스(추정매출-상권)_2024년.zip",
+      "request_parameters": {
+        "infId": "OA-15572",
+        "seq": "50",
+        "seqNo": "",
+        "infSeq": "3"
+      },
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2024.zip",
+      "bytes": 14288976,
+      "sha256": "97e7cde3a3291a8fd623f7b5268ea4b01a666027ae20da2ddf804ddae22288c5",
+      "recorded_at": "2026-10-04T00:12:01.028631+00:00",
+      "http_status": 200,
+      "extracted": [
+        {
+          "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2024.csv",
+          "archive_member": "서울시 상권분석서비스(추정매출-상권)_2024년.csv",
+          "bytes": 40356222,
+          "sha256": "8b3e066e91f399d07c33949e2eb1d5765594f00af656f52f2cab3116674da0d2",
+          "previous_path": "data/raw/seoul_sales/sales_2024.csv",
+          "previous_sha256": "8b3e066e91f399d07c33949e2eb1d5765594f00af656f52f2cab3116674da0d2",
+          "same_as_previous": true
+        }
+      ],
+      "same_as_previous": true
+    },
+    {
+      "dataset": "sales",
+      "year": 2025,
+      "source": "https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do",
+      "file_sequence": "51",
+      "file_title": "서울시 상권분석서비스(추정매출-상권)_2025년.zip",
+      "request_parameters": {
+        "infId": "OA-15572",
+        "seq": "51",
+        "seqNo": "",
+        "infSeq": "3"
+      },
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2025.zip",
+      "bytes": 14035292,
+      "sha256": "c907f3d386d62b89f45781e6e6172328ee91b1b8dd2c621e4171e437bee1c6b2",
+      "recorded_at": "2026-10-04T00:12:03.719715+00:00",
+      "http_status": 200,
+      "extracted": [
+        {
+          "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/sales/sales_2025.csv",
+          "archive_member": "서울시 상권분석서비스(추정매출-상권)_2025년.csv",
+          "bytes": 39698674,
+          "sha256": "2e299cd3e78a98d9b46634af0cc768276d8d270eb4c38b5f1b1ce54f8dcd828f",
+          "previous_path": "data/raw/seoul_sales/sales_2025.csv",
+          "previous_sha256": "2e299cd3e78a98d9b46634af0cc768276d8d270eb4c38b5f1b1ce54f8dcd828f",
+          "same_as_previous": true
+        }
+      ],
+      "same_as_previous": true
+    },
+    {
+      "dataset": "stores",
+      "year": 2023,
+      "source": "https://data.seoul.go.kr/dataList/OA-15577/S/1/datasetView.do",
+      "file_sequence": "18",
+      "file_title": "서울시_상권분석서비스(점포-상권)_2023년.zip",
+      "request_parameters": {
+        "infId": "OA-15577",
+        "seq": "18",
+        "seqNo": "",
+        "infSeq": "3"
+      },
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2023.zip",
+      "bytes": 2175485,
+      "sha256": "b95b113233b1b4dddabaedcf85e12213dff966de40e924e7a97a93fb9bbe662e",
+      "recorded_at": "2026-10-04T00:12:05.403480+00:00",
+      "http_status": 200,
+      "extracted": [
+        {
+          "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2023.csv",
+          "archive_member": "서울시_상권분석서비스(점포-상권)_2023년.csv",
+          "bytes": 31066178,
+          "sha256": "594ed70b19a47713a006b9efbf46847c0387fa8f7b2f8536a0982c7217e82c08",
+          "previous_path": "data/raw/seoul_stores/stores_2023.csv",
+          "previous_sha256": "594ed70b19a47713a006b9efbf46847c0387fa8f7b2f8536a0982c7217e82c08",
+          "same_as_previous": true
+        }
+      ],
+      "same_as_previous": true
+    },
+    {
+      "dataset": "stores",
+      "year": 2024,
+      "source": "https://data.seoul.go.kr/dataList/OA-15577/S/1/datasetView.do",
+      "file_sequence": "19",
+      "file_title": "서울시 상권분석서비스(점포-상권)_2024년.zip",
+      "request_parameters": {
+        "infId": "OA-15577",
+        "seq": "19",
+        "seqNo": "",
+        "infSeq": "3"
+      },
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2024.zip",
+      "bytes": 2155369,
+      "sha256": "969b7c38e5f3cc8630970e4ca8b85ef1c20d485982f64a90de990b13b38ca5ff",
+      "recorded_at": "2026-10-04T00:12:06.886337+00:00",
+      "http_status": 200,
+      "extracted": [
+        {
+          "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2024.csv",
+          "archive_member": "서울시 상권분석서비스(점포-상권)_2024년.csv",
+          "bytes": 30972314,
+          "sha256": "8446399758a9c3b1cbd64c11124f7b23aedae1ad1f6dd9521d97181a503ef83a",
+          "previous_path": "data/raw/seoul_stores/stores_2024.csv",
+          "previous_sha256": "8446399758a9c3b1cbd64c11124f7b23aedae1ad1f6dd9521d97181a503ef83a",
+          "same_as_previous": true
+        }
+      ],
+      "same_as_previous": true
+    },
+    {
+      "dataset": "stores",
+      "year": 2025,
+      "source": "https://data.seoul.go.kr/dataList/OA-15577/S/1/datasetView.do",
+      "file_sequence": "20",
+      "file_title": "서울시 상권분석서비스(점포-상권)_2025년.zip",
+      "request_parameters": {
+        "infId": "OA-15577",
+        "seq": "20",
+        "seqNo": "",
+        "infSeq": "3"
+      },
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2025.zip",
+      "bytes": 2119809,
+      "sha256": "133bfc6ce79e13ee5b289490e4667dfba46a0af5d0d71df360a0d324e030a4e6",
+      "recorded_at": "2026-10-04T00:12:08.351732+00:00",
+      "http_status": 200,
+      "extracted": [
+        {
+          "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/stores/stores_2025.csv",
+          "archive_member": "서울시 상권분석서비스(점포-상권)_2025년.csv",
+          "bytes": 31051537,
+          "sha256": "afe3c49336e4c64e3e4066db1bb61034ab7c238916ff473a37d7667fbb4e1d68",
+          "previous_path": "data/raw/seoul_stores/stores_2025.csv",
+          "previous_sha256": "afe3c49336e4c64e3e4066db1bb61034ab7c238916ff473a37d7667fbb4e1d68",
+          "same_as_previous": true
+        }
+      ],
+      "same_as_previous": true
+    },
+    {
+      "dataset": "areas",
+      "year": null,
+      "source": "https://data.seoul.go.kr/dataList/OA-15560/S/1/datasetView.do",
+      "file_sequence": "5",
+      "file_title": "서울시 상권분석서비스(영역-상권).zip",
+      "request_parameters": {
+        "infId": "OA-15560",
+        "seq": "5",
+        "seqNo": "",
+        "infSeq": "3"
+      },
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.zip",
+      "bytes": 2123078,
+      "sha256": "38bb8fab4e45a1171af4989cd7fa1275f68e5d644aa770f5431ce7ccc38384dd",
+      "recorded_at": "2026-10-04T00:12:09.902007+00:00",
+      "http_status": 200,
+      "extracted": [
+        {
+          "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.cpg",
+          "archive_member": "╝¡┐∩╜├ ╗≤▒╟║╨╝«╝¡║±╜║(┐╡┐¬-╗≤▒╟).cpg",
+          "bytes": 5,
+          "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+          "previous_path": "data/raw/seoul_areas/extracted/서울시 상권분석서비스(영역-상권).cpg",
+          "previous_sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+          "same_as_previous": true
+        },
+        {
+          "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.dbf",
+          "archive_member": "╝¡┐∩╜├ ╗≤▒╟║╨╝«╝¡║±╜║(┐╡┐¬-╗≤▒╟).dbf",
+          "bytes": 800636,
+          "sha256": "7e2d03d69442418c142dbaa6b206888777fdd4207825df90c70af408f2c5f3ff",
+          "previous_path": "data/raw/seoul_areas/extracted/서울시 상권분석서비스(영역-상권).dbf",
+          "previous_sha256": "7e2d03d69442418c142dbaa6b206888777fdd4207825df90c70af408f2c5f3ff",
+          "same_as_previous": true
+        },
+        {
+          "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.prj",
+          "archive_member": "╝¡┐∩╜├ ╗≤▒╟║╨╝«╝¡║±╜║(┐╡┐¬-╗≤▒╟).prj",
+          "bytes": 417,
+          "sha256": "680810e56b8fe15e448efdf2d278a9753369bc93a6fc0092b7952dfac4b872c9",
+          "previous_path": "data/raw/seoul_areas/extracted/서울시 상권분석서비스(영역-상권).prj",
+          "previous_sha256": "680810e56b8fe15e448efdf2d278a9753369bc93a6fc0092b7952dfac4b872c9",
+          "same_as_previous": true
+        },
+        {
+          "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.shp",
+          "archive_member": "╝¡┐∩╜├ ╗≤▒╟║╨╝«╝¡║±╜║(┐╡┐¬-╗≤▒╟).shp",
+          "bytes": 3642228,
+          "sha256": "4de3d04e79a8b77440655c4eb880184bbeec426ebeb3ac2d0e00b2e5a3c8016c",
+          "previous_path": "data/raw/seoul_areas/extracted/서울시 상권분석서비스(영역-상권).shp",
+          "previous_sha256": "4de3d04e79a8b77440655c4eb880184bbeec426ebeb3ac2d0e00b2e5a3c8016c",
+          "same_as_previous": true
+        },
+        {
+          "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/areas/areas.shx",
+          "archive_member": "╝¡┐∩╜├ ╗≤▒╟║╨╝«╝¡║±╜║(┐╡┐¬-╗≤▒╟).shx",
+          "bytes": 13300,
+          "sha256": "b0859525d6ab1ca0eaa708279de17435eda2a36eef69e9effbbae38f39c6f764",
+          "previous_path": "data/raw/seoul_areas/extracted/서울시 상권분석서비스(영역-상권).shx",
+          "previous_sha256": "b0859525d6ab1ca0eaa708279de17435eda2a36eef69e9effbbae38f39c6f764",
+          "same_as_previous": true
+        }
+      ],
+      "same_as_previous": true
+    }
+  ],
+  "source_pages": [
+    {
+      "dataset": "sales",
+      "url": "https://data.seoul.go.kr/dataList/OA-15572/S/1/datasetView.do",
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/source_pages/sales.html",
+      "sha256": "b7ad7ffd747645cd4a440b8f37217af28c300ebbeee684013249aabe62296099",
+      "http_status": 200
+    },
+    {
+      "dataset": "stores",
+      "url": "https://data.seoul.go.kr/dataList/OA-15577/S/1/datasetView.do",
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/source_pages/stores.html",
+      "sha256": "a78e05fed97a6ed07399833601bf4d297a2cf662acd5fb5ca861b91463fade3b",
+      "http_status": 200
+    },
+    {
+      "dataset": "areas",
+      "url": "https://data.seoul.go.kr/dataList/OA-15560/S/1/datasetView.do",
+      "path": "data/raw/seoul_recollection/20261004_091155_b8dd0e/source_pages/areas.html",
+      "sha256": "706b14907a013d3f1e011fa437bf1ff08a7056cbb993b8c37fef692e1b6fede3",
+      "http_status": 200
+    }
+  ],
+  "original_sha256": {
+    "data/raw/seoul_sales/sales_2023.csv": "1e8ea69cd4892176b9496678316b9e4772f59f902033f5b26200a5ce02397b8c",
+    "data/raw/seoul_sales/sales_2024.csv": "8b3e066e91f399d07c33949e2eb1d5765594f00af656f52f2cab3116674da0d2",
+    "data/raw/seoul_sales/sales_2025.csv": "2e299cd3e78a98d9b46634af0cc768276d8d270eb4c38b5f1b1ce54f8dcd828f",
+    "data/raw/seoul_stores/stores_2023.csv": "594ed70b19a47713a006b9efbf46847c0387fa8f7b2f8536a0982c7217e82c08",
+    "data/raw/seoul_stores/stores_2024.csv": "8446399758a9c3b1cbd64c11124f7b23aedae1ad1f6dd9521d97181a503ef83a",
+    "data/raw/seoul_stores/stores_2025.csv": "afe3c49336e4c64e3e4066db1bb61034ab7c238916ff473a37d7667fbb4e1d68",
+    "data/raw/seoul_areas/extracted/서울시 상권분석서비스(영역-상권).cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "data/raw/seoul_areas/extracted/서울시 상권분석서비스(영역-상권).dbf": "7e2d03d69442418c142dbaa6b206888777fdd4207825df90c70af408f2c5f3ff",
+    "data/raw/seoul_areas/extracted/서울시 상권분석서비스(영역-상권).prj": "680810e56b8fe15e448efdf2d278a9753369bc93a6fc0092b7952dfac4b872c9",
+    "data/raw/seoul_areas/extracted/서울시 상권분석서비스(영역-상권).shp": "4de3d04e79a8b77440655c4eb880184bbeec426ebeb3ac2d0e00b2e5a3c8016c",
+    "data/raw/seoul_areas/extracted/서울시 상권분석서비스(영역-상권).shx": "b0859525d6ab1ca0eaa708279de17435eda2a36eef69e9effbbae38f39c6f764"
+  },
+  "scope": {
+    "districts": [
+      "종로구",
+      "마포구"
+    ],
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "industry_codes": [
+      "CS100001",
+      "CS100002",
+      "CS100003",
+      "CS100004",
+      "CS100005",
+      "CS100006",
+      "CS100007",
+      "CS100008",
+      "CS100009",
+      "CS100010"
+    ]
+  },
+  "boundary_note": "현재 경계; 2024년 표준단위구역 변경 안내. 과거 경계 불변을 의미하지 않음.",
+  "finished_at": "2026-10-04T00:12:09.904518+00:00",
+  "original_files_unchanged": true,
+  "validation_passed": true,
+  "validated_at": "2026-10-04T00:12:12.697052+00:00"
+}

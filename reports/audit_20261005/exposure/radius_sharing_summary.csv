@@ -1,0 +1,4 @@
+﻿radius_m,unique_performance_ids,unique_performance_quarter_pairs,area_performance_quarter_records,mean_areas_per_performance_quarter,maximum_areas_per_performance_quarter,multiple_area_share_pct,zero_distance_record_share_pct
+300,12526,13828,49628,3.588949956609777,12,85.406421752965,23.025308293705166
+500,12839,14202,103355,7.277496127306013,22,99.29587382058865,11.056068888781384
+800,13285,14670,193416,13.184458077709612,34,99.72051806407634,5.907991065889068

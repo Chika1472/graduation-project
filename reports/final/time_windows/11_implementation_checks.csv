@@ -1,0 +1,4 @@
+﻿check,passed,max_error,rank
+twoway_dummy_equivalence,True,4.9960036108132044e-15,42
+threeway_dummy_equivalence,True,6.217248937900877e-15,49
+explicit_ols_cluster_covariance,True,2.55351295663786e-15,50

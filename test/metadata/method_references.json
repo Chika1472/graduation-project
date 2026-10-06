@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Santos Silva & Tenreyro — The Log of Gravity: author guidance",
+    "url": "https://personal.lse.ac.uk/tenreyro/lgw.html",
+    "use": "PPML models conditional mean of nonnegative outcomes without requiring Poisson-distributed currency; robust inference and model assumptions remain necessary."
+  },
+  {
+    "title": "Chen & Roth — Logs with zeros? Some problems and solutions",
+    "url": "https://www.jonathandroth.com/assets/files/LogUniqueHOD0_Draft.pdf",
+    "use": "Log-like transformed zero-inclusive outcomes depend on currency units; effects are not automatically percentage effects."
+  },
+  {
+    "title": "ASA Statement on P-values",
+    "url": "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf",
+    "use": "Complete reporting, interpretation in context, p-values are not effect size or scientific importance."
+  }
+]

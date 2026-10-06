@@ -1,0 +1,76 @@
+{
+  "run_id": "20261005_052652_803257",
+  "created_at": "2026-10-05T05:26:52+09:00",
+  "purpose": "public_documentation_only",
+  "sales_microdata_downloaded": false,
+  "public_sample_downloaded": false,
+  "files": [
+    {
+      "path": "data/raw/time_sales_access/20261005_052652_803257/b079_catalog.html",
+      "kind": "html",
+      "source_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?sample_data_seq=333",
+      "resolved_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?sample_data_seq=333",
+      "retrieved_at": "2026-10-05T05:26:52+09:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 494079,
+      "sha256": "41199508a734631131d0d5740f5a87b151e60bae63a9c3cbb0128fd3e65cf952"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052652_803257/b042_catalog.html",
+      "kind": "html",
+      "source_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?r_id=P213&sample_data_seq=51",
+      "resolved_url": "https://bigdata.seoul.go.kr/data/selectSampleData.do?r_id=P213&sample_data_seq=51",
+      "retrieved_at": "2026-10-05T05:26:54+09:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 816887,
+      "sha256": "4eaa5ccf96ade58fe5c4d56089f122a1bc6468bce24d47261ed5512c64acbb18"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052652_803257/campus_data_dictionary.pdf",
+      "kind": "pdf",
+      "source_url": "https://bigdata.seoul.go.kr/common/file/directFileDown.do?ad=data&file_nm=빅데이터_캠퍼스_데이터_설명서.pdf",
+      "resolved_url": "https://bigdata.seoul.go.kr/common/file/directFileDown.do?ad=data&file_nm=%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+      "retrieved_at": "2026-10-05T05:26:56+09:00",
+      "http_status": 200,
+      "content_type": "application/pdf;charset=UTF-8",
+      "bytes": 2592426,
+      "sha256": "2e7caace05ac67c58bd6b3a110c0403b866dac865547a8c0bdff33c7cbe0aea3"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052652_803257/campus_export_policy.pdf",
+      "kind": "pdf",
+      "source_url": "https://bigdata.seoul.go.kr/common/file/directFileDown.do?ad=tkout&file_nm=빅데이터_캠퍼스_반출_정책.pdf",
+      "resolved_url": "https://bigdata.seoul.go.kr/common/file/directFileDown.do?ad=tkout&file_nm=%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EB%B0%98%EC%B6%9C_%EC%A0%95%EC%B1%85.pdf",
+      "retrieved_at": "2026-10-05T05:26:58+09:00",
+      "http_status": 200,
+      "content_type": "application/pdf;charset=UTF-8",
+      "bytes": 327512,
+      "sha256": "110a925c4c4cecc30e8ada85f079421f0fd809886d4e206520e973d76337af57"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052652_803257/campus_use_guide.html",
+      "kind": "html",
+      "source_url": "https://bigdata.seoul.go.kr/use/useInfo.do?r_id=P340",
+      "resolved_url": "https://bigdata.seoul.go.kr/use/useInfo.do?r_id=P340",
+      "retrieved_at": "2026-10-05T05:26:59+09:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 25800,
+      "sha256": "98c0e9653ea7af218267eb5a55e56a9cfa15ac8fc12ceb4da97c7ffb06b4db6f"
+    },
+    {
+      "path": "data/raw/time_sales_access/20261005_052652_803257/campus_data_use.html",
+      "kind": "html",
+      "source_url": "https://bigdata.seoul.go.kr/cnts.do?r_id=P212",
+      "resolved_url": "https://bigdata.seoul.go.kr/cnts.do?r_id=P212",
+      "retrieved_at": "2026-10-05T05:27:00+09:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 20186,
+      "sha256": "60b76521d06f7cc6d52031ff753749e7f41f2b6cefb024db41ccb3dde95fdf60"
+    }
+  ],
+  "status": "complete_documentation_only"
+}

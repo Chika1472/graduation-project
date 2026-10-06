@@ -1,0 +1,5 @@
+﻿check,passed
+all_read_inputs_unchanged,True
+local800_official_ids_only,True
+exposure_reconstruction_exact,True
+raw_processed_month_pairs_identical,True

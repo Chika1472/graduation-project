@@ -1,0 +1,9 @@
+{
+  "previous_run_id": "20261004_092358_9b279a",
+  "current_run_id": "20261004_154020_1c7d3b",
+  "previous_result_sha256": "c678c7f75da5a3c4e1bd888493a9840456db32ead53f2b53a918cac1f699af6d",
+  "current_result_sha256": "c678c7f75da5a3c4e1bd888493a9840456db32ead53f2b53a918cac1f699af6d",
+  "comparison_sha256": "1faaef67d896aff495722a3bb72f9056e7ad38298c200868cbdf1c970c1e3625",
+  "scenario": "main_500",
+  "compared_industry_outcomes": 20
+}

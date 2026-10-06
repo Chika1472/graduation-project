@@ -1,0 +1,8 @@
+{
+  "endpoint": "https://kopis.or.kr/openApi/restful/pblprfr/PF224179",
+  "collected_at_kst": "2026-10-04T16:08:42.472113+09:00",
+  "http_status": 200,
+  "sha256": "32fe017a34941429a18561bb7ba96022e585b0989f2bea26559ed49fe6b20bd7",
+  "bytes": 1463,
+  "path": "data/raw/kopis_recollection/20261004_154020_1c7d3b/performance_details/PF224179.xml"
+}

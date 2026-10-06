@@ -1,0 +1,3 @@
+﻿availability_transition,rows,current_positive_stores,previous_positive_stores,zero_reported_openings,zero_reported_closures
+미제공→제공,65,65,65,15,53
+제공→미제공,87,87,87,82,19

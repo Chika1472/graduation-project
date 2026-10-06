@@ -1,0 +1,12 @@
+{
+  "endpoint": "https://www.kopis.or.kr/openApi/restful/prfplc",
+  "params_without_key": {
+    "signgucode": "11",
+    "cpage": 9,
+    "rows": 100
+  },
+  "collected_at_utc": "2026-10-03T16:40:14.051426+00:00",
+  "bytes": 21544,
+  "sha256": "9754e94c59c69165af58533dfc8f4c78f03d2e5288a24f414f2e315cdd2b6f7e",
+  "path": "data/raw/kopis/facility_list/009.xml"
+}

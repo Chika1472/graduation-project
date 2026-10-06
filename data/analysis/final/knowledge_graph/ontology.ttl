@@ -1,0 +1,215 @@
+@prefix ex: <https://example.org/grad-study/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Dataset a rdfs:Class ;
+    rdfs:label "부분 지식그래프"@ko .
+
+ex:Facility a rdfs:Class ;
+    rdfs:label "공연시설"@ko .
+
+ex:FacilityLink a rdfs:Class ;
+    rdfs:label "공연-시설 연결"@ko .
+
+ex:Industry a rdfs:Class ;
+    rdfs:label "업종"@ko .
+
+ex:LinkStatus a rdfs:Class ;
+    rdfs:label "연결 확인 상태"@ko .
+
+ex:Performance a rdfs:Class ;
+    rdfs:label "등록 공연"@ko .
+
+ex:ProximityRelation a rdfs:Class ;
+    rdfs:label "시설-상권 거리관계"@ko .
+
+ex:Quarter a rdfs:Class ;
+    rdfs:label "분기"@ko .
+
+ex:Rule a rdfs:Class ;
+    rdfs:label "집계·거리 규칙"@ko .
+
+ex:SalesObservation a rdfs:Class ;
+    rdfs:label "상권·업종·분기 매출관측"@ko .
+
+ex:SourceFile a rdfs:Class ;
+    rdfs:label "직접 입력 파일"@ko .
+
+ex:StudyArea a rdfs:Class ;
+    rdfs:label "상권"@ko .
+
+ex:Unit a rdfs:Class ;
+    rdfs:label "단위"@ko .
+
+ex:KRW a ex:Unit ;
+    rdfs:label "원"@ko ;
+    rdfs:comment "서울 상권 자료의 분기 총매출액 단위. 물가 조정 전 명목 금액."@ko .
+
+ex:activeQuarter a rdf:Property ;
+    rdfs:label "좌표·기간 확인 공연의 기간 겹침 분기"@ko ;
+    rdfs:domain ex:Performance ;
+    rdfs:range ex:Quarter .
+
+ex:areaCode a rdf:Property ;
+    rdfs:label "상권 코드"@ko ;
+    rdfs:domain ex:StudyArea ;
+    rdfs:range xsd:string .
+
+ex:coordinateAvailable a rdf:Property ;
+    rdfs:label "좌표 확인 여부"@ko ;
+    rdfs:range xsd:boolean .
+
+ex:distanceMetres a rdf:Property ;
+    rdfs:label "현재 상권 폴리곤까지 최소거리"@ko ;
+    rdfs:domain ex:ProximityRelation ;
+    rdfs:range xsd:decimal .
+
+ex:distanceUnit a rdf:Property ;
+    rdfs:label "거리 단위"@ko ;
+    rdfs:domain ex:ProximityRelation ;
+    rdfs:range ex:Unit .
+
+ex:districtName a rdf:Property ;
+    rdfs:label "자치구 이름"@ko ;
+    rdfs:range xsd:string .
+
+ex:endDate a rdf:Property ;
+    rdfs:label "공연 종료일"@ko ;
+    rdfs:domain ex:Performance ;
+    rdfs:range xsd:date .
+
+ex:hasFacilityLink a rdf:Property ;
+    rdfs:label "공연의 시설 연결 주장"@ko ;
+    rdfs:domain ex:Performance ;
+    rdfs:range ex:FacilityLink .
+
+ex:inArea a rdf:Property ;
+    rdfs:label "매출관측의 상권"@ko ;
+    rdfs:domain ex:SalesObservation ;
+    rdfs:range ex:StudyArea .
+
+ex:inIndustry a rdf:Property ;
+    rdfs:label "매출관측의 업종"@ko ;
+    rdfs:domain ex:SalesObservation ;
+    rdfs:range ex:Industry .
+
+ex:inQuarter a rdf:Property ;
+    rdfs:label "매출관측의 분기"@ko ;
+    rdfs:domain ex:SalesObservation ;
+    rdfs:range ex:Quarter .
+
+ex:industryCode a rdf:Property ;
+    rdfs:label "업종 코드"@ko ;
+    rdfs:domain ex:Industry ;
+    rdfs:range xsd:string .
+
+ex:latitude a rdf:Property ;
+    rdfs:label "위도 EPSG:4326"@ko ;
+    rdfs:domain ex:Facility ;
+    rdfs:range xsd:decimal .
+
+ex:linkMethod a rdf:Property ;
+    rdfs:label "상위 전처리의 연결 방법"@ko ;
+    rdfs:domain ex:FacilityLink ;
+    rdfs:range xsd:string .
+
+ex:linkStatus a rdf:Property ;
+    rdfs:label "공식 또는 잠정 연결 상태"@ko ;
+    rdfs:domain ex:FacilityLink ;
+    rdfs:range ex:LinkStatus .
+
+ex:linkedFacility a rdf:Property ;
+    rdfs:label "연결 대상 시설"@ko ;
+    rdfs:domain ex:FacilityLink ;
+    rdfs:range ex:Facility .
+
+ex:linkedPerformance a rdf:Property ;
+    rdfs:label "연결 대상 공연"@ko ;
+    rdfs:domain ex:FacilityLink ;
+    rdfs:range ex:Performance .
+
+ex:longitude a rdf:Property ;
+    rdfs:label "경도 EPSG:4326"@ko ;
+    rdfs:domain ex:Facility ;
+    rdfs:range xsd:decimal .
+
+ex:metre a ex:Unit ;
+    rdfs:label "미터"@ko ;
+    rdfs:comment "투영좌표계에서 계산한 공간 거리의 단위."@ko .
+
+ex:nameOfficialConflict a rdf:Property ;
+    rdfs:label "공식 ID와 시설명 후보의 충돌"@ko ;
+    rdfs:domain ex:FacilityLink ;
+    rdfs:range xsd:boolean .
+
+ex:nearArea a rdf:Property ;
+    rdfs:label "거리관계의 상권"@ko ;
+    rdfs:domain ex:ProximityRelation ;
+    rdfs:range ex:StudyArea .
+
+ex:nearFacility a rdf:Property ;
+    rdfs:label "거리관계의 시설"@ko ;
+    rdfs:domain ex:ProximityRelation ;
+    rdfs:range ex:Facility .
+
+ex:officialIdentifier a rdf:Property ;
+    rdfs:label "자료 제공처의 공식 개체 ID"@ko ;
+    rdfs:range xsd:string .
+
+ex:polygon500m a ex:Rule ;
+    rdfs:label "현재 상권 폴리곤 500m 이내"@ko ;
+    rdfs:comment "03 산출물 재사용. 현재 상권 폴리곤까지 최소거리 500m 이하; 내부는 0m. 보행거리나 중심점 거리가 아님."@ko .
+
+ex:quarterCode a rdf:Property ;
+    rdfs:label "연도+분기 코드"@ko ;
+    rdfs:domain ex:Quarter ;
+    rdfs:range xsd:string .
+
+ex:quarterOverlap a ex:Rule ;
+    rdfs:label "공연기간과 분기 겹침"@ko ;
+    rdfs:comment "03 산출물 재사용. 좌표와 기간을 확인한 공연 ID의 분기 겹침."@ko .
+
+ex:quarterlySales a ex:Rule ;
+    rdfs:label "상권·업종·분기 총매출"@ko ;
+    rdfs:comment "분기 값을 일별로 배분하지 않음. 미제공 금액 생략."@ko .
+
+ex:rule a rdf:Property ;
+    rdfs:label "적용 집계 또는 거리 규칙"@ko ;
+    rdfs:range ex:Rule .
+
+ex:salesProvided a rdf:Property ;
+    rdfs:label "매출 원천 행 제공 여부"@ko ;
+    rdfs:domain ex:SalesObservation ;
+    rdfs:range xsd:boolean .
+
+ex:salesUnit a rdf:Property ;
+    rdfs:label "매출액 단위"@ko ;
+    rdfs:domain ex:SalesObservation ;
+    rdfs:range ex:Unit .
+
+ex:sha256 a rdf:Property ;
+    rdfs:label "입력 파일 SHA-256"@ko ;
+    rdfs:domain ex:SourceFile ;
+    rdfs:range xsd:string .
+
+ex:sourcePath a rdf:Property ;
+    rdfs:label "저장소 기준 입력 파일 경로"@ko ;
+    rdfs:domain ex:SourceFile ;
+    rdfs:range xsd:string .
+
+ex:sourceRows a rdf:Property ;
+    rdfs:label "입력 CSV 행 수 또는 JSON 문서 수"@ko ;
+    rdfs:domain ex:SourceFile ;
+    rdfs:range xsd:integer .
+
+ex:startDate a rdf:Property ;
+    rdfs:label "공연 시작일"@ko ;
+    rdfs:domain ex:Performance ;
+    rdfs:range xsd:date .
+
+ex:totalSales a rdf:Property ;
+    rdfs:label "분기 총매출액"@ko ;
+    rdfs:domain ex:SalesObservation ;
+    rdfs:range xsd:decimal .
+

@@ -1,0 +1,15 @@
+﻿metric,count,denominator_performance_ids,pct
+all_performance_ids,13727,13727,100.0
+schedule_with_clock,13720,13727,99.94900560938297
+schedule_with_weekday_or_holiday,13720,13727,99.94900560938297
+schedule_with_holiday_label,1163,13727,8.472353755372623
+schedule_with_explicit_calendar_date_pattern,0,13727,0.0
+runtime_nonempty,13245,13727,96.48867196037007
+runtime_conservatively_parseable,13244,13727,96.48138704742479
+runtime_nonempty_needs_review,1,13727,0.007284912945290304
+runtime_over_6_hours,53,13727,0.3861003861003861
+valid_period,13727,13727,100.0
+registered_period_is_one_day,7921,13727,57.703795439644495
+registered_period_extends_beyond_2025,153,13727,1.1145916806294165
+clock_runtime_period_and_facility_available,13237,13727,96.43039265680775
+official_facility_id_matches_snapshot,13727,13727,100.0

@@ -1,0 +1,3 @@
+﻿district,area_count,expected_rows,sales_observed_rows,sales_missing_rows,sales_coverage_pct,fe_rows,fe_areas,source_id
+마포구,77,9240,4326,4914,46.81818181818182,4319,71,S04;S27;S13
+종로구,74,8880,3335,5545,37.556306306306304,3327,63,S04;S27;S13
