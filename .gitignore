@@ -18,9 +18,15 @@ __pycache__/
 *.pyo
 .ipynb_checkpoints/
 .venv/
-venv/
+/venv/
 
 # Machine-specific runtime state.
-/results/collection/kopis/collector.lock
+/reports/kopis_collection/collector.lock
 .DS_Store
 Thumbs.db
+
+# Local reproducibility environment
+/environment/validation-workspace/
+/environment/verification-output/
+
+/environment/initialization-workspace/

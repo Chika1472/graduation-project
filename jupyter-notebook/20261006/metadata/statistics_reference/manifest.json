@@ -1,0 +1,13 @@
+{
+  "purpose": "fixed_snapshot_code_reorganization_regression_check",
+  "files": {
+    "09_industry_effects.csv": {
+      "source_at_freeze": "reports/09_industry_effects.csv",
+      "sha256": "c678c7f75da5a3c4e1bd888493a9840456db32ead53f2b53a918cac1f699af6d"
+    },
+    "10_gee_industry_effects.csv": {
+      "source_at_freeze": "reports/10_gee_industry_effects.csv",
+      "sha256": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b"
+    }
+  }
+}

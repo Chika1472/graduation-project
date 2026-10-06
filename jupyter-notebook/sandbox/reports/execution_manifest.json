@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-04T22:17:19.657660+00:00",
+  "purpose": "PRELIMINARY_ONLY",
+  "steps": [
+    {
+      "notebook": "test/notebooks/01_측정표본_탐색.ipynb",
+      "status": "passed",
+      "seconds": 8.95,
+      "source_sha256": "1f877ce98293bccdf869767341f7846b7725221ae9a774930dbe004bf30c1ab9",
+      "executed_sha256": "d39dd88c3f9f1d56ac2d01e73df3416a319d63fda14ffc7791ea92fb1a2e9ed0",
+      "html": "test/reports/notebooks/01_측정표본_탐색.html"
+    },
+    {
+      "notebook": "test/notebooks/02_유의성부풀리기_시연.ipynb",
+      "status": "passed",
+      "seconds": 5.27,
+      "source_sha256": "0a8323033aaf7ab29b101cb3fa787a7954fcfcb1827233d7c32184ac578fc233",
+      "executed_sha256": "c856bdc4cfceceb443ff6437411a8fd783568a550fce891daf014ef7b8fae6ef",
+      "html": "test/reports/notebooks/02_유의성부풀리기_시연.html"
+    },
+    {
+      "notebook": "test/notebooks/03_효과주입_모의실험.ipynb",
+      "status": "passed",
+      "seconds": 3.62,
+      "source_sha256": "29fb4059bc0bae3785f97d3f116db5126326703d20b2eb8af5b405f7219d0c56",
+      "executed_sha256": "9b5b10721a6f9a0e7e2934ab48c6c3636a501d37f105d6281447299176e78e29",
+      "html": "test/reports/notebooks/03_효과주입_모의실험.html"
+    },
+    {
+      "notebook": "test/notebooks/05_PPML_매출모형.ipynb",
+      "status": "passed",
+      "seconds": 5.53,
+      "source_sha256": "31813eb991889789732f5d5c65edbcd00d73b9b91c6acb8185a8cb4204b09a89",
+      "executed_sha256": "71fccde57b2d300b0a12ac114d37ba795f6c10a2c8b389f10cf93359a8fb7716",
+      "html": "test/reports/notebooks/05_PPML_매출모형.html"
+    },
+    {
+      "notebook": "test/notebooks/06_좌석연결과_핵심상권감사.ipynb",
+      "status": "passed",
+      "seconds": 3.27,
+      "source_sha256": "9f1af421f2d2966b9f71a28a79e60d97e75a6a38d94ecb58cb999260766d24b2",
+      "executed_sha256": "3443a685b4bd5dfca5eb8029f079d13aaf42e3e6e387057f2ba03e9ddac52f99",
+      "html": "test/reports/notebooks/06_좌석연결과_핵심상권감사.html"
+    },
+    {
+      "notebook": "test/notebooks/07_좌석공급_탐색.ipynb",
+      "status": "passed",
+      "seconds": 3.52,
+      "source_sha256": "662eb657d9af5422d7e6b2ab123f0b2b43d336cad99c17b535ed0c54705e65a3",
+      "executed_sha256": "ba07a514d53bc38be8cd6a3f905abe8e68369c920492619a43e4bf7d946d353c",
+      "html": "test/reports/notebooks/07_좌석공급_탐색.html"
+    },
+    {
+      "notebook": "test/notebooks/04_실험결과_보고서.ipynb",
+      "status": "passed",
+      "seconds": 3.06,
+      "source_sha256": "d0e2564314db30d4b0324bd7486bdaf1e162623ec34ddccbcb7139d1a7c8f760",
+      "executed_sha256": "97af3ff64cabc4918c19e0ec01d10868bc113d15c57d6769b579caddcfa6006f",
+      "html": "test/reports/notebooks/04_실험결과_보고서.html"
+    }
+  ],
+  "network_requests": 0,
+  "finished_utc": "2026-10-04T22:17:53.108547+00:00",
+  "protected_files_unchanged": 305
+}

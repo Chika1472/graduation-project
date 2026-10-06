@@ -1,7 +1,0 @@
-﻿dataset,year,rows,columns_in_raw,duplicate_keys,missing_key_rows
-sales,2023,88246,55,0,0
-stores,2023,307741,14,0,0
-sales,2024,87179,55,0,0
-stores,2024,306889,14,0,0
-sales,2025,85732,55,0,0
-stores,2025,304775,14,0,0

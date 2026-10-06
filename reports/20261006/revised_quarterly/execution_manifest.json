@@ -1,0 +1,52 @@
+{
+  "started_utc": "2026-10-04T21:40:52.866024+00:00",
+  "status": "completed",
+  "steps": [
+    {
+      "notebook": "final/notebooks/12_분기예정회차_데이터셋.ipynb",
+      "status": "passed",
+      "seconds": 14.96,
+      "code_cells": 15,
+      "source_sha256": "043e571c3385b464bea02747e401190b945cc508863faa222b835545debd4fe0",
+      "executed_sha256": "8581e13d31b99fe89990f4c08750de733cb59183f1acd1ae8e50f86d9e5dcfce",
+      "html": "reports/final/revised_quarterly/notebooks/12_분기예정회차_데이터셋.html"
+    },
+    {
+      "notebook": "final/notebooks/13_분기매출액_수정분석.ipynb",
+      "status": "passed",
+      "seconds": 5.9,
+      "code_cells": 12,
+      "source_sha256": "162cedd14bedc6f32f416b12bc0c9d190a0c77b03311bcadced2eb99d6982538",
+      "executed_sha256": "960dc444f38903c07b5bd2ff6e9abf19f81845e86b773501abd10eb1baffbf05",
+      "html": "reports/final/revised_quarterly/notebooks/13_분기매출액_수정분석.html"
+    },
+    {
+      "notebook": "final/report/09_수정표본_보조진단.ipynb",
+      "status": "passed",
+      "seconds": 1.98,
+      "code_cells": 6,
+      "source_sha256": "fcb40ec12e386e4118474fb54f1d0aff3d183608b9c4d7a4e2874a28c45ddb45",
+      "executed_sha256": "2300da5afd30d3745143c6e714e2e46b831f6d1b574c440c81b23c5dc7337e71",
+      "html": "reports/final/revised_quarterly/notebooks/09_수정표본_보조진단.html"
+    },
+    {
+      "notebook": "final/report/08_수정분석_결과보고서.ipynb",
+      "status": "passed",
+      "seconds": 1.97,
+      "code_cells": 9,
+      "source_sha256": "b78b33d5d24365b5824a1cbd62fbab3143ac1e4114f324122cb81f4c8569f94e",
+      "executed_sha256": "3d634e0715108119132d0c0e4fdf75a8b698171b7dc86229d5baa3158554d3b8",
+      "html": "reports/final/revised_quarterly/notebooks/08_수정분석_결과보고서.html",
+      "full_run_executed_sha256": "cf0ce782593d947a9813bc7431465925cfa629488298f2613785e9ce0f25e1f8",
+      "wording_refresh": {
+        "status": "passed",
+        "finished_utc": "2026-10-04T21:42:29.074526+00:00",
+        "reason": "시작일정 가용 ID 비율 정의와 공연 ID 수 용어 명확화; 회귀 결과 변경 없음"
+      }
+    }
+  ],
+  "network_requests": 0,
+  "plan_sha256": "e54c6cdedb3bfc7ed0e34ca2f6d187ef8aa146c9d9c4d3e94603d924c302d8aa",
+  "finished_utc": "2026-10-04T21:41:17.767552+00:00",
+  "protected_baselines_unchanged": true
+}

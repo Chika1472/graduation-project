@@ -1,0 +1,63 @@
+{
+  "source": "OpenAI Data Analytics plugin",
+  "version": "0.2.10-13ceeea1f599",
+  "copied_on": "2026-10-06",
+  "files": [
+    {
+      "path": "environment/report-builder/skills/build-report/scripts/build_portable_artifact.mjs",
+      "sha256": "0b86883810cf23c81f563a48a7708283a6a4cadf11228ad261efb64426ef728e"
+    },
+    {
+      "path": "environment/report-builder/skills/build-report/scripts/deliver_portable_artifact.mjs",
+      "sha256": "09d7afe25f76429ba1e99d08a5793af44c27738482d91e9b0bd2351ffd516066"
+    },
+    {
+      "path": "environment/report-builder/skills/build-report/scripts/extract_portable_chart_svgs.mjs",
+      "sha256": "77e78593d8971563b6394334128dd3ee243f2182d3d087591d3a5499ece9283b"
+    },
+    {
+      "path": "environment/report-builder/skills/build-report/scripts/portable_browser_cli.mjs",
+      "sha256": "aac3b12fc12c7ad2e044533f881791dd3b23bd0ee31ddf6682dd7f6de99e6596"
+    },
+    {
+      "path": "environment/report-builder/skills/build-report/scripts/portable_browser_helpers.mjs",
+      "sha256": "84aa4f8a2a11376ebee6942d2d7e10a083d16c65dfdb73114d7b34e51c27f69d"
+    },
+    {
+      "path": "environment/report-builder/skills/build-report/scripts/verify_portable_artifact.mjs",
+      "sha256": "b495c4cc34113fb2918118eac302f4e7e2152c1b1b9b63e3646cea97ecbf9b3f"
+    },
+    {
+      "path": "environment/report-builder/mcp/server.cjs",
+      "sha256": "eff59c6085d2ab6b6153c80a03749e764e160f8c6711da8433f7bd6762e1db66"
+    },
+    {
+      "path": "environment/report-builder/assets/portable-artifact-reader.html",
+      "sha256": "6c5ed0d30e002c9e0cbbb11933296e4f831fb4de5933e21f34bb44f3999be7b5"
+    },
+    {
+      "path": "environment/report-builder/assets/portable-artifact-reader.html.gz.b64.part001",
+      "sha256": "154f1d561bab28174f88d71ae710599709e5a5eda64dee08b025a699449dbbfc"
+    },
+    {
+      "path": "environment/report-builder/assets/portable-artifact-reader.html.gz.b64.part002",
+      "sha256": "9459ed4b76bd825daba9637564dd3122ca617a88dd16531d3e9bca5c7ced080e"
+    },
+    {
+      "path": "environment/report-builder/assets/portable-artifact-reader.html.gz.b64.part003",
+      "sha256": "cdfe2e6787faa61d37f043df6996d5f988c07360bb2b3d8af2aa3c18e8db3ac0"
+    },
+    {
+      "path": "environment/report-builder/.codex-plugin/plugin.json",
+      "sha256": "5e31ff8c5a927dd262488ab4fa34a1136ff5ecd778fc2b91709f2426588f13ba"
+    },
+    {
+      "path": "environment/report-builder/assets/datascience-small.svg",
+      "sha256": "89b5a1673d5d696db1fb98bd1668367e70f986df658e734c3a01e2e971484e64"
+    },
+    {
+      "path": "environment/report-builder/assets/datascience.png",
+      "sha256": "43494b72f2b1ca063b775ba114130ae85d378bf3b3f6257a2e0e44e4830863a1"
+    }
+  ]
+}

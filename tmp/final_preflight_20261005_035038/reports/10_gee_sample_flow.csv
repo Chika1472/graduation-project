@@ -1,9 +1,0 @@
-﻿outcome,step,nobs,entities,area_clusters,industries
-log_sales,panel,18120,1510,151,10
-log_sales,complete_cases,7661,693,135,10
-log_sales,entity_at_least_2_quarters,7646,678,134,10
-log_sales,eligible_industries,7646,678,134,10
-night_share_pct,panel,18120,1510,151,10
-night_share_pct,complete_cases,7661,693,135,10
-night_share_pct,entity_at_least_2_quarters,7646,678,134,10
-night_share_pct,eligible_industries,7646,678,134,10

@@ -1,0 +1,2948 @@
+{
+  "organized_on": "2026-10-06",
+  "preserved_files": 490,
+  "moved_files": 222,
+  "content_verification": "All original files verified with SHA-256 after relocation",
+  "files": [
+    {
+      "old_path": "reports/03_collection_coverage.csv",
+      "new_path": "reports/20261005/03_collection_coverage.csv",
+      "bytes": 226,
+      "sha256": "f949223695b8a86c178724abfadb2b08d18398f36c329ab92a71c6ef91a75efa"
+    },
+    {
+      "old_path": "reports/03_exposure_revisions.csv",
+      "new_path": "reports/20261005/03_exposure_revisions.csv",
+      "bytes": 68904,
+      "sha256": "1d5d3520da3c5d260037238b21e2da298bd1fdfd200c384750d98112193ffcd7"
+    },
+    {
+      "old_path": "reports/03_input_sources.csv",
+      "new_path": "reports/20261005/03_input_sources.csv",
+      "bytes": 1712,
+      "sha256": "9518068ef64fdab078827ec7d9c99d35de19757e3066c8db0ef3852a831386f9"
+    },
+    {
+      "old_path": "reports/03_list_detail_period_comparison.csv",
+      "new_path": "reports/20261005/03_list_detail_period_comparison.csv",
+      "bytes": 1510163,
+      "sha256": "a1bbf23139350c0b30ddda68dc7f24365b1ea45cd35bbf39cbd32bd8ee42e537"
+    },
+    {
+      "old_path": "reports/03_official_name_conflicts.csv",
+      "new_path": "reports/20261005/03_official_name_conflicts.csv",
+      "bytes": 61,
+      "sha256": "5916f6e73cb4ff8d1d59b8ba0cb8ecd1a8088b23fd13af5781b1758364825bbd"
+    },
+    {
+      "old_path": "reports/04_ambiguous_facility_names.csv",
+      "new_path": "reports/20261005/04_ambiguous_facility_names.csv",
+      "bytes": 77,
+      "sha256": "586b876592272e0d3c731cb9f73be97c4b706c9f042f0360dd5ae4574fe3de71"
+    },
+    {
+      "old_path": "reports/04_audit_summary.json",
+      "new_path": "reports/20261005/04_audit_summary.json",
+      "bytes": 2810,
+      "sha256": "93c176d513100fd9d428b756a5e847e12250ffc8b1c9f1a4d621d2319cc0fa20"
+    },
+    {
+      "old_path": "reports/04_base_model_sample_flow.csv",
+      "new_path": "reports/20261005/04_base_model_sample_flow.csv",
+      "bytes": 230,
+      "sha256": "e92433c9ff2c7f641f3bac2ff767fcb4bcca24e212c19a652b2ba62ea0a70ac0"
+    },
+    {
+      "old_path": "reports/04_distance_source_reconstruction.csv",
+      "new_path": "reports/20261005/04_distance_source_reconstruction.csv",
+      "bytes": 120,
+      "sha256": "4ee2660d340f8014bf8fa3ad27f80a7be18de159badb83448ba8f7993dbee136"
+    },
+    {
+      "old_path": "reports/04_exposure_reconstruction.csv",
+      "new_path": "reports/20261005/04_exposure_reconstruction.csv",
+      "bytes": 159,
+      "sha256": "1d113f8d459ff90794c89c726a05fc930e5965d9018f6e5b350603a6585ef420"
+    },
+    {
+      "old_path": "reports/04_input_integrity.csv",
+      "new_path": "reports/20261005/04_input_integrity.csv",
+      "bytes": 5149,
+      "sha256": "294772073d3537f16daaefb4145c535cc9bb15856a054cffe5a122ca5b6d8197"
+    },
+    {
+      "old_path": "reports/04_input_schema.csv",
+      "new_path": "reports/20261005/04_input_schema.csv",
+      "bytes": 2773,
+      "sha256": "8960e30a9ba919ec28855074cb77bea0c141725e24fc13a7519e402673a7466b"
+    },
+    {
+      "old_path": "reports/04_link_methods.csv",
+      "new_path": "reports/20261005/04_link_methods.csv",
+      "bytes": 172,
+      "sha256": "5dc08dbd17f126577229ce73ff50a4e95c14e214db1c0b695987b174d5f109ab"
+    },
+    {
+      "old_path": "reports/04_list_detail_period_audit.csv",
+      "new_path": "reports/20261005/04_list_detail_period_audit.csv",
+      "bytes": 906095,
+      "sha256": "3e8e4923b5340931ea3e4a930a528245c028dd1fda39e15f283fe634d6dff7f8"
+    },
+    {
+      "old_path": "reports/04_missing_coordinates_by_quarter.csv",
+      "new_path": "reports/20261005/04_missing_coordinates_by_quarter.csv",
+      "bytes": 939,
+      "sha256": "ef2c1378f351c559d8a9e8fb89e323c4f8e594211b879ad13de16c95b67f19c8"
+    },
+    {
+      "old_path": "reports/04_missing_target_facilities.csv",
+      "new_path": "reports/20261005/04_missing_target_facilities.csv",
+      "bytes": 68,
+      "sha256": "e08d333849cd2ab3cb69bf8f068e55284455dac06bac1fa02092d73b18a372f1"
+    },
+    {
+      "old_path": "reports/04_missing_target_performances.csv",
+      "new_path": "reports/20261005/04_missing_target_performances.csv",
+      "bytes": 64,
+      "sha256": "ba955d29f98f5582939833cb502ff2621db5808f64339850c5ea23dd422646e3"
+    },
+    {
+      "old_path": "reports/04_panel_coverage.csv",
+      "new_path": "reports/20261005/04_panel_coverage.csv",
+      "bytes": 361,
+      "sha256": "d5957be9245b38cf30a3a425fab8f4488b5a399cb9b3d4d9786dd328deaedfc5"
+    },
+    {
+      "old_path": "reports/04_raw_month_coverage.csv",
+      "new_path": "reports/20261005/04_raw_month_coverage.csv",
+      "bytes": 764,
+      "sha256": "1e162757220ee97056736246be4237ace27e945d48c23c1a507aa480f77f0f8e"
+    },
+    {
+      "old_path": "reports/04_raw_quarter_coverage.csv",
+      "new_path": "reports/20261005/04_raw_quarter_coverage.csv",
+      "bytes": 627,
+      "sha256": "6e87b2afc030eed72f7b2240ffa24b4a804937b0a40048441b76bdeec55bc01a"
+    },
+    {
+      "old_path": "reports/04_raw_record_variants.csv",
+      "new_path": "reports/20261005/04_raw_record_variants.csv",
+      "bytes": 94,
+      "sha256": "9d841ee6439cd1e35ffaf835e67da11473b123d146dc81a51efeea1b68a3644c"
+    },
+    {
+      "old_path": "reports/04_validation_checks.csv",
+      "new_path": "reports/20261005/04_validation_checks.csv",
+      "bytes": 2464,
+      "sha256": "41519ae6208a59796d3446ee5d915a766e74880cd5ccba0a3fc16d7f93bb542b"
+    },
+    {
+      "old_path": "reports/05_activity_change_contrasts.csv",
+      "new_path": "reports/20261005/05_activity_change_contrasts.csv",
+      "bytes": 626,
+      "sha256": "cbf0aaad0db5b02aae8aefa3ee032ed599dc45bafb7fd91e29625cd80c6c8e19"
+    },
+    {
+      "old_path": "reports/05_analysis_summary.json",
+      "new_path": "reports/20261005/05_analysis_summary.json",
+      "bytes": 1510,
+      "sha256": "93f35710feb18b7ff25c4b2abcfe7d1c7205d9416f8401215eaf55d02ca5348b"
+    },
+    {
+      "old_path": "reports/05_fe_diagnostics.csv",
+      "new_path": "reports/20261005/05_fe_diagnostics.csv",
+      "bytes": 662,
+      "sha256": "d5bb12369414f4d0c788ebfcd79ef8c91f30ecbe583470d4369984ac49edb066"
+    },
+    {
+      "old_path": "reports/05_gee_diagnostics.csv",
+      "new_path": "reports/20261005/05_gee_diagnostics.csv",
+      "bytes": 249,
+      "sha256": "73ece1dea7dd2376f56229c2aa58e53be6224f0d74e9fe9c00ecadd8536c72fb"
+    },
+    {
+      "old_path": "reports/05_implementation_checks.csv",
+      "new_path": "reports/20261005/05_implementation_checks.csv",
+      "bytes": 820,
+      "sha256": "539bb19bfd6346fa290d687539f749a29ff918a8b40795b5b6b96651623a485f"
+    },
+    {
+      "old_path": "reports/05_interaction_results.csv",
+      "new_path": "reports/20261005/05_interaction_results.csv",
+      "bytes": 6945,
+      "sha256": "8ca2b6740d3b2da7c7b9afe73605255fe5888402b1cc59e7572de96811b9ae2b"
+    },
+    {
+      "old_path": "reports/05_model_samples.csv",
+      "new_path": "reports/20261005/05_model_samples.csv",
+      "bytes": 932,
+      "sha256": "c46562f92cd01a465196f19c3479fb30e1bc6f4899bc45605801984345fb4014"
+    },
+    {
+      "old_path": "reports/05_sample_membership.csv",
+      "new_path": "reports/20261005/05_sample_membership.csv",
+      "bytes": 1520933,
+      "sha256": "463fed65627926e43a93307ac4499b5242372b38af96891b0a8ddbbc82e42968"
+    },
+    {
+      "old_path": "reports/06_collection_coverage.csv",
+      "new_path": "reports/20261005/06_collection_coverage.csv",
+      "bytes": 190,
+      "sha256": "4ddb5d2a590f752c6e32a83dab154d82ae1de8f754a08a9e1e385e92df02c288"
+    },
+    {
+      "old_path": "reports/06_entity_counts.csv",
+      "new_path": "reports/20261005/06_entity_counts.csv",
+      "bytes": 449,
+      "sha256": "53d338c13294f6ca7d39bf57768e5c6fce448bf51f7f1bf8dc8090bf58d3caf9"
+    },
+    {
+      "old_path": "reports/06_graph_coverage.csv",
+      "new_path": "reports/20261005/06_graph_coverage.csv",
+      "bytes": 219,
+      "sha256": "9ad53edcf63c64dac271442519ffd81c66485c0c49aebd5482425637c1335710"
+    },
+    {
+      "old_path": "reports/06_knowledge_graph_summary.json",
+      "new_path": "reports/20261005/06_knowledge_graph_summary.json",
+      "bytes": 3933,
+      "sha256": "b07d84584646bca8811d05f007c4175cad0afb018a8b7c1a7bef601084527967"
+    },
+    {
+      "old_path": "reports/06_q1_sales_coverage.csv",
+      "new_path": "reports/20261005/06_q1_sales_coverage.csv",
+      "bytes": 3232,
+      "sha256": "71f0e73f65d6e27701bb0d0f1fc82e16192868a1835915e7d701a484aa00524f"
+    },
+    {
+      "old_path": "reports/06_q2_observed_sales_sum.csv",
+      "new_path": "reports/20261005/06_q2_observed_sales_sum.csv",
+      "bytes": 10353,
+      "sha256": "fd0fca670acd43ff8cbd87d9d8b558b374354199bb213dcf0735844188ee3afd"
+    },
+    {
+      "old_path": "reports/06_q3_link_status.csv",
+      "new_path": "reports/20261005/06_q3_link_status.csv",
+      "bytes": 123,
+      "sha256": "058c10aaa72d253e23935db414b13c6cf438b3c696249a485441a1ea5d48b9a4"
+    },
+    {
+      "old_path": "reports/06_q4_proximity_500m.csv",
+      "new_path": "reports/20261005/06_q4_proximity_500m.csv",
+      "bytes": 151,
+      "sha256": "59f3e99fe9e86e3c17ddaefe3f4d67c2aa9ce977cfe5bb91a65feeaa30755d5e"
+    },
+    {
+      "old_path": "reports/06_q5_area_quarter_performances.csv",
+      "new_path": "reports/20261005/06_q5_area_quarter_performances.csv",
+      "bytes": 32227,
+      "sha256": "8d17cf366f10bd8cb66358249b1be6e20adc6b91a82cd7d8fd1cf7e4f026f9ea"
+    },
+    {
+      "old_path": "reports/06_source_manifest.csv",
+      "new_path": "reports/20261005/06_source_manifest.csv",
+      "bytes": 1152,
+      "sha256": "d420b5ab0328bb959694404dac5e77874602430ee3cb1c72333aab8b27b9799e"
+    },
+    {
+      "old_path": "reports/06_validation.csv",
+      "new_path": "reports/20261005/06_validation.csv",
+      "bytes": 560,
+      "sha256": "a0fe3620e1f938bed6635cbe319eb2dc9ad856e99d63b3010f5c94fa6f3f33dc"
+    },
+    {
+      "old_path": "reports/07_contract_checks.csv",
+      "new_path": "reports/20261005/07_contract_checks.csv",
+      "bytes": 2040,
+      "sha256": "b463f4aa26e860f7c11f523acf0fa07df04cf312c6f1e88e4e8db15ab6c34edc"
+    },
+    {
+      "old_path": "reports/07_example_result.json",
+      "new_path": "reports/20261005/07_example_result.json",
+      "bytes": 4471,
+      "sha256": "4dabf718310a185c6e59f1e292822d1e0d8bef21ad566e1a4c1402ddf3d7b638"
+    },
+    {
+      "old_path": "reports/07_tool_call_log.jsonl",
+      "new_path": "reports/20261005/07_tool_call_log.jsonl",
+      "bytes": 101386,
+      "sha256": "0b52c81e47393be963c3c3a8ba922af6855a2e22c0c560170389f9e62eadea2c"
+    },
+    {
+      "old_path": "reports/07_tool_contracts.json",
+      "new_path": "reports/20261005/07_tool_contracts.json",
+      "bytes": 7292,
+      "sha256": "2335e49e93e2e86aa5e2b3075fc7c81f08f2d630db5079e0fe45b611117eab34"
+    },
+    {
+      "old_path": "reports/07_tool_readiness_summary.json",
+      "new_path": "reports/20261005/07_tool_readiness_summary.json",
+      "bytes": 6499,
+      "sha256": "f115e998090d02878a1ed744d8f8523ddc9e5438df92b2e31ee84f372070a456"
+    },
+    {
+      "old_path": "reports/08_code_label_consistency.csv",
+      "new_path": "reports/20261005/08_code_label_consistency.csv",
+      "bytes": 2059,
+      "sha256": "32cc4f7296eb6908700af3637a8409998a2f8d7a909dc01931b0259740ca780b"
+    },
+    {
+      "old_path": "reports/08_district_industry_coverage.csv",
+      "new_path": "reports/20261005/08_district_industry_coverage.csv",
+      "bytes": 3933,
+      "sha256": "7e6403a5b9cc29c38859c61bc62b8344d7e27b203397e502f7648fa2eefe1eec"
+    },
+    {
+      "old_path": "reports/08_exposure_linkage_coverage.csv",
+      "new_path": "reports/20261005/08_exposure_linkage_coverage.csv",
+      "bytes": 165,
+      "sha256": "5cdeabc995509ef462fa7410adf59f2536abc2c12966ad233a8b6f2d325488fa"
+    },
+    {
+      "old_path": "reports/08_flagged_panel_rows.csv",
+      "new_path": "reports/20261005/08_flagged_panel_rows.csv",
+      "bytes": 29023,
+      "sha256": "0c736a2f5e759065594deb56146561cf04d8e0393784d7005c8116d23c8829fb"
+    },
+    {
+      "old_path": "reports/08_food_scope_metadata.json",
+      "new_path": "reports/20261005/08_food_scope_metadata.json",
+      "bytes": 10312,
+      "sha256": "4ccd95cde672604e8b70411e10369be1af290483e2104d6be47811e20aaaea8b"
+    },
+    {
+      "old_path": "reports/08_industry_coverage.csv",
+      "new_path": "reports/20261005/08_industry_coverage.csv",
+      "bytes": 2127,
+      "sha256": "09413e938288565b8c1b75f7a93878a4b7c7cbe8b29cd395d609a72e4f98459d"
+    },
+    {
+      "old_path": "reports/08_legacy_two_industry_comparison.csv",
+      "new_path": "reports/20261005/08_legacy_two_industry_comparison.csv",
+      "bytes": 736,
+      "sha256": "2db02d4d3514845a52c21d222549c13c3187ffd623b50c8d9f55204da4e222c3"
+    },
+    {
+      "old_path": "reports/08_quarter_industry_coverage.csv",
+      "new_path": "reports/20261005/08_quarter_industry_coverage.csv",
+      "bytes": 22461,
+      "sha256": "36a3d9a248617717b07bceb26ca818bc0c69743d3105d6c39c68df40668de19c"
+    },
+    {
+      "old_path": "reports/08_snapshot_exposure_changes.csv",
+      "new_path": "reports/20261005/08_snapshot_exposure_changes.csv",
+      "bytes": 53,
+      "sha256": "2c0ae0c47aba7b3b37db461b5f56f95cb815b7ac3605e754938223d2f9c4abe5"
+    },
+    {
+      "old_path": "reports/08_snapshot_update_comparison.csv",
+      "new_path": "reports/20261005/08_snapshot_update_comparison.csv",
+      "bytes": 196,
+      "sha256": "8350db72313608fa7ba9f30ddf496b54890ff04edd43bb3226c8bccf28ed05ab"
+    },
+    {
+      "old_path": "reports/08_snapshot_update_comparison.json",
+      "new_path": "reports/20261005/08_snapshot_update_comparison.json",
+      "bytes": 357,
+      "sha256": "395ac07853c05541cae25bab1c8afe52193868e5bad5ac9c1e3ce562214371cf"
+    },
+    {
+      "old_path": "reports/08_source_fingerprints.csv",
+      "new_path": "reports/20261005/08_source_fingerprints.csv",
+      "bytes": 1928,
+      "sha256": "513d907a641955544c8bc02442b6b8e2e64c7ec85dc46270b32a432746382f59"
+    },
+    {
+      "old_path": "reports/08_source_industry_catalog.csv",
+      "new_path": "reports/20261005/08_source_industry_catalog.csv",
+      "bytes": 19636,
+      "sha256": "7ee449ebdf931374ef129ae1225ddc627dee727b96122d5afc8bebeed5741bc4"
+    },
+    {
+      "old_path": "reports/08_source_quality.csv",
+      "new_path": "reports/20261005/08_source_quality.csv",
+      "bytes": 250,
+      "sha256": "1e20dd5aaf12e4f3d602cd771ef0d155881c2e4c231d3c5d424013cd6a8804af"
+    },
+    {
+      "old_path": "reports/08_source_revisions.csv",
+      "new_path": "reports/20261005/08_source_revisions.csv",
+      "bytes": 1402,
+      "sha256": "089d1c8d1e0c8ad09f7773195ca5e6b727a9503a018716ddb7d81216973c1bf5"
+    },
+    {
+      "old_path": "reports/08_validation_checks.csv",
+      "new_path": "reports/20261005/08_validation_checks.csv",
+      "bytes": 540,
+      "sha256": "9957ebf5f2bc60a5f5173ad63e07489da4bc780af08cde2280aa411800ef215a"
+    },
+    {
+      "old_path": "reports/08_value_flags.csv",
+      "new_path": "reports/20261005/08_value_flags.csv",
+      "bytes": 496,
+      "sha256": "011dc0f2eaf505a4cfa3b40b79dd3867188dd6b7087f638d900ddbca87771f33"
+    },
+    {
+      "old_path": "reports/09_activity_change_contrasts.csv",
+      "new_path": "reports/20261005/09_activity_change_contrasts.csv",
+      "bytes": 2831,
+      "sha256": "2b46587c6d547527844593f5744dc3e9e3e5300354321403caae7ecc47cbef9c"
+    },
+    {
+      "old_path": "reports/09_activity_support.csv",
+      "new_path": "reports/20261005/09_activity_support.csv",
+      "bytes": 1214,
+      "sha256": "8885a32fa031b2c199505112fc2ecfd8e319b6e7b99b78fff5a89edb4ae905be"
+    },
+    {
+      "old_path": "reports/09_analysis_summary.json",
+      "new_path": "reports/20261005/09_analysis_summary.json",
+      "bytes": 3091,
+      "sha256": "2ae176dfabba9fa270394413665537fb32a1cb6e35483950a9a329c600aeb3b3"
+    },
+    {
+      "old_path": "reports/09_eligibility.csv",
+      "new_path": "reports/20261005/09_eligibility.csv",
+      "bytes": 7729,
+      "sha256": "fdf987912c244cd2eed7602b791ab7ad47994863a05f4f64aee1a7b387a68cf4"
+    },
+    {
+      "old_path": "reports/09_fwl_validation.csv",
+      "new_path": "reports/20261005/09_fwl_validation.csv",
+      "bytes": 883,
+      "sha256": "c89badbae4691757c7d8c3933d84d615d92a975a19ca3dd8ac62af06d2189be6"
+    },
+    {
+      "old_path": "reports/09_industry_effects.csv",
+      "new_path": "reports/20261005/09_industry_effects.csv",
+      "bytes": 17612,
+      "sha256": "c678c7f75da5a3c4e1bd888493a9840456db32ead53f2b53a918cac1f699af6d"
+    },
+    {
+      "old_path": "reports/09_model_sample_membership.csv",
+      "new_path": "reports/20261005/09_model_sample_membership.csv",
+      "bytes": 3607529,
+      "sha256": "6abd01abe2c28eb0e657f5a037884074ff07138b9391dffd93199379ca1d8185"
+    },
+    {
+      "old_path": "reports/09_model_samples.csv",
+      "new_path": "reports/20261005/09_model_samples.csv",
+      "bytes": 985,
+      "sha256": "fb42fb5139c7d90bb7019218a1da61aa400475287acc7458ea6581936144c6ca"
+    },
+    {
+      "old_path": "reports/09_omnibus_tests.csv",
+      "new_path": "reports/20261005/09_omnibus_tests.csv",
+      "bytes": 970,
+      "sha256": "9a31984184d8905ffee95aa8167d9967a982a698fb3e2bbba03edde30e31ed57"
+    },
+    {
+      "old_path": "reports/09_slope_covariances.csv",
+      "new_path": "reports/20261005/09_slope_covariances.csv",
+      "bytes": 64881,
+      "sha256": "2b0cd95163c6d77e784a9e8b425245af594edb58b21aa6a345d3963cb7f487ed"
+    },
+    {
+      "old_path": "reports/09_snapshot_model_comparison.csv",
+      "new_path": "reports/20261005/09_snapshot_model_comparison.csv",
+      "bytes": 3300,
+      "sha256": "1faaef67d896aff495722a3bb72f9056e7ad38298c200868cbdf1c970c1e3625"
+    },
+    {
+      "old_path": "reports/09_snapshot_model_comparison.json",
+      "new_path": "reports/20261005/09_snapshot_model_comparison.json",
+      "bytes": 447,
+      "sha256": "cf069c2c70fcc0e783c865c2daef461ffb5c3497c4b0f401436a245c033f4996"
+    },
+    {
+      "old_path": "reports/10_fe_gee_comparison.csv",
+      "new_path": "reports/20261005/10_fe_gee_comparison.csv",
+      "bytes": 5124,
+      "sha256": "2a176723fb3279c89fcbc78084c6f72c7be4a9dc6bfe7689368bd81018cb89df"
+    },
+    {
+      "old_path": "reports/10_fe_gee_sample_key_checks.csv",
+      "new_path": "reports/20261005/10_fe_gee_sample_key_checks.csv",
+      "bytes": 139,
+      "sha256": "e38fd7433b919d6d1fd566c41a093ea310a19cb627ac6eafa7daa7b4c281262f"
+    },
+    {
+      "old_path": "reports/10_gee_analysis_summary.json",
+      "new_path": "reports/20261005/10_gee_analysis_summary.json",
+      "bytes": 3108,
+      "sha256": "6427b75274608dd3dc8dc124d7b57f6e587548af14cc857617f2efe530418047"
+    },
+    {
+      "old_path": "reports/10_gee_between_effects.csv",
+      "new_path": "reports/20261005/10_gee_between_effects.csv",
+      "bytes": 3956,
+      "sha256": "6de4d50c67de8491aa8b81c9ff552b8ac3e4b86f37c0a74690640533ec0f540e"
+    },
+    {
+      "old_path": "reports/10_gee_decomposition_checks.csv",
+      "new_path": "reports/20261005/10_gee_decomposition_checks.csv",
+      "bytes": 193,
+      "sha256": "3982ac4a600d490cc2698aa200dec1a95a6a8d7718f399fcf7aa86579dad17f6"
+    },
+    {
+      "old_path": "reports/10_gee_diagnostics.csv",
+      "new_path": "reports/20261005/10_gee_diagnostics.csv",
+      "bytes": 517,
+      "sha256": "5837cf70dd459b6fd845ee9c50749eb62e9e4177a785ce599d33b932aeac631f"
+    },
+    {
+      "old_path": "reports/10_gee_eligibility.csv",
+      "new_path": "reports/20261005/10_gee_eligibility.csv",
+      "bytes": 1796,
+      "sha256": "1a2d9f513a7762f5c5aa8fead213205023bb087b2912b6525b7599a3cfd3efc7"
+    },
+    {
+      "old_path": "reports/10_gee_implementation_checks.csv",
+      "new_path": "reports/20261005/10_gee_implementation_checks.csv",
+      "bytes": 236,
+      "sha256": "305894d4712454faae8d983d73a52db62da84638dc55e078d482cd00a474c661"
+    },
+    {
+      "old_path": "reports/10_gee_industry_effects.csv",
+      "new_path": "reports/20261005/10_gee_industry_effects.csv",
+      "bytes": 4357,
+      "sha256": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b"
+    },
+    {
+      "old_path": "reports/10_gee_sample_flow.csv",
+      "new_path": "reports/20261005/10_gee_sample_flow.csv",
+      "bytes": 436,
+      "sha256": "350d46308b0bbdc300bdb5832c717f2d48067d4d1b38315d60f40996f7c7deae"
+    },
+    {
+      "old_path": "reports/10_gee_sample_membership.csv",
+      "new_path": "reports/20261005/10_gee_sample_membership.csv",
+      "bytes": 1658583,
+      "sha256": "c95d3afba73d35c0b4f5b2ad30fc8ad638858c55fc03ec068288ac6b110c3cca"
+    },
+    {
+      "old_path": "reports/11_seoul_refresh_checks.csv",
+      "new_path": "reports/seoul_collection/11_seoul_refresh_checks.csv",
+      "bytes": 1735,
+      "sha256": "0d5fad2f422a7ae385ab97382ed16a2623ae31446afc1c262c010d16da59e92e"
+    },
+    {
+      "old_path": "reports/11_seoul_refresh_profiles.csv",
+      "new_path": "reports/seoul_collection/11_seoul_refresh_profiles.csv",
+      "bytes": 709,
+      "sha256": "9eb743f8ced6664b34920874eb5a4eecfd911af713ece99d461e12aa81ce45f0"
+    },
+    {
+      "old_path": "reports/11_seoul_refresh_summary.json",
+      "new_path": "reports/seoul_collection/11_seoul_refresh_summary.json",
+      "bytes": 262,
+      "sha256": "e67fbe11ed6ca8a84b8d0f5e2d9747ad939ee29c99248660119c299937e69097"
+    },
+    {
+      "old_path": "reports/balanced_sales_trend.csv",
+      "new_path": "reports/20261005/balanced_sales_trend.csv",
+      "bytes": 3131,
+      "sha256": "f72825861f6f55c556be2228c39d9834e1a8f372552175ef80fc189f5365e802"
+    },
+    {
+      "old_path": "reports/balanced_weighted_shares.csv",
+      "new_path": "reports/20261005/balanced_weighted_shares.csv",
+      "bytes": 326,
+      "sha256": "383093877d4a676a4c2ef4e61a4aca80c1afe4e532233e8d8b0eea9cbd96486c"
+    },
+    {
+      "old_path": "reports/eda_summary.json",
+      "new_path": "reports/20261005/eda_summary.json",
+      "bytes": 179,
+      "sha256": "55dbf3f44e129b3997f7ec0a6f0688b4a5cc1a55598cd4e0dad0764b0c6bd168"
+    },
+    {
+      "old_path": "reports/facility_coordinate_coverage.csv",
+      "new_path": "reports/20261005/facility_coordinate_coverage.csv",
+      "bytes": 638,
+      "sha256": "91b0fa94d066296e1f768f1ed87cc79c6bb393193bcfe09fd2d49f8e960cdd14"
+    },
+    {
+      "old_path": "reports/flagged_panel_rows.csv",
+      "new_path": "reports/20261005/flagged_panel_rows.csv",
+      "bytes": 457,
+      "sha256": "ce7b2f508ac9d832da52f50fd0b4e3b93b232d95e0a3dc015f607abc7a322f8d"
+    },
+    {
+      "old_path": "reports/geometry_repairs.csv",
+      "new_path": "reports/20261005/geometry_repairs.csv",
+      "bytes": 118,
+      "sha256": "f79642d51911012c0f4d15c830aa569f9ffcf3a044d63028a6fcfe94d4ce0c36"
+    },
+    {
+      "old_path": "reports/linkage_analysis_summary.json",
+      "new_path": "reports/20261005/linkage_analysis_summary.json",
+      "bytes": 3975,
+      "sha256": "3cd4438ecd536a958081ba20e0d35c06b4d50f0a47953aeb2e52b6f417aaaab0"
+    },
+    {
+      "old_path": "reports/panel_coverage.csv",
+      "new_path": "reports/20261005/panel_coverage.csv",
+      "bytes": 2911,
+      "sha256": "2830c98ebaf35c16e238c7928f243a568b971876f79dcf358cdebcd53dc07c4f"
+    },
+    {
+      "old_path": "reports/panel_missingness.csv",
+      "new_path": "reports/20261005/panel_missingness.csv",
+      "bytes": 230,
+      "sha256": "ea24e7c1342e49401437fc3aca2524e300afb8fff74712883df79a8e1989b595"
+    },
+    {
+      "old_path": "reports/panel_regression_results.csv",
+      "new_path": "reports/20261005/panel_regression_results.csv",
+      "bytes": 2012,
+      "sha256": "55d3b0f12ad06a24d721d1c178e069343e3c25e91099915d070e516f889c3a3a"
+    },
+    {
+      "old_path": "reports/performance_link_methods.csv",
+      "new_path": "reports/20261005/performance_link_methods.csv",
+      "bytes": 80,
+      "sha256": "52e714394037b02e9f5b02ade975f71b56effc640e88f9c6fc4733512c4c284d"
+    },
+    {
+      "old_path": "reports/performances_unresolved_for_spatial_analysis.csv",
+      "new_path": "reports/20261005/performances_unresolved_for_spatial_analysis.csv",
+      "bytes": 211,
+      "sha256": "20f79f3ee6286a4a55eb3c68aef276669a6a0aee5eb723267c48b90a56112c03"
+    },
+    {
+      "old_path": "reports/preprocessing_summary.json",
+      "new_path": "reports/20261005/preprocessing_summary.json",
+      "bytes": 285,
+      "sha256": "03c146620ef0349454cdc946e8130f46aed6476b25bca9b1f679e0db9bf620ed"
+    },
+    {
+      "old_path": "reports/python_environment.json",
+      "new_path": "reports/20261005/python_environment.json",
+      "bytes": 437,
+      "sha256": "456cca3ad01f0dfced7dcf23386eba31c07ea6013cc0dc26457a1bd5f5783b17"
+    },
+    {
+      "old_path": "reports/sales_per_store_top10_review.csv",
+      "new_path": "reports/20261005/sales_per_store_top10_review.csv",
+      "bytes": 1124,
+      "sha256": "fbaeb18961319be2320352fea8cce7e05c72a04233de024c4fb0e1850e5c1842"
+    },
+    {
+      "old_path": "reports/source_column_missingness.csv",
+      "new_path": "reports/20261005/source_column_missingness.csv",
+      "bytes": 8812,
+      "sha256": "d6109d5382b538f406b40c1bc78ec48674ed26cc0dc8936a838d28b08816f934"
+    },
+    {
+      "old_path": "reports/source_quality.csv",
+      "new_path": "reports/20261005/source_quality.csv",
+      "bytes": 225,
+      "sha256": "1e7d8fa244e4111970e1f968e40e591adb34cb4ecabd7c54600e5981563f540c"
+    },
+    {
+      "old_path": "reports/value_flags.csv",
+      "new_path": "reports/20261005/value_flags.csv",
+      "bytes": 112,
+      "sha256": "74aa3e8a9068d5c5ffae88fe22743b2a82aaeea439a093944fbb700ba6abecb4"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/data/analysis/food_industry_panel.csv",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/data/analysis/food_industry_panel.csv",
+      "bytes": 4563234,
+      "sha256": "d45395f1034d3fcfd9f74c5c6ed80ee78aad439128a0cddbc8b27e202a18a46d"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/data/analysis/performance_facility_linkage.csv",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/data/analysis/performance_facility_linkage.csv",
+      "bytes": 9176199,
+      "sha256": "569ea9a303646b0af45ed8dd14ad15c9ef4b75a049cd84ac9994561816112b3a"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/data/analysis/performance_sales_panel.csv",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/data/analysis/performance_sales_panel.csv",
+      "bytes": 885037,
+      "sha256": "8ddf28d3bc049890e666e0a8b1bb328763df00a1271abb8e13aea0442905051f"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/metadata/kopis_analysis_sources.json",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/metadata/kopis_analysis_sources.json",
+      "bytes": 2364,
+      "sha256": "edd8fb8490f58cdcdc39df8de5e9b82410e93dcc169bdd691bc7db773ea01459"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/notebooks/03_공연과_상권_연결_분석.ipynb",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/notebooks/03_공연과_상권_연결_분석.ipynb",
+      "bytes": 620269,
+      "sha256": "db88c51f3549b7b40e61dfc5e014d5ff1eb632614c421c2580c75fe25a341971"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/notebooks/04_데이터_연결검증.ipynb",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/notebooks/04_데이터_연결검증.ipynb",
+      "bytes": 132874,
+      "sha256": "5c291fea63a178fdf5b1ca7102b520185f99558c9c292fddc7a7be573ccc8943"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/notebooks/06_온톨로지와_RDF_지식그래프.ipynb",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/notebooks/06_온톨로지와_RDF_지식그래프.ipynb",
+      "bytes": 112960,
+      "sha256": "d976163c740f6762cdb4c46f92fd8557437be6596fa2089f23d6bb67ad930bd0"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/notebooks/07_AI서비스_분석도구.ipynb",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/notebooks/07_AI서비스_분석도구.ipynb",
+      "bytes": 108580,
+      "sha256": "7a8bc2c78611f014517f297378c349bed5f94a871a2571dc55a3da8a93f2b3d2"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/notebooks/08_외식업_범위확장과_데이터셋.ipynb",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/notebooks/08_외식업_범위확장과_데이터셋.ipynb",
+      "bytes": 214987,
+      "sha256": "1f31c8a8f0b0ce2532e56faf13622d9405a3b82f3ca5a5080163c11857b083c9"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/notebooks/09_외식업_10종_비교분석.ipynb",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/notebooks/09_외식업_10종_비교분석.ipynb",
+      "bytes": 272197,
+      "sha256": "cf3bb8a8ff69e51397e5a9f3ff81a016c2299df3472c13efc61b97d925d984ff"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/notebooks/10_외식업_10종_GEE_보조분석.ipynb",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/notebooks/10_외식업_10종_GEE_보조분석.ipynb",
+      "bytes": 248432,
+      "sha256": "f53d573fd2882498f75114f5bd46f7f20248bbbe34614a5dd52823ba8203974e"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/reports/04_audit_summary.json",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/reports/04_audit_summary.json",
+      "bytes": 2320,
+      "sha256": "8a677567567e0e13de6226c364bb763984d5e7c4e342a3d619ad292a4f12c2ed"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/reports/06_knowledge_graph_summary.json",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/reports/06_knowledge_graph_summary.json",
+      "bytes": 3107,
+      "sha256": "2da462b056ed003f8c8facbaf12962dd8bfd531c177a4732254dd48456b9b850"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/reports/07_tool_readiness_summary.json",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/reports/07_tool_readiness_summary.json",
+      "bytes": 5633,
+      "sha256": "a66cabc9da2c39770f32dd0e62d848f6af1a009204b50d20577150a010835a8d"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/reports/09_analysis_summary.json",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/reports/09_analysis_summary.json",
+      "bytes": 3091,
+      "sha256": "2fbd9cd8409f590a2c47e5665a605a3e3bdcae6d903609c79590a614f987f5ce"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/reports/09_industry_effects.csv",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/reports/09_industry_effects.csv",
+      "bytes": 17612,
+      "sha256": "c678c7f75da5a3c4e1bd888493a9840456db32ead53f2b53a918cac1f699af6d"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/reports/09_omnibus_tests.csv",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/reports/09_omnibus_tests.csv",
+      "bytes": 970,
+      "sha256": "9a31984184d8905ffee95aa8167d9967a982a698fb3e2bbba03edde30e31ed57"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/reports/10_gee_analysis_summary.json",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/reports/10_gee_analysis_summary.json",
+      "bytes": 3070,
+      "sha256": "1c47b7dff2baaec2ae3136f74511ab688c91f08ee8c1c779478911b64d6a3cac"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/reports/10_gee_industry_effects.csv",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/reports/10_gee_industry_effects.csv",
+      "bytes": 4357,
+      "sha256": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b"
+    },
+    {
+      "old_path": "reports/analysis_history/20261004_092358_9b279a/reports/linkage_analysis_summary.json",
+      "new_path": "reports/20261005/analysis_history/20261004_092358_9b279a/reports/linkage_analysis_summary.json",
+      "bytes": 3394,
+      "sha256": "306b04bf7526a74089d92b7aadfa6f1ef65c58769e51bf930b7f6b675d8aaa28"
+    },
+    {
+      "old_path": "reports/audit_20261005/artifact.json",
+      "new_path": "reports/20261005/audit_20261005/artifact.json",
+      "bytes": 32583,
+      "sha256": "bb25b6e14787271373e1a1c3ed8a3b470e663eb2f3c68b1eb1960b6a60843e9a"
+    },
+    {
+      "old_path": "reports/audit_20261005/findings.csv",
+      "new_path": "reports/20261005/audit_20261005/findings.csv",
+      "bytes": 2270,
+      "sha256": "21ca57d3777c7e5f0f0d0246130fc2e887a548e29e2bd7d15846b160a58a4c10"
+    },
+    {
+      "old_path": "reports/audit_20261005/report_delivery_receipt.json",
+      "new_path": "reports/20261005/audit_20261005/report_delivery_receipt.json",
+      "bytes": 745,
+      "sha256": "fff5c4279f9814172a18d6c24da24efaa2310da6f94315566a58596cd92f2f9c"
+    },
+    {
+      "old_path": "reports/audit_20261005/report_inputs.json",
+      "new_path": "reports/20261005/audit_20261005/report_inputs.json",
+      "bytes": 1087,
+      "sha256": "f063dcbf5c1ebfb144477cc48668e58d320331d969509330fb33e50e7f5a4216"
+    },
+    {
+      "old_path": "reports/audit_20261005/report.html",
+      "new_path": "reports/20261005/audit_20261005/report.html",
+      "bytes": 478581,
+      "sha256": "cbd3d7fa3c13d931c9b002b89b30a4630735803de0bd0358c1f81a707b8ac952"
+    },
+    {
+      "old_path": "reports/audit_20261005/report.html.tmp-24380-fb696ad0-a06c-486f-adc8-aeaf61c5266d.html",
+      "new_path": "reports/20261005/audit_20261005/report.html.tmp-24380-fb696ad0-a06c-486f-adc8-aeaf61c5266d.html",
+      "bytes": 478581,
+      "sha256": "f3906fa8f80bfb1b54a690a19aeae13c9d47bea34b80e52c9eb56289f6d61a73"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/14_공간과_공연노출_독립감사.html",
+      "new_path": "reports/20261005/audit_20261005/exposure/14_공간과_공연노출_독립감사.html",
+      "bytes": 485199,
+      "sha256": "793815cbdbe86a6c7658daf5f69ee804e488971b644518fc2d9b358189d9063b"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/annual_count_and_envelope.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/annual_count_and_envelope.csv",
+      "bytes": 252,
+      "sha256": "6815e5ebca11b01364723c79845d48dd7b8aacb1cdfff8ca3b1551d7361457d5"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/area_geometry_and_exposure.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/area_geometry_and_exposure.csv",
+      "bytes": 16840,
+      "sha256": "66e587673afbea155b9b0bf403eb62176b90deca764d4f98e3e1d817b3bae713"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/audit_summary.json",
+      "new_path": "reports/20261005/audit_20261005/exposure/audit_summary.json",
+      "bytes": 2873,
+      "sha256": "3b3e9f0a72d7fe604ec05dd1a6a7c4102453ca925ec4593bc3d404822bd8db3c"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/coincident_facility_coordinates.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/coincident_facility_coordinates.csv",
+      "bytes": 1508,
+      "sha256": "70271f8a45b96be1da59aa51cb9db9e09f4458398b633d90b6170159d53bdcea"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/count_vs_envelope_correlation.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/count_vs_envelope_correlation.csv",
+      "bytes": 111,
+      "sha256": "c5c8355bfd56de7137ee251e28d0a78af6302f3e07ac8c16c6af51a7bf4787cc"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/count_vs_envelope_days.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/count_vs_envelope_days.csv",
+      "bytes": 198788,
+      "sha256": "5aa2e8aeb7e87fa0071460623d565699f63b77265840a007997c20349d285fe7"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/cross_window_performances.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/cross_window_performances.csv",
+      "bytes": 1362,
+      "sha256": "08689c7ac9bddbccda81d548d44e15cfa8c51a12f95096f3bf23535a90d9fef5"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/distance_definition_sensitivity.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/distance_definition_sensitivity.csv",
+      "bytes": 178,
+      "sha256": "9b53c3026ad0f3a8f4390ec83316b614e5fae69d6c7f724917e0fb5dd5fa24d4"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/duration_mix.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/duration_mix.csv",
+      "bytes": 362,
+      "sha256": "fa3ac94e054130d1146abaf88d17973da73f0b74d13fe3db71c6b39bb9a38116"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/execution_checks.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/execution_checks.csv",
+      "bytes": 160,
+      "sha256": "b6fb36555aad0ee946d68ac0d9c4688fd2c510a53a3351e9858615fafa98f40c"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/facility_hall_structure.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/facility_hall_structure.csv",
+      "bytes": 23384,
+      "sha256": "3369133c3872fa7b5a3525ef4f77b883aa6df194d188f07976e2d775e61d6724"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/facility_resolution_summary.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/facility_resolution_summary.csv",
+      "bytes": 250,
+      "sha256": "167e5637dd4882659591551449f2a3273c8198cbae10617f0d10654d82fe42c2"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/genre_mix.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/genre_mix.csv",
+      "bytes": 332,
+      "sha256": "50ef4be5880c22fc07cb030d3fb5bdf434c90b17b647d534f5a929020c72cac2"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/input_integrity.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/input_integrity.csv",
+      "bytes": 47433,
+      "sha256": "355b1c9c050d9f93450655c4cd94663d27b8c09ce9204a6df085f527fce2fe0b"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/measurement_and_spatial_sharing.png",
+      "new_path": "reports/20261005/audit_20261005/exposure/measurement_and_spatial_sharing.png",
+      "bytes": 52571,
+      "sha256": "6653a35743d2e8850487197fd124785d50059cf7f07a42d7433b5d92d1c4c1b5"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/missing_month_pairs.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/missing_month_pairs.csv",
+      "bytes": 23,
+      "sha256": "6706831a26340d82eba188636a53faeead7305d3553bbca7d21cb1cfad5174ea"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/monthly_overlap_audit.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/monthly_overlap_audit.csv",
+      "bytes": 269,
+      "sha256": "b11d59caef1bae3fefbc0a65e2901177ab7224a57f8e45be5c798d242f20c024"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/opening_year_review_candidates.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/opening_year_review_candidates.csv",
+      "bytes": 63,
+      "sha256": "1e51af8fdc9222cc115ca99d9f09bcbbf20b54192795e83d695c768f0fd527b9"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/performance_spatial_multiplicity.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/performance_spatial_multiplicity.csv",
+      "bytes": 258794,
+      "sha256": "e7cd683834359dddcfd10290d31af731a3a3b571dcedd914183782fd1d4ba173"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/polygon_overlaps.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/polygon_overlaps.csv",
+      "bytes": 856,
+      "sha256": "aee781675db974904638d96129d229fceaa81a2348ffc3b9740751654eadb4d2"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/polygon_vs_centroid_links.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/polygon_vs_centroid_links.csv",
+      "bytes": 331371,
+      "sha256": "fbd8b4dd725b076a0c9bbf0b37c1fb502a8d062a94d60b919286feb85091781d"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/radius_sharing_summary.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/radius_sharing_summary.csv",
+      "bytes": 473,
+      "sha256": "7adf869618a23d0fd4ad006ec132d4fc328850d5d83d26f783b4dbb2016249a7"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/shared_performance_area_pairs.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/shared_performance_area_pairs.csv",
+      "bytes": 143746,
+      "sha256": "d08c0bd5a866a048f12568a7bb26f7b2962793782c57220a5acd1edb9fcd2291"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/spatial_sharing_summary.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/spatial_sharing_summary.csv",
+      "bytes": 421,
+      "sha256": "4f692130efe6a8c54eed0fc4050fbc3e160c4b887885cbd73297a73b90dc6c93"
+    },
+    {
+      "old_path": "reports/audit_20261005/exposure/zero_distance_metrics.csv",
+      "new_path": "reports/20261005/audit_20261005/exposure/zero_distance_metrics.csv",
+      "bytes": 274,
+      "sha256": "6427949d1ab764ef8b5e7eb78b36536ccdee3919c3f88e8e5c8d1098f58870dc"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/01_source_profile.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/01_source_profile.csv",
+      "bytes": 1295,
+      "sha256": "8aa3009921c19eba8920773e1a1337f2693025494aee0982aa353c547c5c0ed7"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/02_store_identity.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/02_store_identity.csv",
+      "bytes": 445,
+      "sha256": "19e9417070a3e1c403b081b083eb2f55aa905ac136677282c34a71e3d35c9a2e"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/03_zero_regular_store_rows.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/03_zero_regular_store_rows.csv",
+      "bytes": 28859,
+      "sha256": "c1076976a6e952beb337b6b5a355725af777fd316dd92abae1d47aacc0c23674"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/03_zero_regular_store_sales.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/03_zero_regular_store_sales.csv",
+      "bytes": 275,
+      "sha256": "15ab2c53383ef2de58426a9e29c1eed1e936aaa57a4237a86c42de41f36ee1b5"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/04_denominator_impact.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/04_denominator_impact.csv",
+      "bytes": 993,
+      "sha256": "1c24c61afb0b48c3af184f1e65c621987692ee5c690eafb5a8ede9fd4de5e97f"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/05_sales_availability_by_store_size.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/05_sales_availability_by_store_size.csv",
+      "bytes": 350,
+      "sha256": "8d6cc22822c27b7b4360398f2e3010beb06ac22e09d061a42ef247ce61924997"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/06_missing_with_positive_stores.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/06_missing_with_positive_stores.csv",
+      "bytes": 484,
+      "sha256": "d0da2e8f83b1ad5ce9601cc85ddd7d6c5af1783e2e643ce087cdaecded2b9aea"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/07_industry_support.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/07_industry_support.csv",
+      "bytes": 1044,
+      "sha256": "544aef461a279622ca4e64606ea7b129ec1624adb899a665a7551ba896e0bbe1"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/08_common_support_keys.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/08_common_support_keys.csv",
+      "bytes": 2570,
+      "sha256": "7e31b2be5a5cf764eb188c8fa59e2551a1c55e92ab5e668019ccdc2372f43d4a"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/08_common_support_summary.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/08_common_support_summary.csv",
+      "bytes": 184,
+      "sha256": "26f88dc251026f55be3df45b96d9f77e51dbcd3e608541088ccf3a96142a2382"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/09_pairwise_support.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/09_pairwise_support.csv",
+      "bytes": 4358,
+      "sha256": "a0a2edfc2b2abadb783ba26c497217a4b448702c30995b2ff4c9ef1178f197b4"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/10_cohort_summary.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/10_cohort_summary.csv",
+      "bytes": 337,
+      "sha256": "89542f7cf7bf90f7d0ef1a2cb4d4f4f65525704011ad5f94801fcd77e75122f5"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/11_availability_transition_rows.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/11_availability_transition_rows.csv",
+      "bytes": 47380,
+      "sha256": "db2f9ad4f6c02774c3f6d7a3082d7905c4adab0810a4b4451ddabee76b27b8e4"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/11_availability_transitions.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/11_availability_transitions.csv",
+      "bytes": 198,
+      "sha256": "707abe4f37ebaa74f5c83ab1f587de72d0cb5e4d626e6dd387907979ceb68290"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/12_quarter_changes.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/12_quarter_changes.csv",
+      "bytes": 877,
+      "sha256": "34d3705ef91e4269d52adb2078b1e1c034a7a2a7ab466c5d75f20e758786aa34"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/13_extreme_quarter_rows.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/13_extreme_quarter_rows.csv",
+      "bytes": 10688,
+      "sha256": "637c6d5d48d99af76a28f859170ede013facab8e720ed632d7e605c12819ec8c"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/14_area_label_variants.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/14_area_label_variants.csv",
+      "bytes": 102,
+      "sha256": "f32826100cff7dfa45763ccef66527e8ad5ef8ea6f3c032bf14b880a20ae7b21"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/14_raw_area_coverage.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/14_raw_area_coverage.csv",
+      "bytes": 804,
+      "sha256": "5f9a72f2bb33525b99f685c0d896f42113a5dc6f2de6c2942acbc733dd69e16a"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/15_자료와_표본_독립감사.html",
+      "new_path": "reports/20261005/audit_20261005/sample/15_자료와_표본_독립감사.html",
+      "bytes": 442036,
+      "sha256": "7af7311c43d1879c81c3334115e22a037a36c2187f929cb32b7e3ec9384cec04"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/15_findings.csv",
+      "new_path": "reports/20261005/audit_20261005/sample/15_findings.csv",
+      "bytes": 2205,
+      "sha256": "4b14c5f1c6daef88360296e0fade4b7a076badc5823a5dad30ae27e07bbf77e1"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/findings.json",
+      "new_path": "reports/20261005/audit_20261005/sample/findings.json",
+      "bytes": 2908,
+      "sha256": "edffb3349d5d65048f2664e7634c6f6e69138c380ba246f8aaf9ac72675ecf86"
+    },
+    {
+      "old_path": "reports/audit_20261005/sample/summary.json",
+      "new_path": "reports/20261005/audit_20261005/sample/summary.json",
+      "bytes": 2216,
+      "sha256": "72e78adb77d109bdf2bd0fda42d53058ba0b218ce016cc2c64a39909ffb18370"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/13_regression_independent_audit.html",
+      "new_path": "reports/20261005/audit_20261005/statistics/13_regression_independent_audit.html",
+      "bytes": 470978,
+      "sha256": "6890449efb184c0dd469f04e52b2d0c5dbe6f2ecfe07f7e93b8024565ab5b813"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/audit_statistics_summary.json",
+      "new_path": "reports/20261005/audit_20261005/statistics/audit_statistics_summary.json",
+      "bytes": 2480,
+      "sha256": "1e2ece8024fe61b27ee2b701affe98fb3e10d40624835fde65dfd18935c2f119"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/cluster_partial_leverage.csv",
+      "new_path": "reports/20261005/audit_20261005/statistics/cluster_partial_leverage.csv",
+      "bytes": 86881,
+      "sha256": "e44a5dbdf2655a24266fe31d958c22462392babad6c72fff3bc2ab6b61fb1ce4"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/effect_unit_checks.csv",
+      "new_path": "reports/20261005/audit_20261005/statistics/effect_unit_checks.csv",
+      "bytes": 948,
+      "sha256": "b4796c1754e5bb0210464f635052b9b40d2d2472470e9c483845419ac15cf43d"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/fe_covariance_checks.csv",
+      "new_path": "reports/20261005/audit_20261005/statistics/fe_covariance_checks.csv",
+      "bytes": 115,
+      "sha256": "6fdc94fae9ec2585f4393431ddc096c5677edcc0b8a49e5c3a571f96dc3c3c86"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/fe_independent_recalculation.csv",
+      "new_path": "reports/20261005/audit_20261005/statistics/fe_independent_recalculation.csv",
+      "bytes": 3379,
+      "sha256": "b5781f6898846a67c3b03766662f936a9641f2318ea3f9856afe2bd011f3c3a1"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/gee_fixed_alpha_recalculation.csv",
+      "new_path": "reports/20261005/audit_20261005/statistics/gee_fixed_alpha_recalculation.csv",
+      "bytes": 3456,
+      "sha256": "ad5b96f190b6ea4415e5aa5c35ff91d617f7f53c2b7a72379373e963077d6512"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/identification_concentration.png",
+      "new_path": "reports/20261005/audit_20261005/statistics/identification_concentration.png",
+      "bytes": 46002,
+      "sha256": "80e71f6c5feecbf790bfac195698c4718ad661a79d761d1ffd32a0291d2cc5b6"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/identification_support.csv",
+      "new_path": "reports/20261005/audit_20261005/statistics/identification_support.csv",
+      "bytes": 1651,
+      "sha256": "e399b1ef35385d9818230d9bf7a999a11ee8f47a83aebafd575ed3eb94df7e61"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/industry_cluster_inference.csv",
+      "new_path": "reports/20261005/audit_20261005/statistics/industry_cluster_inference.csv",
+      "bytes": 3739,
+      "sha256": "2c58b8d18f591257a39bc78d73892c4a4338c1ffa3efac761b95580104e15627"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/omit_top_leverage_area.csv",
+      "new_path": "reports/20261005/audit_20261005/statistics/omit_top_leverage_area.csv",
+      "bytes": 3688,
+      "sha256": "07f181fddac86d46acc327e40b03340369a1fedafbc05bd2783ed13500650bdb"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/omnibus_recalculation.csv",
+      "new_path": "reports/20261005/audit_20261005/statistics/omnibus_recalculation.csv",
+      "bytes": 321,
+      "sha256": "0bba0bd05e45d986d4485bd8e499f3c6d83302961bcf8b9cf3a349d8d6f0d602"
+    },
+    {
+      "old_path": "reports/audit_20261005/statistics/sample_checks.csv",
+      "new_path": "reports/20261005/audit_20261005/statistics/sample_checks.csv",
+      "bytes": 104,
+      "sha256": "ae72eeef6f1f0209e7020b79942eb11e7cc4f9e2ba1d31e7f76cceaf80a30714"
+    },
+    {
+      "old_path": "reports/figures/01_sales_coverage.png",
+      "new_path": "reports/20261005/figures/01_sales_coverage.png",
+      "bytes": 78102,
+      "sha256": "68692676946cafa9f51b58391384e7a4eb01bc8994a5ab02c18af1c60833131c"
+    },
+    {
+      "old_path": "reports/figures/02_sales_distribution.png",
+      "new_path": "reports/20261005/figures/02_sales_distribution.png",
+      "bytes": 63891,
+      "sha256": "6020df937b6491f9f5aadf38f85ae9f0564ab76ebc5ccf54e0413084348b8604"
+    },
+    {
+      "old_path": "reports/figures/03_balanced_sales_trend.png",
+      "new_path": "reports/20261005/figures/03_balanced_sales_trend.png",
+      "bytes": 163165,
+      "sha256": "18d0721a9288e7afd055b647e3c984b4ac91f026dbb06b7c27ed2c137d84914f"
+    },
+    {
+      "old_path": "reports/figures/04_missing_coordinates_by_quarter.png",
+      "new_path": "reports/20261005/figures/04_missing_coordinates_by_quarter.png",
+      "bytes": 62606,
+      "sha256": "2e016759829001c3e5c6e5957ba7c68fba3bafa8b5a154985e7139415951f72b"
+    },
+    {
+      "old_path": "reports/figures/04_night_weekend_shares.png",
+      "new_path": "reports/20261005/figures/04_night_weekend_shares.png",
+      "bytes": 48215,
+      "sha256": "cba3c803e240b5b93f03527097e7da1846b5e29ec7b3302c3cc1bbb21a2c18c4"
+    },
+    {
+      "old_path": "reports/figures/05_기본모형_업종차이.png",
+      "new_path": "reports/20261005/figures/05_기본모형_업종차이.png",
+      "bytes": 39554,
+      "sha256": "92a631edcf13a73c0eace649ff0f81a17d8adf673903ac257b30fa5e6c9a6c70"
+    },
+    {
+      "old_path": "reports/figures/05_민감도_업종차이.png",
+      "new_path": "reports/20261005/figures/05_민감도_업종차이.png",
+      "bytes": 56555,
+      "sha256": "52dae142090e5a77f94744303ef4aeb447aacc02f9dcf05ca22de203a533736c"
+    },
+    {
+      "old_path": "reports/figures/05_venues_and_areas.png",
+      "new_path": "reports/20261005/figures/05_venues_and_areas.png",
+      "bytes": 314142,
+      "sha256": "7390358021f3ce4008f6121c8338c35f6fa057bcefcd47b8aa1856f1b5e03fdb"
+    },
+    {
+      "old_path": "reports/figures/06_performances_and_sales.png",
+      "new_path": "reports/20261005/figures/06_performances_and_sales.png",
+      "bytes": 315965,
+      "sha256": "96693a3ac8521adfe4dc4646cadb7d94a056e7761324b3a15f4784f0777cd47a"
+    },
+    {
+      "old_path": "reports/figures/07_regression_distance_sensitivity.png",
+      "new_path": "reports/20261005/figures/07_regression_distance_sensitivity.png",
+      "bytes": 75241,
+      "sha256": "0ef295afcced229451d65470fcc342659e73dab84f0660e3aa366ab69ff4a95f"
+    },
+    {
+      "old_path": "reports/figures/08_food_industry_coverage.png",
+      "new_path": "reports/20261005/figures/08_food_industry_coverage.png",
+      "bytes": 164859,
+      "sha256": "15d23ec2d073429352863f2eb885942631bb795a5e9940b132cc3a8f1569b4cb"
+    },
+    {
+      "old_path": "reports/figures/09_외식업10종_기본결과.png",
+      "new_path": "reports/20261005/figures/09_외식업10종_기본결과.png",
+      "bytes": 70420,
+      "sha256": "7c26198130291f01635f0fb885ef80ac7ff4cb566ac84a9883b11c51eb562ed7"
+    },
+    {
+      "old_path": "reports/figures/09_외식업10종_민감도.png",
+      "new_path": "reports/20261005/figures/09_외식업10종_민감도.png",
+      "bytes": 116912,
+      "sha256": "89d70f3afc960012503ac7067f640e77d14d68436e85941f7aae8c33bd5ca557"
+    },
+    {
+      "old_path": "reports/figures/10_fe_gee_coefficients.png",
+      "new_path": "reports/20261005/figures/10_fe_gee_coefficients.png",
+      "bytes": 73581,
+      "sha256": "9e0e50c5125030685a2d7a42144977b4bf3a2dfe51c87cf1a84e3fe8fe5664c4"
+    },
+    {
+      "old_path": "reports/figures/10_gee_within_coefficients.png",
+      "new_path": "reports/20261005/figures/10_gee_within_coefficients.png",
+      "bytes": 70864,
+      "sha256": "3603f37be4e22588b1f15b3067add6f35bc546f79bcc9ac34430cdf1763a0a7e"
+    },
+    {
+      "old_path": "reports/final/01_fixed_input_fingerprints.csv",
+      "new_path": "reports/final/01_fixed_input_fingerprints.csv",
+      "bytes": 51134,
+      "sha256": "4ef2a020e90c8208c4281ae0d65814647eb3344ce81986e51ab964b06956d1de"
+    },
+    {
+      "old_path": "reports/final/03_collection_coverage.csv",
+      "new_path": "reports/final/03_collection_coverage.csv",
+      "bytes": 226,
+      "sha256": "f949223695b8a86c178724abfadb2b08d18398f36c329ab92a71c6ef91a75efa"
+    },
+    {
+      "old_path": "reports/final/03_exposure_revisions.csv",
+      "new_path": "reports/final/03_exposure_revisions.csv",
+      "bytes": 68904,
+      "sha256": "1d5d3520da3c5d260037238b21e2da298bd1fdfd200c384750d98112193ffcd7"
+    },
+    {
+      "old_path": "reports/final/03_input_sources.csv",
+      "new_path": "reports/final/03_input_sources.csv",
+      "bytes": 1712,
+      "sha256": "9518068ef64fdab078827ec7d9c99d35de19757e3066c8db0ef3852a831386f9"
+    },
+    {
+      "old_path": "reports/final/03_list_detail_period_comparison.csv",
+      "new_path": "reports/final/03_list_detail_period_comparison.csv",
+      "bytes": 1510163,
+      "sha256": "a1bbf23139350c0b30ddda68dc7f24365b1ea45cd35bbf39cbd32bd8ee42e537"
+    },
+    {
+      "old_path": "reports/final/03_official_name_conflicts.csv",
+      "new_path": "reports/final/03_official_name_conflicts.csv",
+      "bytes": 61,
+      "sha256": "5916f6e73cb4ff8d1d59b8ba0cb8ecd1a8088b23fd13af5781b1758364825bbd"
+    },
+    {
+      "old_path": "reports/final/04_ambiguous_facility_names.csv",
+      "new_path": "reports/final/04_ambiguous_facility_names.csv",
+      "bytes": 77,
+      "sha256": "586b876592272e0d3c731cb9f73be97c4b706c9f042f0360dd5ae4574fe3de71"
+    },
+    {
+      "old_path": "reports/final/04_audit_summary.json",
+      "new_path": "reports/final/04_audit_summary.json",
+      "bytes": 2810,
+      "sha256": "93c176d513100fd9d428b756a5e847e12250ffc8b1c9f1a4d621d2319cc0fa20"
+    },
+    {
+      "old_path": "reports/final/04_base_model_sample_flow.csv",
+      "new_path": "reports/final/04_base_model_sample_flow.csv",
+      "bytes": 230,
+      "sha256": "e92433c9ff2c7f641f3bac2ff767fcb4bcca24e212c19a652b2ba62ea0a70ac0"
+    },
+    {
+      "old_path": "reports/final/04_distance_source_reconstruction.csv",
+      "new_path": "reports/final/04_distance_source_reconstruction.csv",
+      "bytes": 120,
+      "sha256": "4ee2660d340f8014bf8fa3ad27f80a7be18de159badb83448ba8f7993dbee136"
+    },
+    {
+      "old_path": "reports/final/04_exposure_reconstruction.csv",
+      "new_path": "reports/final/04_exposure_reconstruction.csv",
+      "bytes": 159,
+      "sha256": "1d113f8d459ff90794c89c726a05fc930e5965d9018f6e5b350603a6585ef420"
+    },
+    {
+      "old_path": "reports/final/04_input_integrity.csv",
+      "new_path": "reports/final/04_input_integrity.csv",
+      "bytes": 75289,
+      "sha256": "b0343a31a6d2c24dfddd2bcf75b3dbe539c1ff3f9421ca13354d79768668f498"
+    },
+    {
+      "old_path": "reports/final/04_input_schema.csv",
+      "new_path": "reports/final/04_input_schema.csv",
+      "bytes": 2869,
+      "sha256": "9d52ed1a2cb41a4c155238894193d0294fbb4c4a358322b5654412d66f4b9d35"
+    },
+    {
+      "old_path": "reports/final/04_link_methods.csv",
+      "new_path": "reports/final/04_link_methods.csv",
+      "bytes": 172,
+      "sha256": "5dc08dbd17f126577229ce73ff50a4e95c14e214db1c0b695987b174d5f109ab"
+    },
+    {
+      "old_path": "reports/final/04_list_detail_period_audit.csv",
+      "new_path": "reports/final/04_list_detail_period_audit.csv",
+      "bytes": 906095,
+      "sha256": "3e8e4923b5340931ea3e4a930a528245c028dd1fda39e15f283fe634d6dff7f8"
+    },
+    {
+      "old_path": "reports/final/04_missing_coordinates_by_quarter.csv",
+      "new_path": "reports/final/04_missing_coordinates_by_quarter.csv",
+      "bytes": 939,
+      "sha256": "ef2c1378f351c559d8a9e8fb89e323c4f8e594211b879ad13de16c95b67f19c8"
+    },
+    {
+      "old_path": "reports/final/04_missing_target_facilities.csv",
+      "new_path": "reports/final/04_missing_target_facilities.csv",
+      "bytes": 68,
+      "sha256": "e08d333849cd2ab3cb69bf8f068e55284455dac06bac1fa02092d73b18a372f1"
+    },
+    {
+      "old_path": "reports/final/04_missing_target_performances.csv",
+      "new_path": "reports/final/04_missing_target_performances.csv",
+      "bytes": 64,
+      "sha256": "ba955d29f98f5582939833cb502ff2621db5808f64339850c5ea23dd422646e3"
+    },
+    {
+      "old_path": "reports/final/04_panel_coverage.csv",
+      "new_path": "reports/final/04_panel_coverage.csv",
+      "bytes": 361,
+      "sha256": "d5957be9245b38cf30a3a425fab8f4488b5a399cb9b3d4d9786dd328deaedfc5"
+    },
+    {
+      "old_path": "reports/final/04_raw_month_coverage.csv",
+      "new_path": "reports/final/04_raw_month_coverage.csv",
+      "bytes": 764,
+      "sha256": "1e162757220ee97056736246be4237ace27e945d48c23c1a507aa480f77f0f8e"
+    },
+    {
+      "old_path": "reports/final/04_raw_quarter_coverage.csv",
+      "new_path": "reports/final/04_raw_quarter_coverage.csv",
+      "bytes": 627,
+      "sha256": "6e87b2afc030eed72f7b2240ffa24b4a804937b0a40048441b76bdeec55bc01a"
+    },
+    {
+      "old_path": "reports/final/04_raw_record_variants.csv",
+      "new_path": "reports/final/04_raw_record_variants.csv",
+      "bytes": 94,
+      "sha256": "9d841ee6439cd1e35ffaf835e67da11473b123d146dc81a51efeea1b68a3644c"
+    },
+    {
+      "old_path": "reports/final/04_validation_checks.csv",
+      "new_path": "reports/final/04_validation_checks.csv",
+      "bytes": 2464,
+      "sha256": "41519ae6208a59796d3446ee5d915a766e74880cd5ccba0a3fc16d7f93bb542b"
+    },
+    {
+      "old_path": "reports/final/05_prior_primary_reproducibility.json",
+      "new_path": "reports/final/05_prior_primary_reproducibility.json",
+      "bytes": 716,
+      "sha256": "798f9db9ff837f87b0f00edb078c06af0d924fd65ed955b72f6cc11c63557e93"
+    },
+    {
+      "old_path": "reports/final/06_collection_coverage.csv",
+      "new_path": "reports/final/06_collection_coverage.csv",
+      "bytes": 190,
+      "sha256": "4ddb5d2a590f752c6e32a83dab154d82ae1de8f754a08a9e1e385e92df02c288"
+    },
+    {
+      "old_path": "reports/final/06_entity_counts.csv",
+      "new_path": "reports/final/06_entity_counts.csv",
+      "bytes": 449,
+      "sha256": "53d338c13294f6ca7d39bf57768e5c6fce448bf51f7f1bf8dc8090bf58d3caf9"
+    },
+    {
+      "old_path": "reports/final/06_graph_coverage.csv",
+      "new_path": "reports/final/06_graph_coverage.csv",
+      "bytes": 219,
+      "sha256": "9ad53edcf63c64dac271442519ffd81c66485c0c49aebd5482425637c1335710"
+    },
+    {
+      "old_path": "reports/final/06_knowledge_graph_summary.json",
+      "new_path": "reports/final/06_knowledge_graph_summary.json",
+      "bytes": 3951,
+      "sha256": "9b094178a03d1cca4a06c0d3dda3c05c4e6edecb7b6df84c9024fdecd91c0bde"
+    },
+    {
+      "old_path": "reports/final/06_prior_primary_reproducibility.json",
+      "new_path": "reports/final/06_prior_primary_reproducibility.json",
+      "bytes": 738,
+      "sha256": "aad0c68f568193db2df7403697da8bee428beaf7186bfbd068d6e414d726cec0"
+    },
+    {
+      "old_path": "reports/final/06_q1_sales_coverage.csv",
+      "new_path": "reports/final/06_q1_sales_coverage.csv",
+      "bytes": 3232,
+      "sha256": "71f0e73f65d6e27701bb0d0f1fc82e16192868a1835915e7d701a484aa00524f"
+    },
+    {
+      "old_path": "reports/final/06_q2_observed_sales_sum.csv",
+      "new_path": "reports/final/06_q2_observed_sales_sum.csv",
+      "bytes": 10353,
+      "sha256": "fd0fca670acd43ff8cbd87d9d8b558b374354199bb213dcf0735844188ee3afd"
+    },
+    {
+      "old_path": "reports/final/06_q3_link_status.csv",
+      "new_path": "reports/final/06_q3_link_status.csv",
+      "bytes": 123,
+      "sha256": "058c10aaa72d253e23935db414b13c6cf438b3c696249a485441a1ea5d48b9a4"
+    },
+    {
+      "old_path": "reports/final/06_q4_proximity_500m.csv",
+      "new_path": "reports/final/06_q4_proximity_500m.csv",
+      "bytes": 151,
+      "sha256": "59f3e99fe9e86e3c17ddaefe3f4d67c2aa9ce977cfe5bb91a65feeaa30755d5e"
+    },
+    {
+      "old_path": "reports/final/06_q5_area_quarter_performances.csv",
+      "new_path": "reports/final/06_q5_area_quarter_performances.csv",
+      "bytes": 32227,
+      "sha256": "8d17cf366f10bd8cb66358249b1be6e20adc6b91a82cd7d8fd1cf7e4f026f9ea"
+    },
+    {
+      "old_path": "reports/final/06_source_manifest.csv",
+      "new_path": "reports/final/06_source_manifest.csv",
+      "bytes": 1194,
+      "sha256": "30530042cdc39a8239d637a478c50bcd1f69c77d3dc98b20006c00351e1d5f00"
+    },
+    {
+      "old_path": "reports/final/06_validation.csv",
+      "new_path": "reports/final/06_validation.csv",
+      "bytes": 557,
+      "sha256": "72f6de7b21d5208de18f4546169432f5ac2f8bb8966f927cb41532630b72d0bb"
+    },
+    {
+      "old_path": "reports/final/07_contract_checks.csv",
+      "new_path": "reports/final/07_contract_checks.csv",
+      "bytes": 2210,
+      "sha256": "f804252b8582b3471edab91553c28c5685cd2b70841aa17ef8999139165aae4a"
+    },
+    {
+      "old_path": "reports/final/07_example_result.json",
+      "new_path": "reports/final/07_example_result.json",
+      "bytes": 4489,
+      "sha256": "e082c385fcdfeab3c9dde568add332d9c44e8f254af74eeafc99d6222ddd748c"
+    },
+    {
+      "old_path": "reports/final/07_tool_call_log.jsonl",
+      "new_path": "reports/final/07_tool_call_log.jsonl",
+      "bytes": 107243,
+      "sha256": "af2cd52934d0fff5581efc9be962843e116afcbaba295a08841a59afdcc3767e"
+    },
+    {
+      "old_path": "reports/final/07_tool_contracts.json",
+      "new_path": "reports/final/07_tool_contracts.json",
+      "bytes": 7372,
+      "sha256": "4b7db1caeda59e1f4fc3de8c3ef6f4f805b5061b992ce4b807b21449b7ee5dab"
+    },
+    {
+      "old_path": "reports/final/07_tool_readiness_summary.json",
+      "new_path": "reports/final/07_tool_readiness_summary.json",
+      "bytes": 8084,
+      "sha256": "a1ba9b05b8a23386467f21f19bae9707279ae3c79e7fbacb360aedb13b1d3772"
+    },
+    {
+      "old_path": "reports/final/08_code_label_consistency.csv",
+      "new_path": "reports/final/08_code_label_consistency.csv",
+      "bytes": 2059,
+      "sha256": "32cc4f7296eb6908700af3637a8409998a2f8d7a909dc01931b0259740ca780b"
+    },
+    {
+      "old_path": "reports/final/08_common_sample_scope.csv",
+      "new_path": "reports/final/08_common_sample_scope.csv",
+      "bytes": 144,
+      "sha256": "1a2c1a606bfe7e190a83897dde76eb4d0fb0750db0c5fc7fbfec5060391cfa07"
+    },
+    {
+      "old_path": "reports/final/08_district_industry_coverage.csv",
+      "new_path": "reports/final/08_district_industry_coverage.csv",
+      "bytes": 3888,
+      "sha256": "123ff079ddb0f123f1a77579c6394cab210db41a782ede367f5ac28168c7968e"
+    },
+    {
+      "old_path": "reports/final/08_exposure_linkage_coverage.csv",
+      "new_path": "reports/final/08_exposure_linkage_coverage.csv",
+      "bytes": 165,
+      "sha256": "5cdeabc995509ef462fa7410adf59f2536abc2c12966ad233a8b6f2d325488fa"
+    },
+    {
+      "old_path": "reports/final/08_flagged_panel_rows.csv",
+      "new_path": "reports/final/08_flagged_panel_rows.csv",
+      "bytes": 816,
+      "sha256": "fbbf2b4ec2a1ab95c040429c058d42832222296dadbec8a92b464e3c165e5550"
+    },
+    {
+      "old_path": "reports/final/08_food_scope_metadata.json",
+      "new_path": "reports/final/08_food_scope_metadata.json",
+      "bytes": 12523,
+      "sha256": "99331a685ff59385a5b0934a0f45ebe9f01892918a355fc9aa7faf7cc035c495"
+    },
+    {
+      "old_path": "reports/final/08_industry_coverage.csv",
+      "new_path": "reports/final/08_industry_coverage.csv",
+      "bytes": 2120,
+      "sha256": "fed92c289ed0198959c8ef38f91979a24db0e324f29777ce22abe5a46055853e"
+    },
+    {
+      "old_path": "reports/final/08_legacy_two_industry_comparison.csv",
+      "new_path": "reports/final/08_legacy_two_industry_comparison.csv",
+      "bytes": 696,
+      "sha256": "44f213e89fade7f8e6611bc497f1ae0694f8a7e9851e2720541b269fd4d93609"
+    },
+    {
+      "old_path": "reports/final/08_quarter_industry_coverage.csv",
+      "new_path": "reports/final/08_quarter_industry_coverage.csv",
+      "bytes": 22461,
+      "sha256": "36a3d9a248617717b07bceb26ca818bc0c69743d3105d6c39c68df40668de19c"
+    },
+    {
+      "old_path": "reports/final/08_source_fingerprints.csv",
+      "new_path": "reports/final/08_source_fingerprints.csv",
+      "bytes": 1976,
+      "sha256": "0a41dbf86695ca7e4128fadcc27dc8dd24a4d009ea46acfdfa54a7de4e12eb25"
+    },
+    {
+      "old_path": "reports/final/08_source_industry_catalog.csv",
+      "new_path": "reports/final/08_source_industry_catalog.csv",
+      "bytes": 19636,
+      "sha256": "7ee449ebdf931374ef129ae1225ddc627dee727b96122d5afc8bebeed5741bc4"
+    },
+    {
+      "old_path": "reports/final/08_source_quality.csv",
+      "new_path": "reports/final/08_source_quality.csv",
+      "bytes": 250,
+      "sha256": "1e20dd5aaf12e4f3d602cd771ef0d155881c2e4c231d3c5d424013cd6a8804af"
+    },
+    {
+      "old_path": "reports/final/08_source_revisions.csv",
+      "new_path": "reports/final/08_source_revisions.csv",
+      "bytes": 1402,
+      "sha256": "089d1c8d1e0c8ad09f7773195ca5e6b727a9503a018716ddb7d81216973c1bf5"
+    },
+    {
+      "old_path": "reports/final/08_store_size_sales_coverage.csv",
+      "new_path": "reports/final/08_store_size_sales_coverage.csv",
+      "bytes": 276,
+      "sha256": "a906999cf85cfd4c70432c24c626aa3f3cece6b260928a8a91c28de99ca85900"
+    },
+    {
+      "old_path": "reports/final/08_validation_checks.csv",
+      "new_path": "reports/final/08_validation_checks.csv",
+      "bytes": 750,
+      "sha256": "573d01f5268d5b7ff15f9fe2f98917e77ad9a845a532ef730b36866207b063e1"
+    },
+    {
+      "old_path": "reports/final/08_value_flags.csv",
+      "new_path": "reports/final/08_value_flags.csv",
+      "bytes": 493,
+      "sha256": "d40e8526544dddcc02875110cb9536ba37cdec097c6509a5ec800a1d730c0ee4"
+    },
+    {
+      "old_path": "reports/final/09_activity_change_contrasts.csv",
+      "new_path": "reports/final/09_activity_change_contrasts.csv",
+      "bytes": 2831,
+      "sha256": "2b46587c6d547527844593f5744dc3e9e3e5300354321403caae7ecc47cbef9c"
+    },
+    {
+      "old_path": "reports/final/09_activity_support.csv",
+      "new_path": "reports/final/09_activity_support.csv",
+      "bytes": 1214,
+      "sha256": "8885a32fa031b2c199505112fc2ecfd8e319b6e7b99b78fff5a89edb4ae905be"
+    },
+    {
+      "old_path": "reports/final/09_analysis_summary.json",
+      "new_path": "reports/final/09_analysis_summary.json",
+      "bytes": 4029,
+      "sha256": "1e354311ab6a73de6e7f0176ad90d154f5d4e57d91b2434a6dbf71cb553ab687"
+    },
+    {
+      "old_path": "reports/final/09_eligibility.csv",
+      "new_path": "reports/final/09_eligibility.csv",
+      "bytes": 9367,
+      "sha256": "891d4d418efe1c4c273ff8b71f8c9c487f07e5e6e205608b9ccaec71511a0585"
+    },
+    {
+      "old_path": "reports/final/09_fwl_validation.csv",
+      "new_path": "reports/final/09_fwl_validation.csv",
+      "bytes": 883,
+      "sha256": "c89badbae4691757c7d8c3933d84d615d92a975a19ca3dd8ac62af06d2189be6"
+    },
+    {
+      "old_path": "reports/final/09_industry_effects.csv",
+      "new_path": "reports/final/09_industry_effects.csv",
+      "bytes": 21143,
+      "sha256": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c"
+    },
+    {
+      "old_path": "reports/final/09_information_concentration.csv",
+      "new_path": "reports/final/09_information_concentration.csv",
+      "bytes": 2120,
+      "sha256": "18c79915358edf62ce5e46cee85235944a9abb161436e6a0916cfb37b5b2e1b2"
+    },
+    {
+      "old_path": "reports/final/09_model_sample_membership.csv",
+      "new_path": "reports/final/09_model_sample_membership.csv",
+      "bytes": 4433297,
+      "sha256": "c35378e10273503376673307b39bbf67c7c8e42991bdb8c47a19cf7aacc7b77a"
+    },
+    {
+      "old_path": "reports/final/09_model_samples.csv",
+      "new_path": "reports/final/09_model_samples.csv",
+      "bytes": 1195,
+      "sha256": "8afe4822d95c684e711e79068696e7367bb1f88287515c9442bc90cce0736667"
+    },
+    {
+      "old_path": "reports/final/09_omnibus_tests.csv",
+      "new_path": "reports/final/09_omnibus_tests.csv",
+      "bytes": 1146,
+      "sha256": "bcf1872bc2a67c9059c23b4e414a83597cbf03cb4f974e92dce1f9ad8444c429"
+    },
+    {
+      "old_path": "reports/final/09_slope_covariances.csv",
+      "new_path": "reports/final/09_slope_covariances.csv",
+      "bytes": 79066,
+      "sha256": "28aadd6f492970295a06e490ed6e860e19c602c1bf07b53c6d57cf0768641aa4"
+    },
+    {
+      "old_path": "reports/final/10_fe_gee_comparison.csv",
+      "new_path": "reports/final/10_fe_gee_comparison.csv",
+      "bytes": 5124,
+      "sha256": "2a176723fb3279c89fcbc78084c6f72c7be4a9dc6bfe7689368bd81018cb89df"
+    },
+    {
+      "old_path": "reports/final/10_fe_gee_sample_key_checks.csv",
+      "new_path": "reports/final/10_fe_gee_sample_key_checks.csv",
+      "bytes": 139,
+      "sha256": "e38fd7433b919d6d1fd566c41a093ea310a19cb627ac6eafa7daa7b4c281262f"
+    },
+    {
+      "old_path": "reports/final/10_gee_analysis_summary.json",
+      "new_path": "reports/final/10_gee_analysis_summary.json",
+      "bytes": 3347,
+      "sha256": "4cc2a74ed32ff63e6f6afa2e0c68b2258ae370cb656a559b1aa6306f53bdfc30"
+    },
+    {
+      "old_path": "reports/final/10_gee_between_effects.csv",
+      "new_path": "reports/final/10_gee_between_effects.csv",
+      "bytes": 3956,
+      "sha256": "6de4d50c67de8491aa8b81c9ff552b8ac3e4b86f37c0a74690640533ec0f540e"
+    },
+    {
+      "old_path": "reports/final/10_gee_decomposition_checks.csv",
+      "new_path": "reports/final/10_gee_decomposition_checks.csv",
+      "bytes": 193,
+      "sha256": "3982ac4a600d490cc2698aa200dec1a95a6a8d7718f399fcf7aa86579dad17f6"
+    },
+    {
+      "old_path": "reports/final/10_gee_diagnostics.csv",
+      "new_path": "reports/final/10_gee_diagnostics.csv",
+      "bytes": 517,
+      "sha256": "5837cf70dd459b6fd845ee9c50749eb62e9e4177a785ce599d33b932aeac631f"
+    },
+    {
+      "old_path": "reports/final/10_gee_eligibility.csv",
+      "new_path": "reports/final/10_gee_eligibility.csv",
+      "bytes": 1796,
+      "sha256": "1a2d9f513a7762f5c5aa8fead213205023bb087b2912b6525b7599a3cfd3efc7"
+    },
+    {
+      "old_path": "reports/final/10_gee_implementation_checks.csv",
+      "new_path": "reports/final/10_gee_implementation_checks.csv",
+      "bytes": 236,
+      "sha256": "305894d4712454faae8d983d73a52db62da84638dc55e078d482cd00a474c661"
+    },
+    {
+      "old_path": "reports/final/10_gee_industry_effects.csv",
+      "new_path": "reports/final/10_gee_industry_effects.csv",
+      "bytes": 4357,
+      "sha256": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b"
+    },
+    {
+      "old_path": "reports/final/10_gee_sample_flow.csv",
+      "new_path": "reports/final/10_gee_sample_flow.csv",
+      "bytes": 436,
+      "sha256": "350d46308b0bbdc300bdb5832c717f2d48067d4d1b38315d60f40996f7c7deae"
+    },
+    {
+      "old_path": "reports/final/10_gee_sample_membership.csv",
+      "new_path": "reports/final/10_gee_sample_membership.csv",
+      "bytes": 1658583,
+      "sha256": "c95d3afba73d35c0b4f5b2ad30fc8ad638858c55fc03ec068288ac6b110c3cca"
+    },
+    {
+      "old_path": "reports/final/cli_offline_validation.json",
+      "new_path": "reports/final/cli_offline_validation.json",
+      "bytes": 1445,
+      "sha256": "a24f0d2460a247d219a7b7d8df98e0bddacfe7cd3fae9b64637fc7f5f47ad274"
+    },
+    {
+      "old_path": "reports/final/execution_manifest.json",
+      "new_path": "reports/final/execution_manifest.json",
+      "bytes": 3848,
+      "sha256": "af444eccbdb1fe520360a104389200fc60d70b784c3f7584997a201d791dc5eb"
+    },
+    {
+      "old_path": "reports/final/facility_coordinate_coverage.csv",
+      "new_path": "reports/final/facility_coordinate_coverage.csv",
+      "bytes": 638,
+      "sha256": "91b0fa94d066296e1f768f1ed87cc79c6bb393193bcfe09fd2d49f8e960cdd14"
+    },
+    {
+      "old_path": "reports/final/flagged_panel_rows.csv",
+      "new_path": "reports/final/flagged_panel_rows.csv",
+      "bytes": 501,
+      "sha256": "381065ff52101d608918773a0d325f199013ebb49ca23493020ce79d9c030181"
+    },
+    {
+      "old_path": "reports/final/geometry_repairs.csv",
+      "new_path": "reports/final/geometry_repairs.csv",
+      "bytes": 118,
+      "sha256": "f79642d51911012c0f4d15c830aa569f9ffcf3a044d63028a6fcfe94d4ce0c36"
+    },
+    {
+      "old_path": "reports/final/linkage_analysis_summary.json",
+      "new_path": "reports/final/linkage_analysis_summary.json",
+      "bytes": 3970,
+      "sha256": "306063465d870114e86350427987bfd8ef134b15c6c0afb1996f46f9541ae85e"
+    },
+    {
+      "old_path": "reports/final/panel_coverage.csv",
+      "new_path": "reports/final/panel_coverage.csv",
+      "bytes": 2911,
+      "sha256": "2830c98ebaf35c16e238c7928f243a568b971876f79dcf358cdebcd53dc07c4f"
+    },
+    {
+      "old_path": "reports/final/panel_missingness.csv",
+      "new_path": "reports/final/panel_missingness.csv",
+      "bytes": 187,
+      "sha256": "ef085fda0b7aeb70da7bd686a2a3a50283b5641a4f6c6721d9f22b37485660fd"
+    },
+    {
+      "old_path": "reports/final/performance_link_methods.csv",
+      "new_path": "reports/final/performance_link_methods.csv",
+      "bytes": 80,
+      "sha256": "52e714394037b02e9f5b02ade975f71b56effc640e88f9c6fc4733512c4c284d"
+    },
+    {
+      "old_path": "reports/final/performances_unresolved_for_spatial_analysis.csv",
+      "new_path": "reports/final/performances_unresolved_for_spatial_analysis.csv",
+      "bytes": 211,
+      "sha256": "20f79f3ee6286a4a55eb3c68aef276669a6a0aee5eb723267c48b90a56112c03"
+    },
+    {
+      "old_path": "reports/final/preprocessing_summary.json",
+      "new_path": "reports/final/preprocessing_summary.json",
+      "bytes": 285,
+      "sha256": "03c146620ef0349454cdc946e8130f46aed6476b25bca9b1f679e0db9bf620ed"
+    },
+    {
+      "old_path": "reports/final/python_environment.json",
+      "new_path": "reports/final/python_environment.json",
+      "bytes": 386,
+      "sha256": "6bfed30e98e15a325a3c027d5daabebc0dbd86d716842757c40a0d47e2f4f420"
+    },
+    {
+      "old_path": "reports/final/release_validation.json",
+      "new_path": "reports/final/release_validation.json",
+      "bytes": 5106,
+      "sha256": "13df07094361def9a34cf4cae7aff861450a4e5f63b93611daef0bdf5c0eb49f"
+    },
+    {
+      "old_path": "reports/final/source_column_missingness.csv",
+      "new_path": "reports/final/source_column_missingness.csv",
+      "bytes": 8812,
+      "sha256": "d6109d5382b538f406b40c1bc78ec48674ed26cc0dc8936a838d28b08816f934"
+    },
+    {
+      "old_path": "reports/final/source_quality.csv",
+      "new_path": "reports/final/source_quality.csv",
+      "bytes": 225,
+      "sha256": "1e7d8fa244e4111970e1f968e40e591adb34cb4ecabd7c54600e5981563f540c"
+    },
+    {
+      "old_path": "reports/final/value_flags.csv",
+      "new_path": "reports/final/value_flags.csv",
+      "bytes": 112,
+      "sha256": "74aa3e8a9068d5c5ffae88fe22743b2a82aaeea439a093944fbb700ba6abecb4"
+    },
+    {
+      "old_path": "reports/final/analysis_report/artifact.json",
+      "new_path": "reports/final/analysis_report/artifact.json",
+      "bytes": 196365,
+      "sha256": "0012a67304eb9077c71fd4b40476dd9f8751e5020123fffd8d1e6beac33e6264"
+    },
+    {
+      "old_path": "reports/final/analysis_report/comparison_report_table.csv",
+      "new_path": "reports/final/analysis_report/comparison_report_table.csv",
+      "bytes": 1707,
+      "sha256": "d55f773b1803923ea048da37a222a796bd5fe4141c3820f40a9f837fa532983b"
+    },
+    {
+      "old_path": "reports/final/analysis_report/delivery_receipt.json",
+      "new_path": "reports/final/analysis_report/delivery_receipt.json",
+      "bytes": 753,
+      "sha256": "c6e89db3016b24dce6db895da74c475d7697bd4d993329f0985ff1c49c61d859"
+    },
+    {
+      "old_path": "reports/final/analysis_report/district_report_table.csv",
+      "new_path": "reports/final/analysis_report/district_report_table.csv",
+      "bytes": 258,
+      "sha256": "1c1ead8cbcc8a145d93c2ff38bc021ee7ef5fd259a927a820e4f38636a49179c"
+    },
+    {
+      "old_path": "reports/final/analysis_report/industry_report_table.csv",
+      "new_path": "reports/final/analysis_report/industry_report_table.csv",
+      "bytes": 1753,
+      "sha256": "a44c2d537461a7eedb33ad1fd0170d528ca7cd54f4a758025927030b343a368d"
+    },
+    {
+      "old_path": "reports/final/analysis_report/information_report_table.csv",
+      "new_path": "reports/final/analysis_report/information_report_table.csv",
+      "bytes": 1315,
+      "sha256": "8bdece2adbf7b83436837669c235f6389f5ac5758af950165b56f475af39b791"
+    },
+    {
+      "old_path": "reports/final/analysis_report/night_report_table.csv",
+      "new_path": "reports/final/analysis_report/night_report_table.csv",
+      "bytes": 3522,
+      "sha256": "fdcc2285a3156104998d753d3e865f4bb0e80c0470b3c0550521eb368cf01000"
+    },
+    {
+      "old_path": "reports/final/analysis_report/report_notes.json",
+      "new_path": "reports/final/analysis_report/report_notes.json",
+      "bytes": 3033,
+      "sha256": "afe81e41f2b604cc344a29bf684624c64f905bbf303d50f5cff9ab8b9b9632b8"
+    },
+    {
+      "old_path": "reports/final/analysis_report/report.html",
+      "new_path": "reports/final/analysis_report/report.html",
+      "bytes": 834364,
+      "sha256": "5e8c72d904c4896cc00506e53d7381a573737d67fbc195c5aecee92ca35a1c38"
+    },
+    {
+      "old_path": "reports/final/analysis_report/sales_report_table.csv",
+      "new_path": "reports/final/analysis_report/sales_report_table.csv",
+      "bytes": 3665,
+      "sha256": "e0aafa2ba9b6f67ae6919f46793871a2c06702f99ce4544bbf6ef52af6886334"
+    },
+    {
+      "old_path": "reports/final/analysis_report/sensitivity_report_table.csv",
+      "new_path": "reports/final/analysis_report/sensitivity_report_table.csv",
+      "bytes": 918,
+      "sha256": "2767012a520f0e00d62ca157c08ffad4a841c58392708ebaa5f9a0da1bd349ad"
+    },
+    {
+      "old_path": "reports/final/analysis_report/signals_report_table.csv",
+      "new_path": "reports/final/analysis_report/signals_report_table.csv",
+      "bytes": 1656,
+      "sha256": "ad45dbe6faa6c76c5312dec86ea9760bd8ecfdb6589685d289f4883fbb4056d4"
+    },
+    {
+      "old_path": "reports/final/analysis_report/store_size_report_table.csv",
+      "new_path": "reports/final/analysis_report/store_size_report_table.csv",
+      "bytes": 342,
+      "sha256": "e820431d5f24a70092643edf5fd713d858d40c55510d20fdfd36ba43d4b86cd9"
+    },
+    {
+      "old_path": "reports/final/analysis_report/evidence/01_industry_summary.csv",
+      "new_path": "reports/final/analysis_report/evidence/01_industry_summary.csv",
+      "bytes": 1524,
+      "sha256": "f064313d50bd0c71700683a2b615e4b207960447b39212136496dd538803be19"
+    },
+    {
+      "old_path": "reports/final/analysis_report/evidence/02_district_summary.csv",
+      "new_path": "reports/final/analysis_report/evidence/02_district_summary.csv",
+      "bytes": 258,
+      "sha256": "1c1ead8cbcc8a145d93c2ff38bc021ee7ef5fd259a927a820e4f38636a49179c"
+    },
+    {
+      "old_path": "reports/final/analysis_report/evidence/03_store_size_coverage.csv",
+      "new_path": "reports/final/analysis_report/evidence/03_store_size_coverage.csv",
+      "bytes": 314,
+      "sha256": "1e26a89b9d227a421aadf362ca6f69a67a12f771744a16360ab6ea3c234332d0"
+    },
+    {
+      "old_path": "reports/final/analysis_report/evidence/04_sales_contrasts.csv",
+      "new_path": "reports/final/analysis_report/evidence/04_sales_contrasts.csv",
+      "bytes": 3225,
+      "sha256": "2ca084a18971af2f486ced7361713d708609a64e7ba342ab3518c38dde8b070c"
+    },
+    {
+      "old_path": "reports/final/analysis_report/evidence/05_night_contrasts.csv",
+      "new_path": "reports/final/analysis_report/evidence/05_night_contrasts.csv",
+      "bytes": 3100,
+      "sha256": "2e9329983512e1ab9497e007afcc1e8c62d203de5cc33cb3d08456b0b69372d8"
+    },
+    {
+      "old_path": "reports/final/analysis_report/evidence/evidence_schema.json",
+      "new_path": "reports/final/analysis_report/evidence/evidence_schema.json",
+      "bytes": 6325,
+      "sha256": "ae3b9ff1105e2a931d9ae550d226556d152fda595572bc0ca50f338998d02a72"
+    },
+    {
+      "old_path": "reports/final/analysis_report/evidence/input_integrity.json",
+      "new_path": "reports/final/analysis_report/evidence/input_integrity.json",
+      "bytes": 13675,
+      "sha256": "49901058521d17debff99345e1600e4ad4fcc9f122b081b366adcd337d860456"
+    },
+    {
+      "old_path": "reports/final/analysis_report/evidence/scope_summary.json",
+      "new_path": "reports/final/analysis_report/evidence/scope_summary.json",
+      "bytes": 1330,
+      "sha256": "c9442972cc7170babae5ee77f6051b8a529a1f9a264367df56bf15202cae9e5a"
+    },
+    {
+      "old_path": "reports/final/analysis_report/time_feasibility/01_field_coverage.csv",
+      "new_path": "reports/final/analysis_report/time_feasibility/01_field_coverage.csv",
+      "bytes": 412,
+      "sha256": "186811c676e9d0c45f6612be551994016038177a5e7d9059b7644a64ed4f2ab2"
+    },
+    {
+      "old_path": "reports/final/analysis_report/time_feasibility/02_timing_structure.csv",
+      "new_path": "reports/final/analysis_report/time_feasibility/02_timing_structure.csv",
+      "bytes": 833,
+      "sha256": "5805bc7f2187b676fce71d4521bfe743d6da4dd6c8cf84cfeb238268698ebe35"
+    },
+    {
+      "old_path": "reports/final/analysis_report/time_feasibility/03_schedule_examples.csv",
+      "new_path": "reports/final/analysis_report/time_feasibility/03_schedule_examples.csv",
+      "bytes": 1136,
+      "sha256": "d2abd7bfc1e7b819f02b95f21af89a1819479fb2ddafb2c2e2e97ac6b455da5b"
+    },
+    {
+      "old_path": "reports/final/analysis_report/time_feasibility/feasibility_summary.json",
+      "new_path": "reports/final/analysis_report/time_feasibility/feasibility_summary.json",
+      "bytes": 7266,
+      "sha256": "e576d96fdc562f735ed5e6cf2d37c943add220a61f0e10d092bcca488cfd83a1"
+    },
+    {
+      "old_path": "reports/final/data_access/일자시간대매출_자료확보_검토.html",
+      "new_path": "reports/final/data_access/일자시간대매출_자료확보_검토.html",
+      "bytes": 313644,
+      "sha256": "150cebeaf2a13c249b2779e68f44e831a1293a72d9ad1c3e642d72281eed57d8"
+    },
+    {
+      "old_path": "reports/final/data_access/캠퍼스_이용신청_연구설명_초안.txt",
+      "new_path": "reports/final/data_access/캠퍼스_이용신청_연구설명_초안.txt",
+      "bytes": 2333,
+      "sha256": "bd37aa342ebba2bfcbb98ae851da16a35f204e9125235817157d951203f67103"
+    },
+    {
+      "old_path": "reports/final/data_access/캠퍼스_자료문의_초안_미발송.txt",
+      "new_path": "reports/final/data_access/캠퍼스_자료문의_초안_미발송.txt",
+      "bytes": 907,
+      "sha256": "433ab687b8b4a6bb3f78c29b227dc59e4b6e1878c3ab265cbd19636f797badde"
+    },
+    {
+      "old_path": "reports/final/data_access/access_status.json",
+      "new_path": "reports/final/data_access/access_status.json",
+      "bytes": 430,
+      "sha256": "88069df9015857bc002011656f836b2a33ecc623c0df6a03019af13fd6099947"
+    },
+    {
+      "old_path": "reports/final/data_access/candidate_datasets.csv",
+      "new_path": "reports/final/data_access/candidate_datasets.csv",
+      "bytes": 1276,
+      "sha256": "528b3b8baf5e2b2843008678e8155631bb9b4c25c1c4c1b6e88a35a49fcb7484"
+    },
+    {
+      "old_path": "reports/final/data_access/public_sample_schema.csv",
+      "new_path": "reports/final/data_access/public_sample_schema.csv",
+      "bytes": 990,
+      "sha256": "8306daebcb848a431a8e51045368881ad279c996fe933112ad674e5b0f4ac70e"
+    },
+    {
+      "old_path": "reports/final/data_access/sample_download_links.csv",
+      "new_path": "reports/final/data_access/sample_download_links.csv",
+      "bytes": 2391,
+      "sha256": "0006abb16da15682e410140fe44a0715f6208be542efcb7bc0f6ee39346481af"
+    },
+    {
+      "old_path": "reports/final/figures/04_missing_coordinates_by_quarter.png",
+      "new_path": "reports/final/figures/04_missing_coordinates_by_quarter.png",
+      "bytes": 62606,
+      "sha256": "2e016759829001c3e5c6e5957ba7c68fba3bafa8b5a154985e7139415951f72b"
+    },
+    {
+      "old_path": "reports/final/figures/05_venues_and_areas.png",
+      "new_path": "reports/final/figures/05_venues_and_areas.png",
+      "bytes": 314142,
+      "sha256": "7390358021f3ce4008f6121c8338c35f6fa057bcefcd47b8aa1856f1b5e03fdb"
+    },
+    {
+      "old_path": "reports/final/figures/08_food_industry_coverage.png",
+      "new_path": "reports/final/figures/08_food_industry_coverage.png",
+      "bytes": 164859,
+      "sha256": "15d23ec2d073429352863f2eb885942631bb795a5e9940b132cc3a8f1569b4cb"
+    },
+    {
+      "old_path": "reports/final/figures/09_외식업10종_기본결과.png",
+      "new_path": "reports/final/figures/09_외식업10종_기본결과.png",
+      "bytes": 70420,
+      "sha256": "7c26198130291f01635f0fb885ef80ac7ff4cb566ac84a9883b11c51eb562ed7"
+    },
+    {
+      "old_path": "reports/final/figures/09_외식업10종_민감도.png",
+      "new_path": "reports/final/figures/09_외식업10종_민감도.png",
+      "bytes": 124145,
+      "sha256": "3db02475409288556dbb001576d2e324e37bc2a8b3574d576a1c87b30bc29737"
+    },
+    {
+      "old_path": "reports/final/figures/10_fe_gee_coefficients.png",
+      "new_path": "reports/final/figures/10_fe_gee_coefficients.png",
+      "bytes": 73819,
+      "sha256": "1802079130dd8c20cf6b14948ea01594e24548dcea31201ed7e9f55bfeadfc80"
+    },
+    {
+      "old_path": "reports/final/figures/10_gee_within_coefficients.png",
+      "new_path": "reports/final/figures/10_gee_within_coefficients.png",
+      "bytes": 72860,
+      "sha256": "1dbbd0edaba913814d6a4bcf13ee2d52b872c1bf1c61215c4c0c4635a3a8ddee"
+    },
+    {
+      "old_path": "reports/final/notebooks/01_입력검증과_준비.html",
+      "new_path": "reports/final/notebooks/01_입력검증과_준비.html",
+      "bytes": 381224,
+      "sha256": "6bfbbf7333e11241b24da941f2b800ed195fddbcb236dd0ea7079c00505a7d47"
+    },
+    {
+      "old_path": "reports/final/notebooks/02_공연과_상권_연결.html",
+      "new_path": "reports/final/notebooks/02_공연과_상권_연결.html",
+      "bytes": 681397,
+      "sha256": "12b807b2c8822ba25d7cdc80ce6e0a6f2098737b12b052df5cc66ae8d94fc041"
+    },
+    {
+      "old_path": "reports/final/notebooks/03_연결검증.html",
+      "new_path": "reports/final/notebooks/03_연결검증.html",
+      "bytes": 553989,
+      "sha256": "0f84a215d767eefeb8d8bd15c9a8303c33123969e9a6d7a4809ceb0a99fa1e27"
+    },
+    {
+      "old_path": "reports/final/notebooks/04_외식업_데이터셋.html",
+      "new_path": "reports/final/notebooks/04_외식업_데이터셋.html",
+      "bytes": 604831,
+      "sha256": "f82fe809ed94d046b448a4684b20d75b9391104a50932cbdfec59d88c5f3353a"
+    },
+    {
+      "old_path": "reports/final/notebooks/05_외식업_고정효과분석.html",
+      "new_path": "reports/final/notebooks/05_외식업_고정효과분석.html",
+      "bytes": 669039,
+      "sha256": "f289722f1b6924b5f2221dd5840616e0f64ce178739a223a48fe7abf378c81c1"
+    },
+    {
+      "old_path": "reports/final/notebooks/06_GEE_보조분석.html",
+      "new_path": "reports/final/notebooks/06_GEE_보조분석.html",
+      "bytes": 623188,
+      "sha256": "8496f2fe783750ac6b4041b93b4673013857bd6e668767ab8aba16db64d5d705"
+    },
+    {
+      "old_path": "reports/final/notebooks/07_RDF_지식그래프.html",
+      "new_path": "reports/final/notebooks/07_RDF_지식그래프.html",
+      "bytes": 516297,
+      "sha256": "683da0abdc522027388fe0af4483e2367f17a00f8697a5f36b58078e6a401bfc"
+    },
+    {
+      "old_path": "reports/final/notebooks/08_분석도구.html",
+      "new_path": "reports/final/notebooks/08_분석도구.html",
+      "bytes": 538528,
+      "sha256": "40b6d527443a5c3bc50bc30ba71ac575c388b57832aebc8a78ff4dce412ddb67"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/artifact.json",
+      "new_path": "reports/final/null_diagnostics/artifact.json",
+      "bytes": 63169,
+      "sha256": "96c71fc1c17580df4003614405b973aa77da20d30cd4c4d42b98bd0a0896366d"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/delivery_receipt.json",
+      "new_path": "reports/final/null_diagnostics/delivery_receipt.json",
+      "bytes": 754,
+      "sha256": "1d201115ed08f8b883438cce39c0af5877dc1ed16c03b4676e5d0cad47fac3cd"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/exposure_area_geometry.csv",
+      "new_path": "reports/final/null_diagnostics/exposure_area_geometry.csv",
+      "bytes": 18780,
+      "sha256": "2b35b3838e5777f56eb3679a4d784c6f8557ecdbee36c546c2efd23458f6e78f"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/exposure_area_quarter_comparison.csv",
+      "new_path": "reports/final/null_diagnostics/exposure_area_quarter_comparison.csv",
+      "bytes": 63168,
+      "sha256": "763112c73970ac3b1349b2c58fae8f1beea45bdab7d235ec858793d6eb858e59"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/exposure_correlations.csv",
+      "new_path": "reports/final/null_diagnostics/exposure_correlations.csv",
+      "bytes": 1526,
+      "sha256": "a9a1d621fc7998f9ed5eddccea7a8410d56c63e5ad223418c6b623d1fb5d1c90"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/exposure_measurement_availability.csv",
+      "new_path": "reports/final/null_diagnostics/exposure_measurement_availability.csv",
+      "bytes": 752,
+      "sha256": "7add9551c4508ceea38972b54542f886d4f3aedcb36a1840f24b61551d3b70c3"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/exposure_quarter_timebin_calendar.csv",
+      "new_path": "reports/final/null_diagnostics/exposure_quarter_timebin_calendar.csv",
+      "bytes": 3218,
+      "sha256": "4412c0375216dec3bae95db80667814639edda30d107a7aebb30afb5b2582b5d"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/exposure_sharing_summary.csv",
+      "new_path": "reports/final/null_diagnostics/exposure_sharing_summary.csv",
+      "bytes": 426,
+      "sha256": "9b4c6174cdda21021888c249e3a6740364cf00315ecdf380101356faef3b358d"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/exposure_spatial_pairs.csv",
+      "new_path": "reports/final/null_diagnostics/exposure_spatial_pairs.csv",
+      "bytes": 362571,
+      "sha256": "9ec3d34f4e37cecc0df5a91afdacaedee64833d0b0de3279c0cb1251c33b03df"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/exposure_summary.json",
+      "new_path": "reports/final/null_diagnostics/exposure_summary.json",
+      "bytes": 22627,
+      "sha256": "5b9cbaf8aeef09a951b1726f4285228a192fec76eab8899ed85ae4f442dd4f85"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/exposure_time_alignment.csv",
+      "new_path": "reports/final/null_diagnostics/exposure_time_alignment.csv",
+      "bytes": 441,
+      "sha256": "558f91f94fc3a99dade088b1f2ba37a1d9824945f8de5d2969ef324075de8d8a"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/inference_cluster_information.csv",
+      "new_path": "reports/final/null_diagnostics/inference_cluster_information.csv",
+      "bytes": 510910,
+      "sha256": "f379b1b54bc7dc56e91ece8456fe51a34e2f209317816f7d36a9f0d6c0a200e1"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/inference_common_industry_weights.csv",
+      "new_path": "reports/final/null_diagnostics/inference_common_industry_weights.csv",
+      "bytes": 3008,
+      "sha256": "a51f962d1af347250f8394e74aa6553f75f1408c02778a5d7bbffab0549ff28b"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/inference_common_information.csv",
+      "new_path": "reports/final/null_diagnostics/inference_common_information.csv",
+      "bytes": 687,
+      "sha256": "677ce66f5d4cf18163fb5aa4195efcc93475f3188c0511f92c95d81a1b373960"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/inference_contrasts.csv",
+      "new_path": "reports/final/null_diagnostics/inference_contrasts.csv",
+      "bytes": 37056,
+      "sha256": "efd2805167b65d5fe439de21e7db821e21c9527fd54addaaeb40f04e304b36bc"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/inference_detection_scale.csv",
+      "new_path": "reports/final/null_diagnostics/inference_detection_scale.csv",
+      "bytes": 12340,
+      "sha256": "391de606f778bd408a6e55ef36ed1d9ac2e0801d2b547e0e6b0acae016114457"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/inference_effects.csv",
+      "new_path": "reports/final/null_diagnostics/inference_effects.csv",
+      "bytes": 17479,
+      "sha256": "d94f334b55f3959b29224afe6bee1ae18054361cec1d182f3c3d1d9b7a312c56"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/inference_identifying_variation.csv",
+      "new_path": "reports/final/null_diagnostics/inference_identifying_variation.csv",
+      "bytes": 24868,
+      "sha256": "3b3996a39c5c11c0a12f96d083e3cea1206548f80d44b422cf68e99688fcc6b1"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/inference_multiplicity.csv",
+      "new_path": "reports/final/null_diagnostics/inference_multiplicity.csv",
+      "bytes": 258,
+      "sha256": "26805541581f4c7946f2411be3f7357795010e4173b582ee32424da64d42698e"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/inference_reproduction.csv",
+      "new_path": "reports/final/null_diagnostics/inference_reproduction.csv",
+      "bytes": 4368,
+      "sha256": "81a9494e04e6cac3a18591d5d04c4cca29771f7fd9718977f968297887a0da94"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/inference_summary.json",
+      "new_path": "reports/final/null_diagnostics/inference_summary.json",
+      "bytes": 6458,
+      "sha256": "a21280304abeba6e04581fe257cc29562b8d54477be37a62174e57b257bdc09c"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/inference_variation_concentration.png",
+      "new_path": "reports/final/null_diagnostics/inference_variation_concentration.png",
+      "bytes": 59071,
+      "sha256": "d6366dd49ef4ca61822f65b86f09456f1a85b6138ec6c1e7e0ffc63635a94070"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/report_notes.json",
+      "new_path": "reports/final/null_diagnostics/report_notes.json",
+      "bytes": 3204,
+      "sha256": "c910130bb246c7bc46609419297c2d74a462a8350a21f52f9f90ba11152fe193"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/report_test_families.csv",
+      "new_path": "reports/final/null_diagnostics/report_test_families.csv",
+      "bytes": 209,
+      "sha256": "0d60154ce4f8f65395f696dbdb2a69ab7800c0400a276d544542df922247ec53"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/report.html",
+      "new_path": "reports/final/null_diagnostics/report.html",
+      "bytes": 486813,
+      "sha256": "581e570bdcc08ec47438c171978ef19a89ff4a7b8c596abfa9d11fe0443addb4"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/sample_district_coverage.csv",
+      "new_path": "reports/final/null_diagnostics/sample_district_coverage.csv",
+      "bytes": 1300,
+      "sha256": "29893189f46158b8e49fbe8f0ec9ce6029057c8d93bb958da8002261c3f59ccd"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/sample_exposure_coverage.csv",
+      "new_path": "reports/final/null_diagnostics/sample_exposure_coverage.csv",
+      "bytes": 384,
+      "sha256": "015fcdfb1c8d5ff4b93538c95fd3634f20af7a85b1dde3b2967dbf19f984f2f4"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/sample_industry_coverage.csv",
+      "new_path": "reports/final/null_diagnostics/sample_industry_coverage.csv",
+      "bytes": 1031,
+      "sha256": "3ef11c5cb812d73c039b6fcbf9069c75acea41056b23bbd924772dea84466beb"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/sample_night_amount_vs_share.csv",
+      "new_path": "reports/final/null_diagnostics/sample_night_amount_vs_share.csv",
+      "bytes": 353,
+      "sha256": "d855cce8c26d29d2f58f90fc779d58dfa6004c68b2d6738c5ff7380164c11109"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/sample_store_coverage.csv",
+      "new_path": "reports/final/null_diagnostics/sample_store_coverage.csv",
+      "bytes": 224,
+      "sha256": "e73eeee444346cffc09cac90bf4d2f6f0a94411d5b29a59c0965379570604705"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/sample_summary.json",
+      "new_path": "reports/final/null_diagnostics/sample_summary.json",
+      "bytes": 1300,
+      "sha256": "93cbc1689adb9d61d3235a643bd393a116e6d6a23886be54a9e42bceb8b394b2"
+    },
+    {
+      "old_path": "reports/final/null_diagnostics/validation.json",
+      "new_path": "reports/final/null_diagnostics/validation.json",
+      "bytes": 770,
+      "sha256": "ce506363f9da0ec609e0307156ffcea7afcb2d7615b831ca9194ea4f9872dc1d"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/12_dataset_summary.json",
+      "new_path": "reports/final/revised_quarterly/12_dataset_summary.json",
+      "bytes": 26539,
+      "sha256": "eaffd6417dd2b7ecb647519798c0fbd02f97767a059682d5aa7cb2bf1e50b0d2"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/12_parser_edge_checks.csv",
+      "new_path": "reports/final/revised_quarterly/12_parser_edge_checks.csv",
+      "bytes": 1011,
+      "sha256": "0e9328ee8efae4bd7df8d34de7bea587130bc7bbede66fe746a5f272153ab742"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/12_sample_availability.csv",
+      "new_path": "reports/final/revised_quarterly/12_sample_availability.csv",
+      "bytes": 447,
+      "sha256": "92335a3ed6c44a73f572e3eaf1c03a3b3ad54a7e28bdb29e6c6416ab7f1ec199"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/12_validation_checks.csv",
+      "new_path": "reports/final/revised_quarterly/12_validation_checks.csv",
+      "bytes": 703810,
+      "sha256": "99e140bbb1f990eccd3b4eb3b8a47b92a60682edf753ddf30598fd67607a97cb"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_analysis_summary.json",
+      "new_path": "reports/final/revised_quarterly/13_analysis_summary.json",
+      "bytes": 30693,
+      "sha256": "cddad1b898d8e0a9e854bd176542150fefde7ddbe902b6a08e85378aae80f95c"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_availability_support.csv",
+      "new_path": "reports/final/revised_quarterly/13_availability_support.csv",
+      "bytes": 3193,
+      "sha256": "0c5195b47e8f3e3bf1fe89746574fc3eca8be7f95bc2ae5dbd66bd56ddbc1c8a"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_common10_support.csv",
+      "new_path": "reports/final/revised_quarterly/13_common10_support.csv",
+      "bytes": 723,
+      "sha256": "0a6a1b8a55169d170f5909cb067609751855f1a1db26baf81db1c0902ffc278b"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_effects.csv",
+      "new_path": "reports/final/revised_quarterly/13_effects.csv",
+      "bytes": 32160,
+      "sha256": "b70e6f6c00c3e4428c1586f4afe589f6b8acd8999981b87bb556edca330a2722"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_eligibility.csv",
+      "new_path": "reports/final/revised_quarterly/13_eligibility.csv",
+      "bytes": 13763,
+      "sha256": "944bbaa606835d4244f45d9038027510d4ea91028dc2573af39f47f3485c27bc"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_exposure_comparison.csv",
+      "new_path": "reports/final/revised_quarterly/13_exposure_comparison.csv",
+      "bytes": 9301,
+      "sha256": "6b2954e60cc269facb2b7c16d8d3db8320d1e5af9596f6d91b3792eee0514ea2"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_implementation_checks.csv",
+      "new_path": "reports/final/revised_quarterly/13_implementation_checks.csv",
+      "bytes": 804,
+      "sha256": "bda912e70332d73ca5262e9e99c3a3c69e76503b50ae960fd30c195da8943fac"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_information_concentration.csv",
+      "new_path": "reports/final/revised_quarterly/13_information_concentration.csv",
+      "bytes": 16891,
+      "sha256": "123f6a5f6ce91db8f92751b4c7716dc4f4b17caa8b2143712eea98a89f8fbe3c"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_model_samples.csv",
+      "new_path": "reports/final/revised_quarterly/13_model_samples.csv",
+      "bytes": 2005,
+      "sha256": "a3dfbe7a436e0f6c08e0178d8eec7c74587436487ffab2576c88803dbb076cd4"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_multiplicity_counts.csv",
+      "new_path": "reports/final/revised_quarterly/13_multiplicity_counts.csv",
+      "bytes": 523,
+      "sha256": "1455756691f533a81f0ecd1794c3d0c4f277e79da57339f532c940123492157d"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_primary_effects.png",
+      "new_path": "reports/final/revised_quarterly/13_primary_effects.png",
+      "bytes": 81133,
+      "sha256": "e2f11c150dcc93c3e0e0d8ae2a7f22cf11f9c7fbf520f9b28c03b9e2fc7b23e1"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_prior_total_reference.csv",
+      "new_path": "reports/final/revised_quarterly/13_prior_total_reference.csv",
+      "bytes": 2822,
+      "sha256": "092c3b5c2b84d919323d45dffe9710e9aba5fb43e3c13f4eeab9657ee4519d22"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_sample_flow.csv",
+      "new_path": "reports/final/revised_quarterly/13_sample_flow.csv",
+      "bytes": 765,
+      "sha256": "e0367b717dcf5bfb009ebf9cbeed4e298c03de259f56813c98792860f0e9673e"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_sample_membership.csv",
+      "new_path": "reports/final/revised_quarterly/13_sample_membership.csv",
+      "bytes": 2608769,
+      "sha256": "8a714d78dd1e700c0aebcc1e5f68cfb2231a5d8f613967e14f4ee2d456f96c30"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_slope_covariances.csv",
+      "new_path": "reports/final/revised_quarterly/13_slope_covariances.csv",
+      "bytes": 65523,
+      "sha256": "f1f78f92a3d0d86faa9142dd38fdffca542058f07332bc54665c793c36ef2717"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_spatial_se_sensitivity.csv",
+      "new_path": "reports/final/revised_quarterly/13_spatial_se_sensitivity.csv",
+      "bytes": 6252,
+      "sha256": "915b8e98fa16de551cc41e5ec93a5478fe8db1c5858aeda8b6dfd46639cf63e4"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/13_zero_night_diagnostics.csv",
+      "new_path": "reports/final/revised_quarterly/13_zero_night_diagnostics.csv",
+      "bytes": 4393,
+      "sha256": "fafda0ed1c7a1c313e71a5fc9c97ca1875769516aa333e03239cf95c74edd85f"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/14_area_selection.csv",
+      "new_path": "reports/final/revised_quarterly/14_area_selection.csv",
+      "bytes": 13646,
+      "sha256": "d2229d4d14f3fc3524a289aebcd17058844523ef57c8b8fb864842e83b16d32e"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/14_candidate_density_bands.csv",
+      "new_path": "reports/final/revised_quarterly/14_candidate_density_bands.csv",
+      "bytes": 532,
+      "sha256": "9f9ce5624ee67446933723f74c4ae9f2c73ef064f64bad36691e4cc8d5957f62"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/14_density_comparison.csv",
+      "new_path": "reports/final/revised_quarterly/14_density_comparison.csv",
+      "bytes": 1120,
+      "sha256": "5524a7c7c1d4368a725790f76afb8e758eaa6935cf5a6aec339707bbb8254a9b"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/14_district_selection.csv",
+      "new_path": "reports/final/revised_quarterly/14_district_selection.csv",
+      "bytes": 640,
+      "sha256": "f936cf2ab88a7b6c1e21eb7a0291c2c4931a0f94b615c08489ebe34c7cfd352c"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/14_entity_observation_audit.csv",
+      "new_path": "reports/final/revised_quarterly/14_entity_observation_audit.csv",
+      "bytes": 86075,
+      "sha256": "eb8b595ad7c8bc0cdac7141167870857ca92a92b02518fbebc0ef72b278080c3"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/14_summary.json",
+      "new_path": "reports/final/revised_quarterly/14_summary.json",
+      "bytes": 26899,
+      "sha256": "6dd1c319cd128942edc73af6d8e8c77dd7225c595b0263aee80242fd84245f1b"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/14_zero_exposure_selection.csv",
+      "new_path": "reports/final/revised_quarterly/14_zero_exposure_selection.csv",
+      "bytes": 792,
+      "sha256": "62b30cbf579d07d116f12deff31cd536d144e57315cb293a1b329bb202ba595b"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/artifact.json",
+      "new_path": "reports/final/revised_quarterly/artifact.json",
+      "bytes": 100983,
+      "sha256": "f7ed226deebdae5bb16b42dbda9214fe007da5182ae05510edc4be72606ac31e"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/delivery_receipt.json",
+      "new_path": "reports/final/revised_quarterly/delivery_receipt.json",
+      "bytes": 755,
+      "sha256": "0a2e09c9b572f53b5d38a5f011097eb336fc7a9ae9158583daea02568fb41a61"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/execution_manifest.json",
+      "new_path": "reports/final/revised_quarterly/execution_manifest.json",
+      "bytes": 2451,
+      "sha256": "c1faa3fc691f410b12d280a62bc7e135c7d1cd943105bf116a7ed02ef4474d86"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/report_notes.json",
+      "new_path": "reports/final/revised_quarterly/report_notes.json",
+      "bytes": 4093,
+      "sha256": "96d043fbd88b63af69bf94501a5f50ef9dc2d89e8039705d618d1e4494f5f74e"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/report.html",
+      "new_path": "reports/final/revised_quarterly/report.html",
+      "bytes": 567604,
+      "sha256": "2419abbf2a4473c0c8b8e04962d1523c50ebd0a0f17a72424d8dbb3c73530eb1"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/notebooks/08_수정분석_결과보고서.html",
+      "new_path": "reports/final/revised_quarterly/notebooks/08_수정분석_결과보고서.html",
+      "bytes": 293668,
+      "sha256": "64c7d4e3472402ca372787b29a7e4e15910877eeefb242625417808c0092d520"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/notebooks/09_수정표본_보조진단.html",
+      "new_path": "reports/final/revised_quarterly/notebooks/09_수정표본_보조진단.html",
+      "bytes": 305849,
+      "sha256": "347a773b8ac23f514390da5007a91dcd46f7ccb274308e09e591d1def5b2c041"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/notebooks/12_분기예정회차_데이터셋.html",
+      "new_path": "reports/final/revised_quarterly/notebooks/12_분기예정회차_데이터셋.html",
+      "bytes": 311135,
+      "sha256": "d24c086c8de617b5d93f1459e6a7bb47be68c2d3144726504e067a8234324d1c"
+    },
+    {
+      "old_path": "reports/final/revised_quarterly/notebooks/13_분기매출액_수정분석.html",
+      "new_path": "reports/final/revised_quarterly/notebooks/13_분기매출액_수정분석.html",
+      "bytes": 405274,
+      "sha256": "8d2fff166f944dc301bfb863710164c9bed4831d921ca9ed488f3efc3ab16ef3"
+    },
+    {
+      "old_path": "reports/final/time_windows/09_exposure_summary.json",
+      "new_path": "reports/final/time_windows/09_exposure_summary.json",
+      "bytes": 9056,
+      "sha256": "c0231408e897e286b5595d9d6592106be0e363a8162105e3f803241bd0d7f741"
+    },
+    {
+      "old_path": "reports/final/time_windows/09_parser_edge_checks.csv",
+      "new_path": "reports/final/time_windows/09_parser_edge_checks.csv",
+      "bytes": 1154,
+      "sha256": "762b38e5649e149204b69191f61e722c22dc237c758b116e772a6e01617233d1"
+    },
+    {
+      "old_path": "reports/final/time_windows/09_performance_schedule_audit.csv",
+      "new_path": "reports/final/time_windows/09_performance_schedule_audit.csv",
+      "bytes": 2035617,
+      "sha256": "0f27acdc2345bb58fb0adf7c742e82fe966688e0834cd8a835716a6c79776bf3"
+    },
+    {
+      "old_path": "reports/final/time_windows/09_window_conservation.csv",
+      "new_path": "reports/final/time_windows/09_window_conservation.csv",
+      "bytes": 629,
+      "sha256": "49befa1fbd6b27b89e382e8d2ee083556d0fe36429b95c9c24f4a7f7bd71f2d5"
+    },
+    {
+      "old_path": "reports/final/time_windows/10_sales_bin_coverage.csv",
+      "new_path": "reports/final/time_windows/10_sales_bin_coverage.csv",
+      "bytes": 426,
+      "sha256": "158203ebbdbd2153d24743af39a6e0801edb25a2faec3d04fa821d9aa6ce77b4"
+    },
+    {
+      "old_path": "reports/final/time_windows/10_sales_flagged_rows.csv",
+      "new_path": "reports/final/time_windows/10_sales_flagged_rows.csv",
+      "bytes": 252,
+      "sha256": "1680a7ec634d6d94df82a8ef8c0ff188fdece53f0bdecf0d5c6aee976f4e0c31"
+    },
+    {
+      "old_path": "reports/final/time_windows/10_sales_industry_bin_coverage.csv",
+      "new_path": "reports/final/time_windows/10_sales_industry_bin_coverage.csv",
+      "bytes": 2534,
+      "sha256": "52bbfb88945d08a487ef343fa1f0ca622ed76a291fd3d24fcdad46f79b6ecfa7"
+    },
+    {
+      "old_path": "reports/final/time_windows/10_sales_quarter_bin_coverage.csv",
+      "new_path": "reports/final/time_windows/10_sales_quarter_bin_coverage.csv",
+      "bytes": 1639,
+      "sha256": "a319a4bfd723510d081a7fafe3e4661eff081e22e0769b90a197baad2dc53a3e"
+    },
+    {
+      "old_path": "reports/final/time_windows/10_sales_reconciliation.csv",
+      "new_path": "reports/final/time_windows/10_sales_reconciliation.csv",
+      "bytes": 1480942,
+      "sha256": "eb818b9977992fc3bdef3068861bb07623940d32d99a45684c466dfa072db72a"
+    },
+    {
+      "old_path": "reports/final/time_windows/10_sales_source_fingerprints.csv",
+      "new_path": "reports/final/time_windows/10_sales_source_fingerprints.csv",
+      "bytes": 476,
+      "sha256": "9393b7f27d94785b2a3b1cb34672d5b8d21df9d50088441087dd35d1e6b2ff95"
+    },
+    {
+      "old_path": "reports/final/time_windows/10_sales_source_quality.csv",
+      "new_path": "reports/final/time_windows/10_sales_source_quality.csv",
+      "bytes": 132,
+      "sha256": "ea0add99674ecc0b0fe812c5fe79ae6fed0ee45fc81203b6e0a1310b28eb20aa"
+    },
+    {
+      "old_path": "reports/final/time_windows/10_sales_summary.json",
+      "new_path": "reports/final/time_windows/10_sales_summary.json",
+      "bytes": 3890,
+      "sha256": "58b163c005b412628ee4805cdeea8d50ad5328f22bcf705c33ca70612379d383"
+    },
+    {
+      "old_path": "reports/final/time_windows/10_sales_validation.csv",
+      "new_path": "reports/final/time_windows/10_sales_validation.csv",
+      "bytes": 329,
+      "sha256": "a52888218ee4d37b1df1e4fee6e923c96b97200098d2d1c2f3f5c3eacf805744"
+    },
+    {
+      "old_path": "reports/final/time_windows/11_analysis_summary.json",
+      "new_path": "reports/final/time_windows/11_analysis_summary.json",
+      "bytes": 4575,
+      "sha256": "fb95f7e489859933463c582423503146e5aad8e5c930d382aeb12c352d82d828"
+    },
+    {
+      "old_path": "reports/final/time_windows/11_common_effects.csv",
+      "new_path": "reports/final/time_windows/11_common_effects.csv",
+      "bytes": 1128,
+      "sha256": "fb40a48b63b222dfc556c388eb5b09e69013b5987c54ac277e8271a32a49b84f"
+    },
+    {
+      "old_path": "reports/final/time_windows/11_eligibility.csv",
+      "new_path": "reports/final/time_windows/11_eligibility.csv",
+      "bytes": 2423,
+      "sha256": "baa6b65a8ac2b34a66eb8c83c6bd17461cc6e325f96a13cf800d4541718a1933"
+    },
+    {
+      "old_path": "reports/final/time_windows/11_implementation_checks.csv",
+      "new_path": "reports/final/time_windows/11_implementation_checks.csv",
+      "bytes": 209,
+      "sha256": "31c8d2973df630ed9e6ad18eeae488cd9cf5dba5ce577aea4f4d6be409c2e8c9"
+    },
+    {
+      "old_path": "reports/final/time_windows/11_industry_effects.csv",
+      "new_path": "reports/final/time_windows/11_industry_effects.csv",
+      "bytes": 11574,
+      "sha256": "eadc974edb2e0e1966444985d3284abf99a354e104550b46d22ea30a3567062f"
+    },
+    {
+      "old_path": "reports/final/time_windows/11_information_concentration.csv",
+      "new_path": "reports/final/time_windows/11_information_concentration.csv",
+      "bytes": 3075,
+      "sha256": "6b943e6343f53f83359183496e9210284fc5aaefbd907a4ea138c7a509b70654"
+    },
+    {
+      "old_path": "reports/final/time_windows/11_omnibus_tests.csv",
+      "new_path": "reports/final/time_windows/11_omnibus_tests.csv",
+      "bytes": 402,
+      "sha256": "86bf825bbc5212edfb3b9885f0b21d6bc5a22ec3d6c7c24c61654c92d3507f37"
+    },
+    {
+      "old_path": "reports/final/time_windows/11_sample_flow.csv",
+      "new_path": "reports/final/time_windows/11_sample_flow.csv",
+      "bytes": 1127,
+      "sha256": "bfce387e6de55ba3278156a227dca879b654cfc4994039a666490dd3b3579557"
+    },
+    {
+      "old_path": "reports/final/time_windows/11_sensitivity.csv",
+      "new_path": "reports/final/time_windows/11_sensitivity.csv",
+      "bytes": 991,
+      "sha256": "8b772e79f0645e0b2b3dd6416b9770f8f683e363ad37e848c36163e242aa86be"
+    },
+    {
+      "old_path": "reports/final/time_windows/공연시간창_분석보고서.html",
+      "new_path": "reports/final/time_windows/공연시간창_분석보고서.html",
+      "bytes": 434792,
+      "sha256": "b737be1f3d7643bce02fb69665634005fe5b692c2704b8eb5347f7cf303d3f5b"
+    },
+    {
+      "old_path": "reports/final/time_windows/execution_manifest.json",
+      "new_path": "reports/final/time_windows/execution_manifest.json",
+      "bytes": 2161,
+      "sha256": "a7cfcd76d2613a5ec734664b7fb84568e57124503ea6ab082e3502a140ddf144"
+    },
+    {
+      "old_path": "reports/final/time_windows/figures/11_time_window_industries.png",
+      "new_path": "reports/final/time_windows/figures/11_time_window_industries.png",
+      "bytes": 127447,
+      "sha256": "155fd7adecc619716f8a5ff74108ac17261eff156b01f3c773381ef811d18309"
+    },
+    {
+      "old_path": "reports/final/time_windows/notebooks/09_공연시간대_노출구축.html",
+      "new_path": "reports/final/time_windows/notebooks/09_공연시간대_노출구축.html",
+      "bytes": 310995,
+      "sha256": "f35df4c9687f0bef82be43b83e0b363a9e32ed6124ef0340105584a0fcab1380"
+    },
+    {
+      "old_path": "reports/final/time_windows/notebooks/10_시간대매출_패널.html",
+      "new_path": "reports/final/time_windows/notebooks/10_시간대매출_패널.html",
+      "bytes": 310629,
+      "sha256": "57d61f818062188d27650e7e446c47f5a2519de4fed21be83fc3e6aa401d67f2"
+    },
+    {
+      "old_path": "reports/final/time_windows/notebooks/11_공연시간창_매출분석.html",
+      "new_path": "reports/final/time_windows/notebooks/11_공연시간창_매출분석.html",
+      "bytes": 434792,
+      "sha256": "b737be1f3d7643bce02fb69665634005fe5b692c2704b8eb5347f7cf303d3f5b"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_084816_18b12e.json",
+      "new_path": "reports/kopis_collection/20261004_084816_18b12e.json",
+      "bytes": 730,
+      "sha256": "be54313156eac96f78e94de97b37f67de950e5526b2a48333e36b2e2979abb6a"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_084931_94f7dc.json",
+      "new_path": "reports/kopis_collection/20261004_084931_94f7dc.json",
+      "bytes": 776,
+      "sha256": "82a7dee1ac94c1c95d4ff08e1afa7aedf6a408a987ecff18e6ac05b04bd57e4b"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_085253_11064a.json",
+      "new_path": "reports/kopis_collection/20261004_085253_11064a.json",
+      "bytes": 828,
+      "sha256": "17b111238589b251906b31666c0f6328db732bbaf817df304ceeaea30c211fa9"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_091713_d06862.json",
+      "new_path": "reports/kopis_collection/20261004_091713_d06862.json",
+      "bytes": 1037,
+      "sha256": "a24f5be0d2111ecef94c33549c40a19ea84c3121c704d07fe5a7f74d628cf3e4"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_092358_9b279a.json",
+      "new_path": "reports/kopis_collection/20261004_092358_9b279a.json",
+      "bytes": 1039,
+      "sha256": "a5ccfacb10c1db43fe953472e5c2c82c1c52ef767ba0257e9db8c2ad77e28a76"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_094229_d83a34.json",
+      "new_path": "reports/kopis_collection/20261004_094229_d83a34.json",
+      "bytes": 1035,
+      "sha256": "6ea7f97332fb4a826c6b78727524d7079043674205714c896817d510913d6b25"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_094252_180604.json",
+      "new_path": "reports/kopis_collection/20261004_094252_180604.json",
+      "bytes": 1035,
+      "sha256": "a0b19342b52240c8be859b5cf0ab19711d51e3337481e90be091a954c71532ce"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_094340_81fed6.json",
+      "new_path": "reports/kopis_collection/20261004_094340_81fed6.json",
+      "bytes": 1036,
+      "sha256": "ca69dd39f29295588306696ef28389b45b32660b24f5f28558e2700b5a27920d"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_153201_a288ce.json",
+      "new_path": "reports/kopis_collection/20261004_153201_a288ce.json",
+      "bytes": 1178,
+      "sha256": "dd3fa6d08616812da8129dda8851f5ef4c670f486a8bf595bcaff486fd775f86"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_154020_1c7d3b.json",
+      "new_path": "reports/kopis_collection/20261004_154020_1c7d3b.json",
+      "bytes": 1162,
+      "sha256": "4fec1cf1aea43f45eae5422d69b5ad71c44135fa70c8dfe791fd64837c51fd3b"
+    },
+    {
+      "old_path": "reports/kopis_collection/cli_offline_validation.json",
+      "new_path": "reports/kopis_collection/cli_offline_validation.json",
+      "bytes": 1445,
+      "sha256": "a24f0d2460a247d219a7b7d8df98e0bddacfe7cd3fae9b64637fc7f5f47ad274"
+    },
+    {
+      "old_path": "reports/kopis_collection/latest.json",
+      "new_path": "reports/kopis_collection/latest.json",
+      "bytes": 1162,
+      "sha256": "4fec1cf1aea43f45eae5422d69b5ad71c44135fa70c8dfe791fd64837c51fd3b"
+    },
+    {
+      "old_path": "reports/kopis_collection/worker.json",
+      "new_path": "reports/kopis_collection/worker.json",
+      "bytes": 224,
+      "sha256": "c2f77f6c0d649235e5a4cef68c8905355339707f4a4b91638f2c0baca32ecf96"
+    },
+    {
+      "old_path": "reports/kopis_collection/worker.stderr.log",
+      "new_path": "reports/kopis_collection/worker.stderr.log",
+      "bytes": 376,
+      "sha256": "ce1e837e42b6d32a48a699fd3ed709497e418b7d5d13c416c80e645848ee9366"
+    },
+    {
+      "old_path": "reports/kopis_collection/worker.stdout.log",
+      "new_path": "reports/kopis_collection/worker.stdout.log",
+      "bytes": 41,
+      "sha256": "b3d3616c76821694d5137b5940e3068c479e445ceaaacae782f2a30ec9069a10"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_085253_11064a/collection_run.json",
+      "new_path": "reports/kopis_collection/20261004_085253_11064a/collection_run.json",
+      "bytes": 828,
+      "sha256": "17b111238589b251906b31666c0f6328db732bbaf817df304ceeaea30c211fa9"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_085253_11064a/facility_details.csv",
+      "new_path": "reports/kopis_collection/20261004_085253_11064a/facility_details.csv",
+      "bytes": 375067,
+      "sha256": "12e80c7522986a36c01838425dffa9e2962803c7122e2290b4dc7042b9674bbd"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_085253_11064a/performance_details.csv",
+      "new_path": "reports/kopis_collection/20261004_085253_11064a/performance_details.csv",
+      "bytes": 117927,
+      "sha256": "ca23a95ff17ecfcce05a9b4202d131b5d8c2b7c445267152e8fc47bb4a6129d6"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_085253_11064a/raw_source_manifest.csv",
+      "new_path": "reports/kopis_collection/20261004_085253_11064a/raw_source_manifest.csv",
+      "bytes": 292129,
+      "sha256": "d07b5292e54a054954c2125cfc4bd32360bc0ab7a2668168e3d61f422d2123e1"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_085253_11064a/snapshot_manifest.json",
+      "new_path": "reports/kopis_collection/20261004_085253_11064a/snapshot_manifest.json",
+      "bytes": 2356,
+      "sha256": "026ec1e15d5d5427dd3a9c9796da59e3627e7e11e3edb9412a072a98c03d0481"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_091713_d06862/collection_run.json",
+      "new_path": "reports/kopis_collection/20261004_091713_d06862/collection_run.json",
+      "bytes": 1037,
+      "sha256": "a24f5be0d2111ecef94c33549c40a19ea84c3121c704d07fe5a7f74d628cf3e4"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_091713_d06862/raw_source_manifest.csv",
+      "new_path": "reports/kopis_collection/20261004_091713_d06862/raw_source_manifest.csv",
+      "bytes": 317256,
+      "sha256": "9adea0ee91fe59fe358b1fd56d3ccfd3636b954b6f4fd3a6fd435d3e1cdab259"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_091713_d06862/snapshot_manifest.json",
+      "new_path": "reports/kopis_collection/20261004_091713_d06862/snapshot_manifest.json",
+      "bytes": 2364,
+      "sha256": "96d7ec6472bec03aaeab8b0c595e6a687116011283cad68c47529e0f36a5314d"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_092358_9b279a/collection_run.json",
+      "new_path": "reports/kopis_collection/20261004_092358_9b279a/collection_run.json",
+      "bytes": 1039,
+      "sha256": "a5ccfacb10c1db43fe953472e5c2c82c1c52ef767ba0257e9db8c2ad77e28a76"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_092358_9b279a/raw_source_manifest.csv",
+      "new_path": "reports/kopis_collection/20261004_092358_9b279a/raw_source_manifest.csv",
+      "bytes": 443125,
+      "sha256": "2457058309042b960c55e51dfccaf75eb484b56cedec54373136b94cef2e54d8"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_092358_9b279a/snapshot_manifest.json",
+      "new_path": "reports/kopis_collection/20261004_092358_9b279a/snapshot_manifest.json",
+      "bytes": 2364,
+      "sha256": "edd8fb8490f58cdcdc39df8de5e9b82410e93dcc169bdd691bc7db773ea01459"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_154020_1c7d3b/collection_run.json",
+      "new_path": "reports/kopis_collection/20261004_154020_1c7d3b/collection_run.json",
+      "bytes": 1162,
+      "sha256": "4fec1cf1aea43f45eae5422d69b5ad71c44135fa70c8dfe791fd64837c51fd3b"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_154020_1c7d3b/raw_source_manifest.csv",
+      "new_path": "reports/kopis_collection/20261004_154020_1c7d3b/raw_source_manifest.csv",
+      "bytes": 2883916,
+      "sha256": "1c1a27ac83552628f0919a91a142ec8349ba4628682275b6baa7d7fc7f7b97f0"
+    },
+    {
+      "old_path": "reports/kopis_collection/20261004_154020_1c7d3b/snapshot_manifest.json",
+      "new_path": "reports/kopis_collection/20261004_154020_1c7d3b/snapshot_manifest.json",
+      "bytes": 2365,
+      "sha256": "91e594d954913adea4a204fc6a6aea4332b609f70037949e2a613f307205dee8"
+    },
+    {
+      "old_path": "reports/notebooks/01_데이터_점검과_전처리.html",
+      "new_path": "reports/20261005/notebooks/01_데이터_점검과_전처리.html",
+      "bytes": 370097,
+      "sha256": "1771e614901481e6821550f22a254277149c7f68f2b7e0ca59aff13aaae9dbe4"
+    },
+    {
+      "old_path": "reports/notebooks/02_EDA와_시각화.html",
+      "new_path": "reports/20261005/notebooks/02_EDA와_시각화.html",
+      "bytes": 646234,
+      "sha256": "cf4964c0e52c64f8def8f594c3c31cff4172b9ffc25fae0fda4a2072c28ccd22"
+    },
+    {
+      "old_path": "reports/notebooks/03_공연과_상권_연결_분석.html",
+      "new_path": "reports/20261005/notebooks/03_공연과_상권_연결_분석.html",
+      "bytes": 1028012,
+      "sha256": "c170dcdc34ad800e708946367419c6009c267a8dd826b74df5293465f149dafe"
+    },
+    {
+      "old_path": "reports/notebooks/04_데이터_연결검증.html",
+      "new_path": "reports/20261005/notebooks/04_데이터_연결검증.html",
+      "bytes": 553806,
+      "sha256": "f449914b70a65d87cd008bb857735652ec9228fbc8dbec7b9e5989393eab71e9"
+    },
+    {
+      "old_path": "reports/notebooks/05_업종차이와_GEE_분석.html",
+      "new_path": "reports/20261005/notebooks/05_업종차이와_GEE_분석.html",
+      "bytes": 522972,
+      "sha256": "6461d7675e29b6a3d16e1ebf5cade2ed63d8c1e7e4d259925eb95cb613a46711"
+    },
+    {
+      "old_path": "reports/notebooks/06_온톨로지와_RDF_지식그래프.html",
+      "new_path": "reports/20261005/notebooks/06_온톨로지와_RDF_지식그래프.html",
+      "bytes": 512100,
+      "sha256": "08c624f1d945daeb5a05c4e33af98b46f8eb61b4deba5a70db80f6056037b101"
+    },
+    {
+      "old_path": "reports/notebooks/07_AI서비스_분석도구.html",
+      "new_path": "reports/20261005/notebooks/07_AI서비스_분석도구.html",
+      "bytes": 523761,
+      "sha256": "53b8bacb75191348c743b6e066043699981f74bc7824321e75fae5387bf11914"
+    },
+    {
+      "old_path": "reports/notebooks/08_외식업_범위확장과_데이터셋.html",
+      "new_path": "reports/20261005/notebooks/08_외식업_범위확장과_데이터셋.html",
+      "bytes": 600865,
+      "sha256": "fc96421ba2e75dc8d1e0e0a077603c39727344e4e06c18c2ee78e1ffeea54ce4"
+    },
+    {
+      "old_path": "reports/notebooks/08_KOPIS_CLI_오프라인_검증.html",
+      "new_path": "reports/20261005/notebooks/08_KOPIS_CLI_오프라인_검증.html",
+      "bytes": 332250,
+      "sha256": "f767df2d68866d69138d5ce237348bb0666b1fc3f67a72b8163eab1373b7f905"
+    },
+    {
+      "old_path": "reports/notebooks/09_외식업_10종_비교분석.html",
+      "new_path": "reports/20261005/notebooks/09_외식업_10종_비교분석.html",
+      "bytes": 638708,
+      "sha256": "334126cb59d49cce7c0b8096fe1b182715384d46a4f240e994b81fb5b05a10d8"
+    },
+    {
+      "old_path": "reports/notebooks/10_외식업_10종_GEE_보조분석.html",
+      "new_path": "reports/20261005/notebooks/10_외식업_10종_GEE_보조분석.html",
+      "bytes": 604582,
+      "sha256": "625d7fc5ca6e5f8b5221b9235b8ca5df12d28bca0fe141b8c5018890094766d0"
+    },
+    {
+      "old_path": "reports/notebooks/11_서울시_원자료_재수집.html",
+      "new_path": "reports/20261005/notebooks/11_서울시_원자료_재수집.html",
+      "bytes": 362895,
+      "sha256": "d31a2247c4faa954538c483c257f2fdfd6bc899c20fc138092083938f1924820"
+    },
+    {
+      "old_path": "reports/notebooks/12_수집본_분석스냅샷.html",
+      "new_path": "reports/20261005/notebooks/12_수집본_분석스냅샷.html",
+      "bytes": 364135,
+      "sha256": "ee5c6118e02547f431cafde5829f4943c82ef1c2e55cdcd31932461cca64f130"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "date": "2026-10-06",
+  "reason": "User-authorized relocation to graduation-project and local reproducibility environment",
+  "original_sources": "environment/before_path_migration.zip",
+  "changes": {
+    "jupyter-notebook/20261005/notebooks/01_데이터_점검과_전처리.ipynb": {
+      "before_sha256": "f1677ec85a4c585dea8c4c9fbfbeb1723face1b4fee402b900f1eec2885dab8c",
+      "after_sha256": "61fd4876d0b882dd68de40bd3d27626595c3ed84b7eb02a62b904ed514745cc2",
+      "source_sha256": "81866e56fca0b79846b537d33cae1c27d9fa02c3e71ed5df088e5ee893052216"
+    },
+    "jupyter-notebook/20261005/notebooks/02_EDA와_시각화.ipynb": {
+      "before_sha256": "a82fc41c77c480e1c841c7d439efcdabba127dd18e10fcdf685fb47ff03cca77",
+      "after_sha256": "7a0029583b4a7b99f06c95042cc3d0d3b76e21981aac721c8f81efa723272cd6",
+      "source_sha256": "dea66a78da0d8dd79214a4ce10f7bb200ddfee3bfc79987a552c780fbb5e0db2"
+    },
+    "jupyter-notebook/20261005/notebooks/03_공연과_상권_연결_분석.ipynb": {
+      "before_sha256": "51b70432e51790ebc4468d0194f0ce69e961fe1be153dfe3546b3a34b875653a",
+      "after_sha256": "497e8b2495e024292f676672de5cf563083030aa8968f7ca0b5c0442904a91ea",
+      "source_sha256": "9122ef9e7c66973cd814308ef48b282b51b750b7a232158e1f154ce64f86899a"
+    },
+    "jupyter-notebook/20261005/notebooks/04_데이터_연결검증.ipynb": {
+      "before_sha256": "e4953d30267322668e5e4cf9b5d0c85fbfcc3ca585d633a84ba56d720f58962b",
+      "after_sha256": "f82b37bb4b7c1afe55988447f521e5126cd24900f07cd614e256280adf40e1d1",
+      "source_sha256": "044d07172e1bc7bdf9f0da4dbb3f73a793fe43eb5a36cc74f81f195f077c5e3d"
+    },
+    "jupyter-notebook/20261005/notebooks/05_업종차이와_GEE_분석.ipynb": {
+      "before_sha256": "3a4d76cd547892ec4eb1ae280321877e861b6fc740e7808ad9ad4c250c1c0a10",
+      "after_sha256": "63dde91fcc719e4d7939e6cc65b7ea6ea74e22defd15b5f3eeb0e6b97334c450",
+      "source_sha256": "498be462226708162553058d2ee15ef9b0ba4de62f9961e8805f402f0f8efc92"
+    },
+    "jupyter-notebook/20261005/notebooks/06_온톨로지와_RDF_지식그래프.ipynb": {
+      "before_sha256": "7f2933337539f5c40a223c43c857d86555a21bfdafdd3b242bb5237d076e50df",
+      "after_sha256": "189b2419fda51d5e8c68650b20f7217b324a770b0019befb248253ae4ba6679a",
+      "source_sha256": "b10e48b7da5ac887bb7cefa89dafeb3b3b5f50e1ad025649bfd6698d7a209d2a"
+    },
+    "jupyter-notebook/20261005/notebooks/07_AI서비스_분석도구.ipynb": {
+      "before_sha256": "6980e30cfd3fb958f6e5873cead8bca63ef4ca81e5005f5c92f00d15407066e1",
+      "after_sha256": "6384b2d60e7ac63d8bf3291e6d9f6018954a36dd7ae00c00b4571601645ed58d",
+      "source_sha256": "291e193a1a803e4594a2221f4c83660da128bc41f49d55632947326196d38256"
+    },
+    "jupyter-notebook/20261005/notebooks/07_KOPIS_상세정보_재수집.ipynb": {
+      "before_sha256": "e26073f0d3881385237bf3f6d400513091d28b85a9c35b40210a06c07c77868b",
+      "after_sha256": "46a078d5a182bec1aff5b26070ec0b73ee7c2f367745e72aade74cf993e0a6c8",
+      "source_sha256": "4503bf96a4f192f084c397d53e08c2c6da7e301dc0ae5c5c66137c5f4ec24aac"
+    },
+    "jupyter-notebook/20261005/notebooks/08_KOPIS_CLI_오프라인_검증.ipynb": {
+      "before_sha256": "f1ddaa4af60cc4b7bba5ab30a248e043cabccf7f597a2d43f776918103660975",
+      "after_sha256": "0dd4333aefb51e5075a5b1e708e8bf1e489d6332c1db6e1f3fd32a6829700431",
+      "source_sha256": "c1d4b916509b61b2a1969f7964f61feb4f4266509cbdf7c3ee83ba9c9bbe6027"
+    },
+    "jupyter-notebook/20261005/notebooks/08_외식업_범위확장과_데이터셋.ipynb": {
+      "before_sha256": "6145ce981bde8cf2586b46dc89d144dbdecf787a2b018d46003b68cb58504dba",
+      "after_sha256": "83cc011a2df8eb644aae03e2d74f0a1726e01cccbaac881812d17ef28b7588db",
+      "source_sha256": "9b00daaedf701720dc6c76ded241246391358ea072a9b6f84bcf7d51f0d0a3d3"
+    },
+    "jupyter-notebook/20261005/notebooks/09_외식업_10종_비교분석.ipynb": {
+      "before_sha256": "e3d71ce505bfc45baaa52a303693e450cd37567ca8a835f3c8299650a0ce82e9",
+      "after_sha256": "2658b1e3e49132cd5f8f42b2921d2f885795f34469c63a565adb22a005c69ee7",
+      "source_sha256": "3e8ac006f30bb1303ce08769b943f3b792077702524dadbac69e01024b99d29d"
+    },
+    "jupyter-notebook/20261005/notebooks/10_외식업_10종_GEE_보조분석.ipynb": {
+      "before_sha256": "2ec7eb08a7f742d26276abcb6355376c723a78829c74014154f79f4ecfb4b3d0",
+      "after_sha256": "796cb9180489846dc4c5019b6443578d59115786e27f14cf879bd2c6a4c91b4f",
+      "source_sha256": "da661e9bbfe281afe5e6319eb4baaf289b832ec972869e6a04c52fd0da56674f"
+    },
+    "jupyter-notebook/20261005/notebooks/11_서울시_원자료_재수집.ipynb": {
+      "before_sha256": "6b5b4fe1e3c6f0df879773d1fee3d3c8c664ef8dde4d3efd2bc76994deb74c88",
+      "after_sha256": "9462022f02b293dba1dc90dda51fc9da6d1ae9572e11a4bf2898bf37271148ee",
+      "source_sha256": "e274bd17fa88616eacf10ca1742fcb4af9f4c297281453121e1bb66791544170"
+    },
+    "jupyter-notebook/20261005/notebooks/12_수집본_분석스냅샷.ipynb": {
+      "before_sha256": "cb6872d0806aa9752155feababfd854c19f866396a6d33efcf8f5a2c50c843c7",
+      "after_sha256": "c732de1c4cb6a9fc1805e30ab60c7f56c4fafacf3c100447d628466951034e9e",
+      "source_sha256": "76005088aacf3ee2417b61d0c581924175c05d7dd75437523e4b9d382476d9d5"
+    },
+    "jupyter-notebook/20261005/notebooks/13_회귀모형_독립감사.ipynb": {
+      "before_sha256": "db2cb7763f7ce9bf8a3bd0802e92f9ffe92ded6cd97da2c9e32b47eb16a064ee",
+      "after_sha256": "0fa68ca6e8cc7f57fbe41605511312cd15dc16c6f907548368b69e972deaaaf9",
+      "source_sha256": "dd0fc612c72c34583e2d4602d233b8cff05dc39ee34b1c71e13e7fbc4f529407"
+    },
+    "jupyter-notebook/20261005/notebooks/14_공간과_공연노출_독립감사.ipynb": {
+      "before_sha256": "10c9050b3782f22f18b30a48f0f8d9c9d268384620fc6138117dad8ccf42fb76",
+      "after_sha256": "8eea3a85c746714624454151f3c569215409216f31597d941b749a00fbf06548",
+      "source_sha256": "b04afc9137298d75c03d22cc5b37456d40eb904e924e85231db001659a0511e7"
+    },
+    "jupyter-notebook/20261005/notebooks/15_자료와_표본_독립감사.ipynb": {
+      "before_sha256": "2bfc50a70b4e3b2c6b4702d59e45e05d6cef811edb245aa81f02f11df4d915c3",
+      "after_sha256": "c0e72e4eeb1a52ec2d323865d45fbfdb62b982d306926f1014ad44ea5e60e0e4",
+      "source_sha256": "1ce9296ab839dee107af8ee0888adbabaeb16acff2e278a12dfcd68522d8267d"
+    },
+    "jupyter-notebook/20261005/notebooks/16_분석_독립검토_종합.ipynb": {
+      "before_sha256": "1c8744541cbe30799af21bbe2634824d380bc48206a1f3d52230e4ed8267f561",
+      "after_sha256": "32191544ac88c7092971a7c314340a30e7b0ff43857d3cfc886e823d6026a4f3",
+      "source_sha256": "a8a8ed57d869c86878763bac762e6e9e91c406044fe6f52c551082b040a67017"
+    },
+    "jupyter-notebook/20261006/00_전체실행.ipynb": {
+      "before_sha256": "a528dfdea9ced8dddcd9c7bb205472a6e3ac8a1441bf8aa23df3efb95ea2debe",
+      "after_sha256": "f2706379f0e16017780c7c483087937862df6e31146565d1c74b884470c8e203",
+      "source_sha256": "961a705237042e9d06331fb118695f1e8f7241a4e4d6ffee76fe9d9053be59d9"
+    },
+    "jupyter-notebook/20261006/01_시간대확장_실행.ipynb": {
+      "before_sha256": "cacf46b33cab205f9b44d8a3dc5465abc0f7f6e33ce42fa9d6d5b08e040a7b41",
+      "after_sha256": "e6696b531c5ed97918d3b6451da81e420096131e52fe7b85f07f7452c99f8717",
+      "source_sha256": "ee808061f0291f2710a6dca155a66f89084d326721affac4d16d5e50573f38e6"
+    },
+    "jupyter-notebook/20261006/02_수정분석_실행.ipynb": {
+      "before_sha256": "4548957d54362f4030f4d22de0ac906695004da5b2e73581be88f72e34301a9a",
+      "after_sha256": "23f5da86d8a8c62c40aa68c2486c4381e00cbfca22ab0f6bf907c3256e8791ed",
+      "source_sha256": "4a23d8e1e2d878f4f5f98b8b6683ed06e69b450d7380132c06d2f9061d7943b8"
+    },
+    "jupyter-notebook/20261006/data-collection/01_KOPIS_상세수집.ipynb": {
+      "before_sha256": "2437991fce18ffa909ab7f864cb83b75bf1d58560d21cac36f1b7bd61334a5f0",
+      "after_sha256": "5d4bbbbbc241e6450c8743dc6629cb2611b2d8cdc9af8bc8f2f189ac9b00ab89",
+      "source_sha256": "d13cc8402bdc8501975fb1e4bebd1a6c1580ff87f16166e949b8dfabc162a4af"
+    },
+    "jupyter-notebook/20261006/data-collection/02_서울시_원자료수집.ipynb": {
+      "before_sha256": "21e82e384df96da21ccb10007bcff376313eab5e547b963c281bf9647f0f86f8",
+      "after_sha256": "b29dd98ecd2c47c638c2a61481cde335fac233c22204d7d412f28ae8e81416cf",
+      "source_sha256": "34edb59ab4ab7380dfee5c50b9cbed4f1cc7fe543d031dd93acf682e68d201b6",
+      "accepted_before_sha256": [
+        "9306048142e46465ec418cab4f2a413b4b308d106b6a17256be758cea015a169"
+      ],
+      "prior_change": "Previously moved only the Seoul collection report output directory."
+    },
+    "jupyter-notebook/20261006/data-collection/03_KOPIS_스냅샷검증.ipynb": {
+      "before_sha256": "3d5e12fec17e04da7779022332cd7248d40d60eec952211ab2401c4fb2ca0172",
+      "after_sha256": "590bf15dac30cc332c044d43898535b3bdd21a45fd88a9789264cade22df6106",
+      "source_sha256": "cffb39b2fccde7a520f9207843fe1b678121ce9429f02f25c5f41f2a23c2419f"
+    },
+    "jupyter-notebook/20261006/data-collection/04_KOPIS_CLI_오프라인검증.ipynb": {
+      "before_sha256": "aa8cb4a33ab9b5ea745500ebd1e3120254bf721505814c873e592eaf6fbf6717",
+      "after_sha256": "fc824e5365772a6dbfd97a513a9f12785adb726c2498a706c8eb77d12f5a7bde",
+      "source_sha256": "4684517bafdf55be1a95845724cc22623398372be8662e50638c89466b45b192"
+    },
+    "jupyter-notebook/20261006/data-collection/05_일자시간대매출_자료확보.ipynb": {
+      "before_sha256": "416bf863cdd58e077a4daea1fe90e703675284e63f83d8076b62399c0f041001",
+      "after_sha256": "fecc9386d4841ad40445113996a3837069f3d292599074e9db9b61b9f6523ed9",
+      "source_sha256": "9cc3be128bb0415a8207149c8b8770486106e0d865d9712d0419cd185c21c75b"
+    },
+    "jupyter-notebook/20261006/notebooks/01_입력검증과_준비.ipynb": {
+      "before_sha256": "0aeb5ca8d11738bd52dd000295aa1192bd6cf119b44ee7785fb472a884f5a932",
+      "after_sha256": "059d4499b5524ab97500732e28bad8f7e7239b07c22256baf77e08c51d47b35b",
+      "source_sha256": "e645e1b98c1c2c84c57acf6b3440c5f6ed08e794fd25f2f0d90f4ae8c8707d20"
+    },
+    "jupyter-notebook/20261006/notebooks/02_공연과_상권_연결.ipynb": {
+      "before_sha256": "0469f7d31a487e1edd9c7b6b9e779444876b53e71c39e5f79ba89705b4c9b60e",
+      "after_sha256": "322acfc7aecdfa819a99403e77b0ff12884c9c4f9c2de1d600d89009ecee693c",
+      "source_sha256": "9b8a8b5c8c9b9ee33a5b9f7b89497ca161b5912357c2831d950f0c547b94fa90"
+    },
+    "jupyter-notebook/20261006/notebooks/03_연결검증.ipynb": {
+      "before_sha256": "eba63b1b177b3d4a89b791a1957f00ea468aa0b54b65b6909df4fe43ac94cbdd",
+      "after_sha256": "c22917f97e4d1f1a827feb7975fda575f83daca4f3b634855fc4df77c3590cce",
+      "source_sha256": "7385d058c95518567f9c67c7f8b2452cab00e2af823a03d3c080cb121030e472"
+    },
+    "jupyter-notebook/20261006/notebooks/04_외식업_데이터셋.ipynb": {
+      "before_sha256": "56cb4082c141e975d5b1e4d287d6c8e989761ba9ec5778b1aa5e27eb1a387861",
+      "after_sha256": "5b11661c46d265cb48c3709935ca78db7f3087b9a1e05ab1452653e1b5bf3d78",
+      "source_sha256": "d16dd2c7a29b0f6a5043732380ebc1cfeba0bab44d8f08f1ac325f67363c9105"
+    },
+    "jupyter-notebook/20261006/notebooks/05_외식업_고정효과분석.ipynb": {
+      "before_sha256": "7ab7adeb1df8fe9624c10f2ade55c8b263d395da03bd134144eee62dce65eaa0",
+      "after_sha256": "9b99ea0a3fc2637311a322c39d15e5976dda836b54fa445718b4403dfa166fc6",
+      "source_sha256": "f3ace9d22313119866c6bd2a2afc6d30ed59093a94d8db67a2db774a37b34d2e"
+    },
+    "jupyter-notebook/20261006/notebooks/06_GEE_보조분석.ipynb": {
+      "before_sha256": "a98f34d6073e0a515bc69b9c1ee4e0aadf2a36448cb58aff831dcabab769d0df",
+      "after_sha256": "92bca26f02c99195cac04fc31857fc34fdbca309646bd0dc75555ac994eab49d",
+      "source_sha256": "8d5fcd32686e03b725f4a4606ee78c18dcbb62a44807a61cec743a35cd0cf225"
+    },
+    "jupyter-notebook/20261006/notebooks/07_RDF_지식그래프.ipynb": {
+      "before_sha256": "c0ac45c06c6966c6ccf9d976ca6abdd883582829abeea1151b1dfe4f62dd2a20",
+      "after_sha256": "5edeaec0c0a01408bbd49737f8c2e62c655a547721e0488456ac9ccb76a0864b",
+      "source_sha256": "52d94d0a8234292dd9b715f75a18d81985d5c70ca3827885c667c304a392e0c5"
+    },
+    "jupyter-notebook/20261006/notebooks/08_분석도구.ipynb": {
+      "before_sha256": "d4427bca968ac3291e4012440fad403e48a56e4758df657780aaf31f6cbab757",
+      "after_sha256": "3f9d305822515144ce4c301be6901c12f38f73e3788a16e4853b19149400c15c",
+      "source_sha256": "1d3aa663dbf97be4bdd9f8f245776c9aeaad8e44f11b3444dc7950707d503bfe"
+    },
+    "jupyter-notebook/20261006/notebooks/09_공연시간대_노출구축.ipynb": {
+      "before_sha256": "4e6a63a3280a412d44ded3bd7112b493a2ee298edd6bef6305e671ea9c5a0103",
+      "after_sha256": "30d42977b9849b0dddc779e8fd7275e3d24a319f600042365a6ff8db3262b1c0",
+      "source_sha256": "485fea48bc32ca091b2e5ce3e9dc878a7c965f39e49d2fe70655a9960d2797f4"
+    },
+    "jupyter-notebook/20261006/notebooks/10_시간대매출_패널.ipynb": {
+      "before_sha256": "c9cbec964dfaa7c583c10d94476a6b74fe0037f419a37d0b9d827ca27a73f989",
+      "after_sha256": "a6fb8bc02f8d3e2d0615cf00b355c9ff53a27b4d234cb34693dc54ed5010b28e",
+      "source_sha256": "62883765925e22bbae492755d29f335bd66fb5f670367ddb7e56b203d6edbebd"
+    },
+    "jupyter-notebook/20261006/notebooks/11_공연시간창_매출분석.ipynb": {
+      "before_sha256": "dbce3ac2dcbfbb651bb1a17b5b68e016f300408adf29f9c711049d2465153da5",
+      "after_sha256": "f11082920d8a35b7675ecafe9c145ff985cb272bd2089f8fb679b0a6c96dec87",
+      "source_sha256": "60e1ab4c8e8873fffebeabf4e11bfcc8fa77229e05da24030f0565e1f275969a"
+    },
+    "jupyter-notebook/20261006/notebooks/12_분기예정회차_데이터셋.ipynb": {
+      "before_sha256": "8581e13d31b99fe89990f4c08750de733cb59183f1acd1ae8e50f86d9e5dcfce",
+      "after_sha256": "3818e55b7f636601b1b237242a9935ba5f35f5640d6543efb6fb3a0237abcf5e",
+      "source_sha256": "345834a25ce82ce3c33be84439ee45c7fadb4f5d8b8f4b738ffdf35159be6736"
+    },
+    "jupyter-notebook/20261006/notebooks/13_분기매출액_수정분석.ipynb": {
+      "before_sha256": "960dc444f38903c07b5bd2ff6e9abf19f81845e86b773501abd10eb1baffbf05",
+      "after_sha256": "77e3ccd11a76ca810a36d9bd4fb742a80494b782bf0214a6c877ad2da8e50f40",
+      "source_sha256": "1ee2ba82ce1e03309617c2162590c3bccedb3ecbe71f034e92768f9cb8ce1f3c"
+    },
+    "jupyter-notebook/20261006/report-notebooks/01_보고서_근거.ipynb": {
+      "before_sha256": "b34e9e6ccd99b8e1662681073f05c7d48a29b8a4d4df13e5272b70b4daeb42cc",
+      "after_sha256": "4193d094850e1a8750c8082c9ce13e4e42b21d40a9a01541a4a477992c17d7ed",
+      "source_sha256": "3637b38df31acd592c41554a77865d6e11b6d86e3c6876eae40004302a8800b2"
+    },
+    "jupyter-notebook/20261006/report-notebooks/02_분석보고서_생성.ipynb": {
+      "before_sha256": "5460caee30255eebf24c7b5a429f26cf3cdde2db12b397f23da46636d0c8c0d9",
+      "after_sha256": "3622044e5383a89da322fa07e5ef88a33efbff6bc9e4c3635d9623fb52a7f9ac",
+      "source_sha256": "c896d992ae37ec5ccb8955704899c2b00ae5b7db7fd18d898533eb27eb60d43d"
+    },
+    "jupyter-notebook/20261006/report-notebooks/03_공연시간정보_활용가능성.ipynb": {
+      "before_sha256": "7c29892d1b8d69e1296fbd4ad097ef581903ef85314b4ab446a0828008917365",
+      "after_sha256": "5555d590a45a397e1838f6bbaaaaf2f1fd0e714f4fb1b22aa932fb039ac6feef",
+      "source_sha256": "356f4b26e39af16fbcba000ea67a200a518bd3e6d58ff4749942843c430806dd"
+    },
+    "jupyter-notebook/20261006/report-notebooks/04_비유의성_정밀도진단.ipynb": {
+      "before_sha256": "327011ae9c4f09d1aefca1617b9fd00f4798b2a3cb0f74693cf2da5cf6feb286",
+      "after_sha256": "ec8ef008f98c46135b804009d7fae4e82ed0d3245ca80b591b08ae3831fff439",
+      "source_sha256": "0d6031c68289261afde6f97e5ef6e37f8e0928e2df49d446c89a8a975b92d057"
+    },
+    "jupyter-notebook/20261006/report-notebooks/05_비유의성_노출진단.ipynb": {
+      "before_sha256": "40aa6c877cd1646a13c60cc46295dace128685e1a63a164c19021655736848b2",
+      "after_sha256": "ac3a9c723387f6ff8d121fb3b937c14819b8ac032cf1fb567af5cbce6aaed5bf",
+      "source_sha256": "e6d02d1d28e4fe532bc737d5721b534f693ab950ce95c723a5540afa67998ca8"
+    },
+    "jupyter-notebook/20261006/report-notebooks/06_비유의성_표본진단.ipynb": {
+      "before_sha256": "7a1ecfcd278eb2700b37c95d87c2bf8718781b68edaabe6a7f4947eabb04ec3d",
+      "after_sha256": "dfdb5644e540fb8da53ed6b9d02f4cf7810a00f525d6168afefa4f6ef4fca4e6",
+      "source_sha256": "4213823526720175ecc3f2d9b2597ca32d691febb200d6fffcc16e8d84d8a5ac"
+    },
+    "jupyter-notebook/20261006/report-notebooks/07_비유의성_진단보고서.ipynb": {
+      "before_sha256": "11959f65cd51d13653a76f3d48d96c1d44f0cc5f5af82452deb6f24dc39263d0",
+      "after_sha256": "d64c4f80e0fd8ae39b948f668b0c41a41247f00b0ac2e769d4dfed3abf302f9e",
+      "source_sha256": "c3c914c3b59f4490a7fe573967f2c85ab989e742de1147bdca74b123a4af25c6"
+    },
+    "jupyter-notebook/20261006/report-notebooks/08_수정분석_결과보고서.ipynb": {
+      "before_sha256": "3d634e0715108119132d0c0e4fdf75a8b698171b7dc86229d5baa3158554d3b8",
+      "after_sha256": "48197210a8700903241e7fcc24e9e6df236cd9cf38dfe07b712dd7e421481fc2",
+      "source_sha256": "0d3e078ea30c4ef84cb42d734a285e99b7cb900d05996b5b8cad641ffc480090"
+    },
+    "jupyter-notebook/20261006/report-notebooks/09_수정표본_보조진단.ipynb": {
+      "before_sha256": "2300da5afd30d3745143c6e714e2e46b831f6d1b574c440c81b23c5dc7337e71",
+      "after_sha256": "e7adc8c53a528388d8d397a39420f835f2a55969e8d640841efcdf3968ba1efc",
+      "source_sha256": "6b71888eaa184bcbd3509517d453eeda334d08868983f14797b8f083fcd726a9"
+    },
+    "jupyter-notebook/sandbox/00_전체실행.ipynb": {
+      "before_sha256": "31860a8dfd165250c022df04de3fb6d22c17aee0a7d03364591566050a517e6e",
+      "after_sha256": "64c38dd2a298e900ed83f02e5fbbb679828e1228b79b3b023bb863b2c1ac526f",
+      "source_sha256": "00cbf6bebd7cbd6cc515f719fd70bf2f768408faf599c33d70b4a3c4e1e71877"
+    },
+    "jupyter-notebook/sandbox/notebooks/01_측정표본_탐색.ipynb": {
+      "before_sha256": "d39dd88c3f9f1d56ac2d01e73df3416a319d63fda14ffc7791ea92fb1a2e9ed0",
+      "after_sha256": "5f2a685514293c402e9ac46bb21f8ce9935022ab3cde64c556905faeb1f84673",
+      "source_sha256": "2d3f2acd1549a0ff7dbcf1f5420404118fd8d850aabd9f76b937d4e9b195d32b"
+    },
+    "jupyter-notebook/sandbox/notebooks/02_유의성부풀리기_시연.ipynb": {
+      "before_sha256": "c856bdc4cfceceb443ff6437411a8fd783568a550fce891daf014ef7b8fae6ef",
+      "after_sha256": "bea2102a7596421892783493d994243aa72ca261c6c32963c4f03def7f4f5d78",
+      "source_sha256": "8ccbbbee66c3358305219e8c64634f3760577065f3ab3456ea481fff4212780e"
+    },
+    "jupyter-notebook/sandbox/notebooks/03_효과주입_모의실험.ipynb": {
+      "before_sha256": "9b5b10721a6f9a0e7e2934ab48c6c3636a501d37f105d6281447299176e78e29",
+      "after_sha256": "8b0ca3cc2d18af4fffd5dbb1d7df088afd335cf44044b42a6ead7cbaf925eab3",
+      "source_sha256": "d27ea4a0e20cf739f8b20b9db62272c98c5ef3f06544133227ae084de097ef19"
+    },
+    "jupyter-notebook/sandbox/notebooks/04_실험결과_보고서.ipynb": {
+      "before_sha256": "97af3ff64cabc4918c19e0ec01d10868bc113d15c57d6769b579caddcfa6006f",
+      "after_sha256": "9fa3824c277650e946fafad0f210a3a0fd81629ab020a77f4eeec1179caf1a4c",
+      "source_sha256": "4386ed91cd50f56cdfe9b2677b06e2fa0333c873d29333c7cda221bcb30c1afb"
+    },
+    "jupyter-notebook/sandbox/notebooks/05_PPML_매출모형.ipynb": {
+      "before_sha256": "71fccde57b2d300b0a12ac114d37ba795f6c10a2c8b389f10cf93359a8fb7716",
+      "after_sha256": "b5ba1cd5b76690e66256e8d8b8e81a1e5b989c3432165df9f5a802de940be348",
+      "source_sha256": "3b24cf4cf67f84459072dc56c6ce5c1a4cf2015232a50c689e48d0ff355ea851"
+    },
+    "jupyter-notebook/sandbox/notebooks/06_좌석연결과_핵심상권감사.ipynb": {
+      "before_sha256": "3443a685b4bd5dfca5eb8029f079d13aaf42e3e6e387057f2ba03e9ddac52f99",
+      "after_sha256": "710fc145d45c1f697a1ebd84e4020a9b05ae0fa2705741f10b9ddd88c7e75320",
+      "source_sha256": "bcc96df38a5211ae4f4a274a917b191af595cbde87c35eb028189df680d46193"
+    },
+    "jupyter-notebook/sandbox/notebooks/07_좌석공급_탐색.ipynb": {
+      "before_sha256": "ba07a514d53bc38be8cd6a3f905abe8e68369c920492619a43e4bf7d946d353c",
+      "after_sha256": "d2cedc66b166e9af91ad5f51078d2d0392e6bdfe83378aeae1f673f9b0d9d34c",
+      "source_sha256": "8782be9ea90cb8eba39e8823421007ea79ece2ea1fe8c3b86f870b2ec2c99b9d"
+    },
+    "README.md": {
+      "before_sha256": "81d9f2a285d1a1277bef26207c9ab811d9f0d75d989402fcd29e02b1ea0f2360",
+      "after_sha256": "e661436d8a9af7989ffbeffa40392f8bfa241af4d3bcdb2101ac1013f5133fdc"
+    },
+    "AGENTS.md": {
+      "before_sha256": "1ceae302476921d1dcffbd93b7da011e9da7a17fb0a6924d620f1536a2a18937",
+      "after_sha256": "289e42e5dfc90f5c33a44f35ba671988b41c0db5dbb712acd07b7daa8e7f9bac"
+    },
+    "requirements.txt": {
+      "before_sha256": "d79ed92967a82b22f1c28960a2944ed6e3c0e97a7a0f726d894b5c061421cf3b",
+      "after_sha256": "0b10cec43792d11e625d848511d842579e07b8f334b56ad0ee80cc6730420c71"
+    },
+    "reports/README.md": {
+      "before_sha256": "fcf47cf172f882a66d0bb6f6c2501f39c2990fcd5827bab1b84c7c7660a5c8fb",
+      "after_sha256": "fa8d89a4180e1af6598e8f3c2c9cc085f16884431d8a036826154f50877d2de5"
+    },
+    "jupyter-notebook/20261006/README.md": {
+      "before_sha256": "379dd2d7b7b57ae809f2b5eb25881748c0f8b658e8f285ca6a37f2221c933cdd",
+      "after_sha256": "18e4027a163ea66b67cc0f585e214455090f4d79f5ab28fffe839eb68fa6fbca"
+    },
+    "jupyter-notebook/20261006/requirements.txt": {
+      "before_sha256": "832f91cbc882cd20bc852fc5b3ef41978ddf832a763134e5edcd7bc1e2ddbf7a",
+      "after_sha256": "cd2d2d604f0cb3edeac1d8c5fba5e2432f92369ef72a4a4d8010c9b18118c4ec"
+    },
+    "jupyter-notebook/sandbox/README.md": {
+      "before_sha256": "baab90f9301a974865f56e44b15ec440cdcb2e882ca5b82a2042a5b7d94014df",
+      "after_sha256": "737a54d562ac76b8fc8848fa5b4bc7f72ca39d4d536e73b4e32f5efd97271641"
+    },
+    "jupyter-notebook/sandbox/AGENTS.md": {
+      "before_sha256": "8d062893211276d61d874963e689e58471b11bb63e6529aec6af6c9a0ac0d2b0",
+      "after_sha256": "d3e3cc46a06175ec7b4abf0cd4857571792c3d854a6a6efb794fc18090cc1ec5"
+    }
+  }
+}

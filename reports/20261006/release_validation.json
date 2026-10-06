@@ -1,0 +1,133 @@
+{
+  "validated_at": "2026-10-04T18:53:08.620655+00:00",
+  "empty_output_rebuild": true,
+  "analysis_notebooks_passed": 8,
+  "archive_files_verified": 31,
+  "execution_manifest_sha256": "af444eccbdb1fe520360a104389200fc60d70b784c3f7584997a201d791dc5eb",
+  "checks": {
+    "04_audit_summary.json": {
+      "sha256": "93c176d513100fd9d428b756a5e847e12250ffc8b1c9f1a4d621d2319cc0fa20",
+      "content": {
+        "checks_passed": 55,
+        "checks_total": 55,
+        "network_requests": 0
+      }
+    },
+    "08_food_scope_metadata.json": {
+      "sha256": "99331a685ff59385a5b0934a0f45ebe9f01892918a355fc9aa7faf7cc035c495",
+      "content": {
+        "validation_checks_passed": 18
+      }
+    },
+    "06_knowledge_graph_summary.json": {
+      "sha256": "9b094178a03d1cca4a06c0d3dda3c05c4e6edecb7b6df84c9024fdecd91c0bde",
+      "content": {}
+    },
+    "07_tool_readiness_summary.json": {
+      "sha256": "a1ba9b05b8a23386467f21f19bae9707279ae3c79e7fbacb360aedb13b1d3772",
+      "content": {
+        "network_requests": 0,
+        "contract_checks_passed": 27
+      }
+    },
+    "05_prior_primary_reproducibility.json": {
+      "sha256": "798f9db9ff837f87b0f00edb078c06af0d924fd65ed955b72f6cc11c63557e93",
+      "content": {
+        "check": "final_vs_frozen_prior_primary_results",
+        "scenario": "main_500",
+        "compared_industry_outcomes": 20,
+        "absolute_tolerance": 1e-10,
+        "passed": true,
+        "reference_file": "final/metadata/statistics_reference/09_industry_effects.csv",
+        "reference_sha256": "c678c7f75da5a3c4e1bd888493a9840456db32ead53f2b53a918cac1f699af6d",
+        "final_file": "reports/final/09_industry_effects.csv",
+        "final_sha256": "5c9e2dfd8c0a0ecf916de88447d44a9c8b526413b2b610bb462e0cdca716a08c",
+        "max_absolute_difference_by_column": {
+          "coefficient": 0.0,
+          "standard_error": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "p_value": 0.0,
+          "nobs_industry": 0.0,
+          "area_clusters_industry": 0.0
+        }
+      }
+    },
+    "06_prior_primary_reproducibility.json": {
+      "sha256": "aad0c68f568193db2df7403697da8bee428beaf7186bfbd068d6e414d726cec0",
+      "content": {
+        "check": "final_vs_frozen_prior_primary_results",
+        "scenario": "gee_within_between_500",
+        "compared_industry_outcomes": 20,
+        "absolute_tolerance": 1e-10,
+        "passed": true,
+        "reference_file": "final/metadata/statistics_reference/10_gee_industry_effects.csv",
+        "reference_sha256": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b",
+        "final_file": "reports/final/10_gee_industry_effects.csv",
+        "final_sha256": "cb3a06c147bcacd7d4178c7bb8437f083da190ed375f0181d661bba09877f44b",
+        "max_absolute_difference_by_column": {
+          "coefficient": 0.0,
+          "standard_error": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "p_value": 0.0,
+          "nobs_industry": 0.0,
+          "area_clusters_industry": 0.0
+        }
+      }
+    },
+    "cli_offline_validation.json": {
+      "sha256": "a24f0d2460a247d219a7b7d8df98e0bddacfe7cd3fae9b64637fc7f5f47ad274",
+      "content": {
+        "network_requests": 0,
+        "checks": [
+          {
+            "검증": "1초 대기 + 응답 시간·전체 완료·완료 ID 중복 호출 방지",
+            "결과": "통과"
+          },
+          {
+            "검증": "--limit 1에서 한 건만 요청",
+            "결과": "통과"
+          },
+          {
+            "검증": "연속 HTTP 400 후 같은 ID를 3초 뒤 재시도·응답/재시도/ID 수 분리·중복 저장 없음",
+            "결과": "통과"
+          },
+          {
+            "검증": "--limit은 재시도를 포함한 HTTP 수가 아닌 처리 ID 수를 제한",
+            "결과": "통과"
+          },
+          {
+            "검증": "HTTP 401/403/429 즉시 중단·현황 명령은 오프라인",
+            "결과": "통과"
+          },
+          {
+            "검증": "3초 재시도 대기 중 stop 파일·Ctrl+C 즉시 반응·추가 요청 없음",
+            "결과": "통과"
+          },
+          {
+            "검증": "재시도 대기 중 Q 키로 중지",
+            "결과": "통과"
+          },
+          {
+            "검증": "중지 파일로 종료·재개 시 저장된 ID 재사용",
+            "결과": "통과"
+          },
+          {
+            "검증": "키보드 중단 후 진행 저장·잠금 해제",
+            "결과": "통과"
+          },
+          {
+            "검증": "별도 프로세스 동시 수집 거부·stop 명령 기록·잠금 해제",
+            "결과": "통과"
+          },
+          {
+            "검증": "가짜 인증키가 응답 파일·상태·출력에 남지 않음",
+            "결과": "통과"
+          }
+        ]
+      }
+    }
+  },
+  "scope": "최종 분석 코드 정리 및 재현 검증; 남은 연구 한계는 final/README.md 참조"
+}

@@ -1,3 +1,0 @@
-﻿outcome,nobs,area_clusters,industries,design_columns,design_rank,accepted,converged,alpha,max_cluster_size,eigenvalue_1_minus_alpha,eigenvalue_cluster_mean,finite_params,finite_standard_errors,finite_covariance,positive_standard_errors,warnings,failure_reason
-log_sales,7646,134,10,150,150,True,True,0.8249215601371168,120,0.17507843986288318,99.1656656563169,True,True,True,True,,
-night_share_pct,7646,134,10,150,150,True,True,0.18339260998280218,120,0.8166073900171978,22.82372058795346,True,True,True,True,,
